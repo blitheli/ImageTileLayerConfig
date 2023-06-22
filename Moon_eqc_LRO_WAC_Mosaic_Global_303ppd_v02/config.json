@@ -1,0 +1,12 @@
+{
+  "ProjectionType": "EQ",
+  "Title": "全月影像图(LRO WAC)",
+  "LayerID": "Moon_eqc_LRO_WAC_Mosaic_Global_303ppd_v02",
+  "Icon": "{MoonImage}\\Moon_eqc_LRO_WAC_Mosaic_Global_303ppd_v02\\LRO_WAC_Mosaic_Global_303ppd-120.png",
+  "BBOX": "-180,-90,180,90",
+  "Abstract": "这是月球勘测轨道飞行器相机（LROC）的广角相机（WAC）的初步全球马赛克。WAC 全球马赛克由 2009 年 11 月至 2011 年 2 月期间采集的 15，000 多张图像组成。WAC在一个月内绘制了整个月球的地图，但是赤道的太阳入射角从月初到月底变化了约28度。此版本校正了先前马赛克中看到的极性照明差异。",
+  "Projection": "GEOGCS['GCS_Moon',\n  DATUM['Moon',SPHEROID['Moon',1737400,0]],\n  PRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]",
+  "Preview": "{MoonImage}\\Moon_eqc_LRO_WAC_Mosaic_Global_303ppd_v02\\index.html",
+  "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_WAC_Mosaic_Global_303ppd_v02\\WMTSCapabilities.xml",
+  "MetaData": "{MoonImage}\\Moon_eqc_LRO_WAC_Mosaic_Global_303ppd_v02\\metadata.html"
+}

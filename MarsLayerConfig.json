@@ -1,0 +1,144 @@
+{
+    "Description": "本文件存储了瓦片服务器发布的相关图层信息",
+    "version": "1.0.0",
+    "Author": "liyunfei",
+    "CreateTime": "2023-06-25 15:20:26",
+    "Layers": [
+        {
+            "ProjectionType": "EQ",
+            "Title": "MRO CTX, Acheron Fossae Mosaic",
+            "LayerID": "Mars_Acheron_Fossae_CTX_BlockAdj_dd",
+            "Icon": "{MarsImage}\\Mars_MRO CTX, Acheron Fossae Mosaic\\Acheron_Fossae_CTX_BlockAdj_dd-120.png",
+            "BBOX": [
+                -141.6026047,
+                38.1079779,
+                -137.1973524,
+                41.4921368
+            ],
+            "Abstract": "这些数据是使用美国宇航局火星勘测轨道飞行器 (MRO) 上的上下文相机获取的。 MRO 于 2005 年 8 月 12 日发射，并于 2006 年 3 月 10 日抵达火星。它保持近乎圆形的轨道，在大约 250 至 316 公里或 155 至 196 英里的高度上大约每 112 分钟完成一次轨道公转。 MRO 携带一套精密的仪器，用于分析和绘制火星的地貌、地层、矿物和冰。 Context Camera (CTX) 提供分辨率高达 6 米/像素的黑白图像。它为 HiRISE 相机以及 MRO 上的其他仪器提供更高分辨率但更窄的视野的更广泛的上下文地图，并且对于生成火星表面更大区域的镶嵌图像很有用。",
+            "Projection": "urn:ogc:def:crs:EPSG::104905",
+            "Preview": "{MarsImage}\\Mars_MRO CTX, Acheron Fossae Mosaic\\index.html",
+            "WMTS_Capabiliites": "{MarsImage}\\Mars_MRO CTX, Acheron Fossae Mosaic\\WMTSCapabilities.xml",
+            "MetaData": "{MarsImage}\\Mars_MRO CTX, Acheron Fossae Mosaic\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "好奇号区域高分影像",
+            "LayerID": "Mars_curiosity_ctx_mosaic",
+            "Icon": "{MarsImage}\\Mars_curiosity_ctx_mosaic\\curiosity_ctx_mosaic-120.png",
+            "BBOX": [
+                136.2768326,
+                -7.2137273,
+                139.3864225,
+                -3.5804738
+            ],
+            "Abstract": "这些数据是使用美国宇航局火星勘测轨道飞行器 (MRO) 上的上下文相机获取的。 MRO 于 2005 年 8 月 12 日发射，并于 2006 年 3 月 10 日抵达火星。它保持近乎圆形的轨道，在大约 250 至 316 公里或 155 至 196 英里的高度上大约每 112 分钟完成一次轨道公转。 MRO 携带一套精密的仪器，用于分析和绘制火星的地貌、地层、矿物和冰。 Context Camera (CTX) 提供分辨率高达 6 米/像素的黑白图像。它为 HiRISE 相机以及 MRO 上的其他仪器提供更高分辨率但更窄的视野的更广泛的上下文地图，并且对于生成火星表面更大区域的镶嵌图像很有用。",
+            "Projection": "urn:ogc:def:crs:EPSG::104905",
+            "Preview": "{MarsImage}\\Mars_curiosity_ctx_mosaic\\index.html",
+            "WMTS_Capabiliites": "{MarsImage}\\Mars_curiosity_ctx_mosaic\\WMTSCapabilities.xml",
+            "MetaData": "{MarsImage}\\Mars_curiosity_ctx_mosaic\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "MRO CTX, Arabia Terra Mosaic",
+            "LayerID": "Mars_Arabia_Terra_CTX_BlockAdj_dd",
+            "Icon": "{MarsImage}\\Mars_Arabia_Terra_CTX_BlockAdj_dd\\Arabia_Terra_CTX_BlockAdj_dd-120.png",
+            "BBOX": [
+                -9.9921439,
+                -1.2920214,
+                -6.6078162,
+                2.0921376
+            ],
+            "Abstract": "这些数据是通过美国宇航局火星勘测轨道器（MRO）上的背景相机获得的。MRO于2005年8月12日发射，于2006年3月10日抵达火星。它保持着一个近乎圆形的轨道，大约每112分钟完成一次轨道旋转，高度约为250至316公里或155至196英里。MRO携带一套复杂的仪器，用于分析和绘制火星的地貌、地层、矿物和冰。背景相机（CTX）提供黑白图像，分辨率高达6米/像素。它为HiRISE相机更高的分辨率但更窄的视场以及MRO上的其他仪器提供了更广泛的背景图，对于制作火星表面较大区域的马赛克图像非常有用。",
+            "Projection": "urn:ogc:def:crs:EPSG::104905",
+            "Preview": "{MarsImage}\\Mars_Arabia_Terra_CTX_BlockAdj_dd\\index.html",
+            "WMTS_Capabiliites": "{MarsImage}\\Mars_Arabia_Terra_CTX_BlockAdj_dd\\WMTSCapabilities.xml",
+            "MetaData": "{MarsImage}\\Mars_Arabia_Terra_CTX_BlockAdj_dd\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "MGS TES, Global Surface Albedo",
+            "LayerID": "Mars_MGS_TES_Albedo_mosaic_global_7410m",
+            "Icon": "{MarsImage}\\Mars_MGS_TES_Albedo_mosaic_global_7410m\\Mars_MGS_TES_Albedo_mosaic_global_7410m-120.png",
+            "BBOX": [
+                -180,
+                -90,
+                180,
+                90
+            ],
+            "Abstract": "这些数据是通过美国宇航局的火星全球勘测者航天器（MGS）上的热发射光谱仪获得的。MGS于1996年11月7日发射，于1997年9月11日抵达火星。它保持着一个圆形的极地轨道，每117.65分钟完成一次轨道旋转，平均高度为378公里（235英里）。直到2006年11月2日，MGS对火星的表面特征、特性、地形、组成和过程进行了描述和测绘，并研究了火星的天气和大气结构。MGS的热发射光谱仪（TES）检查了火星的表面和大气。TES对表面特征的研究包括利用6至50微米的热红外数据和0.3至2.9微米的可见光-近红外数据来描述表面矿物、岩石和冰块的特性和组成。像本图中的TES反照率或反射率测量是使用可见-近红外探测器进行的，对于研究表面材料的性质和调查由于移动的沙子和尘埃造成的上表面的变化非常有用。这些数据是使用NASA的火星全球勘测者航天器（MGS）上的热发射光谱仪仪器获得的。MGS于1996年11月7日发射，于1997年9月11日抵达火星。它保持着一个圆形的极地轨道，每117.65分钟完成一次轨道旋转，平均高度为378公里（235英里）。直到2006年11月2日，MGS对火星的表面特征、特性、地形、组成和过程进行了描述和测绘，并研究了火星的天气和大气结构。MGS的热发射光谱仪（TES）检查了火星的表面和大气。TES对表面特征的研究包括利用6至50微米的热红外数据和0.3至2.9微米的可见光-近红外数据来描述表面矿物、岩石和冰块的特性和组成。TES反照率或反射率的测量，如本图中的测量，是使用可见光-近红外探测器进行的，对于研究表面材料的性质和调查由于移动的沙子和尘埃造成的上表面的变化非常有用。",
+            "Projection": "urn:ogc:def:crs:EPSG::104905",
+            "Preview": "{MarsImage}\\Mars_MGS_TES_Albedo_mosaic_global_7410m\\index.html",
+            "WMTS_Capabiliites": "{MarsImage}\\Mars_MGS_TES_Albedo_mosaic_global_7410m\\WMTSCapabilities.xml",
+            "MetaData": "{MarsImage}\\Mars_MGS_TES_Albedo_mosaic_global_7410m\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "好奇号区域高分影像",
+            "LayerID": "Mars_MGS_MOLA_ClrShade_merge_global_463m",
+            "Icon": "{MarsImage}\\Mars_MGS_MOLA_ClrShade_merge_global_463m\\Mars_MGS_MOLA_ClrShade_merge_global_463m-120.png",
+            "BBOX": [
+                -180,
+                -90,
+                180,
+                90
+            ],
+            "Abstract": "这些数据是使用美国宇航局火星全球勘测者航天器（MGS）上的火星轨道器激光高度计仪器获取的。MGS于1996年11月7日发射升空，并于1997年9月11日抵达火星。它保持了一个圆形的极轨道，每117.65分钟完成一次轨道公转，平均高度为378公里（235英里）。直到2006年11月2日，MGS对火星表面特征，性质，地形，组成和过程进行了表征和绘制，并研究了火星的天气和大气结构。火星轨道器激光高度计（MOLA）对火星表面特征的高度和深度进行了精确测量。MOLA每秒向下发射10次红外激光脉冲，并测量反射脉冲从表面返回所需的时间。将此数据转换为彩色山体阴影使得可视化表面地形变得特别容易。用于此地图底部的图像代表了 1999 年至 2001 年间收集的 6 亿多个测量值。每个点的平均精度最初在水平位置为~100米，总高程不确定性至少为±3米。",
+            "Projection": "urn:ogc:def:crs:EPSG::104905",
+            "Preview": "{MarsImage}\\Mars_MGS_MOLA_ClrShade_merge_global_463m\\index.html",
+            "WMTS_Capabiliites": "{MarsImage}\\Mars_MGS_MOLA_ClrShade_merge_global_463m\\WMTSCapabilities.xml",
+            "MetaData": "{MarsImage}\\Mars_MGS_MOLA_ClrShade_merge_global_463m\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "MRO CTX, 22n048w Mosaic",
+            "LayerID": "Mars_b21_017819_2025_xn_22n048w",
+            "Icon": "{MarsImage}\\Mars_MRO CTX, 22n048w Mosaic\\b21_017819_2025_xn_22n048w-120.png",
+            "BBOX": [
+                -48.2423413,
+                21.8892236,
+                -47.6367163,
+                22.6587236
+            ],
+            "Abstract": "这些数据是使用美国宇航局火星勘测轨道飞行器 (MRO) 上的上下文相机获取的。 MRO 于 2005 年 8 月 12 日发射，并于 2006 年 3 月 10 日抵达火星。它保持近乎圆形的轨道，在大约 250 至 316 公里或 155 至 196 英里的高度上大约每 112 分钟完成一次轨道公转。 MRO 携带一套精密的仪器，用于分析和绘制火星的地貌、地层、矿物和冰。 Context Camera (CTX) 提供分辨率高达 6 米/像素的黑白图像。它为 HiRISE 相机以及 MRO 上的其他仪器提供更高分辨率但更窄的视野的更广泛的上下文地图，并且对于生成火星表面更大区域的镶嵌图像很有用。",
+            "Projection": "urn:ogc:def:crs:EPSG::104905",
+            "Preview": "{MarsImage}\\Mars_MRO CTX, 22n048w Mosaic\\index.html",
+            "WMTS_Capabiliites": "{MarsImage}\\Mars_MRO CTX, 22n048w Mosaic\\WMTSCapabilities.xml",
+            "MetaData": "{MarsImage}\\Mars_MRO CTX, 22n048w Mosaic\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "MRO CTX, Acidalia Plantia Mosaic",
+            "LayerID": "Mars_Acidalia_Plantia_CTX_BlockAdj_dd",
+            "Icon": "{MarsImage}\\Mars_Acidalia_Plantia_CTX_BlockAdj_dd\\Acidalia_Plantia_CTX_BlockAdj_dd-120.png",
+            "BBOX": [
+                -41.800754,
+                18.3079786,
+                -38.1992173,
+                21.6921376
+            ],
+            "Abstract": "这些数据是使用美国宇航局火星勘测轨道飞行器 (MRO) 上的上下文相机获取的。 MRO 于 2005 年 8 月 12 日发射，并于 2006 年 3 月 10 日抵达火星。它保持近乎圆形的轨道，在大约 250 至 316 公里或 155 至 196 英里的高度上大约每 112 分钟完成一次轨道公转。 MRO 携带一套精密的仪器，用于分析和绘制火星的地貌、地层、矿物和冰。 Context Camera (CTX) 提供分辨率高达 6 米/像素的黑白图像。它为 HiRISE 相机以及 MRO 上的其他仪器提供更高分辨率但更窄的视野的更广泛的上下文地图，并且对于生成火星表面更大区域的镶嵌图像很有用。",
+            "Projection": "urn:ogc:def:crs:EPSG::104905",
+            "Preview": "{MarsImage}\\Mars_Acidalia_Plantia_CTX_BlockAdj_dd\\index.html",
+            "WMTS_Capabiliites": "{MarsImage}\\Mars_Acidalia_Plantia_CTX_BlockAdj_dd\\WMTSCapabilities.xml",
+            "MetaData": "{MarsImage}\\Mars_Acidalia_Plantia_CTX_BlockAdj_dd\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "火星全球影像(海盗号)",
+            "LayerID": "Mars_Viking_MDIM21_ClrMosaic_global_232m",
+            "Icon": "{MarsImage}\\Mars_Viking_MDIM21_ClrMosaic_global_232m\\Mars_Viking_MDIM21_ClrMosaic_global_232m-120.png",
+            "BBOX": [
+                -180,
+                -90,
+                180,
+                90
+            ],
+            "Abstract": "该产品是根据使用维京1号和维京2号轨道器上的维京轨道器成像系统收集的数据组装而成的。两个轨道器上的相同视频相机都配备了475毫米焦距的长焦镜头，产生1.54бу X 1.69бу的视野。从 1500 公里的轨道高度开始，每帧覆盖 40 X 44 公里表面上的最小区域。六个可选滤光片允许采集彩色图像。",
+            "Projection": "urn:ogc:def:crs:EPSG::104905",
+            "Preview": "{MarsImage}\\Mars_Viking_MDIM21_ClrMosaic_global_232m\\index.html",
+            "WMTS_Capabiliites": "{MarsImage}\\Mars_Viking_MDIM21_ClrMosaic_global_232m\\WMTSCapabilities.xml",
+            "MetaData": "{MarsImage}\\Mars_Viking_MDIM21_ClrMosaic_global_232m\\metadata.html"
+        }
+    ]
+}

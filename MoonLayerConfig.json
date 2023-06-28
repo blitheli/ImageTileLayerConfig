@@ -1,0 +1,430 @@
+{
+    "Description": "本文件存储了瓦片服务器发布的相关图层信息",
+    "version": "1.0.0",
+    "Author": "liyunfei",
+    "CreateTime": "2023-06-25 15:20:49",
+    "Layers": [
+        {
+            "ProjectionType": "EQ",
+            "Title": "Apollo 11 着陆区高分影像",
+            "LayerID": "Moon_eqc_A11_60x60km.eq",
+            "Icon": "{MoonImage}\\Moon_eqc_A11_60x60km.eq\\A11_60x60km.eq-120.png",
+            "BBOX": [
+                22.4806483,
+                -0.3193414,
+                24.459338,
+                1.6593483
+            ],
+            "Abstract": "这是一个月球侦察轨道飞行器（LRO）窄角相机（NAC）马赛克，以阿波罗11号着陆点为中心，范围为60x60公里。每个 NAC 图像都在 ISIS3 中以 50 厘米像素的分辨率进行处理，色彩平衡并合成为单个输出。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_A11_60x60km.eq\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_A11_60x60km.eq\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_A11_60x60km.eq\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "Apollo 15 DEM着色置信度影像",
+            "LayerID": "Moon_eqc_Apollo15_MetricCam_ClrConf_Global_1024ppd",
+            "Icon": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrConf_Global_1024ppd\\Apollo15_MetricCam_ClrConf_Global_1024ppd-120.png",
+            "BBOX": [
+                -180,
+                -90,
+                180,
+                90
+            ],
+            "Abstract": "阿波罗 15 号DEM 着色置信度影像是根据阿波罗 15 号DEM 置信度数据生成的。在置信度数据中，值派生自精度值。对于彩色置信度，使用从 10 到 14 的值范围，范围从差置信度 （10） 到非常高的置信度 （14）。此范围映射到从黄色到绿色不等的颜色映射表。所有其他置信度值都映射到完全透明的像素。",
+            "Projection": "GEOGCS['GCS_Moon_2000',\n  DATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n  PRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]",
+            "Preview": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrConf_Global_1024ppd\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrConf_Global_1024ppd\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrConf_Global_1024ppd\\metadata.xml"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "Apollo 15 DEM影像",
+            "LayerID": "Moon_eqc_Apollo15_MetricCam_ClrShade_Global_1024ppd",
+            "Icon": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrShade_Global_1024ppd\\Apollo15_MetricCam_ClrShade_Global_1024ppd-120.png",
+            "BBOX": [
+                -65.9995117,
+                -31.9995117,
+                179.9995117,
+                32.0004883
+            ],
+            "Abstract": "阿波罗 15 号DEM 颜色阴影是使用 DEM 文件的视觉工作台中的色彩图和山体阴影函数生成的。颜色图（图例.png）的最小值和最大值对应于相对于平均月球半径1737.4km的范围[-8499，10208（以米为单位）。DEM 色调值存储为 8 位有符号整数，分辨率为 14.8m/像素。这些DEM色调文件是使用视觉工作台库生成的：由NASA艾姆斯智能机器人小组（IRG）生产的用于立体图像的自动处理的软件工具。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrShade_Global_1024ppd\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrShade_Global_1024ppd\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrShade_Global_1024ppd\\metadata.xml"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "Apollo 15 坡度彩图",
+            "LayerID": "Moon_eq_Apollo15_PanCam_Slope_25N311E_5mp",
+            "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_25N311E_5mp\\Apollo15_PanCam_Slope_25N311E_5mp-120.png",
+            "BBOX": [
+                -49.771146,
+                23.4260907,
+                -48.0356413,
+                26.0942471
+            ],
+            "Abstract": "这是阿里斯塔克斯高原区域 1 的数字高程模型 （DEM） 的坡度着色地貌。原始阿波罗15号全景图像的分辨率为1.5米/像素，使用软拷贝摄影测量系统允许输出5米/像素的DEM分辨率。它已注册到ULCN 2005控制网络。DEM水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。高程值以米为单位，半径为 1737400m。",
+            "Projection": "PROJCS['Equirectangular MOON',\n  GEOGCS['GCS_MOON',\n  DATUM['D_MOON',SPHEROID['MOON_localRadius',1737400,0]],\nPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\nPROJECTION['Equirectangular'],\nPARAMETER['latitude_of_origin',0],\nPARAMETER['central_meridian',0],\nPARAMETER['standard_parallel_1',25],\nPARAMETER['false_easting',0],\nPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]",
+            "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_25N311E_5mp\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_25N311E_5mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_25N311E_5mp\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "嫦娥2号全月影像(7m分辨率)",
+            "LayerID": "Moon_eqc_CE2_GRAS_DOM_07m",
+            "Icon": "{MoonImage}\\Moon_eqc_CE2_GRAS_DOM_07m\\CE2_GRAS_DOM_07m-120.png",
+            "BBOX": [
+                -180,
+                -90,
+                180,
+                90
+            ],
+            "Abstract": "2010年10月1日，嫦娥二号（或CE2）成功发射。这是中国第二次探月任务。其主要目标是在15公里和100公里轨道高度上获取1.5米和7米的空间分辨率图像。CE2立体相机是CE2的主要有效载荷之一，它使用线性推扫式扫描技术捕获沿卫星飞行方向的前后视图的双线图像;立体视角分别为7.98度和-17.2度。相机的CCD探测器使用延时和积分CCD（TDI CCD），允许16、32、48、64和96等五个积分等级，以及0.7、1.0和2.0等三个增益。积分等级的设定由增益设置、太阳光照条件、月面平均反射率等因素决定。CCD立体相机的光谱范围为450 ̃ 52m。图像宽度分别为9.2km和43km，空间分辨率为1.5m和7m，轨道高度分别为15km和100km。CE2立体相机数据用于生成整个月球表面的DEM（数字高程模型）和DOM（数字正射影像地图）产品。它们的地面空间分辨率均为7m。据报道，内部精度小于两个像素（<14m）。CE2全球地图产品的验证是通过与五个LRRR位置和LRO WAC DEM的结果进行比较来完成的。据报道，与LRRR相比，经度平面位移为23.9m ̃94（标准57.2米），纬度为9.7米至53.4米（标准37.6米），高度差为-1.0米〜18.9米（标准10.1米）。2）.与LRO WAC DEM相比，据报道平均高度差为-2.8m，标准为116.0m。参见“来自嫦娥二号立体相机图像数据的新月球全球地形图产品”，2014，Ren等人，EPSC摘要第9卷，EPSC2014-344，欧洲行星科学大会2014。此数据产品下载的大小为 366 GB。",
+            "Projection": "GEOGCS['GCS_Moon_2000',\n  DATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400.0,0.0]],\nPRIMEM['Reference_Meridian',0.0],UNIT['Degree',0.0174532925199433],AUTHORITY['ESRI',104903]]",
+            "Preview": "{MoonImage}\\Moon_eqc_CE2_GRAS_DOM_07m\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_CE2_GRAS_DOM_07m\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_CE2_GRAS_DOM_07m\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "全月氧化铁分布(克莱门汀)",
+            "LayerID": "Moon_eqc_Clem_UVVIS_FeO_Clr_Global_152ppd",
+            "Icon": "{MoonImage}\\Moon_eqc_Clem_UVVIS_FeO_Clr_Global_152ppd\\Clem_UVVIS_FeO_Clr_Global_152ppd-120.png",
+            "BBOX": [
+                -180,
+                -90,
+                180,
+                90
+            ],
+            "Abstract": "克莱门汀UVVIS衍生的矿物和光学成熟度图。这些数据集是从翘曲到ULCN2005控制网络的UVVIS马赛克生成的。有关数据集如何推导的更多信息，请参阅：Lucey，P.G.，Blewett，D.T.，Taylor，G.J.，Hawke，B.R.，2000年。月球表面成熟度成像。J. 地球物理学家。第105号决议，第20377–20386号决议。Lucey， P. G.， G. J. Taylor， and E. Malaret ， 1995， 月球上铁的丰度和分布。科学，第268卷，第1150-1153页。Lucey，P.G.，D.T.Blewett和B.R.Hawke，1997年，用多光谱图像绘制月球表面的FeO和TiO2含量。地球物理研究杂志，正在出版。更新的参考资料：发表于1998年J. Geophys。第103卷，E2号，第3679页",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_Clem_UVVIS_FeO_Clr_Global_152ppd\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_Clem_UVVIS_FeO_Clr_Global_152ppd\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_Clem_UVVIS_FeO_Clr_Global_152ppd\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "全月撞击坑分布(直径:5-20km)",
+            "LayerID": "Moon_eqc_crater5_20km",
+            "Icon": "{MoonImage}\\Moon_eqc_craters5_20km\\LROC_5TO20KM_CRATERS_SPOLE.png",
+            "BBOX": [
+                -180,
+                -90,
+                180,
+                90
+            ],
+            "Abstract": "LROC NAC 5-20公里撞击坑分布图。这些数据集是从LROC NAC全月图像生成的。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_craters5_20km\\index.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "全月引力场分布",
+            "LayerID": "Moon_eqc_gggrx_1200a_dist_l180.eq",
+            "Icon": "{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l180.eq\\gggrx_1200a_dist_l180.eq-120.png",
+            "BBOX": [
+                -180,
+                -90,
+                180,
+                90
+            ],
+            "Abstract": "该数据产品是月球重力场重力扰动（以mGal为单位）的地图，分辨率为16像素/度×16像素/度。它基于NASA GSFC生产的名为GRGM1200A的月球圣杯重力场。GRGM1200A是一个1200阶球谐模型，它包含了GRAIL跟踪数据的全部任务。扰动在空间域中扩大到度数和180阶。描述此模型的一些细节是： 球谐系数已完全归一化（大地测量学 4pi 归一化）。校准不确定度（形式不确定性乘以系数 1.635）。参考半径 = 1738.0 km 引力参数为 GM = 4902.80011526323 km**3/s**2 使用的行星星历表是de430，定义了月球体固定坐标系。Kaula 型幂律约束应用于度数为 >600 （3.6e-4/n^2） 的球谐系数。KBRR数据的权重为： 0.03微米/秒在主要任务中 0.05微米/秒在扩展任务中 DSN数据的权重为： 主要任务和扩展任务均为0.12毫米/秒 标称潮汐数为 k2 = 0.024133 +/- 0.000016 GRGM1200A重力场目前的最佳参考是LEMOINEETAL2014， 发表在《地球物理研究快报》上，DOI 编号为 10.1002/2014GL060027 。有关GRAIL任务，数据和方法的更多详细信息，请参阅LEMOINEETAL2013。每个点给出月球重力扰动（以毫加尔为单位），在半长轴 = 1738.0 km、GM = 4902.80011526323 km**3/s**2 和零旋转速率的参考球上。与其他月球重力场一样，该地图以月球主轴框架表示，该框架与月球平均地球框架略有不同。为了与月球地形进行比较，建议用户使用同样存档在月球主轴框架中的LOLA PDS产品，例如LRO-L-LOLA-4-GDR-V1.0数据集中的LDEM_64_PA产品，可以在PDS地球科学节点或LOLA PDS数据节点访问。另请注意，重力（1738 公里）和地形（1737.4 公里）的参考半径不同。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l180.eq\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l180.eq\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l180.eq\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "嫦娥4号着陆区高分影像",
+            "LayerID": "Moon_eqc_LRO_ChangE4",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_ChangE4\\OIP-C.jpg",
+            "BBOX": [
+                177.33,
+                -45.78,
+                177.81,
+                -45
+            ],
+            "Abstract": "嫦娥4号着陆区高分影像。LRO每月至少一次（在白天）经过月球上的任何给定位置，从而可以看到Yutu-2漫游车的西移。2月底，Yutu-2距其基地base娥4号着陆器69米；LROC图像显示，Yutu-2在2月期间向西前进46米。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_ChangE4\\index.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "全月月表温度",
+            "LayerID": "Moon_eqc_LRO_DIVINER_ClrRockFreeSurfaceTemp_Global_128ppd",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_DIVINER_ClrRockFreeSurfaceTemp_Global_128ppd\\LRO_DIVINER_ClrRockFreeSurfaceTemp_Global_128ppd-120.png",
+            "BBOX": [
+                -180,
+                -70,
+                180,
+                70
+            ],
+            "Abstract": "每个样品代表使用Bandfield等人（2011）中描述的技术估计的无岩石风化层表面温度。数据来自2009年7月5日至2012年9月2日收集的Diviner数据。数据仅限于1930年至0530年的当地时间，太阳入射角大于90度，纬度在60N和60S之间，发射角小于15度，亮度温度小于200K。还使用了几个数据质量约束（用于校准的质量标志，0;用于杂项的质量标志，0;噪声质量标志，0 到 1）。来自占卜师光谱通道 6、7 和 8 的网格化 2 级数据以每度 128 像素分箱。由于月球勘测轨道飞行器观测的地面轨道行走和当地时间漂移，大多数表面仅被单个观测覆盖。在某些情况下，表面被相隔~6或12个月的多个观测值覆盖。",
+            "Projection": "GEOGCS['GCS_Moon_2000',\n  DATUM['Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n  PRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_DIVINER_ClrRockFreeSurfaceTemp_Global_128ppd\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_DIVINER_ClrRockFreeSurfaceTemp_Global_128ppd\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_LRO_DIVINER_ClrRockFreeSurfaceTemp_Global_128ppd\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "布鲁诺撞击坑高分影像",
+            "LayerID": "Moon_eqc_LRO_GranoBruhia",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_GranoBruhia\\GranoBruhia.png",
+            "BBOX": [
+                101.8,
+                35.15,
+                103.8,
+                36.76
+            ],
+            "Abstract": "佐丹奴布鲁诺火山口是如何形成的，它有多大？何时形成？第一个问题很容易：它是由于彗星或小行星撞击月球的超高速撞击而形成的。火山口形状不规则，因此其直径范围约为20.9 km至21.6 km（13.0英里至13.4英里）。它的墙壁非常陡峭，地板是锯齿状巨石和冲击熔岩汇集而成的。由于LROC具有收集立体观测的能力，因此我们现在有了从LRO处于其较低轨道（50 cm分辨率）时获得的图像制作的整个陨石坑的高分辨率地形图。图像的像素比例约为1.6至1.8米，因此图像被重新投影到1.8米。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_GranoBruhia\\index.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "月球全月地形图(LRO-LOLA)",
+            "LayerID": "Moon_eq_LRO_LOLA_ClrShade_Global_256ppd_v06",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrShade_Global_256ppd_v06\\LRO_LOLA_ClrShade_Global_256ppd_v06-120.png",
+            "BBOX": [
+                -180,
+                -90,
+                180,
+                90
+            ],
+            "Abstract": "这是LRO LOLA DEM ColorHillshade的第6版。这是原始 LOLA 数字高程模型 （DEM） 的彩色晕渲地貌。DEM 是月球的形状图（半径），分辨率为每度 256 像素，基于 LOLA 仪器通过 Spetember 2011 获取的测高数据。使用通用制图工具程序“surface”和“grdblend”对地面轨迹进行插值。该地图采用二进制表的形式，每 0.0039065 度纬度（像素注册）有一行。地图值的半径为 1737400 m。",
+            "Projection": "GEOGCS['GCS_MOON',\n  DATUM['D_MOON',SPHEROID['MOON_2000',1737400,0]],\n  PRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrShade_Global_256ppd_v06\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrShade_Global_256ppd_v06\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrShade_Global_256ppd_v06\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "Apollo 11着陆点高分影像",
+            "LayerID": "Moon_eqc_LRO_NAC_Apollo11_Mosaic_p",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo11_Mosaic_p\\LRO_NAC_Apollo11_Mosaic_p-120.png",
+            "BBOX": [
+                23.4484977,
+                0.1464484,
+                23.5396839,
+                1.1149051
+            ],
+            "Abstract": "这是美国宇航员尼尔·阿姆斯特朗和埃德温·奥尔德林于 1969 年 7 月 20 日首次登月的地方。阿姆斯特朗和奥尔德林乘坐登月舱鹰号降落在这里，而迈克尔柯林斯则留在哥伦比亚号指挥舱的月球轨道上。阿姆斯特朗和奥尔德林在月球表面进行了一次EVA，持续了2小时31分40秒，保持在登月舱60米范围内。他们收集了21.55公斤的月球样本材料返回地球。在这个LRO NAC着陆点的视图中，鹰的下降阶段是可见的最大人造物体。宇航员脚印的黑暗轨迹从它延伸出来，主要集中在3个方向上。在西北部，轨道延伸到宇航员设置电视摄像机的位置。在南部，轨道延伸到部署月球测距后向反射器和被动地震实验包的地方。在东部，轨道延伸到小西火山口的边缘。着陆点位于0.67416 N，23.47314 E，位于Mare Tranquilitatis的西南部，该地区的特点是广泛的母马玄武岩沉积。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo11_Mosaic_p\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo11_Mosaic_p\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo11_Mosaic_p\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "Apollo 12着陆点高分影像",
+            "LayerID": "Moon_eqc_LRO_NAC_Apollo12_Mosaic_p",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo12_Mosaic_p\\LRO_NAC_Apollo12_Mosaic_p-120.png",
+            "BBOX": [
+                -23.4442323,
+                -3.4713148,
+                -23.3571898,
+                -2.5018766
+            ],
+            "Abstract": "1969年11月19日，美国宇航员查尔斯·“皮特”·康拉德和艾伦·比恩在这里进行了人类第二次登月。康拉德和比恩乘坐无畏号登月舱降落在这里，而理查德·戈登则乘坐洋基快船号指挥舱留在绕月轨道上。阿波罗12号展示了精确着陆的关键能力，无畏号在距离1967年4月20日勘测者3号探测器着陆地点不到200米的地方着陆。康拉德和比恩在月球表面进行了两次疏散。第一次持续了3小时56分钟，向西北方向延伸，以部署ALSEP仪器包，并继续延伸到直径350米的被称为中新月的环形山边缘。第二次EVA持续了3小时49分钟，绕着南面的几个陨石坑进行了1.5公里的环形飞行，包括从勘测者3号取回了一台相机。他们收集了34.35公斤月球样品，准备返回地球。在LRO NAC的着陆场视图中，无畏号的下降阶段是可见的最大人造物体。宇航员脚印的黑暗轨迹从它延伸出来。在西北方向，这些轨迹延伸了大约130米，可以看到ALSEP的组成部分。在无畏号东南约160米处，可以看到“勘测者3号”，其周围有密集的脚印。着陆点位于北纬3.0138度，西经23.4219度，位于原大洋洲的南部，该地区的玄武岩沉积物广泛，比阿波罗11号着陆点的玄武岩沉积物年轻得多。该遗址还提供了第一批富含钾、磷和稀土元素的KREEP样品。从哥白尼火山口延伸出的一条射线中取样喷出物的可能性增加了该遗址的吸引力。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo12_Mosaic_p\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo12_Mosaic_p\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo12_Mosaic_p\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "Apollo 14着陆点高分影像",
+            "LayerID": "Moon_eqc_LRO_NAC_Apollo14_Mosaic_p",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo14_Mosaic_p\\LRO_NAC_Apollo14_Mosaic_p-120.png",
+            "BBOX": [
+                -17.4900752,
+                -4.1920876,
+                -17.3907622,
+                -3.2253601
+            ],
+            "Abstract": "1971年2月5日，美国宇航员艾伦·谢泼德和埃德加·米切尔在这里进行了人类第三次登月。谢泼德和米切尔乘坐“心宿二”号登月舱降落在这里，斯图尔特·鲁萨则乘坐“基蒂霍克”号指挥舱留在绕月轨道上。Shephard和Mitchell在月球表面进行了2次EVAs。第一次持续4小时47分50秒，向西延伸以部署ALSEP仪器包，包括收集应急样本，总距离约550米。第二次EVA持续4小时34分41秒，旨在访问直径370米、位于东北约1.2公里处的锥形陨石坑。为了帮助运送EVA上的设备和取回的样本，宇航员们配备了一辆手动推车，即模块化设备运输车（MET）。在第二次EVA飞行中，崎岖不平的地形使导航变得困难，宇航员无法识别锥形陨石坑的边缘，尽管后来的图像显示他们到达了陨石坑边缘以南约20米的地方。Shepard和Mitchell收集了42.80公斤月球样本材料，准备返回地球。在LRO NAC的着陆场视图中，心宿二的下降阶段是可见的最大的人造物体。宇航员的脚印从第一个EVA延伸到西方，在那里可以看到ALSEP的组成部分。延伸到心宿二着陆点的东北部，宇航员的足迹和MET轮子的轨迹可以追溯到锥形陨石坑。着陆点位于3.64589 S，17.47194 W，主要是为了对Imbrium盆地撞击的物质进行采样，其喷出物覆盖了该地区的大部分地区，即Fra Mauro地层。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo14_Mosaic_p\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo14_Mosaic_p\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo14_Mosaic_p\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "Apollo 15着陆点高分影像",
+            "LayerID": "Moon_eqc_LRO_NAC_Apollo15_Mosaic_p",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo15_Mosaic_p\\LRO_NAC_Apollo15_Mosaic_p-120.png",
+            "BBOX": [
+                3.581094,
+                25.7965264,
+                3.689933,
+                26.7635835
+            ],
+            "Abstract": "1971年7月30日，美国宇航员大卫·斯科特和詹姆斯·欧文在这里进行了人类第四次登月。斯科特和欧文乘坐猎鹰号登月舱降落在这里，而阿尔弗雷德·沃登则乘坐奋进号指挥舱留在绕月轨道上。这是阿波罗J号的第一次任务。这些特点是更加重视在月球上进行科学研究，并在月球表面停留更长时间。J任务还包括一辆月球车，让宇航员能够穿越月球表面，覆盖更大的区域，并带回更多的样本材料。斯科特首先进行了33分钟的站立EVA，通过登月舱的上部舱口对当地地形进行了测量和成像。斯科特和欧文随后进行了3次地面EVA。第一次持续了6小时32分42秒，部署了月球车，并驾驶它进行了10.3公里的地质穿越。他们向西南行驶到哈德利-里勒的边缘，然后沿着小溪的边缘继续向南行驶。在第一个表面EVA的末端，他们在登月舱西北偏北约110米处部署了阿波罗月球表面实验包（ALSEP）。第二个表面EVA持续7小时12分14秒，其特点是一辆12.5公里长的月球车向东南穿越母马，沿着亚平宁山脉的底部行进。第三个表面EVA持续了4小时49分50秒，宇航员们沿着细沟边缘向西穿越5.1公里到达哈德利-里勒西北方向，向东穿越母马返回登月舱。斯科特和欧文收集了77公斤月球样本材料，准备返回地球。在LRO NAC对着陆场的视图中，猎鹰号的下降阶段是可见的最大的人造物体。着陆场周围可以看到宇航员脚印和火星车轮胎痕迹的深色标记，尤其是延伸到西北偏北，在那里可以看到ALSEP的组件。着陆点位于北纬26.13239度，东经3.63330度，旨在提供通往Mare Imbrium玄武岩的通道，哈德利-赖勒深槽中由流动的熔岩雕刻而成的地层，以及亚平宁山脉前部的山脉物质。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo15_Mosaic_p\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo15_Mosaic_p\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo15_Mosaic_p\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "Apollo 16着陆点高分影像",
+            "LayerID": "Moon_eqc_LRO_NAC_Apollo16_Mosaic_p",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo16_Mosaic_p\\LRO_NAC_Apollo16_Mosaic_p-120.png",
+            "BBOX": [
+                15.3788327,
+                -9.6060973,
+                15.5545346,
+                -8.6616783
+            ],
+            "Abstract": "1972年4月21日，美国宇航员约翰·杨和查尔斯·杜克在这里进行了人类第五次登月。杨和杜克乘坐猎户座登月舱降落在这里，而肯·马丁利则乘坐卡斯珀号指挥舱留在绕月轨道上。Young和Duke进行了3次地面EVA。第一次持续7小时11分2秒，包括在登月舱西南约95米处部署阿波罗月球表面实验包（ALSEP），并使用月球车对着陆点以西约1400米范围内的几个小陨石坑进行地质穿越。第二个表面EVA持续了7小时23分9秒，其特点是一辆11.1公里长的月球车向南行驶到石山的辛科陨石坑地区，沿途停靠了6个站点。穿过母马，沿着亚平宁山脉的底部。第三个表面EVA持续了5小时40分3秒，宇航员向北穿越了11.4公里到达北雷陨石坑。杨和杜克收集了95.71公斤月球样本材料，准备返回地球。在LRO NAC拍摄的着陆场视图中，猎户座的下降阶段是可见的最大的人造物体，位于约30米陨石坑西部边缘的黑暗光环内。着陆场周围可以看到宇航员脚印和火星车轮胎痕迹的深色标记，尤其是延伸到西南部，在那里可以看到ALSEP的组件。由于之前的阿波罗登陆都集中在月球玛丽亚或海洋的低、平坦、玄武岩地形上，阿波罗16号是第一次访问月球高地的载人任务。着陆点位于南8.9734，东经15.5011，位于笛卡尔组和凯利组这两个高地地质单元的边界上。这两个单元都被认为是火山性质的，但由二氧化硅含量高于玛丽亚玄武岩的熔岩组成；笛卡尔组被广泛认为是流纹岩。然而，宇航员们在穿越时很快发现，他们周围的岩石绝大多数是角砾岩。阿波罗16号的最大惊喜是发现高地地形不是硅化熔岩，而是形成盆地的巨大撞击产生的流化喷出物，岩石是地壳物质，主要是斜长岩和辉长岩。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo16_Mosaic_p\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo16_Mosaic_p\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo16_Mosaic_p\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "Apollo 17着陆点高分影像",
+            "LayerID": "Moon_eqc_LRO_NAC_Apollo17_M129086118.nd.gcs",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo17_M129086118.nd.gcs\\M129086118.nd.gcs-120.png",
+            "BBOX": [
+                30.6858768,
+                20.0287908,
+                30.8444586,
+                20.3660048
+            ],
+            "Abstract": "1972年12月11日，美国宇航员尤金·塞尔南和哈里森·施密特在这里进行了阿波罗计划的第六次也是最后一次登月。塞尔南和施密特乘坐挑战者号登月舱降落在这里，罗纳德·埃文斯则乘坐美国号指挥舱留在绕月轨道上。施密特拥有地质学博士学位，是第一位也是唯一一位访问过月球的专业科学家。Cernan和Schmitt进行了3次表面EVAs。第一次持续7小时11分53秒，包括在登月舱西北偏西约185米处部署阿波罗月球表面实验包（ALSEP），并使用月球车对着陆点以南的小撞击坑Steno边缘进行3.5公里的地质穿越。第二个表面EVA持续7小时36分56秒，向南和向西穿越20.4公里的地质。停靠点包括南地块底部的一个位置，那里的山体滑坡将山上的古老高地岩石带到了可以到达的地方，以及Shorty火山口，该火山口被发现是撞击而非火山成因，但它挖掘了一个古老的火山沉积物，产生了著名的“橙色土壤”，火山玻璃珠在月球喷泉中喷发。第三个表面EVA持续了7小时15分8秒，宇航员们向北和向东进行了20.4公里的地质穿越，到达了north Massif。这次穿越的停止包括从山体底部附近的巨石上采集早期月球地壳物质的样本，这些巨石是从山上高处滚落下来的。塞尔南和施密特收集了110.52公斤月球样本材料，准备返回地球。在LRO NAC的着陆场视图中，挑战者号的下降阶段是可见的最大的人造物体。着陆场周围可以看到宇航员脚印和火星车轮胎痕迹的深色标记，尤其是延伸到西北偏西，在那里可以看到ALSEP的组件。着陆点位于北纬20.1911，东经30.7723，位于利特罗环形山附近的金牛座山脉的一个狭窄山谷中。金牛座山脉是Serenitatis撞击盆地的一部分，对盆地被挖掘到的一些古老高地地形进行采样可以帮助确定盆地的形成日期。Mare玄武岩随后淹没了山谷的底部，之后该地区的部分地区被深色卤代火山口喷发的火山碎屑灰沉积物覆盖。因此，该网站可以提供各种各样的样本材料。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo17_M129086118.nd.gcs\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo17_M129086118.nd.gcs\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo17_M129086118.nd.gcs\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "Hertzsprung区域高分影像",
+            "LayerID": "Moon_eqc_LRO_NAC_Mosaic_00N234E_50cmp",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_00N234E_50cmp\\LRO_NAC_Mosaic_00N234E_50cmp-120.png",
+            "BBOX": [
+                -126.2468509,
+                -0.5736338,
+                -124.9271419,
+                0.7460752
+            ],
+            "Abstract": "Hertzsprung区域是月球正面的一个区域，位于月球正面的东北部，北纬0.0，东经234.0，是月球正面的一个大型撞击盆地。该区域的名称是为了纪念丹麦天文学家埃斯特·奥托·赫兹普龙（Ejnar Hertzsprung）而命名的。该区域的中心坐标为北纬0.0，东经234.0，直径约为2,300公里。该区域的西北部是一片高地，东南部是一片低地，中间是一片平原。这是利用月球勘测轨道飞行器任务中的月球勘测轨道器相机（LROC）窄角相机（NAC）图像生成的可见图像马赛克。这些图像是使用数字高程模型（DEM）进行正射校正的，该模型是根据LROC NAC立体图像创建的（如果可用），或LRO的月球轨道飞行器激光高度表（LOLA）全球DEM。马赛克是以与收集单个LROC NAC图像相同的分辨率生成的，该分辨率约为0.5米/像素。马赛克被水平配准到LOLA全球DEM中。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_00N234E_50cmp\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_00N234E_50cmp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_00N234E_50cmp\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "博得月溪(Rima Bode)区域高分影像",
+            "LayerID": "Moon_eqc_LRO_NAC_Mosaic_13N356E_50cmp",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_13N356E_50cmp\\LRO_NAC_Mosaic_13N356E_50cmp-120.png",
+            "BBOX": [
+                -4.4318104,
+                12.2244799,
+                -3.0773899,
+                13.5441828
+            ],
+            "Abstract": "这是使用月球勘测轨道飞行器任务中的月球勘测轨道器相机（LROC）窄角相机（NAC）图像生成的可见图像马赛克。这些图像是使用数字高程模型（DEM）进行正射校正的，该模型是根据LROC NAC立体图像创建的（如果可用），或LRO的月球轨道飞行器激光高度表（LOLA）全球DEM。马赛克是以与收集单个LROC NAC图像相同的分辨率生成的，该分辨率约为0.5米/像素。马赛克被水平配准到LOLA全球DEM中。",
+            "Projection": "PROJCS['Equirectangular MOON',\n  GEOGCS['GCS_MOON',\n    DATUM['D_MOON',SPHEROID['MOON_localRadius',1737400,0]],\n    PRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n  PROJECTION['Equirectangular'],\n  PARAMETER['latitude_of_origin',0],\n  PARAMETER['central_meridian',0],\n  PARAMETER['standard_parallel_1',13],\n  PARAMETER['false_easting',0],\n  PARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_13N356E_50cmp\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_13N356E_50cmp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_13N356E_50cmp\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "Apollo 15区域高分影像",
+            "LayerID": "Moon_eqc_LRO_NAC_Mosaic_26N004E_50cmp",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_26N004E_50cmp\\LRO_NAC_Mosaic_26N004E_50cmp-120.png",
+            "BBOX": [
+                2.9307878,
+                25.4463744,
+                4.399092,
+                26.7660726
+            ],
+            "Abstract": "这是使用月球勘测轨道飞行器任务中的月球勘测轨道器相机（LROC）窄角相机（NAC）图像生成的可见图像马赛克。这些图像是使用数字高程模型（DEM）进行正射校正的，该模型是根据LROC NAC立体图像创建的（如果可用），或LRO的月球轨道飞行器激光高度表（LOLA）全球DEM。马赛克是以与收集单个LROC NAC图像相同的分辨率生成的，该分辨率约为0.5米/像素。马赛克被水平配准到LOLA全球DEM中。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_26N004E_50cmp\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_26N004E_50cmp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_26N004E_50cmp\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "LRO Hertzsprung区域坡度图",
+            "LayerID": "Moon_eqc_LRO_NAC_Slope_00N234E_150cmp",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Slope_00N234E_150cmp\\LRO_NAC_Slope_00N234E_150cmp-120.png",
+            "BBOX": [
+                -125.9745278,
+                -0.5607312,
+                -125.1071764,
+                0.7690361
+            ],
+            "Abstract": "这是从月球勘测轨道飞行器任务的月球勘测轨道器相机 （LROC） 窄角相机 （NAC） 立体图像中提取的数字高程模型 （DEM） 的坡度彩色阴影浮雕。原始数据产品是从以大约 0.5 米/像素分辨率采集的立体图像中的 DEM，它允许使用软拷贝摄影测量系统实现 1.5 至 2 米/像素的输出 DEM 分辨率。但是，在某些情况下，LROC DEM也是以较低的分辨率生成的。DEM水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。",
+            "Projection": "PROJCS['Equirectangular Moon',\n  GEOGCS['GCS_Moon',\n    DATUM['D_Moon',SPHEROID['Moon_localRadius',1737400,0]],\n    PRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n  PROJECTION['Equirectangular'],\n  PARAMETER['latitude_of_origin',0],\n  PARAMETER['central_meridian',0],\n  PARAMETER['standard_parallel_1',0],\n  PARAMETER['false_easting',0],\n  PARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Slope_00N234E_150cmp\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_NAC_Slope_00N234E_150cmp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Slope_00N234E_150cmp\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "全月DEM彩色HillShade",
+            "LayerID": "Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd\\LRO_WAC-GLD100_ClrShade_79S79N_256ppd-120.png",
+            "BBOX": "-180,-79,180,79",
+            "Abstract": "这是由月球勘测轨道飞行器（LRO）广角相机（WAC）立体图像构建的256像素/度（ppd，~118米/像素）WAC数字高程模型（DEM）的彩色阴影浮雕。该DEM源自DLR 100 m原始地形模型或“GLD100”，覆盖了98.2%的月球表面，并与LRO月球轨道飞行器激光高度表（LOLA）极地网格DEM相结合，用于未覆盖的区域。使用数字摄影测量技术，从69000个WAC立体模型中计算出GLD100。由于两极附近持续存在阴影，因此无法在最高纬度创建完整的WAC立体图。因此，GLD100的覆盖范围为南纬79°至北纬79°。由于立体相关框大于100米，因此无法完全解析100米尺度下的表面细节。然而，每个100米的正方形内平均有26个立体点（全球共有1000亿个点），这有助于提高海拔估计。从形式上讲，分辨率可能接近300米，高程的精度估计约为10至20米（Scholten等人，JGR出版）。LRO月球轨道飞行器激光高度表（LOLA）擅长于表征两极的地形，因为LRO轨道在两极会聚。因此，对于WAC DEM，LOLA极地网格高程数据用于填充79至90和-90至-79纬度。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "全月影像图(LRO WAC+NAC)",
+            "LayerID": "Moon_eqc_LRO_wac_bw_v1_plus_nacs",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_wac_bw_v1_plus_nacs\\LRO_WAC_Mosaic_Global_303ppd-120.png",
+            "BBOX": "-180,-90,180,90",
+            "Abstract": "LRO WAC+NAC影像图",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_wac_bw_v1_plus_nacs\\index.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "全月影像图(LRO WAC)",
+            "LayerID": "Moon_eqc_LRO_WAC_Mosaic_Global_303ppd_v02",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_WAC_Mosaic_Global_303ppd_v02\\LRO_WAC_Mosaic_Global_303ppd-120.png",
+            "BBOX": "-180,-90,180,90",
+            "Abstract": "这是月球勘测轨道飞行器相机（LROC）的广角相机（WAC）的初步全球马赛克。WAC 全球马赛克由 2009 年 11 月至 2011 年 2 月期间采集的 15，000 多张图像组成。WAC在一个月内绘制了整个月球的地图，但是赤道的太阳入射角从月初到月底变化了约28度。此版本校正了先前马赛克中看到的极性照明差异。",
+            "Projection": "GEOGCS['GCS_Moon',\n  DATUM['Moon',SPHEROID['Moon',1737400,0]],\n  PRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_WAC_Mosaic_Global_303ppd_v02\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_WAC_Mosaic_Global_303ppd_v02\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_LRO_WAC_Mosaic_Global_303ppd_v02\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "中丰富海高分影像",
+            "LayerID": "Moon_eqc_LRO_zffh_NAC",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_zffh_NAC\\LRO_ZFFH.png",
+            "BBOX": "48.59, -1.14, 48.88, -0.66",
+            "Abstract": "月球熔洞因其天然的地下空间、防宇宙射线辐射、相对温度稳定等原因，成为潜在的月面居住场所。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_zffh_NAC\\index.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "月球统一地质图",
+            "LayerID": "Moon_eqc_Unified_Geologic_Map_of_The_Moon_ArcMap10_3",
+            "Icon": "{MoonImage}\\Moon_eqc_Unified_Geologic_Map_of_The_Moon_ArcMap10_3\\Unified_Geologic_Map_of_The_Moon.png",
+            "BBOX": "-180,-90,180,90",
+            "Abstract": "美国地质调查局的科学家与美国国家航空航天局（NASA）、月球与行星研究所展开合作，首次绘制出了一份完整的月球表面地质图，并进行统一分类月球统一地质图.这份新的月球地图被命名为“月球统一地质图”，为人类后续的探月任务提供了一份有关月球表面地质情况的最终蓝图，对国际科学界、教育工作者和广大公众而言都具有极为重要的价值。这份新数字地图以1∶5000000的比例显示了月球的地质情况.为绘制出这份新的数字地图，科学家使用了6张阿波罗计划时代的区域地图中的信息，以及近期的卫星探月任务提供的最新信息。科学家还重新绘制了现有的月球历史地图，使其与现代数据集保持一致。除了合并新旧数据，美国地质调查局的研究人员还对月球地层，即岩石层进行了统一描述，解决了以往地图中岩石名称、描述和年龄在某些情况下不统一的问题。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_Unified_Geologic_Map_of_The_Moon_ArcMap10_3\\index.html"
+        }
+    ]
+}

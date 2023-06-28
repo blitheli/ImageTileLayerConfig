@@ -31,6 +31,6 @@ def read_config():
 
 jsonConfig = read_config()
 with open("MoonLayerConfig.json", "w", encoding='utf-8') as file:
-    json.dump(jsonConfig, file, ensure_ascii=False) # 保证中文不乱码
+    json.dump(jsonConfig, file, indent=4, ensure_ascii=False) # 保证中文不乱码
 
 print("----------end----------")

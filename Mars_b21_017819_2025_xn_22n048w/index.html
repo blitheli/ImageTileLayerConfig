@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Moon Image Layer</title>
+    <script src="../assets/cdn.jsdelivr.net_npm_ol@v7.4.0_dist_ol.js"></script>
+    <link rel="stylesheet" href="../assets/cdn.jsdelivr.net_npm_ol@v7.4.0_ol.css" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="map" class="map"></div>
+    <script>
+     
+      //  瓦片图层
+      let src = new ol.source.XYZ({
+        //tileSize: 512,
+        maxResolution: 180 / 256,
+        wrapX: false, //  关闭水平重复
+        projection: 'EPSG:4326',
+        url: 'http://139.224.107.180:9080/type=1300000013&x={x}&y={y}&z={z}'
+      });
+
+      //  用于调试的瓦片图层
+      let debugSource = new ol.source.TileDebug({
+        projection: 'EPSG:4326',
+        tileGrid: src.getTileGrid()
+      });
+
+      const map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: src,
+            //  设置BBOX边界，不用请求边界之外的数据
+            extent: [-48.2423413,21.8892236,-47.6367163,22.6587236]
+          }),
+
+          new ol.layer.Tile({
+            source: debugSource
+          })
+        ],
+
+        view: new ol.View({
+          center: [-47.8,22], //  初始化时中心点
+          zoom: 8,
+          minZoom: 6,
+          maxZoom: 12, //  限制最大缩放级别(z=11) 
+          projection: 'EPSG:4326'
+        })
+      });
+    </script>
+  </body>
+</html>

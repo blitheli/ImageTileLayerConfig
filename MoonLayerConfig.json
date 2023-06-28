@@ -2,7 +2,11 @@
     "Description": "本文件存储了瓦片服务器发布的相关图层信息",
     "version": "1.0.0",
     "Author": "liyunfei",
+<<<<<<< HEAD
     "CreateTime": "2023-06-28 15:22:29",
+=======
+    "CreateTime": "2023-06-25 16:14:22",
+>>>>>>> suxz0625
     "Layers": [
         {
             "ProjectionType": "EQ",
@@ -377,7 +381,12 @@
             "Title": "全月DEM彩色HillShade",
             "LayerID": "Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd",
             "Icon": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd\\LRO_WAC-GLD100_ClrShade_79S79N_256ppd-120.png",
-            "BBOX": "-180,-79,180,79",
+            "BBOX": [
+                -180,
+                -79,
+                180,
+                79
+            ],
             "Abstract": "这是由月球勘测轨道飞行器（LRO）广角相机（WAC）立体图像构建的256像素/度（ppd，~118米/像素）WAC数字高程模型（DEM）的彩色阴影浮雕。该DEM源自DLR 100 m原始地形模型或“GLD100”，覆盖了98.2%的月球表面，并与LRO月球轨道飞行器激光高度表（LOLA）极地网格DEM相结合，用于未覆盖的区域。使用数字摄影测量技术，从69000个WAC立体模型中计算出GLD100。由于两极附近持续存在阴影，因此无法在最高纬度创建完整的WAC立体图。因此，GLD100的覆盖范围为南纬79°至北纬79°。由于立体相关框大于100米，因此无法完全解析100米尺度下的表面细节。然而，每个100米的正方形内平均有26个立体点（全球共有1000亿个点），这有助于提高海拔估计。从形式上讲，分辨率可能接近300米，高程的精度估计约为10至20米（Scholten等人，JGR出版）。LRO月球轨道飞行器激光高度表（LOLA）擅长于表征两极的地形，因为LRO轨道在两极会聚。因此，对于WAC DEM，LOLA极地网格高程数据用于填充79至90和-90至-79纬度。",
             "Projection": "urn:ogc:def:crs:EPSG::104903",
             "Preview": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd\\index.html",
@@ -398,8 +407,13 @@
             "ProjectionType": "EQ",
             "Title": "全月影像图(LRO WAC)",
             "LayerID": "Moon_eqc_LRO_WAC_Mosaic_Global_303ppd_v02",
-            "Icon": "{MoonImage}\\Moon_eqc_LRO_WAC_Mosaic_Global_303ppd_v02\\LRO_WAC_Mosaic_Global_303ppd-120.png",
-            "BBOX": "-180,-90,180,90",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_WAC_Mosaic_Global_303ppd_v02\\LRO_WAC_Mosaic_Global_303ppd_v02-120.png",
+            "BBOX": [
+                -180,
+                -90,
+                180,
+                90
+            ],
             "Abstract": "这是月球勘测轨道飞行器相机（LROC）的广角相机（WAC）的初步全球马赛克。WAC 全球马赛克由 2009 年 11 月至 2011 年 2 月期间采集的 15，000 多张图像组成。WAC在一个月内绘制了整个月球的地图，但是赤道的太阳入射角从月初到月底变化了约28度。此版本校正了先前马赛克中看到的极性照明差异。",
             "Projection": "GEOGCS['GCS_Moon',\n  DATUM['Moon',SPHEROID['Moon',1737400,0]],\n  PRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]",
             "Preview": "{MoonImage}\\Moon_eqc_LRO_WAC_Mosaic_Global_303ppd_v02\\index.html",
@@ -411,7 +425,12 @@
             "Title": "中丰富海高分影像",
             "LayerID": "Moon_eqc_LRO_zffh_NAC",
             "Icon": "{MoonImage}\\Moon_eqc_LRO_zffh_NAC\\LRO_ZFFH.png",
-            "BBOX": "48.59, -1.14, 48.88, -0.66",
+            "BBOX": [
+                48.59,
+                -1.14,
+                48.88,
+                -0.66
+            ],
             "Abstract": "月球熔洞因其天然的地下空间、防宇宙射线辐射、相对温度稳定等原因，成为潜在的月面居住场所。",
             "Projection": "urn:ogc:def:crs:EPSG::104903",
             "Preview": "{MoonImage}\\Moon_eqc_LRO_zffh_NAC\\index.html"
@@ -420,8 +439,13 @@
             "ProjectionType": "EQ",
             "Title": "月球统一地质图",
             "LayerID": "Moon_eqc_Unified_Geologic_Map_of_The_Moon_ArcMap10_3",
-            "Icon": "{MoonImage}\\Moon_eqc_Unified_Geologic_Map_of_The_Moon_ArcMap10_3\\Unified_Geologic_Map_of_The_Moon.png",
-            "BBOX": "-180,-90,180,90",
+            "Icon": "{MoonImage}\\Moon_eqc_Unified_Geologic_Map_of_The_Moon_ArcMap10_3\\Unified_Geologic_Map_of_The_Moon.jpg",
+            "BBOX": [
+                -180,
+                -90,
+                180,
+                90
+            ],
             "Abstract": "美国地质调查局的科学家与美国国家航空航天局（NASA）、月球与行星研究所展开合作，首次绘制出了一份完整的月球表面地质图，并进行统一分类月球统一地质图.这份新的月球地图被命名为“月球统一地质图”，为人类后续的探月任务提供了一份有关月球表面地质情况的最终蓝图，对国际科学界、教育工作者和广大公众而言都具有极为重要的价值。这份新数字地图以1∶5000000的比例显示了月球的地质情况.为绘制出这份新的数字地图，科学家使用了6张阿波罗计划时代的区域地图中的信息，以及近期的卫星探月任务提供的最新信息。科学家还重新绘制了现有的月球历史地图，使其与现代数据集保持一致。除了合并新旧数据，美国地质调查局的研究人员还对月球地层，即岩石层进行了统一描述，解决了以往地图中岩石名称、描述和年龄在某些情况下不统一的问题。",
             "Projection": "urn:ogc:def:crs:EPSG::104903",
             "Preview": "{MoonImage}\\Moon_eqc_Unified_Geologic_Map_of_The_Moon_ArcMap10_3\\index.html"

@@ -2,7 +2,11 @@
     "Description": "本文件存储了瓦片服务器发布的相关图层信息",
     "version": "1.0.0",
     "Author": "liyunfei",
+<<<<<<< HEAD
     "CreateTime": "2023-06-28 15:22:15",
+=======
+    "CreateTime": "2023-06-25 15:54:42",
+>>>>>>> suxz0625
     "Layers": [
         {
             "ProjectionType": "EQ",

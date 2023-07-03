@@ -12,6 +12,6 @@
     "Abstract": "这是一个月球侦察轨道飞行器（LRO）窄角相机（NAC）马赛克，以阿波罗11号着陆点为中心，范围为60x60公里。每个 NAC 图像都在 ISIS3 中以 50 厘米像素的分辨率进行处理，色彩平衡并合成为单个输出。",
     "Projection": "urn:ogc:def:crs:EPSG::104903",
     "Preview": "{MoonImage}\\Moon_eqc_A11_60x60km.eq\\index.html",
-    "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_A11_60x60km.eq\\WMTSCapabilities.xml",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_A11_60x60km.eq\\WMTSCapabilities.xml",
     "MetaData": "{MoonImage}\\Moon_eqc_A11_60x60km.eq\\metadata.html"
 }

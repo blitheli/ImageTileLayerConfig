@@ -7,6 +7,6 @@
   "Abstract": "这些数据是使用美国宇航局火星勘测轨道飞行器 (MRO) 上的上下文相机获取的。 MRO 于 2005 年 8 月 12 日发射，并于 2006 年 3 月 10 日抵达火星。它保持近乎圆形的轨道，在大约 250 至 316 公里或 155 至 196 英里的高度上大约每 112 分钟完成一次轨道公转。 MRO 携带一套精密的仪器，用于分析和绘制火星的地貌、地层、矿物和冰。 Context Camera (CTX) 提供分辨率高达 6 米/像素的黑白图像。它为 HiRISE 相机以及 MRO 上的其他仪器提供更高分辨率但更窄的视野的更广泛的上下文地图，并且对于生成火星表面更大区域的镶嵌图像很有用。",
   "Projection": "urn:ogc:def:crs:EPSG::104905",
   "Preview": "{MarsImage}\\Mars_b21_017819_2025_xn_22n048w\\index.html",
-  "WMTS_Capabiliites": "{MarsImage}\\Mars_b21_017819_2025_xn_22n048w\\WMTSCapabilities.xml",
+  "WMTS_Capabilities": "{MarsImage}\\Mars_b21_017819_2025_xn_22n048w\\WMTSCapabilities.xml",
   "MetaData": "{MarsImage}\\Mars_b21_017819_2025_xn_22n048w\\metadata.html"
 }

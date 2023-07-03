@@ -7,6 +7,6 @@
   "Abstract": "这是LRO LOLA DEM ColorHillshade的第6版。这是原始 LOLA 数字高程模型 （DEM） 的彩色晕渲地貌。DEM 是月球的形状图（半径），分辨率为每度 256 像素，基于 LOLA 仪器通过 Spetember 2011 获取的测高数据。使用通用制图工具程序“surface”和“grdblend”对地面轨迹进行插值。该地图采用二进制表的形式，每 0.0039065 度纬度（像素注册）有一行。地图值的半径为 1737400 m。",
   "Projection": "GEOGCS['GCS_MOON',\n  DATUM['D_MOON',SPHEROID['MOON_2000',1737400,0]],\n  PRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]",
   "Preview": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrShade_Global_256ppd_v06\\index.html",
-  "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrShade_Global_256ppd_v06\\WMTSCapabilities.xml",
+  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrShade_Global_256ppd_v06\\WMTSCapabilities.xml",
   "MetaData": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrShade_Global_256ppd_v06\\metadata.html"
 }

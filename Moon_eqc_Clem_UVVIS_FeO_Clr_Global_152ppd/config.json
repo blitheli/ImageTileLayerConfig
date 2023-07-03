@@ -7,6 +7,6 @@
     "Abstract": "克莱门汀UVVIS衍生的矿物和光学成熟度图。这些数据集是从翘曲到ULCN2005控制网络的UVVIS马赛克生成的。有关数据集如何推导的更多信息，请参阅：Lucey，P.G.，Blewett，D.T.，Taylor，G.J.，Hawke，B.R.，2000年。月球表面成熟度成像。J. 地球物理学家。第105号决议，第20377–20386号决议。Lucey， P. G.， G. J. Taylor， and E. Malaret ， 1995， 月球上铁的丰度和分布。科学，第268卷，第1150-1153页。Lucey，P.G.，D.T.Blewett和B.R.Hawke，1997年，用多光谱图像绘制月球表面的FeO和TiO2含量。地球物理研究杂志，正在出版。更新的参考资料：发表于1998年J. Geophys。第103卷，E2号，第3679页",
     "Projection": "urn:ogc:def:crs:EPSG::104903",
     "Preview": "{MoonImage}\\Moon_eqc_Clem_UVVIS_FeO_Clr_Global_152ppd\\index.html",
-    "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_Clem_UVVIS_FeO_Clr_Global_152ppd\\WMTSCapabilities.xml",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Clem_UVVIS_FeO_Clr_Global_152ppd\\WMTSCapabilities.xml",
     "MetaData": "{MoonImage}\\Moon_eqc_Clem_UVVIS_FeO_Clr_Global_152ppd\\metadata.html"
 }

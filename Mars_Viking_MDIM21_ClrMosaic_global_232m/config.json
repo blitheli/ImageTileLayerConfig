@@ -7,6 +7,6 @@
   "Abstract": "该产品是根据使用维京1号和维京2号轨道器上的维京轨道器成像系统收集的数据组装而成的。两个轨道器上的相同视频相机都配备了475毫米焦距的长焦镜头，产生1.54бу X 1.69бу的视野。从 1500 公里的轨道高度开始，每帧覆盖 40 X 44 公里表面上的最小区域。六个可选滤光片允许采集彩色图像。",
   "Projection": "urn:ogc:def:crs:EPSG::104905",
   "Preview": "{MarsImage}\\Mars_Viking_MDIM21_ClrMosaic_global_232m\\index.html",
-  "WMTS_Capabiliites": "{MarsImage}\\Mars_Viking_MDIM21_ClrMosaic_global_232m\\WMTSCapabilities.xml",
+  "WMTS_Capabilities": "{MarsImage}\\Mars_Viking_MDIM21_ClrMosaic_global_232m\\WMTSCapabilities.xml",
   "MetaData": "{MarsImage}\\Mars_Viking_MDIM21_ClrMosaic_global_232m\\metadata.html"
 }

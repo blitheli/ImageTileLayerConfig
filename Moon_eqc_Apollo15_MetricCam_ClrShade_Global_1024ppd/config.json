@@ -7,6 +7,6 @@
   "Abstract": "阿波罗 15 号DEM 颜色阴影是使用 DEM 文件的视觉工作台中的色彩图和山体阴影函数生成的。颜色图（图例.png）的最小值和最大值对应于相对于平均月球半径1737.4km的范围[-8499，10208（以米为单位）。DEM 色调值存储为 8 位有符号整数，分辨率为 14.8m/像素。这些DEM色调文件是使用视觉工作台库生成的：由NASA艾姆斯智能机器人小组（IRG）生产的用于立体图像的自动处理的软件工具。",
   "Projection": "urn:ogc:def:crs:EPSG::104903",
   "Preview": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrShade_Global_1024ppd\\index.html",
-  "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrShade_Global_1024ppd\\WMTSCapabilities.xml",
+  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrShade_Global_1024ppd\\WMTSCapabilities.xml",
   "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrShade_Global_1024ppd\\metadata.xml"
 }

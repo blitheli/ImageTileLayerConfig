@@ -12,6 +12,6 @@
     "Abstract": "每个样品代表使用Bandfield等人（2011）中描述的技术估计的无岩石风化层表面温度。数据来自2009年7月5日至2012年9月2日收集的Diviner数据。数据仅限于1930年至0530年的当地时间，太阳入射角大于90度，纬度在60N和60S之间，发射角小于15度，亮度温度小于200K。还使用了几个数据质量约束（用于校准的质量标志，0;用于杂项的质量标志，0;噪声质量标志，0 到 1）。来自占卜师光谱通道 6、7 和 8 的网格化 2 级数据以每度 128 像素分箱。由于月球勘测轨道飞行器观测的地面轨道行走和当地时间漂移，大多数表面仅被单个观测覆盖。在某些情况下，表面被相隔~6或12个月的多个观测值覆盖。",
     "Projection": "GEOGCS['GCS_Moon_2000',\n  DATUM['Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n  PRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]",
     "Preview": "{MoonImage}\\Moon_eqc_LRO_DIVINER_ClrRockFreeSurfaceTemp_Global_128ppd\\index.html",
-    "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_DIVINER_ClrRockFreeSurfaceTemp_Global_128ppd\\WMTSCapabilities.xml",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_DIVINER_ClrRockFreeSurfaceTemp_Global_128ppd\\WMTSCapabilities.xml",
     "MetaData": "{MoonImage}\\Moon_eqc_LRO_DIVINER_ClrRockFreeSurfaceTemp_Global_128ppd\\metadata.html"
 }

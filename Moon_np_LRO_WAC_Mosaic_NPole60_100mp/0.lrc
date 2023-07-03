@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_np_LRO_WAC_Mosaic_NPole60_100mp</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>http://139.224.107.180/resources/tiles/images/northpole/LRO_WAC_Mosaic_NPole60_100mp/%d/%d/%d.png</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>-35</West>
+        <East>35</East>
+        <South>-35</South>
+        <North>35</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>9</LevelEnd>
+    </Range>
+</DataDefine>

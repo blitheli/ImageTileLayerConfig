@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_np_LRO_NAC_AvgMosaic_NPole855_1mp</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>http://139.224.107.180/resources/tiles/images/northpole/NAC_AvgMosaic_NPole855_1mp/%d/%d/%d.png</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>-6</West>
+        <East>6</East>
+        <South>-6</South>
+        <North>6</North>
+        <LevelBegin>5</LevelBegin>
+        <LevelEnd>15</LevelEnd>
+    </Range>
+</DataDefine>

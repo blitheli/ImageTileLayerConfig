@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_sp_sp_ice_depth_new_240m.mat_today_27-Oct-2016</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>http://139.224.107.180/resources/tiles/images/southpole/sp_ice_depth_new_240m.mat_today_27-Oct-2016/%d/%d/%d.png</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>-15</West>
+        <East>15</East>
+        <South>-15</South>
+        <North>15</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>11</LevelEnd>
+    </Range>
+</DataDefine>

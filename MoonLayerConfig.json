@@ -2,7 +2,7 @@
     "Description": "本文件存储了瓦片服务器发布的相关图层信息",
     "version": "1.0.0",
     "Author": "liyunfei",
-    "CreateTime": "2023-06-28 15:39:08",
+    "CreateTime": "2023-07-03 13:25:03",
     "Layers": [
         {
             "ProjectionType": "EQ",
@@ -445,6 +445,172 @@
             "Abstract": "美国地质调查局的科学家与美国国家航空航天局（NASA）、月球与行星研究所展开合作，首次绘制出了一份完整的月球表面地质图，并进行统一分类月球统一地质图.这份新的月球地图被命名为“月球统一地质图”，为人类后续的探月任务提供了一份有关月球表面地质情况的最终蓝图，对国际科学界、教育工作者和广大公众而言都具有极为重要的价值。这份新数字地图以1∶5000000的比例显示了月球的地质情况.为绘制出这份新的数字地图，科学家使用了6张阿波罗计划时代的区域地图中的信息，以及近期的卫星探月任务提供的最新信息。科学家还重新绘制了现有的月球历史地图，使其与现代数据集保持一致。除了合并新旧数据，美国地质调查局的研究人员还对月球地层，即岩石层进行了统一描述，解决了以往地图中岩石名称、描述和年龄在某些情况下不统一的问题。",
             "Projection": "urn:ogc:def:crs:EPSG::104903",
             "Preview": "{MoonImage}\\Moon_eqc_Unified_Geologic_Map_of_The_Moon_ArcMap10_3\\index.html"
+        },
+        {
+            "ProjectionType": "NP",
+            "Title": "北极高分影像(85.5°以上,1m)",
+            "LayerID": "Moon_np_LRO_NAC_AvgMosaic_NPole855_1mp",
+            "Icon": "{MoonImage}\\Moon_np_LRO_NAC_AvgMosaic_NPole855_1mp\\LRO_NAC_AvgMosaic_NPole855_1mp-120.png",
+            "BBOX": [
+                -136526,
+                -136525,
+                136525,
+                136526
+            ],
+            "Abstract": "这是使用月球勘测轨道飞行器任务中的月球勘测轨道飞行器相机（LROC）窄角相机（NAC）图像生成的可见图像马赛克。使用LRO的月球轨道器激光高度计（LOLA）极地5米/像素DEM对图像进行正射校正。马赛克以收集单个LROC NAC图像的一半分辨率生成，约为0.5米/像素。马赛克水平注册到 LOLA 全球 DEM。",
+            "Projection": "urn:ogc:def:crs:IAU2000::30118",
+            "Preview": "{MoonImage}\\Moon_np_LRO_NAC_AvgMosaic_NPole855_1mp\\index.html",
+            "WMTS_Capabilites": "{MoonImage}\\Moon_np_LRO_NAC_AvgMosaic_NPole855_1mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_np_LRO_NAC_AvgMosaic_NPole855_1mp\\MetaData.html"
+        },
+        {
+            "ProjectionType": "NP",
+            "Title": "北极影像(60°以上,100m)",
+            "LayerID": "Moon_np_LRO_WAC_Mosaic_NPole60_100mp",
+            "Icon": "{MoonImage}\\Moon_np_LRO_WAC_Mosaic_NPole60_100mp\\LRO_WAC_Mosaic_NPole60_100mp-120.png",
+            "BBOX": [
+                -931100,
+                -931100,
+                931100,
+                931100
+            ],
+            "Abstract": "这是以单色模式拍摄的月球勘测轨道飞行器相机（LROC）广角相机（WAC）图像的初步北极马赛克。全球 WAC 马赛克提供了一个全球形态底图，其入射角介于 60 到 80 度之间，但极地地区除外，因为极地区域太阳在地平线上总是非常低。",
+            "Projection": "urn:ogc:def:crs:IAU2000::30118",
+            "Preview": "{MoonImage}\\Moon_np_LRO_WAC_Mosaic_NPole60_100mp\\index.html",
+            "WMTS_Capabilites": "{MoonImage}\\Moon_np_LRO_WAC_Mosaic_NPole60_100mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_np_LRO_WAC_Mosaic_NPole60_100mp\\metaData.html"
+        },
+        {
+            "ProjectionType": "SP",
+            "Title": "南极水冰沉积物分布",
+            "LayerID": "Moon_sp_ice_depth_new_240m.mat_today_27-Oct-2016",
+            "Icon": "{MoonImage}\\Moon_sp_ice_depth_new_240m.mat_today_27-Oct-2016\\sp_ice_depth_new_240m.mat_today_27-Oct-2016-120.png",
+            "BBOX": [
+                -300000,
+                -300000,
+                300000,
+                300000
+            ],
+            "Abstract": "月球勘测轨道飞行器上的占卜仪成像辐射计实验显示，月球极地部分地区的表面温度是太阳系中最低的。此外，使用月球风化层和基于地形的照明的真实热导率剖面对这些占卜器数据进行建模表明，尽管接受偶发的低角度太阳照明，但大面积的极地地形可能具有远低于110K的近地下温度。这些地下冷阱可以提供非常广泛的挥发物储层。热模型结果可用于估计水冰沉积物通过月球风化层升华和扩散迁移而损失的稳定性，以及水冰以每十亿年小于1千克m−2的速度损失的深度图，这相当于纯冰沉积物每十亿年损失1毫米。结果表明，水冰的表面冷阱被更广泛的“月球永久冻土”区域所包围，其中水冰在靠近地表的地方是稳定的。[Paige， D. A.， et al. （2010）， 占卜家对月球南极地区冷阱的观测：空间分布和温度， Science， 330，479–482;Elphic， R & A. et al. （2011）.月球极地冰的丰度和埋藏深度的限制。 AGU秋季会议摘要]",
+            "Projection": "urn:ogc:def:crs:IAU2000::30120",
+            "Preview": "{MoonImage}\\Moon_sp_ice_depth_new_240m.mat_today_27-Oct-2016\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_sp_ice_depth_new_240m.mat_today_27-Oct-2016\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_sp_ice_depth_new_240m.mat_today_27-Oct-2016\\metaData.html"
+        },
+        {
+            "ProjectionType": "SP",
+            "Title": "南极地形彩色山体阴影图(LOLA数据,87.5°以上,10m)",
+            "LayerID": "Moon_sp_LRO_LOLA_ClrShade_SPolar875_10m",
+            "Icon": "{MoonImage}\\Moon_sp_LRO_LOLA_ClrShade_SPolar875_10m\\LRO_LOLA_ClrShade_SPolar875_10m-120.png",
+            "BBOX": [
+                -75840,
+                -75840,
+                75840,
+                75840
+            ],
+            "Abstract": "这是原始极地 LOLA 数字高程模型 （DEM） 的彩色晕渲地貌。DEM 是月球的形状图（半径），分辨率为每像素 10 米，基于 LOLA 仪器通过 Spetember 2011 获取的测高数据。使用通用制图工具程序“表面”对地面轨迹进行插值和“混合”。地图值的半径为 1737400 m。",
+            "Projection": "urn:ogc:def:crs:IAU2000::30120",
+            "Preview": "{MoonImage}\\Moon_sp_LRO_LOLA_ClrShade_SPolar875_10m\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_sp_LRO_LOLA_ClrShade_SPolar875_10m\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_sp_LRO_LOLA_ClrShade_SPolar875_10m\\metaData.html"
+        },
+        {
+            "ProjectionType": "SP",
+            "Title": "南极地形彩色坡度图(LOLA数据,75°以上,120m)",
+            "LayerID": "Moon_sp_LRO_LOLA_ClrSlope_SPole75S_120m",
+            "Icon": "{MoonImage}\\Moon_sp_LRO_LOLA_ClrSlope_SPole75S_120m\\LRO_LOLA_ClrSlope_SPole75s_120m-120.png",
+            "BBOX": [
+                -457440,
+                -457440,
+                457440,
+                457440
+            ],
+            "Abstract": "这是基于LOLA仪器获取的测高数据，以16米/像素×16米/像素的分辨率绘制月球原始南极表面坡度的彩色地图。通过任务阶段LRO_SM_17的 LOLA 激光 1 和 2 数据是该数据集的来源. 双向斜率是从平面拟合到需要n = 5到15个轮廓返回的连续三次激光射击计算的。根据轨道速度、探测概率和航天器高度，坡度基线可能在 30 到 120 米之间变化。",
+            "Projection": "urn:ogc:def:crs:IAU2000::30120",
+            "Preview": "{MoonImage}\\Moon_sp_LRO_LOLA_ClrSlope_SPole75S_120m\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_sp_LRO_LOLA_ClrSlope_SPole75S_120m\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_sp_LRO_LOLA_ClrSlope_SPole75S_120m\\metaData.html"
+        },
+        {
+            "ProjectionType": "SP",
+            "Title": "南极山体阴影图(LOLA数据,87.5°以上,10m)",
+            "LayerID": "Moon_sp_LRO_LOLA_Shade_SPolar875_10m",
+            "Icon": "{MoonImage}\\Moon_sp_LRO_LOLA_Shade_SPolar875_10m\\LRO_LOLA_Shade_SPolar875_10m-120.png",
+            "BBOX": [
+                -75840,
+                -75840,
+                75840,
+                75840
+            ],
+            "Abstract": "这是原始极地 LOLA 数字高程模型 （DEM） 的晕渲地貌。DEM 是月球的形状图（半径），分辨率为每像素 10 米，基于 LOLA 仪器通过 Spetember 2011 获取的测高数据。使用通用制图工具程序“表面”对地面轨迹进行插值和“混合”。地图值的半径为 1737400 m。",
+            "Projection": "urn:ogc:def:crs:IAU2000::30120",
+            "Preview": "{MoonImage}\\Moon_sp_LRO_LOLA_Shade_SPolar875_10m\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_sp_LRO_LOLA_Shade_SPolar875_10m\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_sp_LRO_LOLA_Shade_SPolar875_10m\\metaData.html"
+        },
+        {
+            "ProjectionType": "SP",
+            "Title": "南极高分影像(85.5°以上,1m)",
+            "LayerID": "Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp",
+            "Icon": "{MoonImage}\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\LRO_NAC_AvgMosaic_SPole855_1mp-120.png",
+            "BBOX": [
+                -136526,
+                -136525,
+                136525,
+                136526
+            ],
+            "Abstract": "这是使用月球勘测轨道飞行器任务中的月球勘测轨道飞行器相机（LROC）窄角相机（NAC）图像生成的可见图像马赛克。使用LRO的月球轨道器激光高度计（LOLA）极地5米/像素DEM对图像进行正射校正。马赛克以收集单个LROC NAC图像的一半分辨率生成，约为0.5米/像素。马赛克水平注册到 LOLA 全球 DEM。",
+            "Projection": "urn:ogc:def:crs:IAU2000::30120",
+            "Preview": "{MoonImage}\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\MetaData.html"
+        },
+        {
+            "ProjectionType": "SP",
+            "Title": "南极影像(60°以上,100m)",
+            "LayerID": "Moon_sp_LRO_WAC_Mosaic_SPole60_100mp",
+            "Icon": "{MoonImage}\\Moon_sp_LRO_WAC_Mosaic_SPole60_100mp\\LRO_WAC_Mosaic_SPole60_100mp-120.png",
+            "BBOX": [
+                -931100,
+                -931100,
+                931100,
+                931100
+            ],
+            "Abstract": "这是以单色模式拍摄的月球勘测轨道飞行器相机（LROC）广角相机（WAC）图像的初步南极马赛克。全球 WAC 马赛克提供了一个全球形态底图，其入射角介于 60 到 80 度之间，但极地地区除外，因为极地区域太阳在地平线上总是非常低。",
+            "Projection": "urn:ogc:def:crs:IAU2000::30120",
+            "Preview": "{MoonImage}\\Moon_sp_LRO_WAC_Mosaic_SPole60_100mp\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_sp_LRO_WAC_Mosaic_SPole60_100mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_sp_LRO_WAC_Mosaic_SPole60_100mp\\metaData.html"
+        },
+        {
+            "ProjectionType": "SP",
+            "Title": "南极沙克尔顿附近全年平均光照",
+            "LayerID": "Moon_sp_ShakertonLight",
+            "Icon": "{MoonImage}\\Moon_sp_ShakertonLight\\ShakertonLight.png",
+            "BBOX": [
+                -75840,
+                -75840,
+                75840,
+                75840
+            ],
+            "Abstract": "南极沙克尔顿附近全年平均光照，同济大学分析，给出tif文件，用ArcGIS生成金字塔文件，然后切片",
+            "Projection": "urn:ogc:def:crs:IAU2000::30120",
+            "Preview": "{MoonImage}\\Moon_sp_ShakertonLight\\index.html"
+        },
+        {
+            "ProjectionType": "SP",
+            "Title": "南极永久阴影区",
+            "LayerID": "Moon_sp_SouthPolePSR",
+            "Icon": "{MoonImage}\\Moon_sp_SouthPolePSR\\SouthPolePSR.png",
+            "BBOX": [
+                -457440,
+                -457440,
+                457440,
+                457440
+            ],
+            "Abstract": "南极永久阴影区，Arcgis加载，然后切片",
+            "Projection": "urn:ogc:def:crs:IAU2000::30120",
+            "Preview": "{MoonImage}\\Moon_sp_SouthPolePSR\\index.html"
         }
     ]
 }

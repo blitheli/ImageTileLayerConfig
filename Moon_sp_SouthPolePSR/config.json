@@ -1,0 +1,10 @@
+{
+  "ProjectionType": "SP",
+  "Title": "南极永久阴影区",
+  "LayerID": "Moon_sp_SouthPolePSR",
+  "Icon": "{MoonImage}\\Moon_sp_SouthPolePSR\\SouthPolePSR.png",
+  "BBOX": [-457440,-457440,457440,457440],
+  "Abstract": "南极永久阴影区，Arcgis加载，然后切片",
+  "Projection": "urn:ogc:def:crs:IAU2000::30120",
+  "Preview": "{MoonImage}\\Moon_sp_SouthPolePSR\\index.html"
+}

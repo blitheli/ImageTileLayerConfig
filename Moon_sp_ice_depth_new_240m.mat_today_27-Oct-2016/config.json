@@ -1,0 +1,12 @@
+{
+  "ProjectionType": "SP",
+  "Title": "南极水冰沉积物分布",
+  "LayerID": "Moon_sp_ice_depth_new_240m.mat_today_27-Oct-2016",
+  "Icon": "{MoonImage}\\Moon_sp_ice_depth_new_240m.mat_today_27-Oct-2016\\sp_ice_depth_new_240m.mat_today_27-Oct-2016-120.png",
+  "BBOX": [-300000,-300000,300000,300000],
+  "Abstract": "月球勘测轨道飞行器上的占卜仪成像辐射计实验显示，月球极地部分地区的表面温度是太阳系中最低的。此外，使用月球风化层和基于地形的照明的真实热导率剖面对这些占卜器数据进行建模表明，尽管接受偶发的低角度太阳照明，但大面积的极地地形可能具有远低于110K的近地下温度。这些地下冷阱可以提供非常广泛的挥发物储层。热模型结果可用于估计水冰沉积物通过月球风化层升华和扩散迁移而损失的稳定性，以及水冰以每十亿年小于1千克m−2的速度损失的深度图，这相当于纯冰沉积物每十亿年损失1毫米。结果表明，水冰的表面冷阱被更广泛的“月球永久冻土”区域所包围，其中水冰在靠近地表的地方是稳定的。[Paige， D. A.， et al. （2010）， 占卜家对月球南极地区冷阱的观测：空间分布和温度， Science， 330，479–482;Elphic， R & A. et al. （2011）.月球极地冰的丰度和埋藏深度的限制。 AGU秋季会议摘要]",
+  "Projection": "urn:ogc:def:crs:IAU2000::30120",
+  "Preview": "{MoonImage}\\Moon_sp_ice_depth_new_240m.mat_today_27-Oct-2016\\index.html",
+  "WMTS_Capabilities": "{MoonImage}\\Moon_sp_ice_depth_new_240m.mat_today_27-Oct-2016\\WMTSCapabilities.xml",
+  "MetaData": "{MoonImage}\\Moon_sp_ice_depth_new_240m.mat_today_27-Oct-2016\\metaData.html"
+}

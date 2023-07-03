@@ -1,0 +1,12 @@
+{
+  "ProjectionType": "NP",
+  "Title": "北极高分影像(85.5°以上,1m)",
+  "LayerID": "Moon_np_LRO_NAC_AvgMosaic_NPole855_1mp",
+  "Icon": "{MoonImage}\\Moon_np_LRO_NAC_AvgMosaic_NPole855_1mp\\LRO_NAC_AvgMosaic_NPole855_1mp-120.png",
+  "BBOX": [-136526, -136525, 136525, 136526],
+  "Abstract": "这是使用月球勘测轨道飞行器任务中的月球勘测轨道飞行器相机（LROC）窄角相机（NAC）图像生成的可见图像马赛克。使用LRO的月球轨道器激光高度计（LOLA）极地5米/像素DEM对图像进行正射校正。马赛克以收集单个LROC NAC图像的一半分辨率生成，约为0.5米/像素。马赛克水平注册到 LOLA 全球 DEM。",
+  "Projection": "urn:ogc:def:crs:IAU2000::30118",
+  "Preview": "{MoonImage}\\Moon_np_LRO_NAC_AvgMosaic_NPole855_1mp\\index.html",
+  "WMTS_Capabilities": "{MoonImage}\\Moon_np_LRO_NAC_AvgMosaic_NPole855_1mp\\WMTSCapabilities.xml",
+  "MetaData": "{MoonImage}\\Moon_np_LRO_NAC_AvgMosaic_NPole855_1mp\\MetaData.html"
+}

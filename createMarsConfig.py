@@ -1,5 +1,5 @@
 #   读取当前目录下所有文件夹内的config.json文件，生成特定的json对象（放在Layers数组中），并保存为文件
-#   2023-06-20  liyunfei
+#   2023-07-05  liyunfei
 #
 import os
 import json

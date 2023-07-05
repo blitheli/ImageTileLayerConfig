@@ -26,6 +26,11 @@
 - 其中index.html需要独立测试下，是否能正常显示！右键"open with live server"，自动启动浏览器，如果能正常显示，就可以了！    
 
 
+ ## 数据下载
+- 在moontrek网站下载月球南北极数据时，需下载原始tif数据，发布成arcgis服务，再使用切片下载工具下载
+- 下载网址格式https://trek.nasa.gov/moon/TrekWS/rest/cat/data/stream?label=[layerID]
+- 其中[layerID]为moonterk中的layer_ID
+
 
 20230614    初次编写
 20230621    增加了自动生成配置文件的功能

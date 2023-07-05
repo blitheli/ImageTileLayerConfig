@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "Apollo 15 坡度彩图",
+    "Title": "阿里斯塔克斯高原DEM坡度彩图(Aristarchus Plateau 1, Colorized Slope)",
     "LayerID": "Moon_eq_Apollo15_PanCam_Slope_25N311E_5mp",
     "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_25N311E_5mp\\Apollo15_PanCam_Slope_25N311E_5mp-120.png",
     "BBOX": [

@@ -1,0 +1,19 @@
+	
+Apollo 15 Pan Cam DEM, Aristarchus Plateau 1, ColorHillshade
+Layer ID : Apollo15_PanCam_ClrShade_25N311E_5mp
+bbox : -49.771146,23.4260907,-48.0356413,26.0942471
+WMTS Endpoint : https://trek.nasa.gov/tiles/Moon/EQ/Apollo15_PanCam_ClrShade_25N311E_5mp
+Abstract : This is a colorized shaded-relief of the digital elevation model (DEM) for the Aristarchus Plateau Area 1. Resolution of the original Apollo 15 Panametric images was 1.5m/pixel which allows an output DEM resolution of 5m/pixel using a softcopy photogrammetry system. It is register to ULCN 2005 control network. The DEM was registered horizontally and vertically to LRO's Lunar Orbiter Laser Altimeter (LOLA) data. Elevation values are in meters and referred to a radius of 1737400m.
+这是阿里斯塔克斯高原区域 1 的数字高程模型 （DEM） 的彩色晕渲地貌。原始阿波罗15号全景图像的分辨率为1.5米/像素，使用软拷贝摄影测量系统允许输出5米/像素的DEM分辨率。它已注册到ULCN 2005控制网络。DEM水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。高程值以米为单位，半径为 1737400m。
+Projection :
+
+PROJCS["Equirectangular MOON",
+	GEOGCS["GCS_MOON",
+		DATUM["D_MOON",SPHEROID["MOON_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",25],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]

@@ -30,7 +30,7 @@
         maxResolution: 180 / 256,
         wrapX: false, //  关闭水平重复
         projection: 'EPSG:4326',
-        url: 'http://139.224.107.180:9080/type=1300000015&x={x}&y={y}&z={z}'
+        url: 'http://139.224.107.180:9080/type=1300000017&x={x}&y={y}&z={z}'
       });
 
       //  用于调试的瓦片图层
@@ -45,7 +45,7 @@
           new ol.layer.Tile({
             source: src,
             //  设置BBOX边界，不用请求边界之外的数据
-            extent: [-9.9921439,-1.2920214,-6.6078162,2.0921376]
+            extent: [94.1612715,-33.914489,98.8963428,-30.148971]
           }),
 
           new ol.layer.Tile({
@@ -54,9 +54,9 @@
         ],
 
         view: new ol.View({
-          center: [-7,0], //  初始化时中心点
-          zoom: 11,
-          minZoom: 11,
+          center: [96,-31.5], //  初始化时中心点
+          zoom: 7,
+          minZoom: 7,
           maxZoom: 13, //  限制最大缩放级别(z=12) 
           projection: 'EPSG:4326'
         })

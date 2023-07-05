@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "阿里斯塔克斯高原DEM山体阴影图(Aristarchus Plateau 1, Hillshade)",
+    "LayerID": "Moon_eq_Apollo15_PanCam_Shade_25N311E_5mp",
+    "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_25N311E_5mp\\Apollo15_PanCam_Shade_25N311E_5mp-120.png",
+    "BBOX": [
+        -49.771146,
+        23.4260907,
+        -48.0356413,
+        26.0942471
+    ],
+    "Abstract": "这是阿里斯塔克斯高原区域 1 的数字高程模型 （DEM） 的晕渲地貌。原始阿波罗15号全景图像的分辨率为1.5米/像素，使用软拷贝摄影测量系统允许输出5米/像素的DEM分辨率。它已注册到ULCN 2005控制网络。DEM水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。高程值以米为单位，半径为 1737400m。",
+    "Projection": "PROJCS['Equirectangular MOON',\n  GEOGCS['GCS_MOON',\n  DATUM['D_MOON',SPHEROID['MOON_localRadius',1737400,0]],\nPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\nPROJECTION['Equirectangular'],\nPARAMETER['latitude_of_origin',0],\nPARAMETER['central_meridian',0],\nPARAMETER['standard_parallel_1',25],\nPARAMETER['false_easting',0],\nPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]",
+    "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_25N311E_5mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_25N311E_5mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_25N311E_5mp\\metadata.html"
+}

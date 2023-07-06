@@ -2,7 +2,7 @@
     "Description": "本文件存储了瓦片服务器发布的相关图层信息",
     "version": "1.0.0",
     "Author": "liyunfei",
-    "CreateTime": "2023-07-03 14:11:16",
+    "CreateTime": "2023-07-06 10:15:14",
     "Layers": [
         {
             "ProjectionType": "EQ",
@@ -57,7 +57,75 @@
         },
         {
             "ProjectionType": "EQ",
-            "Title": "Apollo 15 坡度彩图",
+            "Title": "阿里斯塔克斯高原DEM彩色山体阴影图(Aristarchus Plateau 1, ColorHillshade)",
+            "LayerID": "Moon_eq_Apollo15_PanCam_ClrShade_25N311E_5mp",
+            "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_25N311E_5mp\\Apollo15_PanCam_ClrShade_25N311E_5mp-120.png",
+            "BBOX": [
+                -49.771146,
+                23.4260907,
+                -48.0356413,
+                26.0942471
+            ],
+            "Abstract": "这是阿里斯塔克斯高原区域 1 的数字高程模型 （DEM） 的彩色晕渲地貌。原始阿波罗15号全景图像的分辨率为1.5米/像素，使用软拷贝摄影测量系统允许输出5米/像素的DEM分辨率。它已注册到ULCN 2005控制网络。DEM水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。高程值以米为单位，半径为 1737400m。",
+            "Projection": "PROJCS['Equirectangular MOON',\n  GEOGCS['GCS_MOON',\n  DATUM['D_MOON',SPHEROID['MOON_localRadius',1737400,0]],\nPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\nPROJECTION['Equirectangular'],\nPARAMETER['latitude_of_origin',0],\nPARAMETER['central_meridian',0],\nPARAMETER['standard_parallel_1',25],\nPARAMETER['false_easting',0],\nPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]",
+            "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_25N311E_5mp\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_25N311E_5mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_25N311E_5mp\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "阿里斯塔克斯高原2 DEM彩色山体阴影图(Aristarchus Plateau 2, ColorHillshade)",
+            "LayerID": "Moon_eq_Apollo15_PanCam_ClrShade_28N307E_3mp",
+            "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_28N307E_3mp\\Apollo15_PanCam_ClrShade_28N307E_3mp-120.png",
+            "BBOX": [
+                -53.1015073,
+                26.7635801,
+                -51.5924499,
+                29.0334672
+            ],
+            "Abstract": "这是阿里斯塔克斯高原区域 2 的数字高程模型 （DEM） 的彩色晕渲地貌。原始阿波罗15号全景图像的分辨率为1.5米/像素，使用软拷贝摄影测量系统允许输出5米/像素的DEM分辨率。它已注册到ULCN 2005控制网络。DEM水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。高程值以米为单位，半径为 1737400m。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_28N307E_3mp\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_28N307E_3mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_28N307E_3mp\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "阿里斯塔克斯高原DEM山体阴影图(Aristarchus Plateau 1, Hillshade)",
+            "LayerID": "Moon_eq_Apollo15_PanCam_Shade_25N311E_5mp",
+            "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_25N311E_5mp\\Apollo15_PanCam_Shade_25N311E_5mp-120.png",
+            "BBOX": [
+                -49.771146,
+                23.4260907,
+                -48.0356413,
+                26.0942471
+            ],
+            "Abstract": "这是阿里斯塔克斯高原区域 1 的数字高程模型 （DEM） 的晕渲地貌。原始阿波罗15号全景图像的分辨率为1.5米/像素，使用软拷贝摄影测量系统允许输出5米/像素的DEM分辨率。它已注册到ULCN 2005控制网络。DEM水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。高程值以米为单位，半径为 1737400m。",
+            "Projection": "PROJCS['Equirectangular MOON',\n  GEOGCS['GCS_MOON',\n  DATUM['D_MOON',SPHEROID['MOON_localRadius',1737400,0]],\nPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\nPROJECTION['Equirectangular'],\nPARAMETER['latitude_of_origin',0],\nPARAMETER['central_meridian',0],\nPARAMETER['standard_parallel_1',25],\nPARAMETER['false_easting',0],\nPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]",
+            "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_25N311E_5mp\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_25N311E_5mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_25N311E_5mp\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "阿里斯塔克斯高原2 DEM山体阴影图(Aristarchus Plateau 2, Hillshade)",
+            "LayerID": "Moon_eq_Apollo15_PanCam_Shade_28N307E_3mp",
+            "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_28N307E_3mp\\Apollo15_PanCam_Shade_28N307E_3mp-120.png",
+            "BBOX": [
+                -53.1015073,
+                26.7635801,
+                -51.5924499,
+                29.0334672
+            ],
+            "Abstract": "这是阿里斯塔克斯高原区域 2 的数字高程模型 （DEM） 的晕渲地貌。原始阿波罗15号全景图像的分辨率为1.5米/像素，使用软拷贝摄影测量系统允许输出5米/像素的DEM分辨率。它已注册到ULCN 2005控制网络。DEM水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。高程值以米为单位，半径为 1737400m。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_28N307E_3mp\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_28N307E_3mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_28N307E_3mp\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "阿里斯塔克斯高原DEM坡度彩图(Aristarchus Plateau 1, Colorized Slope)",
             "LayerID": "Moon_eq_Apollo15_PanCam_Slope_25N311E_5mp",
             "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_25N311E_5mp\\Apollo15_PanCam_Slope_25N311E_5mp-120.png",
             "BBOX": [
@@ -71,6 +139,23 @@
             "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_25N311E_5mp\\index.html",
             "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_25N311E_5mp\\WMTSCapabilities.xml",
             "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_25N311E_5mp\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "阿里斯塔克斯高原2 DEM彩色坡度图(Aristarchus Plateau 2, Colorized Slope)",
+            "LayerID": "Moon_eq_Apollo15_PanCam_Slope_28N307E_3mp",
+            "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_28N307E_3mp\\Apollo15_PanCam_Slope_28N307E_3mp-120.png",
+            "BBOX": [
+                -53.1015073,
+                26.7635801,
+                -51.5924499,
+                29.0334672
+            ],
+            "Abstract": "这是阿里斯塔克斯高原区域 2 的数字高程模型 （DEM） 的彩色坡度图。原始阿波罗15号全景图像的分辨率为1.5米/像素，使用软拷贝摄影测量系统允许输出5米/像素的DEM分辨率。它已注册到ULCN 2005控制网络。DEM水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。高程值以米为单位，半径为 1737400m。",
+            "Projection": "urn:ogc:def:crs:EPSG::104903",
+            "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_28N307E_3mp\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_28N307E_3mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_28N307E_3mp\\metadata.html"
         },
         {
             "ProjectionType": "EQ",
@@ -482,6 +567,23 @@
         },
         {
             "ProjectionType": "SP",
+            "Title": "南极区域平均地球可见性(60m)",
+            "LayerID": "Moon_sp_AVGVISIB_85S_060M_201608_EARTH_SP",
+            "Icon": "{MoonImage}\\Moon_sp_AVGVISIB_85S_060M_201608_EARTH_SP\\AVGVISIB_85S_060M_201608_EARTH_SP-120.png",
+            "BBOX": [
+                -151740,
+                -151740,
+                151740,
+                151740
+            ],
+            "Abstract": "这个数据代表了月球南极地区的地球能见度，每小时的平均时间跨度为18.6年。由于我们的光源不是一个点，而是一个有限的圆盘，它的位置和大小可以改变，以研究从月球两极而不是太阳输入的地球可见度。这个数据的范围是85S-90S，分辨率为60米/像素。像素值代表地球能见度的百分比，图例说明了颜色与数值的映射关系。当使用这个数据时，请引用： Mazarico, E., et al. (2011), Illumination conditions of the lunar polar regions using LOLA topography, Icarus, Vol. 211, pp. 1066-1081, doi:10.1016/j.icarus.2010.10.030.",
+            "Projection": "urn:ogc:def:crs:IAU2000::30120",
+            "Preview": "{MoonImage}\\Moon_sp_AVGVISIB_85S_060M_201608_EARTH_SP\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_sp_AVGVISIB_85S_060M_201608_EARTH_SP\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_sp_AVGVISIB_85S_060M_201608_EARTH_SP\\metaData.html"
+        },
+        {
+            "ProjectionType": "SP",
             "Title": "南极水冰沉积物分布",
             "LayerID": "Moon_sp_ice_depth_new_240m.mat_today_27-Oct-2016",
             "Icon": "{MoonImage}\\Moon_sp_ice_depth_new_240m.mat_today_27-Oct-2016\\sp_ice_depth_new_240m.mat_today_27-Oct-2016-120.png",
@@ -564,6 +666,23 @@
             "Preview": "{MoonImage}\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\index.html",
             "WMTS_Capabilities": "{MoonImage}\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\WMTSCapabilities.xml",
             "MetaData": "{MoonImage}\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\MetaData.html"
+        },
+        {
+            "ProjectionType": "SP",
+            "Title": "南极地形彩色山体阴影图(LOLA数据,87.5°以上,10m)",
+            "LayerID": "Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp",
+            "Icon": "{MoonImage}\\Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp\\LRO_LOLA_ClrShade_SPolar875_10m-120.png",
+            "BBOX": [
+                -75840,
+                -75840,
+                75840,
+                75840
+            ],
+            "Abstract": "这是原始极地 LOLA 数字高程模型 （DEM） 的彩色晕渲地貌。DEM 是月球的形状图（半径），分辨率为每像素 10 米，基于 LOLA 仪器通过 Spetember 2011 获取的测高数据。使用通用制图工具程序“表面”对地面轨迹进行插值和“混合”。地图值的半径为 1737400 m。",
+            "Projection": "urn:ogc:def:crs:IAU2000::30120",
+            "Preview": "{MoonImage}\\Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp\\metaData.html"
         },
         {
             "ProjectionType": "SP",

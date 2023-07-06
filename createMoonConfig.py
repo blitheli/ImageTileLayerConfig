@@ -20,12 +20,17 @@ def read_config():
         if not root.startswith(".\\Moon"):
             continue
 
-        # 循环每个文件
-        for name in files:
-            if name == "config.json":
-                file_path = os.path.join(root, name)
-                with open(file_path, "r", encoding='utf-8') as config_file:
-                    config_data['Layers'].append(json.load(config_file))
+        try:
+            # 循环每个文件
+            for name in files:
+                if name == "config.json":
+                    file_path = os.path.join(root, name)
+                    with open(file_path, "r", encoding='utf-8') as config_file:
+                        config_data['Layers'].append(json.load(config_file))
+        except Exception as e:
+            print("root: ", root)
+            print("FileName: "+ name)
+            print("Error: ", e)
 
     return config_data
 

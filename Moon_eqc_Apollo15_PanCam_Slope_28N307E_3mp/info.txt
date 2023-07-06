@@ -1,0 +1,18 @@
+	
+Apollo 15 Pan Cam DEM, Aristarchus Plateau 2, Colorized Slope
+Layer ID : Apollo15_PanCam_Slope_28N307E_3mp
+bbox : -53.1015073,26.7635801,-51.5924499,29.0334672
+WMTS Endpoint : https://trek.nasa.gov/tiles/Moon/EQ/Apollo15_PanCam_Slope_28N307E_3mp
+Abstract : This is a slope-colorized shaded-relief of the digital elevation model (DEM) for the Aristarchus Plateau Area 2. Resolution of the original Apollo 15 Panametric images was 1.5m/pixel which allows an output DEM resolution of 5m/pixel using a softcopy photogrammetry system. It is register to ULCN 2005 control network. The DEM was registered horizontally and vertically to LRO's Lunar Orbiter Laser Altimeter (LOLA) data. Elevation values are in meters and referred to a radius of 1737400m.
+Projection :
+
+PROJCS["Equirectangular Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",28],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]

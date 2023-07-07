@@ -1,0 +1,9 @@
+	
+LROC NAC Uncontrolled Mosaic of Mare Unit in Schrodinger Crater
+Layer ID : SchrodingerCraterMareUnit_50cmV1.0.sp
+bbox : 284824.657,-406548.205,441119.804,-253435.698
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30120

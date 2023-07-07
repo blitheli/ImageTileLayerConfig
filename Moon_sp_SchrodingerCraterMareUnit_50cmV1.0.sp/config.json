@@ -1,0 +1,12 @@
+{
+  "ProjectionType": "SP",
+  "Title": "南极薛定谔盆地高分影像(Schrodinger Crater)",
+  "LayerID": "Moon_sp_SchrodingerCraterMareUnit_50cmV1.0.sp",
+  "Icon": "{MoonImage}\\Moon_sp_SchrodingerCraterMareUnit_50cmV1.0.sp\\SchrodingerCraterMareUnit_50cmV1.0.sp-120.png",
+  "BBOX": [284824.657,-406548.205,441119.804,-253435.698],
+  "Abstract": "这是使用来自月球勘测轨道飞行器任务的月球勘测轨道飞行器相机 (LROC) 窄角相机 (NAC) 图像生成的 50 厘米/像素的不受控制的可见图像马赛克。 每张 NAC 图像都水平注册到 LRO 的月球轨道器激光高度计 (LOLA) 全球 DEM，然后镶嵌在一起并进行色彩平衡。制作此马赛克的目的是扩大月球高分辨率图像马赛克的覆盖范围。 具体来说，薛定谔陨石坑是未来潜在登月任务最受关注的地点。",
+  "Projection": "urn:ogc:def:crs:IAU2000::30120",
+  "Preview": "{MoonImage}\\Moon_sp_SchrodingerCraterMareUnit_50cmV1.0.sp\\index.html",
+  "WMTS_Capabilities": "{MoonImage}\\Moon_sp_SchrodingerCraterMareUnit_50cmV1.0.sp\\WMTSCapabilities.xml",
+  "MetaData": "{MoonImage}\\Moon_sp_SchrodingerCraterMareUnit_50cmV1.0.sp\\metaData.html"
+}

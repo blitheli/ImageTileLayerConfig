@@ -1,0 +1,12 @@
+{
+  "ProjectionType": "EQ",
+  "Title": "齐奥尔科夫斯基陨石坑DEM彩色山体阴影图(Tsiolkovskiy Crater, ColorHillshade)",
+  "LayerID": "Moon_eq_Apollo15_PanCam_ClrShade_19S129E_5mp",
+  "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_19S129E_5mp\\Apollo15_PanCam_ClrShade_19S129E_5mp-120.png",
+  "BBOX": [127.3918913, -21.0529025, 129.7577254, -18.2873921],
+  "Abstract": "这是齐奥尔科夫斯基陨石坑数字高程模型 （DEM） 的彩色晕渲地貌。原始阿波罗15号全景图像的分辨率为1.5米/像素，使用软拷贝摄影测量系统允许输出5米/像素的DEM分辨率。它已注册到ULCN 2005控制网络。DEM水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。高程值以米为单位，半径为 1737400m。",
+  "Projection": "127.3918913,-21.0529025,129.7577254,-18.2873921",
+  "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_19S129E_5mp\\index.html",
+  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_19S129E_5mp\\WMTSCapabilities.xml",
+  "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_19S129E_5mp\\metadata.html"
+}

@@ -1,0 +1,8 @@
+LRO Narrow Angle Camera, Mosaic Hermite A
+Layer ID : NAC_POLE_HermiteA_merged.obliqstere
+bbox : -75300.764,-59962.677,-26134.019,-8863.61
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118

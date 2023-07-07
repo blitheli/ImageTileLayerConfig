@@ -2,7 +2,7 @@
     "Description": "本文件存储了瓦片服务器发布的相关图层信息",
     "version": "1.0.0",
     "Author": "liyunfei",
-    "CreateTime": "2023-07-06 10:15:14",
+    "CreateTime": "2023-07-07 09:06:53",
     "Layers": [
         {
             "ProjectionType": "EQ",
@@ -57,6 +57,23 @@
         },
         {
             "ProjectionType": "EQ",
+            "Title": "齐奥尔科夫斯基陨石坑DEM彩色山体阴影图(Tsiolkovskiy Crater, ColorHillshade)",
+            "LayerID": "Moon_eq_Apollo15_PanCam_ClrShade_19S129E_5mp",
+            "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_19S129E_5mp\\Apollo15_PanCam_ClrShade_19S129E_5mp-120.png",
+            "BBOX": [
+                127.3918913,
+                -21.0529025,
+                129.7577254,
+                -18.2873921
+            ],
+            "Abstract": "这是齐奥尔科夫斯基陨石坑数字高程模型 （DEM） 的彩色晕渲地貌。原始阿波罗15号全景图像的分辨率为1.5米/像素，使用软拷贝摄影测量系统允许输出5米/像素的DEM分辨率。它已注册到ULCN 2005控制网络。DEM水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。高程值以米为单位，半径为 1737400m。",
+            "Projection": "127.3918913,-21.0529025,129.7577254,-18.2873921",
+            "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_19S129E_5mp\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_19S129E_5mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_19S129E_5mp\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
             "Title": "阿里斯塔克斯高原DEM彩色山体阴影图(Aristarchus Plateau 1, ColorHillshade)",
             "LayerID": "Moon_eq_Apollo15_PanCam_ClrShade_25N311E_5mp",
             "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrShade_25N311E_5mp\\Apollo15_PanCam_ClrShade_25N311E_5mp-120.png",
@@ -91,6 +108,23 @@
         },
         {
             "ProjectionType": "EQ",
+            "Title": "齐奥尔科夫斯基陨石坑DEM山体阴影图(Tsiolkovskiy Crater, Hillshade)",
+            "LayerID": "Moon_eq_Apollo15_PanCam_Shade_19S129E_5mp",
+            "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_19S129E_5mp\\Apollo15_PanCam_Shade_19S129E_5mp-120.png",
+            "BBOX": [
+                127.3918913,
+                -21.0529025,
+                129.7577254,
+                -18.2873921
+            ],
+            "Abstract": "这是齐奥尔科夫斯基陨石坑数字高程模型 （DEM） 的晕渲地貌。原始阿波罗15号全景图像的分辨率为1.5米/像素，使用软拷贝摄影测量系统允许输出5米/像素的DEM分辨率。它已注册到ULCN 2005控制网络。DEM水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。高程值以米为单位，半径为 1737400m。",
+            "Projection": "127.3918913,-21.0529025,129.7577254,-18.2873921",
+            "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_19S129E_5mp\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_19S129E_5mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_19S129E_5mp\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
             "Title": "阿里斯塔克斯高原DEM山体阴影图(Aristarchus Plateau 1, Hillshade)",
             "LayerID": "Moon_eq_Apollo15_PanCam_Shade_25N311E_5mp",
             "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_25N311E_5mp\\Apollo15_PanCam_Shade_25N311E_5mp-120.png",
@@ -122,6 +156,23 @@
             "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_28N307E_3mp\\index.html",
             "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_28N307E_3mp\\WMTSCapabilities.xml",
             "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_28N307E_3mp\\metadata.html"
+        },
+        {
+            "ProjectionType": "EQ",
+            "Title": "齐奥尔科夫斯基陨石坑DEM彩色坡度图(Tsiolkovskiy Crater, Colorized Slope)",
+            "LayerID": "Moon_eq_Apollo15_PanCam_Slope_19S129E_5mp",
+            "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_19S129E_5mp\\Apollo15_PanCam_Slope_19S129E_5mp-120.png",
+            "BBOX": [
+                127.3918913,
+                -21.0529025,
+                129.7577254,
+                -18.2873921
+            ],
+            "Abstract": "这是齐奥尔科夫斯基陨石坑数字高程模型 （DEM） 的彩色坡度图。原始阿波罗15号全景图像的分辨率为1.5米/像素，使用软拷贝摄影测量系统允许输出5米/像素的DEM分辨率。它已注册到ULCN 2005控制网络。DEM水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。高程值以米为单位，半径为 1737400m。",
+            "Projection": "127.3918913,-21.0529025,129.7577254,-18.2873921",
+            "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_19S129E_5mp\\index.html",
+            "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_19S129E_5mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_19S129E_5mp\\metadata.html"
         },
         {
             "ProjectionType": "EQ",
@@ -669,16 +720,16 @@
         },
         {
             "ProjectionType": "SP",
-            "Title": "南极地形彩色山体阴影图(LOLA数据,87.5°以上,10m)",
+            "Title": "南极马拉波特高分影像(Malapert Massif)",
             "LayerID": "Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp",
             "Icon": "{MoonImage}\\Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp\\LRO_LOLA_ClrShade_SPolar875_10m-120.png",
             "BBOX": [
-                -75840,
-                -75840,
-                75840,
-                75840
+                -33245,
+                104242,
+                15004.5,
+                147083
             ],
-            "Abstract": "这是原始极地 LOLA 数字高程模型 （DEM） 的彩色晕渲地貌。DEM 是月球的形状图（半径），分辨率为每像素 10 米，基于 LOLA 仪器通过 Spetember 2011 获取的测高数据。使用通用制图工具程序“表面”对地面轨迹进行插值和“混合”。地图值的半径为 1737400 m。",
+            "Abstract": "这是用月球勘测轨道器相机（LROC）的窄角相机（NAC）图像生成的可见光图像马赛克，来自月球勘测轨道器任务。这些图像使用从LROC NAC立体图像（如果有的话）或LRO&apos;的月球轨道器激光高度计（LOLA）全球DEM创建的数字高程模型（DEM）进行正交。马赛克是在与收集单个LROC NAC图像相同的分辨率下生成的，即大约0.5米/像素。马赛克被水平地登记到LOLA全球DEM上。",
             "Projection": "urn:ogc:def:crs:IAU2000::30120",
             "Preview": "{MoonImage}\\Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp\\index.html",
             "WMTS_Capabilities": "{MoonImage}\\Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp\\WMTSCapabilities.xml",

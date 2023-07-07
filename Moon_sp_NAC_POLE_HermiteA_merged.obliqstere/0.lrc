@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_sp_NAC_POLE_HermiteA_merged.obliqstere</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>512</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>D:/Tiles/moonsp/NAC_POLE_HermiteA_merged.obliqstere/%d/%d/%d.png</NetPath>
+    <FileExt>png</FileExt>
+    <Range>
+        <West>-10</West>
+        <East>10</East>
+        <South>-10</South>
+        <North>10</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>14</LevelEnd>
+    </Range>
+</DataDefine>

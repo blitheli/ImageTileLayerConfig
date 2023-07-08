@@ -1,0 +1,12 @@
+{
+  "ProjectionType": "EQ",
+  "Title": "阿里斯塔克斯高原区域 2 高分影像(Aristarchus Plateau 2)",
+  "LayerID": "Moon_eq_Apollo15_PanCam_Mosaic_28N307E_1mp",
+  "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_28N307E_1mp\\Apollo15_PanCam_Mosaic_28N307E_1mp-120.png",
+  "BBOX": [-49.7701454, 23.4369668, -48.0361408, 26.0939503],
+  "Abstract": "这是阿里斯塔克斯高原区域 1 的可见影像马赛克。原始阿波罗15号全景图像的分辨率为1.5米/像素。它已注册到ULCN 2005控制网络。然后将马赛克水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。",
+  "Projection": "urn:ogc:def:crs:EPSG::104903",
+  "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_28N307E_1mp\\index.html",
+  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_28N307E_1mp\\WMTSCapabilities.xml",
+  "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_28N307E_1mp\\metadata.html"
+}

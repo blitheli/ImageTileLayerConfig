@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_eqc_Apollo15_PanCam_Mosaic_19S129E_2mp</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>https://trek.nasa.gov/tiles/Moon/EQ/Apollo15_PanCam_Mosaic_19S129E_2mp/1.0.0/WMTSCapabilities.xml</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>-53.1042338</West>
+        <East>-51.5360786</East>
+        <South>26.6831152</South>
+        <North>29.0967847</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>10</LevelEnd>
+    </Range>
+</DataDefine>

@@ -1,0 +1,12 @@
+{
+  "ProjectionType": "EQ",
+  "Title": "齐奥尔科夫斯基陨石坑高分影像(Tsiolkovskiy Crater)",
+  "LayerID": "Moon_eq_Apollo15_PanCam_Mosaic_19S129E_2mp",
+  "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_19S129E_2mp\\Apollo15_PanCam_Mosaic_19S129E_2mp-120.png",
+  "BBOX": [-49.7701454, 23.4369668, -48.0361408, 26.0939503],
+  "Abstract": "这是齐奥尔科夫斯基陨石坑的可见图像马赛克。原始阿波罗15号全景图像的分辨率为1.5米/像素。它已注册到ULCN 2005控制网络。然后将马赛克水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。",
+  "Projection": "PROJCS['Equirectangular MOON',\n  GEOGCS['GCS_MOON',\n  DATUM['D_MOON',SPHEROID['MOON_localRadius',1737400,0]],\nPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\nPROJECTION['Equirectangular'],\nPARAMETER['latitude_of_origin',0],\nPARAMETER['central_meridian',0],\nPARAMETER['standard_parallel_1',-19],\nPARAMETER['false_easting',0],\nPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]",
+  "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_19S129E_2mp\\index.html",
+  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_19S129E_2mp\\WMTSCapabilities.xml",
+  "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_19S129E_2mp\\metadata.html"
+}

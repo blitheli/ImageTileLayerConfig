@@ -1,0 +1,9 @@
+Apollo 15 Pan Cam Image Mosaic, Aristarchus Plateau 2
+Layer ID : Apollo15_PanCam_Mosaic_28N307E_1mp
+bbox : -53.1042338,26.6831152,-51.5360786,29.0967847
+WMTS Endpoint : https://trek.nasa.gov/tiles/Moon/EQ/Apollo15_PanCam_Mosaic_28N307E_1mp
+Abstract : This is a visible image mosaic for the Aristarchus Plateau Area 2. Resolution of the original Apollo 15 Panametric images was 1.5m/pixel. It is register to ULCN 2005 control network. The Mosaic was then registered horizontally and vertically to LRO's Lunar Orbiter Laser Altimeter (LOLA) data.
+这是阿里斯塔克斯高原地区 2 的可见影像马赛克。原始阿波罗15号全景图像的分辨率为1.5米/像素。它已注册到ULCN 2005控制网络。然后将马赛克水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。
+Projection :
+
+urn:ogc:def:crs:EPSG::104903

@@ -1,0 +1,18 @@
+LRO DLRE Surface Temp Max S Pole, Color
+Layer ID : LRO_Diviner_Temp_Max_Clr_SPole80_135mp
+bbox : -304000,-304000,304000,304000
+WMTS Endpoint : 
+Abstract : Diviner will characterize temperature variations as a function of latitude, longitude, time of day and season. Diviner will have the capability to make accurate radiometric measurements for the warmest and coldest surfaces on the planet, as well as simultaneous measurements of broadband solar reflectance. The Diviner dataset should be sufficiently complete to allow confident prediction of lunar surface temperatures in daytime, nighttime and polar thermal environments.
+Diviner将描述温度变化与纬度、经度、时间和季节的关系。Diviner号将有能力对地球上最热和最冷的表面进行精确的辐射测量，并同时测量宽带太阳反射率。卜算子数据集应该足够完整，可以有把握地预测白天、夜间和极地热环境下的月球表面温度。
+Projection :
+
+PROJCS["Moon2000_sp",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",-90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]

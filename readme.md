@@ -31,7 +31,12 @@
 - 下载网址格式https://trek.nasa.gov/moon/TrekWS/rest/cat/data/stream?label=[layerID]
 - 其中[layerID]为moonterk中的layer_ID
 
+## 自动创建文件夹并下载图层信息数据
+- 将图层信息复制到info.txt文件中，可参考其中内容
+- 运行createLayerInfo_XXX_xx.py，自动创建文件夹并下载图层信息数据，包括png图片、config.json、wmts文件、metadata文件、info.txt
+- 需要运行对应星球以及对应赤道或南北极的py文件，或编辑py文件中的星球和南北极赤道类型
 
 20230614    初次编写
 20230621    增加了自动生成配置文件的功能
 20230703    增加了月球北极和南极的图层
+20230710    增加了图层信息自动生成功能

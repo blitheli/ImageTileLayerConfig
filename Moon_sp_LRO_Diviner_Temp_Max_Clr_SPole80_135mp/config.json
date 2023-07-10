@@ -1,0 +1,12 @@
+{
+  "ProjectionType": "SP",
+  "Title": "南极80°温度最大范围云图（LRO DLRE Surface Temp Max S Pole, Color）",
+  "LayerID": "Moon_sp_LRO_Diviner_Temp_Max_Clr_SPole80_135mp",
+  "Icon": "{MoonImage}\\Moon_sp_LRO_Diviner_Temp_Max_Clr_SPole80_135mp\\LRO_NAC_Mosaic_86S356E_50cmp-120.png",
+  "BBOX": [-304000,-304000,304000,304000],
+  "Abstract": "Diviner将描述温度变化与纬度、经度、时间和季节的关系。Diviner号将有能力对地球上最热和最冷的表面进行精确的辐射测量，并同时测量宽带太阳反射率。卜算子数据集应该足够完整，可以有把握地预测白天、夜间和极地热环境下的月球表面温度。",
+  "Projection": "urn:ogc:def:crs:IAU2000::30120",
+  "Preview": "{MoonImage}\\Moon_sp_LRO_Diviner_Temp_Max_Clr_SPole80_135mp\\index.html",
+  "WMTS_Capabilities": "{MoonImage}\\Moon_sp_LRO_Diviner_Temp_Max_Clr_SPole80_135mp\\WMTSCapabilities.xml",
+  "MetaData": "{MoonImage}\\Moon_sp_LRO_Diviner_Temp_Max_Clr_SPole80_135mp\\metaData.html"
+}

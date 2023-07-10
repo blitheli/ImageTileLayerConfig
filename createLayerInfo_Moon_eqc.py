@@ -5,13 +5,13 @@ import json
 import requests
 from googletrans import Translator
 
+os.environ["http_proxy"] = "http://127.0.0.1:10809"
+os.environ["https_proxy"] = "http://127.0.0.1:10809"
 
 #运行前注意填写行星和图层类型
 
 planet = 'Moon'  #月球为Moon，火星为Mars
 service = 'EQ'  #赤道为EQ，北极为NP，南极为SP
-
-
 
 # 读取文本文件内容
 info_path = 'info.txt'  # 指定文本文件的路径
@@ -24,8 +24,8 @@ def translate_text(text):
     if not text:
         return ''  # 如果文本为空，返回空字符串
     translator = Translator(service_urls=['translate.google.com'])
-    translation = translator.translate(text, src='auto', dest='zh-CN')
-    return translation.text
+    #translation = translator.translate(text, src='auto', dest='zh-CN')
+    return "text" #translation.text
 
 def extract_info(string):
     lines = string.split('\n')  # 将字符串按行分割成列表
@@ -95,7 +95,7 @@ def generate_config_file(title, layer_id, bbox, projection, icon, abstract, prev
 
     
     config = {
-        "ProjectionType": "SP",
+        "ProjectionType": "EQ",
         "Title": title,
         "LayerID": layer_id,
         "Icon": icon,

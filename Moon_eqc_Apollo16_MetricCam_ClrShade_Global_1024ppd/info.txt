@@ -1,0 +1,10 @@
+Apollo 16 Metric Cam DEM, ColorHillshade
+Layer ID:Moon_eqc_Apollo16_MetricCam_ClrShade_Global_1024ppd
+bbox:[-179.9995117, -13.9995117, 179.9995117, 18.0004883]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/Apollo16_MetricCam_ClrShade_Global_1024ppd
+Abstract : The Apollo 16 DEM color-shade is generated using the colormap and hillshade functions in Vision Workbench for the DEM files. The min and max values of the colormap (legend.png) correspond to the range [-8499, 10208] meters relative to the avearge moon radius 1737.4km. The DEM color-shade values are stored as 8-bit signed integer at 14.8m/pixel resolution. These DEM color-shade files were generated using the Vision Workbench library: a software tool produced by the NASA Ames Intelligent Robotics Group (IRG) for automated processing of stereo imagery.
+Apollo 16 DEM颜色阴影是使用Vision Workbench中DEM文件的colormap和hillshade函数生成的。颜色图（legend.png）的最小值和最大值对应于相对于平均月球半径1737.4km的[-849910208]米范围。DEM颜色阴影值存储为14.8m/像素分辨率的8位带符号整数。这些DEM颜色阴影文件是使用Vision Workbench库生成的：这是一个由NASA Ames智能机器人集团（IRG）生产的用于立体图像自动处理的软件工具。
+Projection:
+GEOGCS["Geographic Coordinate System",
+	DATUM["D_MOON",SPHEROID["MOON",1737400,"inf"]],
+	PRIMEM["Reference Meridian",0],UNIT["degree",0.0174532925199433]]

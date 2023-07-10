@@ -1,0 +1,10 @@
+Apollo 16 Metric Cam Image Mosaic
+Layer ID:Moon_eqc_Apollo16_MetricCam_Mosaic_Global_4096ppd
+bbox:[-48.0001221, -13.9998779, 179.9998779, 14.0001221]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/Apollo16_MetricCam_Mosaic_Global_4096ppd
+Abstract : The Apollo 16 digital image mosaic is stored as 8-bit signed integer at 7.4m/pixel (4096ppd) resolution. The invalid pixels are marked with 0 value. Value 255 is left unused. The mosaicking process includes an upsampling post processing step. The mosaic is generated using the Ames Stereo Pipeline: a software tool produced by the NASA Ames Intelligent Robotics Group (IRG) for automated processing of stereo imagery.
+阿波罗16号数字图像马赛克以7.4m/像素（4096ppd）分辨率存储为8位带符号整数。无效像素标记为0值。值255未使用。镶嵌过程包括上采样后处理步骤。马赛克是使用艾姆斯立体管道生成的：这是一种由美国国家航空航天局艾姆斯智能机器人集团（IRG）生产的用于立体图像自动处理的软件工具。
+Projection:
+GEOGCS["Geographic Coordinate System",
+	DATUM["D_MOON",SPHEROID["MOON",1737400,"inf"]],
+	PRIMEM["Reference Meridian",0],UNIT["degree",0.0174532925199433]]

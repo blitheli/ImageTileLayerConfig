@@ -1,8 +1,10 @@
-MRO CTX, Curiosity Roving Site Mosaic
-Layer ID : curiosity_ctx_mosaic
-bbox : 136.2768326,-7.2137273,139.3864225,-3.5804738
-WMTS Endpoint : https://trek.nasa.gov/tiles/Mars/EQ/curiosity_ctx_mosaic
-Abstract : This data was acquired using the Context Camera aboard NASA's Mars Reconnaissance Orbiter spacecraft (MRO). MRO was launched on August 12, 2005 and arrived at Mars on March 10, 2006. It maintains a nearly circular orbit, completing an orbital revolution about every 112 minutes at an altitude of approximately 250 to 316 km or 155 to 196 miles. MRO carries a sophisticated suite of instruments used to analyze and map the landforms, stratigraphy, minerals, and ice of Mars. The Context Camera (CTX) provides black-and-white images with resolutions up to 6 meters/pixel. It provides broader context maps for the higher resolution but narrower fields of view of the HiRISE camera, as well as for other instruments aboard MRO, and is useful for producing mosaicked images of larger areas on Mars' surface.
+Apollo 16 Metric Cam Image Mosaic
+Layer ID : Apollo16_MetricCam_Mosaic_Global_4096ppd
+bbox : -48.0001221,-13.9998779,179.9998779,14.0001221
+WMTS Endpoint : https://trek.nasa.gov/tiles/Moon/EQ/Apollo16_MetricCam_Mosaic_Global_4096ppd
+Abstract : The Apollo 16 digital image mosaic is stored as 8-bit signed integer at 7.4m/pixel (4096ppd) resolution. The invalid pixels are marked with 0 value. Value 255 is left unused. The mosaicking process includes an upsampling post processing step. The mosaic is generated using the Ames Stereo Pipeline: a software tool produced by the NASA Ames Intelligent Robotics Group (IRG) for automated processing of stereo imagery.
 Projection :
 
-urn:ogc:def:crs:EPSG::104905
+GEOGCS["Geographic Coordinate System",
+	DATUM["D_MOON",SPHEROID["MOON",1737400,"inf"]],
+	PRIMEM["Reference Meridian",0],UNIT["degree",0.0174532925199433]]

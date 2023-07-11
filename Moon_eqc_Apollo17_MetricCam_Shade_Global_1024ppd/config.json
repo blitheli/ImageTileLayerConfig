@@ -1,0 +1,12 @@
+{
+  "ProjectionType": "EQ",
+  "Title": "Apollo 17 DEM 山体阴影图(Hillshade)",
+  "LayerID": "Moon_eqc_Apollo17_MetricCam_Shade_Global_1024ppd",
+  "Icon": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_Shade_Global_1024ppd\\Apollo17_MetricCam_Shade_Global_1024ppd-120.png",
+  "BBOX": [-179.9995117, -29.9995117, 179.9995117, 34.0004883],
+  "Abstract": "阿波罗 17 号DEM 山体阴影是使用视觉工作台包中的山体阴影功能生成的。DEM 山体阴影值以 30m/像素分辨率存储为 8 位有符号整数。这些DEM山体阴影文件是使用视觉工作台库生成的：由NASA艾姆斯智能机器人小组（IRG）制作的软件工具，用于立体图像的自动处理。",
+  "Projection": "GEOGCS['Geographic Coordinate System',\n  DATUM['D_MOON',SPHEROID['MOON',1737400,0]],\n  PRIMEM['Reference Meridian',0],UNIT['degree',0.0174532925199433]]",
+  "Preview": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_Shade_Global_1024ppd\\index.html",
+  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_Shade_Global_1024ppd\\WMTSCapabilities.xml",
+  "MetaData": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_Shade_Global_1024ppd\\MetaData.html"
+}

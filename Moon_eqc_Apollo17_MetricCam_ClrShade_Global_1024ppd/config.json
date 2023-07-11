@@ -1,0 +1,12 @@
+{
+  "ProjectionType": "EQ",
+  "Title": "Apollo 17 DEM 彩色山体阴影图(ColorHillshade)",
+  "LayerID": "Moon_eqc_Apollo17_MetricCam_ClrShade_Global_1024ppd",
+  "Icon": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_ClrShade_Global_1024ppd\\Apollo17_MetricCam_ClrShade_Global_1024ppd-120.png",
+  "BBOX": [-179.9995117, -29.9995117, 179.9995117, 34.0004883],
+  "Abstract": "阿波罗 17 号DEM 色调是使用 DEM 文件的视觉工作台中的色彩图和山体阴影函数生成的。颜色图的最小值和最大值对应于相对于平均月球半径 1737.4km 的范围 [-8499， 10208]（以米为单位）。DEM 色调值存储为 8 位有符号整数，分辨率为 30m/像素。这些DEM色调文件是使用视觉工作台库生成的：由NASA艾姆斯智能机器人集团（IRG）生产的用于立体图像的自动处理的软件工具。",
+  "Projection": "urn:ogc:def:crs:EPSG::104903",
+  "Preview": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_ClrShade_Global_1024ppd\\index.html",
+  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_ClrShade_Global_1024ppd\\WMTSCapabilities.xml",
+  "MetaData": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_ClrShade_Global_1024ppd\\MetaData.html"
+}

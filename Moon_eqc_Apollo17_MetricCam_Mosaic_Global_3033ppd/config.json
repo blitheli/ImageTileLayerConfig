@@ -1,0 +1,12 @@
+{
+  "ProjectionType": "EQ",
+  "Title": "Apollo 17 影像图",
+  "LayerID": "Moon_eqc_Apollo17_MetricCam_Mosaic_Global_3033ppd",
+  "Icon": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_Mosaic_Global_3033ppd\\Apollo17_MetricCam_Mosaic_Global_3033ppd-120.png",
+  "BBOX": [-180.0, -31.0002943, 180.0, 32.0],
+  "Abstract": "阿波罗 17 号影像镶嵌以 8 位有符号整数存储为 3033.3 ppd 分辨率。无效像素标记为 0 值。值 255 未使用。镶嵌过程包括上采样后处理步骤。马赛克是使用艾姆斯立体管道生成的：这是由美国宇航局艾姆斯智能机器人小组（IRG）制作的软件工具，用于自动处理立体图像。",
+  "Projection": "GEOGCS['Geographic Coordinate System',\n  DATUM['D_MOON',SPHEROID['MOON',1737400,0]],\n  PRIMEM['Reference Meridian',0],UNIT['degree',0.0174532925199433]]",
+  "Preview": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_Mosaic_Global_3033ppd\\index.html",
+  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_Mosaic_Global_3033ppd\\WMTSCapabilities.xml",
+  "MetaData": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_Mosaic_Global_3033ppd\\MetaData.html"
+}

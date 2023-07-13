@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-#   读取当前目录下info.txt文件中的图层信息，生成相应图层文件夹及相关文件
-#   运行前注意填写星球及图层类型
-#   当前仅支持相同星球和图层类型的info信息，支持多个信息同时读取并生成
-#   2023-07-13  苏秀中
 
 import os
 import json
@@ -127,7 +123,7 @@ def extract_info(string):
 def generate_config_file(service, title, layer_id, bbox, projection, icon, abstract, preview, wmts_capabilities, metadata, folder_path):
 
     #projection_single_line = re.sub(r'[\n\t\s]', '', projection)
-    projection_single_line = re.sub(r'"', '\'', projection)
+    projection_single_line = re.sub(r'"', '\'', projection[1:])  #去掉开头的换行符
 
     config = {
         "ProjectionType": service,
@@ -212,7 +208,7 @@ def write_to_info():
 def extract_abstract():
        
     # 打开HTML文件
-    with open('metadata.html', 'r', encoding='utf-8') as file:
+    with open(folder_path + '/' + 'metadata.html', 'r', encoding='utf-8') as file:
         html = file.read()
 
     # 创建BeautifulSoup对象
@@ -260,9 +256,7 @@ def write_lrc():
     with open('0.lrc', 'r', encoding='utf-8') as file:
         lrc_0 = file.read()
     replaced_xml = lrc_0.replace("{layer_name}", layer_id)
-    replaced_xml = replaced_xml.replace("{planet}", planet)
-    replaced_xml = replaced_xml.replace("{service}", service)
-    replaced_xml = replaced_xml.replace("{pic_name}", pic_name)
+    replaced_xml = replaced_xml.replace("{wmts_url}", wmts_url)
     replaced_xml = replaced_xml.replace("{bbox_west}", bbox_west)
     replaced_xml = replaced_xml.replace("{bbox_east}", bbox_east)
     replaced_xml = replaced_xml.replace("{bbox_south}", bbox_south)
@@ -276,7 +270,28 @@ def write_lrc():
     print(f"lrc已保存到：{lrc_path}")
 
 #生成0_TileType文件, 当前图层序号默认为1000000000
-tile_idx = 1000000000
+if planet == 'Moon':
+    if service == 'EQ':
+        tile_idx = 1000000000
+    elif service == 'SP':
+        tile_idx = 1000010000
+    elif service == 'NP':
+        tile_idx = 1000020000
+elif planet == 'Mars':
+    if service == 'EQ':
+        tile_idx = 1300000000
+    elif service == 'SP':
+        tile_idx = 1300010000
+    elif service == 'NP':
+        tile_idx = 1300020000
+elif planet == 'Earth':
+    if service == 'EQ':
+        tile_idx = 2000000000
+    elif service == 'SP':
+        tile_idx = 2000010000
+    elif service == 'NP':
+        tile_idx = 2000020000
+
 def write_tile(tile_idx):
     tile_idx = str(tile_idx)
     save_file_path = folder_path + '/' + '0_TileType.txt'

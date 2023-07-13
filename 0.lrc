@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>{layer_name}</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>{wmts_url}</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>{bbox_west}</West>
+        <East>{bbox_east}</East>
+        <South>{bbox_south}</South>
+        <North>{bbox_north}</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>{level_end}</LevelEnd>
+    </Range>
+</DataDefine>

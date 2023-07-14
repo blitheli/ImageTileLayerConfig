@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "Clementine UVVIS Image Mosaic",
+    "Title": "克莱门汀全月影像(Clementine UVVIS Image Mosaic)",
     "LayerID": "Moon_eqc_Clem_UVVIS_Mosaic_Global_256ppd_v02",
     "Icon": "{MoonImage}\\Moon_eqc_Clem_UVVIS_Mosaic_Global_256ppd_v02\\Clem_UVVIS_Mosaic_Global_256ppd_v02-120.png",
     "BBOX": [

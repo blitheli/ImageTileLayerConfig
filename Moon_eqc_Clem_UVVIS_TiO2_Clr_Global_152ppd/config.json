@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "Clementine UVVIS TiO2 Weight Percent",
+    "Title": "克莱门汀二氧化钛丰度图(Clementine UVVIS TiO2 Weight Percent)",
     "LayerID": "Moon_eqc_Clem_UVVIS_TiO2_Clr_Global_152ppd",
     "Icon": "{MoonImage}\\Moon_eqc_Clem_UVVIS_TiO2_Clr_Global_152ppd\\Clem_UVVIS_TiO2_Clr_Global_152ppd-120.png",
     "BBOX": [

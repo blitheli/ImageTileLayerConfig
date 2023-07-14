@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "Clementine UVVIS Optical Maturity",
+    "Title": "克莱门汀矿物丰度图(Clementine UVVIS Optical Maturity)",
     "LayerID": "Moon_eqc_Clem_UVVIS_OpticalMaturity_Gray_Global_152ppd",
     "Icon": "{MoonImage}\\Moon_eqc_Clem_UVVIS_OpticalMaturity_Gray_Global_152ppd\\Clem_UVVIS_OpticalMaturity_Gray_Global_152ppd-120.png",
     "BBOX": [

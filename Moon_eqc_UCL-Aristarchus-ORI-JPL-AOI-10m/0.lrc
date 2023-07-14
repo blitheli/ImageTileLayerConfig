@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_eqc_UCL-Aristarchus-ORI-JPL-AOI-10m</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>https://trek.nasa.gov/tiles/Moon/EQ/UCL-Aristarchus-ORI-JPL-AOI-10m/1.0.0/WMTSCapabilities.xml</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>-48.034946</West>
+        <East>-46.5789723</East>
+        <South>23.0593252</South>
+        <North>24.4453858</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>12</LevelEnd>
+    </Range>
+</DataDefine>

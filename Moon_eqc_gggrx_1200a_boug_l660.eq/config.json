@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "GRAIL LGRS, Bouguer Disturbances L660",
+    "LayerID": "Moon_eqc_gggrx_1200a_boug_l660.eq",
+    "Icon": "{MoonImage}\\Moon_eqc_gggrx_1200a_boug_l660.eq\\gggrx_1200a_boug_l660.eq-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "该数据产品是月球重力场布格扰动（mGal）的地图，分辨率为16 pix/deg乘以16 pix/deg。它是基于美国国家航空航天局GSFC制作的名为GRGM1200A的月球GRAIL重力场。GRGM1200A是一个1200次球谐模型，它包含了GRAIL跟踪数据的整个任务。LOLA地形以主轴坐标系表示，用于消除月球起伏的影响（假设恒定密度为2500 kg/m3）。布格扰动在空间域中被扩展到660度和660阶。描述该模型的一些细节是：球面谐波系数是完全归一化的（大地测量4pi归一化）。对不确定度进行校准（形式上的不确定度乘以1.635的因子）。参考半径=1738.0公里。引力参数为GM=4902.80011526323公里**3/s**2。使用的行星星历表为de430，定义了月球",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_gggrx_1200a_boug_l660.eq\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_gggrx_1200a_boug_l660.eq\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_gggrx_1200a_boug_l660.eq\\MetaData.html"
+}

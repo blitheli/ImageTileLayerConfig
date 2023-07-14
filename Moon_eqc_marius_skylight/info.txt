@@ -1,0 +1,9 @@
+LRO Narrow Angle Camera, Mosaic Marius
+Layer ID:Moon_eqc_marius_skylight
+bbox:[-56.8266088, 13.4489606, -56.6650325, 14.3966658]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/marius_skylight
+Abstract :The Marius Hills represents one of the most prominent collection of volcanic domes on the Moon. The area was a candidate landing site for the Apollo program and was also designated as a Constellation Region of Interest. It remains a site under consideration for possible future missions. In addition to volcanic domes, the area features basaltic flows, sinuous rilles, and one prominent lunar pit. The Marius Hills pit measures 58 x 49 m in diameter and 40 m deep. It was first noticed in an image taken with the Kaguya Terrain Camera on May 20, 2008, by a team led by Junichi Haruyama . The fact that the Marius Hills pit is located on the floor of a sinuous rille has encouraged speculation the pit could be a skylight resulting from the collapse of the roof of a lava tube. Whether this is actually the case, and if so, the accessibility and extent of the lava tube have yet to be determined. However, such lava tubes are of great interest as potential locations for lunar bases, offering protection from extreme swings in temperature, galactic and solar radiation, and meteoroid impacts. This data layer was obtained using the Narrow Angle Camera aboard the Lunar Reconnaissance Orbiter and is a is a mosaic of 2 NAC strips centered on the Marius Hills pit.
+马里乌斯山是月球上最著名的火山圆顶之一。该地区是阿波罗计划的候选着陆点，也被指定为感兴趣的星座区。它仍然是未来可能的特派团正在考虑的地点。除了火山圆顶外，该地区还拥有玄武岩流、蜿蜒的细沟和一个突出的月坑。马里乌斯山矿坑直径58 x 49米，深40米。2008年5月20日，由Haruyama Junichi领导的团队用Kaguya地形相机拍摄的一张照片首次注意到了这一点。马里乌斯山的坑位于一条蜿蜒的细沟的底部，这一事实引发了人们的猜测，即该坑可能是熔岩管顶部坍塌造成的天窗。事实是否如此，如果是这样，熔岩管的可达性和范围还有待确定。然而，这种熔岩管作为月球基地的潜在位置非常令人感兴趣，为月球提供了保护
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

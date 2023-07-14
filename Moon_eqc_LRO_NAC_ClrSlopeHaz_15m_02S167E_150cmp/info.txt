@@ -1,0 +1,9 @@
+LRO LROC DEM, Stratton (Dewar) High Fe Anomaly, 15m Color Slope Hazard
+Layer ID:Moon_eqc_LRO_NAC_ClrSlopeHaz_15m_02S167E_150cmp
+bbox:[166.5794433, -2.9191836, 166.9709973, -1.7502106]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_ClrSlopeHaz_15m_02S167E_150cmp
+Abstract :This is a thematic color slope hazard map derived from the local slope map LRO_NAC_Slope_15m_02S167E_150cmp.tif of the Stratton (Dewar) site. Slope hazard classification color ranges are arbitrary but representative of recent lander and rover designs, where the slope scale is equivalent to the vehicle diameter of 15m.
+这是一张专题彩色斜坡危险图，来源于斯特拉顿（杜瓦）现场的当地斜坡图LRO_NAC_slope_15m_02S167E_150cmp.tif。斜坡危险分类颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中斜坡比例相当于15米的车辆直径。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

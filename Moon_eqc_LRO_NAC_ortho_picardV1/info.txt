@@ -1,0 +1,11 @@
+LRO NAC Mosaic, Picard in Mare Crisium
+Layer ID:Moon_eqc_LRO_NAC_ortho_picardV1
+bbox:[54.3360038, 11.5407437, 55.2722576, 15.6333107]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_ortho_picardV1
+Abstract :This is an orthoimage mosaic produced by combining LROC NAC images, for the Picard site in Mare Crisium. The images are projected onto the LOLA DEM.
+这是一幅由LROC NAC图像组合而成的正射图像镶嵌图，用于Mare Crisium的Picard遗址。图像被投影到LOLA DEM上。
+Projection:
+GEOGCS["unnamed ellipse",
+	DATUM["unknown",SPHEROID["unnamed",1737400,0]],
+	PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]]
+

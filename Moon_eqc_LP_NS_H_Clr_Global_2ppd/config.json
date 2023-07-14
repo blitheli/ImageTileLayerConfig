@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LP NS H Abundance",
+    "LayerID": "Moon_eqc_LP_NS_H_Clr_Global_2ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_LP_NS_H_Clr_Global_2ppd\\LP_NS_H_Clr_Global_2ppd-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "半度氢丰度数据产品包含LP中子光谱仪的数据[Feldman等人，1999]。氢丰度来源于经热中子数据校正的超热中子数据[Feldman等人，2001c]。Feldman等人[2001c]的方程3和4显示了如何将校正的超热液数据转换为百万分之一（ppm）的氢丰度。然而，请注意，在钍和稀土元素丰度高的地区，这些丰度并不一定可靠[Murice et al.，2001a]。地图仓尺寸为0.5度乘0.5度。作为美国国家航空航天局月球数据分析计划的一部分，月球探测器（LP）伽马射线特殊产品和相关文件由LP光谱仪团队编制。这些光谱仪数据产品整合了1998年1月16日至1999年7月31日期间收集的数据。这些产品的数据文件描述由以下人员提供：William C.Feldman、Tom H.Prettyman、Richard D.Belian、Richard",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LP_NS_H_Clr_Global_2ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LP_NS_H_Clr_Global_2ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LP_NS_H_Clr_Global_2ppd\\MetaData.html"
+}

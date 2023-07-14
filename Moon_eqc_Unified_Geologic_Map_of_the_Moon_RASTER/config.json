@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Kaguya TC Geologic Map",
+    "LayerID": "Moon_eqc_Unified_Geologic_Map_of_the_Moon_RASTER",
+    "Icon": "{MoonImage}\\Moon_eqc_Unified_Geologic_Map_of_the_Moon_RASTER\\Unified_Geologic_Map_of_the_Moon_RASTER-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "这幅新作品代表了一幅无缝的、全球一致的1:5000000比例尺的地质图，该地质图来源于六幅数字翻新的地质图（见下文的在线链接来源）。该项目的目标是创建一个数字资源，用于科学研究和分析，未来的地质测绘工作，无论是地方、区域还是全球范围的产品，并作为对月球地质感兴趣的教育工作者和公众的资源。在这里，我们将完成的地图绘制项目作为单元接触、地质单元多边形、线性特征以及单元和特征命名注释。该产品覆盖了SELENE Kaguya地形相机立体（赤道，&tilde；60 m/pix）和LOLA测高（北极和南极，100 m/pix。由于大小的考虑，这些数据不包括在该下载中，而是“；Lunar_主控器”；文件夹提供了下载链接。这个下载页面包括地质图的PDF（右侧）和一个简介",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400.0,0.0]],\n\tPRIMEM['Reference_Meridian',0.0],UNIT['Degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Unified_Geologic_Map_of_the_Moon_RASTER\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Unified_Geologic_Map_of_the_Moon_RASTER\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Unified_Geologic_Map_of_the_Moon_RASTER\\MetaData.html"
+}

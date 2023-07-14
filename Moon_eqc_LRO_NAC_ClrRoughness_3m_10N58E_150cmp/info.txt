@@ -1,0 +1,9 @@
+LRO LROC DEM, Mare Crisium, 3m Color Roughness
+Layer ID:Moon_eqc_LRO_NAC_ClrRoughness_3m_10N58E_150cmp
+bbox:[58.639812, 10.6602392, 58.940383, 11.1357376]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_ClrRoughness_3m_10N58E_150cmp
+Abstract :This is a thematic color roughness map derived from the local roughness map LRO_NAC_Roughness_3m_10N058E_150cmp.tif of Mare Crisium. Roughness classification color ranges are arbitrary but representative of recent lander and rover designs, where the roughness scale is equivalent to the vehicle diameter of 3m.
+这是由Mare Crisium的局部粗糙度图LRO_NAC_roughness_3m_10N058E_150cmp.tif导出的专题颜色粗糙度图。粗糙度分类颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中粗糙度等级相当于3米的车辆直径。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

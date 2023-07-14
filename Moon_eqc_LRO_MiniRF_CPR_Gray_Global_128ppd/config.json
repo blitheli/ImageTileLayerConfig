@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO Mini-RF Circular Polarization Ratio, Grayscale",
+    "LayerID": "Moon_eqc_LRO_MiniRF_CPR_Gray_Global_128ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_MiniRF_CPR_Gray_Global_128ppd\\LRO_MiniRF_CPR_Gray_Global_128ppd-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "这是从0拉伸到1.0的原始CPR产品的8位灰度表示。该马赛克是圆偏振比（CPR）产品，其定义为相同感测圆偏振与相反感测圆极化的比率（CPR＝SC/OS）。此3级产品称为衍生数据记录（DDR），由多个2级CDR生成。整个月球表面的平均CPR（无量纲）值大约为0.3。某些类型的表面沉积物的CPR值可能异常低（对于非常平滑的地形接近零）或异常高（对于块状大规模粗糙特征＞1.0）。高CPR还归因于冻结挥发物（如水冰）的厚沉积物的体积反向散射。",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_MiniRF_CPR_Gray_Global_128ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_MiniRF_CPR_Gray_Global_128ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_MiniRF_CPR_Gray_Global_128ppd\\MetaData.html"
+}

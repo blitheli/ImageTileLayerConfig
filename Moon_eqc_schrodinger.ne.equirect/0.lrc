@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_eqc_schrodinger.ne.equirect</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>https://trek.nasa.gov/tiles/Moon/EQ/schrodinger.ne.equirect/1.0.0/WMTSCapabilities.xml</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>135.7559975</West>
+        <East>142.7772635</East>
+        <South>-77.1212268</South>
+        <North>-73.9041122</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>14</LevelEnd>
+    </Range>
+</DataDefine>

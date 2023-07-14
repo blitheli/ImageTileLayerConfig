@@ -1,0 +1,18 @@
+LRO LROC DEM, Aristarchus 1, Colorized Confidence
+Layer ID:Moon_eqc_LRO_NAC_ClrConf_25N311E_2mp
+bbox:[118.7613416, 24.0892299, 119.3108112, 25.2896856]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_ClrConf_25N311E_2mp
+Abstract :This is a colorized confidence map associated with the Digital Elevation Model (DEM) extracted from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) geometric stereo images from the Lunar Reconnaissance Orbiter mission. The original data product is a DEM from stereo images acquired at approximately 0.5 m/p resolution, and the DEM is set at 2m/p, downsampled to minimize noise. This DEM covers the Aristarchus 1 site. The DEM is controlled to the Lunar Orbiter Laser Altimeter (LOLA) dataset. DEM values referred to a radius of 1737400 meters. In the confidence data, the values are derived from precision values. For the colorized confidence, the value range from 10 to 14 was used, ranging from poor confidence (10) to very good confidence (14). This range was mapped to a color map varying from yellow to green. Manually interpolated values (15) are mapped to blue. All other values are mapped to fully transparent pixels.
+这是一张与数字高程模型（DEM）相关的彩色置信图，该模型是从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）几何立体图像中提取的。原始数据产品是来自以大约0.5 m/p分辨率采集的立体图像的DEM，并且DEM被设置为2 m/p，下采样以最小化噪声。该DEM涵盖Aristarchus 1号现场。DEM由月球轨道飞行器激光高度表（LOLA）数据集控制。DEM值指的是1737400米的半径。在置信度数据中，这些值是从精度值导出的。对于彩色置信度，使用了从10到14的值范围，从差置信度（10）到非常好置信度（14）。该范围被映射到从黄色到绿色不等的颜色映射。手动插值（15）映射为蓝色。所有其他值都映射到完全透明的像素。
+Projection:
+PROJCS["Equirectangular MOON",
+	GEOGCS["GCS_MOON",
+		DATUM["D_MOON",SPHEROID["MOON_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",-2],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

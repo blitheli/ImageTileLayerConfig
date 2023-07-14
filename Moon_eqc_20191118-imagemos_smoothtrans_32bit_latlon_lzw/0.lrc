@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_eqc_20191118-imagemos_smoothtrans_32bit_latlon_lzw</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>https://trek.nasa.gov/tiles/Moon/EQ/20191118-imagemos_smoothtrans_32bit_latlon_lzw/1.0.0/WMTSCapabilities.xml</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>24.5756078</West>
+        <East>26.0548516</East>
+        <South>43.4393444</South>
+        <North>45.9889877</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>15</LevelEnd>
+    </Range>
+</DataDefine>

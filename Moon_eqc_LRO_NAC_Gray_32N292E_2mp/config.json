@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, Lichtenberg Crater, Grayscale",
+    "LayerID": "Moon_eqc_LRO_NAC_Gray_32N292E_2mp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Gray_32N292E_2mp\\LRO_NAC_Gray_32N292E_2mp-120.png",
+    "BBOX": [
+        -68.2808357,
+        31.0043632,
+        -66.8543272,
+        32.3600785
+    ],
+    "Abstract": "这是数字高程模型（DEM）的灰度图像版本，从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）几何立体图像中提取。该图像是根据匹配的Cx Lichtenberg陨石坑DEM数据生成的，通过将海拔值从-410到-1250的范围缩放为0到255之间的整数值。低于和高于-410和-1250的高程分别映射为0和255。",
+    "Projection": "PROJCS['Equirectangular Moon',\n\tGEOGCS['GCS_Moon',\n\t\tDATUM['D_Moon',SPHEROID['Moon_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',180],\n\tPARAMETER['standard_parallel_1',32],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Gray_32N292E_2mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Gray_32N292E_2mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Gray_32N292E_2mp\\MetaData.html"
+}

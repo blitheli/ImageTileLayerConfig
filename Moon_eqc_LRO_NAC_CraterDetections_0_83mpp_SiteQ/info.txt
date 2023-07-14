@@ -1,0 +1,25 @@
+LRO NAC Crater Detections 0.83mpp, Endurance-A Site Q
+Layer ID:Moon_eqc_LRO_NAC_CraterDetections_0_83mpp_SiteQ
+bbox:[139.1957357, -75.0539516, 139.4515469, -74.9879098]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_CraterDetections_0_83mpp_SiteQ
+Abstract :This is an imagery mosaic of LRO NAC images that were used to generate crater detections for the Endurance-A Site Q region on the south pole of the moon. The crater detection tool takes a hybrid approach, which blends traditional computer vision techniques with deep learning. The input image is subsampled to various resolutions such that the base of the pyramid is the image at its highest resolution, and the apex of the pyramid is the image at its lowest resolution. The purpose for this structure is twofold; It allows for detection of craters at various sizes and it substantially decreases the processing time when searching for large craters. The output of tool includes a georeferenced image with craters labeled by bounding boxes.
+这是LRO NAC图像的图像拼接，用于生成月球南极Endurance-A站点Q区域的陨石坑探测。弹坑检测工具采用了一种混合方法，将传统的计算机视觉技术与深度学习相结合。输入图像被二次采样到各种分辨率，使得金字塔的底部是处于其最高分辨率的图像，并且金字塔的顶部是处于其最低分辨率的图像。这种结构的目的是双重的；它允许检测各种大小的陨石坑，并大大减少了搜索大型陨石坑的处理时间。该工具的输出包括一个带有由边界框标记的弹坑的地理参考图像。
+Projection:
+PROJCS["ESRI PE String = PROJCS["Site_Q_ortho",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Orthographic"],
+	PARAMETER["False_Easting",0.0],
+	PARAMETER["False_Northing",0.0],
+	PARAMETER["Longitude_Of_Center",139.32360162],
+	PARAMETER["Latitude_Of_Center",-75.02092306],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Orthographic"],
+	PARAMETER["latitude_of_origin",-75.02092306],
+	PARAMETER["central_meridian",139.32360162],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

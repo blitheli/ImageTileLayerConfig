@@ -1,0 +1,18 @@
+LRO LROC DEM, Tsiolkovskiy Crater, 3m Color Slope Hazard
+Layer ID:Moon_eqc_LRO_NAC_ClrSlopeHaz_3m_19S129E_150cmp
+bbox:[128.2947893, -20.1830688, 128.8312375, -18.723368]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_ClrSlopeHaz_3m_19S129E_150cmp
+Abstract :This is a thematic color slope hazard map derived from the local slope map LRO_NAC_Slope_3m_19S129E_150cmp.tif of Tsiolkovskiy Crater. Slope hazard classification color ranges are arbitrary but representative of recent lander and rover designs, where the slope scale is equivalent to the vehicle diameter of 3m.
+这是一张专题彩色斜坡危险图，来源于齐奥尔科夫斯基陨石坑的当地斜坡图LRO_NAC_slope_3m_19S129E_150cmp.tif。斜坡危险分类的颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中斜坡比例相当于3米的车辆直径。
+Projection:
+PROJCS["Equirectangular Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",-19],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

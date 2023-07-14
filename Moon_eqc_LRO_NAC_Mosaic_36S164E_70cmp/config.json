@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC Image Mosaic, Mare Ingenii",
+    "LayerID": "Moon_eqc_LRO_NAC_Mosaic_36S164E_70cmp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_36S164E_70cmp\\LRO_NAC_Mosaic_36S164E_70cmp-120.png",
+    "BBOX": [
+        164.0230511,
+        -36.1359548,
+        164.8636234,
+        -34.8575103
+    ],
+    "Abstract": "这是月球勘测轨道飞行器相机（LROC）窄角相机（NAC）立体图像的正射影像镶嵌图，用于创建同一区域的数字高程模型（DEM）。原始LROC NAC图像和输出马赛克的分辨率约为0.7m/像素。DEM是根据LRO月球轨道飞行器激光高度表（LOLA）数据水平和垂直配准的。DEM值以米为单位，指的是1737400米的半径。这幅马赛克图像覆盖了Mare Ingenii遗址。",
+    "Projection": "PROJCS['Equirectangular Moon',\n\tGEOGCS['GCS_Moon',\n\t\tDATUM['D_Moon',SPHEROID['Moon_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',180],\n\tPARAMETER['standard_parallel_1',-36],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_36S164E_70cmp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_36S164E_70cmp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_36S164E_70cmp\\MetaData.html"
+}

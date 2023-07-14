@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Apollo 17 Metric Cam DEM, Colorized Confidence",
+    "LayerID": "Moon_eqc_Apollo17_MetricCam_ClrConf_Global_1024ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_ClrConf_Global_1024ppd\\Apollo17_MetricCam_ClrConf_Global_1024ppd-120.png",
+    "BBOX": [
+        -180.0,
+        -30.0,
+        180.0,
+        34.0
+    ],
+    "Abstract": "阿波罗17号DEM彩色置信度数据由阿波罗17号的DEM置信度数据生成。在置信度数据中，这些值是从精度值导出的。对于彩色置信度，使用了从10到14的值范围，从差置信度（10）到非常好置信度（14）。该范围被映射到从黄色到绿色不等的颜色映射。所有其他置信度值都映射到完全透明的像素。",
+    "Projection": "GEOGCS['Geographic Coordinate System',\n\tDATUM['D_MOON',SPHEROID['MOON',1737400,'inf']],\n\tPRIMEM['Reference Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_ClrConf_Global_1024ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_ClrConf_Global_1024ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_ClrConf_Global_1024ppd\\MetaData.html"
+}

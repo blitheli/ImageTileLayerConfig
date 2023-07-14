@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_eqc_LRO_NAC_Mosaic_02S167E_50cmp</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Mosaic_02S167E_50cmp/1.0.0/WMTSCapabilities.xml</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>166.10499</West>
+        <East>167.4254972</East>
+        <South>-2.7398092</South>
+        <North>-1.4201102</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>15</LevelEnd>
+    </Range>
+</DataDefine>

@@ -1,0 +1,9 @@
+LRO LROC DEM, Mare Crisium, 15m Color Roughness Hazard
+Layer ID:Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_10N58E_150cmp
+bbox:[58.639812, 10.6602392, 58.940383, 11.1357376]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_ClrRoughnessHaz_15m_10N58E_150cmp
+Abstract :This is a thematic color roughness hazard map derived from the local roughness map LRO_NAC_Roughness_15m_10N058E_150cmp.tif of Mare Crisium. Roughness hazard classification color ranges are arbitrary but representative of recent lander and rover designs, where the roughness scale is equivalent to the vehicle diameter of 15m.
+这是一张专题彩色粗糙度危险图，来源于Mare Crisium的局部粗糙度图LRO_NAC_roughness_15m_10N058E_150cp.tif。粗糙度危险分类颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中粗糙度等级相当于15米的车辆直径。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

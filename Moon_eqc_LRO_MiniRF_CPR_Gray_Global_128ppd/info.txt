@@ -1,0 +1,11 @@
+LRO Mini-RF Circular Polarization Ratio, Grayscale
+Layer ID:Moon_eqc_LRO_MiniRF_CPR_Gray_Global_128ppd
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_MiniRF_CPR_Gray_Global_128ppd
+Abstract :This is an 8bit grayscale represenation of the original CPR product stretched from 0 to 1.0. This mosaic is a Circular Polarization Ratio (CPR) product defined as the ratio of the same sense circular polarization to the opposite sense circular polarization (CPR = SC / OS). This Level 3 product is called a Derived Data Record (DDR) generated from multiple Level 2 CDRs. The average CPR (dimensionless) value of the entire lunar surface is on the order of 0.3. CPR values for certain types of surface deposits may be either anomalously low (near zero for very smooth terrain) or anomalously high (&gt;1.0 for blocky largescale rough features). High CPR also is due to volumetric backscattering from thick deposits of frozen volatiles, such as water-ice.
+这是从0拉伸到1.0的原始CPR产品的8位灰度表示。该马赛克是圆偏振比（CPR）产品，其定义为相同感测圆偏振与相反感测圆极化的比率（CPR＝SC/OS）。此3级产品称为衍生数据记录（DDR），由多个2级CDR生成。整个月球表面的平均CPR（无量纲）值大约为0.3。某些类型的表面沉积物的CPR值可能异常低（对于非常平滑的地形接近零）或异常高（对于块状大规模粗糙特征＞1.0）。高CPR还归因于冻结挥发物（如水冰）的厚沉积物的体积反向散射。
+Projection:
+GEOGCS["GCS_Moon_2000",
+	DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

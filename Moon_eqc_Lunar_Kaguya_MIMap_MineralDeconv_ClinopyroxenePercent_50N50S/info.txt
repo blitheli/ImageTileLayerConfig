@@ -1,0 +1,9 @@
+Kaguya MI Clinopyroxene Weight Percent
+Layer ID:Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_ClinopyroxenePercent_50N50S
+bbox:[-180.0, -50.0, 180.0, 50.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/Lunar_Kaguya_MIMap_MineralDeconv_ClinopyroxenePercent_50N50S
+Abstract :TBD
+待定
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

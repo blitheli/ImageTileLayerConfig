@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO NAC Crater Detections 0.83mpp, Endurance-A Site Q",
+    "LayerID": "Moon_eqc_LRO_NAC_CraterDetections_0_83mpp_SiteQ",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_CraterDetections_0_83mpp_SiteQ\\LRO_NAC_CraterDetections_0_83mpp_SiteQ-120.png",
+    "BBOX": [
+        139.1957357,
+        -75.0539516,
+        139.4515469,
+        -74.9879098
+    ],
+    "Abstract": "这是LRO NAC图像的图像拼接，用于生成月球南极Endurance-A站点Q区域的陨石坑探测。弹坑检测工具采用了一种混合方法，将传统的计算机视觉技术与深度学习相结合。输入图像被二次采样到各种分辨率，使得金字塔的底部是处于其最高分辨率的图像，并且金字塔的顶部是处于其最低分辨率的图像。这种结构的目的是双重的；它允许检测各种大小的陨石坑，并大大减少了搜索大型陨石坑的处理时间。该工具的输出包括一个带有由边界框标记的弹坑的地理参考图像。",
+    "Projection": "PROJCS['ESRI PE String = PROJCS['Site_Q_ortho',\n\tGEOGCS['GCS_Moon_2000',\n\t\tDATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400.0,0.0]],\n\t\tPRIMEM['Reference_Meridian',0.0],UNIT['Degree',0.0174532925199433]],\n\tPROJECTION['Orthographic'],\n\tPARAMETER['False_Easting',0.0],\n\tPARAMETER['False_Northing',0.0],\n\tPARAMETER['Longitude_Of_Center',139.32360162],\n\tPARAMETER['Latitude_Of_Center',-75.02092306],UNIT['Meter',1.0]]',\n\tGEOGCS['GCS_Moon_2000',\n\t\tDATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Orthographic'],\n\tPARAMETER['latitude_of_origin',-75.02092306],\n\tPARAMETER['central_meridian',139.32360162],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_CraterDetections_0_83mpp_SiteQ\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_CraterDetections_0_83mpp_SiteQ\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_CraterDetections_0_83mpp_SiteQ\\MetaData.html"
+}

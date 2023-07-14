@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_eqc_small_tranq_skylight_2</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>https://trek.nasa.gov/tiles/Moon/EQ/small_tranq_skylight_2/1.0.0/WMTSCapabilities.xml</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>20.7135697</West>
+        <East>20.8913303</East>
+        <South>-0.3482134</South>
+        <North>0.5960126</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>16</LevelEnd>
+    </Range>
+</DataDefine>

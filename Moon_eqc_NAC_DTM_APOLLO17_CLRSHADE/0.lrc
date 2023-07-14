@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_eqc_NAC_DTM_APOLLO17_CLRSHADE</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>https://trek.nasa.gov/tiles/Moon/EQ/NAC_DTM_APOLLO17_CLRSHADE/1.0.0/WMTSCapabilities.xml</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>29.9059224</West>
+        <East>31.65811</East>
+        <South>19.3905316</South>
+        <North>21.3035496</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>13</LevelEnd>
+    </Range>
+</DataDefine>

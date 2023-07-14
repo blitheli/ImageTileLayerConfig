@@ -1,0 +1,11 @@
+LRO NAC PSR Mosaic 20mpp, N Pole
+Layer ID:Moon_eqc_NAC_POLE_PSR_NORTH_STRETCH_EQ
+bbox:[-180.0, 75.5108351, 179.9998389, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/NAC_POLE_PSR_NORTH_STRETCH_EQ
+Abstract :This is an uncontrolled mosaic generated from images taken by the Narrow Angle Camera (NAC) onboard the Lunar Reconnaissance Orbiter (LRO) for the North Pole region of the Moon. The NAC mosaics have been trimmed to the Permanently Shadowed Region (PSR) shapefile, providing visible NAC image coverage of the PSRs only. Acquisition of NAC PSR observations were optimized over several campaigns to maximize signal-to-noise ratio (SNR), resulting in a comprehensive dataset that is systematically reviewed and analyzed. Observations are acquired at a variety of pixel scales (2 to 20 m/px). The final PSR mosaics are assembled from re-sampled images to 20 m/px, and ordering of images is based on image quality and areal coverage of individual PSRs. A total of 550 NAC images were used to create a North Pole PSR mosaic at 20 m/px, 90&deg; to 80&deg; latitude, and -180&deg; to 180&deg; longitude. This mosaic has been merged with the existing LROC NAC North Pole RDR product to replace over-saturated illuminated polar areas.
+这是由月球勘测轨道飞行器（LRO）上的窄角相机（NAC）为月球北极地区拍摄的图像生成的不受控制的马赛克。NAC马赛克已修剪为永久阴影区域（PSR）形状文件，仅提供PSR的可见NAC图像覆盖。NAC PSR观测的采集经过几次活动优化，以最大限度地提高信噪比（SNR），从而形成了一个经过系统审查和分析的综合数据集。观测是在各种像素尺度（2到20米/像素）上采集的。最终的PSR马赛克是从重新采样的图像组装到20m/px，并且图像的排序基于图像质量和单个PSR的区域覆盖。总共550幅NAC图像被用于以20m/px、90&deg；至80&deg；纬度和-180&deg；至180&deg；经度该马赛克已与现有LROC NAC北极RDR产品合并，以取代过度饱和的i
+Projection:
+GEOGCS["GCS_Moon",
+	DATUM["D_Moon",SPHEROID["Moon",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

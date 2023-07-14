@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Kaguya TC Ortho Mosaic",
+    "LayerID": "Moon_eqc_Kaguya_TCortho_Mosaic_Global_4096ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_Kaguya_TCortho_Mosaic_Global_4096ppd\\Kaguya_TCortho_Mosaic_Global_4096ppd-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        179.9997621,
+        90.0
+    ],
+    "Abstract": "这个马赛克代表了“；卡古亚”；地形摄像机（TC）”；正交“；马赛克请注意，该马赛克是使用与其他LMMP产品（受LOLA控制）不同的控制网络创建的，因此可能并不总是能很好地注册到这些产品中。镶嵌图来源于日本宇宙航空研究开发机构（JAXA）发射的Selenological and Engineering Explorer（SELENE）卫星上的地形相机（TC）仪器获取的数据。马赛克可以被认为是以4096像素/度（7.4米空间分辨率）产生的合并最佳版本，并且包括来自低太阳早晨（早或从右到左的低角度太阳照明）和傍晚（晚或从左到右的太阳照明）TC马赛克的图像。&#147；正交&#148；该版本被Kaguya团队称为模拟垂直照明。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Kaguya_TCortho_Mosaic_Global_4096ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Kaguya_TCortho_Mosaic_Global_4096ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Kaguya_TCortho_Mosaic_Global_4096ppd\\MetaData.html"
+}

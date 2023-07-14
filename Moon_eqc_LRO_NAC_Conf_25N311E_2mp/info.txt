@@ -1,0 +1,18 @@
+LRO LROC DEM, Aristarchus 1, Confidence
+Layer ID:Moon_eqc_LRO_NAC_Conf_25N311E_2mp
+bbox:[-49.0411832, 24.0892205, -48.4352399, 25.2896856]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Conf_25N311E_2mp
+Abstract :This raster dataset represents a confidence value or figure of merit (FOM) for each pixel for the digital elevation model (DEM) as extracted from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) stereo images. The original data product is a DEM from stereo images acquired at approximately 0.5 m/p resolution, and the DEM is set at 2m/p, downsampled to minimize noise. This DEM confidence map covers the Aristarchus site.
+该光栅数据集表示从月球勘测轨道飞行器相机（LROC）窄角相机（NAC）立体图像中提取的数字高程模型（DEM）的每个像素的置信值或优值（FOM）。原始数据产品是来自以大约0.5 m/p分辨率采集的立体图像的DEM，并且DEM被设置为2 m/p，下采样以最小化噪声。该DEM置信度图涵盖了Aristarchus遗址。
+Projection:
+PROJCS["Equirectangular Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",180],
+	PARAMETER["standard_parallel_1",25],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO WAC GLD100 DEM, Hillshade",
+    "LayerID": "Moon_eqc_LRO_WAC-GLD100_Shade_79S79N_256ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_Shade_79S79N_256ppd\\LRO_WAC-GLD100_Shade_79S79N_256ppd-120.png",
+    "BBOX": [
+        -180.0,
+        -79.0,
+        180.0,
+        79.0
+    ],
+    "Abstract": "这是由月球勘测轨道飞行器（LRO）广角相机（WAC）立体图像构建的256像素/度（ppd，~118米/像素）WAC数字高程模型（DEM）的阴影浮雕。该DEM来源于原始DLR 100米地形模型；GLD100”；，并覆盖了98.2%的月球表面，并与LRO月球轨道飞行器激光高度表（LOLA）结合用于未覆盖区域的极网格DEM。使用数字摄影测量技术，从69000个WAC立体模型中计算出GLD100。由于两极附近持续存在阴影，因此无法在最高纬度创建完整的WAC立体图。GLD100因此覆盖了79&#176；北纬79&#176；北纬。由于立体相关框大于100米，因此无法完全解析100米尺度下的表面细节。然而，每100米的正方形内平均有26个立体点（全球共有1000亿个点），这有助于减少",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_Shade_79S79N_256ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_Shade_79S79N_256ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_Shade_79S79N_256ppd\\MetaData.html"
+}

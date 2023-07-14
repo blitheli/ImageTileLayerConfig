@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_eqc_A12_60x60km.0_3.eq</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>https://trek.nasa.gov/tiles/Moon/EQ/A12_60x60km.0_3.eq/1.0.0/WMTSCapabilities.xml</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>-24.4093366</West>
+        <East>-22.4306634</East>
+        <South>-3.9993366</South>
+        <North>-2.0206634</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>16</LevelEnd>
+    </Range>
+</DataDefine>

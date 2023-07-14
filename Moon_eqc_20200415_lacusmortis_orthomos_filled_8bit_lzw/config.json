@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO NAC Mosaic, Lacus Mortis, Extended Version",
+    "LayerID": "Moon_eqc_20200415_lacusmortis_orthomos_filled_8bit_lzw",
+    "Icon": "{MoonImage}\\Moon_eqc_20200415_lacusmortis_orthomos_filled_8bit_lzw\\20200415_lacusmortis_orthomos_filled_8bit_lzw-120.png",
+    "BBOX": [
+        24.5756078,
+        43.2872334,
+        26.0548516,
+        45.9889877
+    ],
+    "Abstract": "这是一幅由LROC NAC图像组合而成的正射图像镶嵌图，用于Lacus Mortis西南地区，包括Rimae Bürg和Lacus Mortis矿坑。图像被投影到由立体重建产生的DEM马赛克上，其中每个图像与另一个LROC NAC配对。",
+    "Projection": "GEOGCS['Geographic Coordinate System',\n\tDATUM['D_MOON',SPHEROID['MOON',1737400,0]],\n\tPRIMEM['Reference Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_20200415_lacusmortis_orthomos_filled_8bit_lzw\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_20200415_lacusmortis_orthomos_filled_8bit_lzw\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_20200415_lacusmortis_orthomos_filled_8bit_lzw\\MetaData.html"
+}

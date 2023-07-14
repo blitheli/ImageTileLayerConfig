@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO Narrow Angle Camera, Mosaic Schrodinger NorthEast",
+    "LayerID": "Moon_eqc_schrodinger.ne.equirect",
+    "Icon": "{MoonImage}\\Moon_eqc_schrodinger.ne.equirect\\schrodinger.ne.equirect-120.png",
+    "BBOX": [
+        135.7559975,
+        -77.1212268,
+        142.7772635,
+        -73.9041122
+    ],
+    "Abstract": "这是使用月球勘测轨道飞行器任务中的月球勘测轨道器相机（LROC）窄角相机（NAC）图像生成的可见图像马赛克。每个NAC图像都被水平配准到LRO的月球轨道飞行器激光高度表（LOLA）全球DEM中，然后拼接在一起并进行颜色平衡。马赛克是以与收集单个LROC NAC图像相同的分辨率生成的，该分辨率约为1米/像素。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_schrodinger.ne.equirect\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_schrodinger.ne.equirect\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_schrodinger.ne.equirect\\MetaData.html"
+}

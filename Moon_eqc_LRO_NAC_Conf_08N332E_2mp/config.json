@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, Hortensius Domes, Confidence",
+    "LayerID": "Moon_eqc_LRO_NAC_Conf_08N332E_2mp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Conf_08N332E_2mp\\LRO_NAC_Conf_08N332E_2mp-120.png",
+    "BBOX": [
+        -28.0737086,
+        7.0614631,
+        -27.1065834,
+        8.746329
+    ],
+    "Abstract": "该光栅数据集表示从月球勘测轨道飞行器相机（LROC）窄角相机（NAC）立体图像中提取的数字高程模型（DEM）的每个像素的置信值或优值（FOM）。原始数据产品是来自以大约0.5 m/p分辨率采集的立体图像的DEM，并且DEM被设置为2 m/p，下采样以最小化噪声。该DEM置信度图涵盖了Hortensius Domes网站。",
+    "Projection": "TBD\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Conf_08N332E_2mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Conf_08N332E_2mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Conf_08N332E_2mp\\MetaData.html"
+}

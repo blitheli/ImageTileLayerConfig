@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LOLA Color Hillshade 128ppd, Endurance-A Site O",
+    "LayerID": "Moon_eqc_LRO_LOLA_ClrHillshade_128ppd_SiteO",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrHillshade_128ppd_SiteO\\LRO_LOLA_ClrHillshade_128ppd_SiteO-120.png",
+    "BBOX": [
+        156.0135497,
+        -67.4153015,
+        168.8520581,
+        -62.3508011
+    ],
+    "Abstract": "这是原始LOLA数字高程模型（DEM）版本4的彩色阴影浮雕，裁剪为Endurance-a站点O的50x50公里区域。DEM是基于LOLA仪器截至2011年9月获得的测高数据，分辨率为128像素/度的月球形状图（半径）。地面轨迹是使用Generic Mapping Tools程序surface和grdblend进行插值的。该地图采用二进制表的形式，每0.007813度纬度有一行，像素注册。地图值指的是1737400米的半径。",
+    "Projection": "PROJCS['ESRI PE String = COMPD_CS[unknown,PROJCS[Site_O_ortho,\n\tGEOGCS[GCS_Moon_2000,\n\t\tDATUM[D_Moon_2000,SPHEROID[Moon_2000_IAU_IAG,1737400.0,0.0]],\n\t\tPRIMEM[Reference_Meridian,0.0],UNIT[Degree,0.0174532925199433]],\n\tPROJECTION[Orthographic],\n\tPARAMETER[False_Easting,0.0],\n\tPARAMETER[False_Northing,0.0],\n\tPARAMETER[Longitude_Of_Center,162.43022],\n\tPARAMETER[Latitude_Of_Center,-64.92944],UNIT[Meter,1.0]],VERTCS[EGM96_Geoid,V\n\t\tDATUM[EGM96_Geoid,AUTHORITY[EPSG,5171]],\n\tPARAMETER[Vertical_Shift,0.0,AUTH',\n\tGEOGCS['GCS_Moon_2000',\n\t\tDATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Orthographic'],\n\tPARAMETER['latitude_of_origin',-64.92944],\n\tPARAMETER['central_meridian',162.43022],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrHillshade_128ppd_SiteO\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrHillshade_128ppd_SiteO\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrHillshade_128ppd_SiteO\\MetaData.html"
+}

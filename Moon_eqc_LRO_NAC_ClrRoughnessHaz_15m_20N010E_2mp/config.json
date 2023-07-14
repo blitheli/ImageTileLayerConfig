@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, Sulpicius Gallus, 15m Color Roughness Hazard",
+    "LayerID": "Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_20N010E_2mp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_20N010E_2mp\\LRO_NAC_ClrRoughnessHaz_15m_20N010E_2mp-120.png",
+    "BBOX": [
+        10.1997172,
+        19.5486798,
+        10.5707322,
+        20.5179174
+    ],
+    "Abstract": "这是一张专题彩色粗糙度危险图，来源于Sulpicius Gallus的局部粗糙度图LRO_NAC_roughness_15m_20N010E_2mp.tif。粗糙度危险分类颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中粗糙度等级相当于15米的车辆直径。",
+    "Projection": "PROJCS['Equirectangular Moon',\n\tGEOGCS['GCS_Moon',\n\t\tDATUM['D_Moon',SPHEROID['Moon_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',180],\n\tPARAMETER['standard_parallel_1',20],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_20N010E_2mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_20N010E_2mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_20N010E_2mp\\MetaData.html"
+}

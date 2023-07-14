@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC Mosaic, Fresh Crater East of Lents",
+    "LayerID": "Moon_eqc_LRO_NAC_Mosaic_03N280E_70cm",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_03N280E_70cm\\LRO_NAC_Mosaic_03N280E_70cm-120.png",
+    "BBOX": [
+        -100.5615806,
+        2.6661118,
+        -100.0324363,
+        4.0432537
+    ],
+    "Abstract": "这是使用月球勘测轨道飞行器任务中的月球勘测轨道器相机（LROC）窄角相机（NAC）图像生成的可见图像马赛克。这些图像是使用数字高程模型（DEM）进行正射校正的，该模型是根据LROC NAC立体图像创建的（如果可用），或LRO的月球轨道飞行器激光高度表（LOLA）全球DEM。马赛克是以与收集单个LROC NAC图像相同的分辨率生成的，该分辨率为0.7米/像素。",
+    "Projection": "PROJCS['Equirectangular Moon',\n\tGEOGCS['GCS_Moon',\n\t\tDATUM['D_Moon',SPHEROID['Moon_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',0],\n\tPARAMETER['standard_parallel_1',3],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_03N280E_70cm\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_03N280E_70cm\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_03N280E_70cm\\MetaData.html"
+}

@@ -1,0 +1,9 @@
+Apollo Zone Metric Cam DEM, Confidence
+Layer ID:Moon_eqc_ApolloZone_MetricCam_Conf_Global_1024ppd
+bbox:[-180.0, -38.0, 180.0, 34.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/ApolloZone_MetricCam_Conf_Global_1024ppd
+Abstract :The Apollo Zone DEM confidence data is generated using the standard deviation of all the available Apollo Zone DEM files. The DEM confidence values are stored as 8-bit signed integer at 30m/pixel resolution. The values in the confidence file are derived from the precision values. The value range from 10 to 14 represents poor confidence (10) to very good confidence (14), with 15 = manually edited. The confidence values in the range 10-14 represent values of the standard deviation stored in the precision files as follows: value 10 for standard deviation larger than 100m, value 11 for standard deviation in the range 75-100m, value 12 for standard deviation in the range 50-75m, value 13 for standard deviation in the range 25-50m, and value 14 for standard deviation in the range 0-25m. These DEM confidence files were generated using the Ames Stereo Pipeline: a software tool produced by the NASA Ames Intelligent Robotics Group (IRG) for automated processing of stereo imagery.
+阿波罗区DEM置信度数据是使用所有可用阿波罗区DEM文件的标准偏差生成的。DEM置信度值以30m/像素分辨率存储为8位带符号整数。置信度文件中的值源自精度值。值范围从10到14表示置信度低（10）到置信度非常好（14），其中15=手动编辑。10-14范围内的置信值表示精度文件中存储的标准偏差值，如下所示：大于100m的标准偏差的值为10，75-100m范围内的标准偏差为11，50-75m范围内的基准偏差为12，25-50m范围内的水准偏差为13，0-25m范围内的标准偏差为14。这些DEM置信度文件是使用艾姆斯立体管道生成的：这是美国国家航空航天局艾姆斯智能机器人小组（IRG）生产的一种用于立体图像自动处理的软件工具。
+Projection:
+TBD
+

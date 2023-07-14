@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO Narrow Angle Camera, Mosaic Apollo 17 Landing Site",
+    "LayerID": "Moon_eqc_M129086118.nd.gcs",
+    "Icon": "{MoonImage}\\Moon_eqc_M129086118.nd.gcs\\M129086118.nd.gcs-120.png",
+    "BBOX": [
+        30.6858768,
+        20.0287908,
+        30.8444586,
+        20.3660048
+    ],
+    "Abstract": "1972年12月11日，美国宇航员尤金·塞尔南和哈里森·施密特在这里进行了阿波罗计划的第六次也是最后一次登月。塞尔南和施密特乘坐挑战者号登月舱降落在这里，罗纳德·埃文斯则乘坐美国号指挥舱留在绕月轨道上。施密特拥有地质学博士学位，是第一位也是唯一一位访问过月球的专业科学家。Cernan和Schmitt进行了3次表面EVAs。第一次持续7小时11分53秒，包括在登月舱西北偏西约185米处部署阿波罗月球表面实验包（ALSEP），并使用月球车对着陆点以南的小撞击坑Steno边缘进行3.5公里的地质穿越。第二个表面EVA持续7小时36分56秒，向南和向西穿越20.4公里的地质。停靠站包括位于南地块底部的一个位置，那里发生了山体滑坡",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_M129086118.nd.gcs\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_M129086118.nd.gcs\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_M129086118.nd.gcs\\MetaData.html"
+}

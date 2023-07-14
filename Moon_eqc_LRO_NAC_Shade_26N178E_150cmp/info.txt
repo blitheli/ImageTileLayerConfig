@@ -1,0 +1,18 @@
+LRO LROC DEM, Dante Crater, Hillshade
+Layer ID:Moon_eqc_LRO_NAC_Shade_26N178E_150cmp
+bbox:[177.5399094, 25.6717469, 178.0041043, 26.4302622]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Shade_26N178E_150cmp
+Abstract :This is a shaded relief of the digital elevation model (DEM) extracted from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) images from the Lunar Reconnaissance Orbiter mission. The data product is a DEM from all NAC images that were acquired and made available via PDS at the time of the DEM construction. Images included are from both the Commisioning and the Mapping mission phases and vary from approaximately 2.m/p to 0.5 m/p in resolution at the image boresight. The typical DEM scale is 1.5 m/pixel with a comparable horizontal resolution. The DEM was registered horizontally and vertically to LRO&apos;s Lunar Orbiter Laser Altimeter (LOLA) data. Elevation values are in meters and referred to a radius of 1737400m.
+这是从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）图像中提取的数字高程模型（DEM）的阴影浮雕。数据产品是来自所有NAC图像的DEM，这些图像在DEM构建时通过PDS获取并可用。包括的图像来自调试和测绘任务阶段，在图像视轴处的分辨率约为2米/便士至0.5米/便士。典型的DEM比例尺为1.5米/像素，水平分辨率相当。DEM被水平地和垂直地登记到LRO&apos；月球轨道飞行器激光高度表（LOLA）数据。高程值以米为单位，指的是1737400m的半径。
+Projection:
+PROJCS["Equirectangular_MOON_26N",
+	GEOGCS["GCS_MOON",
+		DATUM["MOON",SPHEROID["MOON_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",26],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

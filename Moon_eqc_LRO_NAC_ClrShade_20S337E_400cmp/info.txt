@@ -1,0 +1,18 @@
+LRO LROC DEM, Bullialdus Crater, ColorHillshade
+Layer ID:Moon_eqc_LRO_NAC_ClrShade_20S337E_400cmp
+bbox:[-21.4181195, -21.065865, -20.8680484, -20.484135]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_ClrShade_20S337E_400cmp
+Abstract :This is a colorized shaded relief of the digital elevation model (DEM) extracted from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) images from the Lunar Reconnaissance Orbiter mission. The data product is a DEM from all NAC images that were acquired and made available via PDS at the time of the DEM construction. Images included are from both the Commisioning and the Mapping mission phases and vary from approaximately 2.m/p to 0.5 m/p in resolution at the image boresight. The DEM scale for this delivery is 4.0 m/pixel with a final delivery at 1.5 m/pixel and with a comparable horizontal resolution. The DEM was registered horizontally and vertically to LRO&apos;s Lunar Orbiter Laser Altimeter (LOLA) data. Elevation values are in meters and referred to a radius of 1737400m.
+这是从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）图像中提取的数字高程模型（DEM）的彩色阴影浮雕。数据产品是来自所有NAC图像的DEM，这些图像在DEM构建时通过PDS获取并可用。包括的图像来自调试和测绘任务阶段，在图像视轴处的分辨率约为2米/便士至0.5米/便士。该交付的DEM比例尺为4.0米/像素，最终交付为1.5米/像素并且具有可比的水平分辨率。DEM被水平地和垂直地登记到LRO&apos；月球轨道飞行器激光高度表（LOLA）数据。高程值以米为单位，指的是1737400m的半径。
+Projection:
+PROJCS["Equirectangular_MOON_20S",
+	GEOGCS["GCS_MOON",
+		DATUM["MOON",SPHEROID["MOON_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",0],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

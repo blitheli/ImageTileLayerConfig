@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO DLRE H-parameter 128ppd",
+    "LayerID": "Moon_eqc_hpar_global128ppd_v1c",
+    "Icon": "{MoonImage}\\Moon_eqc_hpar_global128ppd_v1c\\hpar_global128ppd_v1c-120.png",
+    "BBOX": [
+        -180.0,
+        -70.0,
+        180.0,
+        70.0
+    ],
+    "Abstract": "月球风化层的物理性质因深度而异。最上面的风化层由细粒度、高度多孔的材料组成，其特征是体积密度和热导率低。密度和电导率随深度增加，呈指数垂直分布。该剖面的陡度由“H参数”描述，其中H的小值表示更致密的风化层，H的大值与更蓬松、松散的风化层一致。虽然月球上白天的表面温度主要由反照率和发射率的表面能量平衡控制，但夜间温度由热导率、密度和热容的热物理性质控制。利用月球勘测轨道飞行器上的Diviner仪器对月球风化层进行夜间热测量，得出H值，并绘制其随位置的变化图。",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['D_Moon_2000',\n        SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],\n    UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_hpar_global128ppd_v1c\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_hpar_global128ppd_v1c\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_hpar_global128ppd_v1c\\MetaData.html"
+}

@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, Reiner Gamma, Confidence",
+    "LayerID": "Moon_eqc_LRO_NAC_Conf_07N301E_2mp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Conf_07N301E_2mp\\LRO_NAC_Conf_07N301E_2mp-120.png",
+    "BBOX": [
+        -58.8657122,
+        6.8588855,
+        -58.4103964,
+        7.823278
+    ],
+    "Abstract": "该光栅数据集表示从月球勘测轨道飞行器相机（LROC）窄角相机（NAC）立体图像中提取的数字高程模型（DEM）的每个像素的置信值或优值（FOM）。原始数据产品是来自以大约0.5 m/p分辨率采集的立体图像的DEM，并且DEM被设置为2 m/p，下采样以最小化噪声。该DEM置信度图涵盖了Raneir Gamma站点。",
+    "Projection": "TBD\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Conf_07N301E_2mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Conf_07N301E_2mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Conf_07N301E_2mp\\MetaData.html"
+}

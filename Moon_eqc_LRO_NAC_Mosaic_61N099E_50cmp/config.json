@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC Image Mosaic, Compton Belkovich Th Anomaly",
+    "LayerID": "Moon_eqc_LRO_NAC_Mosaic_61N099E_50cmp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_61N099E_50cmp\\LRO_NAC_Mosaic_61N099E_50cmp-120.png",
+    "BBOX": [
+        98.114441,
+        60.4354811,
+        100.8365669,
+        61.7551977
+    ],
+    "Abstract": "这是使用月球勘测轨道飞行器任务中的月球勘测轨道器相机（LROC）窄角相机（NAC）图像生成的可见图像马赛克。使用从LROC NAC立体图像创建的数字高程模型（DEM）（如果可用）或LRO&apos对图像进行正射校正；月球轨道飞行器激光高度表（LOLA）全球DEM。马赛克是以与收集单个LROC NAC图像相同的分辨率生成的，该分辨率约为0.5米/像素。马赛克被水平配准到LOLA全球DEM中。",
+    "Projection": "PROJCS['Equirectangular MOON',\n\tGEOGCS['GCS_MOON',\n\t\tDATUM['D_MOON',SPHEROID['MOON_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',0],\n\tPARAMETER['standard_parallel_1',61],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_61N099E_50cmp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_61N099E_50cmp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_61N099E_50cmp\\MetaData.html"
+}

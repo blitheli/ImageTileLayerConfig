@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, Orientale 1, 4m Color Roughness Hazard",
+    "LayerID": "Moon_eqc_LRO_NAC_ClrRoughnessHaz_4m_26S265E_200cmp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_4m_26S265E_200cmp\\LRO_NAC_ClrRoughnessHaz_4m_26S265E_200cmp-120.png",
+    "BBOX": [
+        -95.7877312,
+        -26.7174791,
+        -95.0620432,
+        -25.4910156
+    ],
+    "Abstract": "这是一张专题彩色粗糙度危险图，来源于Orientale 1的局部粗糙度图LRO_NAC_roughness_4m_26S265E_200cmp.tif。粗糙度危险分类颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中粗糙度等级相当于4米的车辆直径。",
+    "Projection": "PROJCS['Equirectangular Moon',\n\tGEOGCS['GCS_Moon',\n\t\tDATUM['D_Moon',SPHEROID['Moon_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',0],\n\tPARAMETER['standard_parallel_1',-26],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_4m_26S265E_200cmp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_4m_26S265E_200cmp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_4m_26S265E_200cmp\\MetaData.html"
+}

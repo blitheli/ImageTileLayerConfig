@@ -1,0 +1,11 @@
+LRO LROC Image Mosaic 28cm, Apollo 14
+Layer ID:Moon_eqc_apollo14_28cm_mosaic_byte_geo_1_2_highContrast
+bbox:[-17.4900768, -4.1920753, -17.3907593, -3.225367]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/apollo14_28cm_mosaic_byte_geo_1_2_highContrast
+Abstract :TBD
+待定
+Projection:
+GEOGCS["Moon 2000",
+	DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]]
+

@@ -1,0 +1,25 @@
+LRO NAC Hillshade 2mpp, Endurance-A Site Q
+Layer ID:Moon_eqc_LRO_NAC_Hillshade_2mpp_SiteQ
+bbox:[139.195482, -75.0539847, 139.4515303, -74.9878616]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Hillshade_2mpp_SiteQ
+Abstract :This is a Hillshade made from the image stereo pairs M110670656 and M110691019 using AMES Stereo Pipeline and ISIS4. Output DEM has been resampled to 2mmp. A hillshade function has been applied to the input DEM using ArcGIS Pro. Downloaded data is in a site centered orthographic projection. Data was created by: Heather Lethcoe at the Jet Propulsion Laboratory.
+这是由图像立体对M110670656和M110691019使用AMES立体管道和ISIS4制成的Hillshade。输出DEM已重新采样到2mmp。使用ArcGIS Pro对输入的DEM应用了山坡函数。下载的数据位于以场地为中心的正交投影中。数据由喷气推进实验室的Heather Lethcoe创建。
+Projection:
+PROJCS["ESRI PE String = PROJCS["Site_Q_ortho",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Orthographic"],
+	PARAMETER["False_Easting",0.0],
+	PARAMETER["False_Northing",0.0],
+	PARAMETER["Longitude_Of_Center",139.32360162],
+	PARAMETER["Latitude_Of_Center",-75.02092306],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Orthographic"],
+	PARAMETER["latitude_of_origin",-75.02092306],
+	PARAMETER["central_meridian",139.32360162],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

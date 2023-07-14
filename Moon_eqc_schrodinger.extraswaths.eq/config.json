@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO Narrow Angle Camera, Mosaic Schrodinger Extra",
+    "LayerID": "Moon_eqc_schrodinger.extraswaths.eq",
+    "Icon": "{MoonImage}\\Moon_eqc_schrodinger.extraswaths.eq\\schrodinger.extraswaths.eq-120.png",
+    "BBOX": [
+        132.3933557,
+        -81.0226752,
+        146.0942538,
+        -74.763851
+    ],
+    "Abstract": "待定",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_schrodinger.extraswaths.eq\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_schrodinger.extraswaths.eq\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_schrodinger.extraswaths.eq\\MetaData.html"
+}

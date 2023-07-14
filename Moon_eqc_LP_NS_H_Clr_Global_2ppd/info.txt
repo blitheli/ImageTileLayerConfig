@@ -1,0 +1,11 @@
+LP NS H Abundance
+Layer ID:Moon_eqc_LP_NS_H_Clr_Global_2ppd
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LP_NS_H_Clr_Global_2ppd
+Abstract :The half degree hydrogen abundance data product contains data from the LP neutron spectrometer [Feldman et al., 1999]. Hydrogen abundances are derived from epithermal neutron data that has been corrected by thermal neutron data [Feldman et al., 2001c]. Equations 3 and 4 of Feldman et al. [2001c] show how the corrected epithermal data is converted into hydrogen abundances as parts per million (ppm). Note, however, that these abundances are not necessarily reliable in regions of high thorium and rare-earth element abundances [Maurice et al., 2001a]. The map bin size is 0.5 deg by 0.5 deg. This Lunar Prospector (LP) gamma ray special product and associated documentation have been prepared by the LP Spectrometer Team as part of a NASA Lunar Data Analysis Program. These spectrometer data products integrate data collected between January 16, 1998 and July 31, 1999. The data file descriptions for these products were provided by: William C. Feldman, Tom H. Prettyman, Richard D. Belian, Richard C. Elphic, Olivier Gasnault, David J. Lawrence, Stefanie L. Lawson, and Kurt R. Moore all of Los Alamos National Laboratory, Los Alamos, NM; Alan B. Binde of Lunar Research Institute, Tuscon, AZ; Sylvestre Maurice of Observatoire Midi-Pyrenees, Toulouse, France. IMPORTANT: These data are special products that may be of interest to the geoscience community. They do not represent a PDS peer-reviewed data set. Please contact William Feldman or David Lawrence of LANL for more information. Please report any other anomalies in the data or documentation to geosci@wunder.wustl.edu.
+半度氢丰度数据产品包含LP中子光谱仪的数据[Feldman等人，1999]。氢丰度来源于经热中子数据校正的超热中子数据[Feldman等人，2001c]。Feldman等人[2001c]的方程3和4显示了如何将校正的超热液数据转换为百万分之一（ppm）的氢丰度。然而，请注意，在钍和稀土元素丰度高的地区，这些丰度并不一定可靠[Murice et al.，2001a]。地图仓尺寸为0.5度乘0.5度。作为美国国家航空航天局月球数据分析计划的一部分，月球探测器（LP）伽马射线特殊产品和相关文件由LP光谱仪团队编制。这些光谱仪数据产品整合了1998年1月16日至1999年7月31日期间收集的数据。这些产品的数据文件描述由以下人员提供：William C.Feldman、Tom H.Prettyman、Richard D.Belian、Richard
+Projection:
+GEOGCS["GCS_Moon_2000",
+	DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

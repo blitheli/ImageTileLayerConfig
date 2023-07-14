@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Apollo 16 Metric Cam DEM, Confidence",
+    "LayerID": "Moon_eqc_Apollo16_MetricCam_Conf_Global_1024ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_Apollo16_MetricCam_Conf_Global_1024ppd\\Apollo16_MetricCam_Conf_Global_1024ppd-120.png",
+    "BBOX": [
+        -179.9995117,
+        -21.9995117,
+        179.9995117,
+        18.0004883
+    ],
+    "Abstract": "阿波罗16号DEM置信度数据是使用所有可用的阿波罗16号DEM文件的标准偏差生成的。DEM置信度值以14.8m/像素分辨率存储为8位带符号整数。置信度文件中的值源自精度值。值范围从10到14表示置信度低（10）到置信度非常好（14），其中15=手动编辑。10-14范围内的置信值表示精度文件中存储的标准偏差值，如下所示：大于100m的标准偏差的值为10，75-100m范围内的标准偏差为11，50-75m范围内的基准偏差为12，25-50m范围内的水准偏差为13，0-25m范围内的标准偏差为14。这些DEM置信度文件是使用艾姆斯立体管道生成的：这是美国国家航空航天局艾姆斯智能机器人小组（IRG）生产的一种用于立体图像自动处理的软件工具。",
+    "Projection": "TBD\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Apollo16_MetricCam_Conf_Global_1024ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo16_MetricCam_Conf_Global_1024ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo16_MetricCam_Conf_Global_1024ppd\\MetaData.html"
+}

@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO Narrow Angle Camera, Mosaic Marius",
+    "LayerID": "Moon_eqc_marius_skylight",
+    "Icon": "{MoonImage}\\Moon_eqc_marius_skylight\\marius_skylight-120.png",
+    "BBOX": [
+        -56.8266088,
+        13.4489606,
+        -56.6650325,
+        14.3966658
+    ],
+    "Abstract": "马里乌斯山是月球上最著名的火山圆顶之一。该地区是阿波罗计划的候选着陆点，也被指定为感兴趣的星座区。它仍然是未来可能的特派团正在考虑的地点。除了火山圆顶外，该地区还拥有玄武岩流、蜿蜒的细沟和一个突出的月坑。马里乌斯山矿坑直径58 x 49米，深40米。2008年5月20日，由Haruyama Junichi领导的团队用Kaguya地形相机拍摄的一张照片首次注意到了这一点。马里乌斯山的坑位于一条蜿蜒的细沟的底部，这一事实引发了人们的猜测，即该坑可能是熔岩管顶部坍塌造成的天窗。事实是否如此，如果是这样，熔岩管的可达性和范围还有待确定。然而，这种熔岩管作为月球基地的潜在位置非常令人感兴趣，为月球提供了保护",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_marius_skylight\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_marius_skylight\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_marius_skylight\\MetaData.html"
+}

@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Clementine UVVIS TiO2 Weight Percent",
+    "LayerID": "Moon_eqc_Clem_UVVIS_TiO2_Clr_Global_152ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_Clem_UVVIS_TiO2_Clr_Global_152ppd\\Clem_UVVIS_TiO2_Clr_Global_152ppd-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        179.997,
+        90.0
+    ],
+    "Abstract": "Clementine UVVIS衍生的矿物和光学成熟度图。这些数据集是由扭曲到ULCN2005控制网络的UVVIS镶嵌图生成的。关于数据集是如何导出的更多信息，请参阅：Lucey，P.G.，Blewett，D.T.，Taylor，G.J.，Hawke，B.R.，2000。月球表面成熟度的成像。J.地球物理学。第10520377–20386号决议。Lucey，P.G.，G.J.Taylor和E.Malaret，1995，《月球上铁的丰度和分布》。《科学》，第268卷，第1150-1153页。Lucey，P.G.，D.T.Blewett和B.R.Hawke，1997，用多光谱图像绘制月球表面FeO和TiO2含量图。《地球物理研究杂志》，出版中。更新的参考资料详情：发表于1998年的《地球物理杂志》。Res.，第103号，第E2号，第3679页",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Clem_UVVIS_TiO2_Clr_Global_152ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Clem_UVVIS_TiO2_Clr_Global_152ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Clem_UVVIS_TiO2_Clr_Global_152ppd\\MetaData.html"
+}

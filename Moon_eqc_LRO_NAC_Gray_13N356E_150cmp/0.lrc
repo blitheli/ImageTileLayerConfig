@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_eqc_LRO_NAC_Gray_13N356E_150cmp</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Gray_13N356E_150cmp/1.0.0/WMTSCapabilities.xml</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>-3.8317346</West>
+        <East>-3.5540641</East>
+        <South>12.5162744</South>
+        <North>13.4699413</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>14</LevelEnd>
+    </Range>
+</DataDefine>

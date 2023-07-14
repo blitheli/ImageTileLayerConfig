@@ -1,0 +1,11 @@
+LRO DLRE Color STD CF 128ppd, Global
+Layer ID:Moon_eqc_dgdr_Clrstd_cf_clc_cyl_128_jp2
+bbox:[-180.0, -60.0, 180.0, 60.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/dgdr_Clrstd_cf_clc_cyl_128_jp2
+Abstract :Each sample represents an estimate of the Standard (STD) Christiansen feature (CF) position, which is the mid-infrared emissivity maximum near 8 microns for silicates. The CF is correlated with silicate polymerization providing compositional information. The wavelength position of CF is strongly dependent on the degree of polymerization of minerals, with framework silicate minerals such as feldspars exhibiting CFs at shorter wavelengths than less polymerized pyroxene and olivine. Common lunar minerals thus exhibit widely separated CF positions. The CF position of soils is close to the weighted average of the constituent minerals, which enables determination of major lunar lithologies.
+每个样品代表标准（STD）克里斯蒂安森特征（CF）位置的估计值，这是硅酸盐在8微米附近的中红外发射率最大值。CF与提供组成信息的硅酸盐聚合作用相关。CF的波长位置在很大程度上取决于矿物的聚合度，框架硅酸盐矿物如长石在比聚合度较低的辉石和橄榄石更短的波长下表现出CF。因此，常见的月球矿物显示出广泛分离的CF位置。土壤的CF位置接近组成矿物的加权平均值，这使得能够确定主要的月球岩性。
+Projection:
+GEOGCS["GCS_Moon_2000",
+	DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

@@ -1,0 +1,28 @@
+Clementine UVVIS Image Mosaic
+Layer ID:Moon_eqc_Clem_UVVIS_Mosaic_Global_256ppd_v02
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/Clem_UVVIS_Mosaic_Global_256ppd_v02
+Abstract :The Clementine 750 nm Version 2 mosaic is a greyscale data set
+                            representing the albedo (brightness of the lunar surface) as measured at
+                            the 750 nm wavelength by the UVVIS camera. This lunar base map is a
+                            radiometrically and geometrically controlled, photometrically modeled
+                            global image mosaic compiled using more than 43,000 images from the 750
+                            nanometer filter observations of the UVVIS. The Clementine experiment
+                            carried four scientific imaging cameras: the Ultraviolet/Visible
+                            (UVVIS), Near-Infrared (NIR), High-Resolution (HiRES), and Long-wave
+                            Infrared (LWIR) cameras. The Ultraviolet/Visible (UVVIS) camera imaged
+                            the surface of the Moon at five wavelengths spanning the ultraviolet to
+                            near-infrared spectrum and the Near-Infrared (NIR) camera collected data
+                            at six wavelengths extending into the short-wave infrared. This
+                            experiment yielded information on the color and inferred compositional
+                            properties of lunar soils and surface units, and also provided images
+                            useful for morphologic studies and cratering statistics. Most images
+                            were taken at low Sun angles, which is useful for compositional studies
+                            but not for observing morphology. Global mosaics at the five UVVIS and
+                            six NIR coregistered wavelengths were created using nearly 1 million
+                            images and are displayed here at a resolution of approximately 100
+                            m/pixel.
+Clementine 750nm版本2马赛克是灰度数据集
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

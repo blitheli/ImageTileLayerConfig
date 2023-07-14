@@ -1,0 +1,11 @@
+LRO LROC Rock Density Hazard, Lichtenberg Crater
+Layer ID:Moon_eqc_LRO_NAC_RockDenHaz_32N292E_2mp
+bbox:[-68.2808357, 31.003165, -66.8555884, 32.3600785]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_RockDenHaz_32N292E_2mp
+Abstract :This is a rock density hazard mosaic of the Lichtenberg Crater site generated from data files containing the number of detected rocks (all sizes are included) per hectare (100m x 100m) in the Narrow Angle Camera (NAC) Images covering this site. The data files are created from rock lists computed from images acquired by the Lunar Reconnaissance Orbiter (LRO) Camera (LROC) NAC. Rocks of 2.5m diameter or larger can be fully resolved from the images.  The smallest rocks detected are approximately 1.0m in diameter. Clumped rocks may be reported as a single large rock when their shadows are merged.  In addition to this mosaic, the spatial distribution of rocks is given in three different maps for each NAC image: a rock density data map, a rock density color (thematic) map, and a rock density hazard color (thematic) map. These are available for download as part of the product LRO LROC Hazards, Lichtenberg Crater, All. See also the rock abundance data products for each site.
+这是利希滕贝格陨石坑遗址的岩石密度危险镶嵌图，数据文件包含覆盖该遗址的窄角相机（NAC）图像中每公顷（100米x 100米）探测到的岩石数量（包括所有尺寸）。数据文件是根据月球勘测轨道飞行器（LRO）相机（LROC）NAC获取的图像计算的岩石列表创建的。从图像中可以完全分辨出直径2.5米或更大的岩石。探测到的最小岩石直径约为1.0m。当它们的阴影被合并时，杂乱的岩石可能被报告为单个大岩石。除此镶嵌图外，每个NAC图像的岩石空间分布在三个不同的地图中给出：岩石密度数据图、岩石密度彩色（专题）图和岩石密度危害彩色（主题）图。这些可作为产品LRO LROC Hazards，Lichtenberg Crater，All的一部分下载。另请参阅每个场地的岩石丰度数据产品。
+Projection:
+GEOGCS["GCS_Moon_2000",
+	DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

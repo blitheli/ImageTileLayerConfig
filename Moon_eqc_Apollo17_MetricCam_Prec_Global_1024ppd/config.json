@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Apollo 17 Metric Cam DEM, Precision",
+    "LayerID": "Moon_eqc_Apollo17_MetricCam_Prec_Global_1024ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_Prec_Global_1024ppd\\Apollo17_MetricCam_Prec_Global_1024ppd-120.png",
+    "BBOX": [
+        -179.9995117,
+        -29.9995117,
+        179.9995117,
+        34.0004883
+    ],
+    "Abstract": "阿波罗17号DEM精度是使用标准生成的",
+    "Projection": "GEOGCS['Geographic Coordinate System',\n\tDATUM['D_MOON',SPHEROID['MOON',1737400,'inf']],\n\tPRIMEM['Reference Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_Prec_Global_1024ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_Prec_Global_1024ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_Prec_Global_1024ppd\\MetaData.html"
+}

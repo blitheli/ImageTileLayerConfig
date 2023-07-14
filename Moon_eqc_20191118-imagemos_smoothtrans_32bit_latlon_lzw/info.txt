@@ -1,0 +1,11 @@
+LRO NAC Image Mosaic, Lacus Mortis
+Layer ID:Moon_eqc_20191118-imagemos_smoothtrans_32bit_latlon_lzw
+bbox:[24.5756078, 43.4393444, 26.0548516, 45.9889877]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/20191118-imagemos_smoothtrans_32bit_latlon_lzw
+Abstract :This is an orthoimage mosaic produced by combining LROC NAC images, for the southwestern area of Lacus Mortis, including Rimae Bürg and the Lacus Mortis Pit. The images are projected onto a DEM mosaic produced by stereo reconstructions in which each of the images is paired with another LROC NAC.
+这是一幅由LROC NAC图像组合而成的正射图像镶嵌图，用于Lacus Mortis西南地区，包括Rimae Bürg和Lacus Mortis矿坑。图像被投影到由立体重建产生的DEM马赛克上，其中每个图像与另一个LROC NAC配对。
+Projection:
+GEOGCS["Geographic Coordinate System",
+	DATUM["D_MOON",SPHEROID["MOON",1737400,0]],
+	PRIMEM["Reference Meridian",0],UNIT["degree",0.0174532925199433]]
+

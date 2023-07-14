@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LOLA DEM, N Pole, 75 deg, Hillshade",
+    "LayerID": "Moon_eqc_LRO_LOLA_Shade_NPole75_30mp_v04_EQ",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLA_Shade_NPole75_30mp_v04_EQ\\LRO_LOLA_Shade_NPole75_30mp_v04_EQ-120.png",
+    "BBOX": [
+        -180.0,
+        68.9066065,
+        179.9992504,
+        90.0
+    ],
+    "Abstract": "这是LRO LOLA DEM的第4版，北极，75度，Hillshade。这是原始极地LOLA数字高程模型（DEM）的阴影浮雕。DEM是月球形状图（半径），分辨率为每像素100米，基于LOLA仪器通过Spetember 2011获取的测高数据。使用通用映射工具程序“surface”和“grdblend”对地面轨迹进行插值。地图值指的是1737400米的半径。",
+    "Projection": "GEOGCS['GCS_Moon',\n\tDATUM['Moon',SPHEROID['Moon',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_LOLA_Shade_NPole75_30mp_v04_EQ\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_LOLA_Shade_NPole75_30mp_v04_EQ\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_LOLA_Shade_NPole75_30mp_v04_EQ\\MetaData.html"
+}

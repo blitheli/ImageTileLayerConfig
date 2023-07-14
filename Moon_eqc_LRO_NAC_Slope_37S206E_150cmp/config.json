@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, Apollo Basin, Colorized Slope",
+    "LayerID": "Moon_eqc_LRO_NAC_Slope_37S206E_150cmp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Slope_37S206E_150cmp\\LRO_NAC_Slope_37S206E_150cmp-120.png",
+    "BBOX": [
+        -122.9530919,
+        -37.2487713,
+        -122.5474639,
+        -36.8352287
+    ],
+    "Abstract": "这是从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）图像中提取的数字高程模型（DEM）的斜坡彩色阴影浮雕。数据产品是来自所有NAC图像的DEM，这些图像在DEM构建时通过PDS获取并可用。所使用的图像来自调试和测绘任务阶段，在图像视轴处的分辨率约为2.0 m/p至0.5 m/p。DEM比例尺为1.5米/像素，具有相当的真实水平分辨率。DEM被水平地和垂直地登记到LRO&apos；通过使用月球轨道飞行器NAIF内核获得的月球轨道飞行器激光高度计（LOLA）数据。随后将其与LOLA网格DTM进行了比较。高程值以米为单位，指的是1737400m的半径。",
+    "Projection": "PROJCS['Equirectangular_MOON_37S',\n\tGEOGCS['GCS_MOON',\n\t\tDATUM['MOON',SPHEROID['MOON_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',0],\n\tPARAMETER['standard_parallel_1',0],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Slope_37S206E_150cmp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Slope_37S206E_150cmp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Slope_37S206E_150cmp\\MetaData.html"
+}

@@ -1,0 +1,15 @@
+Kaguya MI Plagioclase Grain Size
+Layer ID:Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_PlagioclaseGrainSizeMicrons_50N50S
+bbox:[-180.0, -50.0, 180.0, 50.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/Lunar_Kaguya_MIMap_MineralDeconv_PlagioclaseGrainSizeMicrons_50N50S
+Abstract :This mosaic represents the grain size of the mineral plagioclase on the surface of the Moon, expressed in units of micrometers (microns).
+
+The mosaic was created from the topographically corrected MI reflectance data acquired of the Moon by the JAXA SELENE/Kaguya mission (Ohtake, M., C.M. Pieters, P. Isaacson, S. Besse, Y. Yokota, T. Matsunaga, J. Boardman, S. Yamamoto, J. Haruyama, M. Staid, U. Mall, R.O. Green [2013], One Moon, Many Measurements 3: Spectral reflectance, Icarus, Volume 226, Issue 1, 364â374) from the Kaguya Archive MI MAP processing level version 2 (MI MAP_02). The original MI product of 1x1 degree mosaics at 2048 ppd (15 m/p) data was resampled during processing to 512 ppd (59 m/p). The MI ultraviolet-visible (UVVIS) data (5 spectral bands, at 415, 750, 900, 950, 1001 nm) were used to derive 9 new near-global maps of common lunar minerals, FeO, and optical maturity (OMAT) using Hapkeâs radiative transfer equations (Lemelin, M., Lucey, P.G., L.R. Gaddis, T. Hare, and M. Ohtake, 2019, Global map products from the Kaguya Multiband Imager at 512 ppd: Minerals, FeO and OMAT, Planetary and Space Science 165 (2019) 230â243). This product only covers the latitudinal range +/-50 degrees due to the difficulty of applying adequate corrections for topographic shading at higher latitudes.
+
+The mosaic presented here has been resampled to 512 ppd (59 meters/pixel) from its original resolution of 2048 ppd (15 meters/pixel).
+
+For usage rights, please refer to the JAXA Conditions for material usage page ( <http://jda.jaxa.jp/en/service.php> ) and please credit JAXA and the SELENE/Kaguya data. (Copyright)JAXA/SELENE
+这幅镶嵌图代表了月球表面矿物斜长石的粒度，单位为微米。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

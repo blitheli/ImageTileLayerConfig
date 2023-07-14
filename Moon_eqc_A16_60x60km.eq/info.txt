@@ -1,0 +1,9 @@
+LRO Narrow Angle Camera, Mosaic Apollo 16
+Layer ID:Moon_eqc_A16_60x60km.eq
+bbox:[14.5106517, -9.9593381, 16.4893414, -7.9806485]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/A16_60x60km.eq
+Abstract :This is a Lunar Reconnaisance Orbiter (LRO) Narrow Angle Camera (NAC) mosaic centered at the Apollo 16 landing site with an extent of 60x60km. Each NAC image was processed in ISIS3 at a resolution of 50cm pixel, color balanced, and synthesized into a single output.
+这是一个月球侦察轨道飞行器（LRO）窄角相机（NAC）马赛克，以阿波罗16号着陆点为中心，范围为60x60km。每个NAC图像在ISIS3中以50cm像素的分辨率进行处理，颜色平衡，并合成为单个输出。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

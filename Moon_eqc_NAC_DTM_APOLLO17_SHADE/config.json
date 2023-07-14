@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO Narrow Angle Camera, HillShade Apollo 17",
+    "LayerID": "Moon_eqc_NAC_DTM_APOLLO17_SHADE",
+    "Icon": "{MoonImage}\\Moon_eqc_NAC_DTM_APOLLO17_SHADE\\NAC_DTM_APOLLO17_SHADE-120.png",
+    "BBOX": [
+        29.9059224,
+        19.3905316,
+        31.65811,
+        21.3035496
+    ],
+    "Abstract": "这是阿波罗17号着陆场5米数字地形模型（DTM）的阴影浮雕，该模型由月球勘测轨道飞行器（LRO）上的月球勘测轨道器相机（LROC）的窄角相机（NAC）立体图像对创建。生成的阴影浮雕图像的太阳方位角为315度（西北），太阳高度为45度。图像是TIFF图像，在单个图像平面配置中为8位/样本，1个样本/像素。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_NAC_DTM_APOLLO17_SHADE\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_NAC_DTM_APOLLO17_SHADE\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_NAC_DTM_APOLLO17_SHADE\\MetaData.html"
+}

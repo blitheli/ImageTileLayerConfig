@@ -1,0 +1,11 @@
+LRO LOLA DEM, S Pole, 87.5 deg, ColorHillshade
+Layer ID:Moon_eqc_LRO_LOLA_ClrShade_SPole875_5mp_v04_EQ
+bbox:[-180.0, -89.9994527, 180.0, -86.4641138]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_LOLA_ClrShade_SPole875_5mp_v04_EQ
+Abstract :This is version 4 of the LRO LOLA South Pole 87.5 deg DEM, ColorHillshade. This is a colorized shaded-relief of a original polar LOLA Digital Elevation Model (DEM). The DEM is a shape map (radius) of the Moon at a resolution 100 meters per pixel, based on altimetry data acquired through Spetember 2011 by the LOLA instrument. The ground tracks were interpolated using the Generic Mapping Tools programs "surface" and "grdblend". Map values are referred to a radius of 1737400 m.
+这是LRO LOLA南极87.5度DEM的第4版，ColorHillshade。这是原始极地LOLA数字高程模型（DEM）的彩色阴影浮雕。DEM是月球形状图（半径），分辨率为每像素100米，基于LOLA仪器通过Spetember 2011获取的测高数据。使用通用映射工具程序“surface”和“grdblend”对地面轨迹进行插值。地图值指的是1737400米的半径。
+Projection:
+GEOGCS["GCS_Moon",
+	DATUM["Moon",SPHEROID["Moon",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

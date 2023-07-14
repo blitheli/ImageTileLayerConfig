@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LOLA and TC Stereo DEM Merge 512ppd, Shade",
+    "LayerID": "Moon_eqc_LRO_LrocKaguya_Shade_60N60S_512ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_LrocKaguya_Shade_60N60S_512ppd\\LRO_LrocKaguya_Shade_60N60S_512ppd-120.png",
+    "BBOX": [
+        -180.0,
+        -59.9997904,
+        179.9999887,
+        60.0
+    ],
+    "Abstract": "这是2015年初发布的原始LOLA和Kaguya地形相机立体合并数字高程模型（DEM）的阴影浮雕。DEM是一张分辨率为512像素/度（59米/像素）的月球形状图，基于LOLA仪器获得的测高数据和Kaguya地形相机立体数据。地图值指的是1737400米的半径。SELENE是日本宇宙航空研究开发机构开发和运营的一个日本任务。请创建NASA&apos；LOLA团队和JAXA&apos；SELENE/Kaguya团队。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_LrocKaguya_Shade_60N60S_512ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_LrocKaguya_Shade_60N60S_512ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_LrocKaguya_Shade_60N60S_512ppd\\MetaData.html"
+}

@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, Alphonsus Crater, 15m Color Slope",
+    "LayerID": "Moon_eqc_LRO_NAC_ClrSlope_15m_13S358E_2mp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_15m_13S358E_2mp\\LRO_NAC_ClrSlope_15m_13S358E_2mp-120.png",
+    "BBOX": [
+        -2.5415659,
+        -26.120285,
+        -1.9527127,
+        -25.0865602
+    ],
+    "Abstract": "这是一张专题彩色斜坡图，来源于Alphonsus陨石坑的局部斜坡图LRO_NAC_slope_15m_13S358E_200cmp.tif。坡度分类颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中坡度比例相当于15米的车辆直径。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_15m_13S358E_2mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_15m_13S358E_2mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_15m_13S358E_2mp\\MetaData.html"
+}

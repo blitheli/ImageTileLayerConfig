@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO Narrow Angle Camera, Mosaic Apollo 17",
+    "LayerID": "Moon_eqc_A17_60x60km.eq",
+    "Icon": "{MoonImage}\\Moon_eqc_A17_60x60km.eq\\A17_60x60km.eq-120.png",
+    "BBOX": [
+        29.7806497,
+        19.2006487,
+        31.7593393,
+        21.1793384
+    ],
+    "Abstract": "这是一个月球侦察轨道飞行器（LRO）窄角相机（NAC）马赛克，以阿波罗17号着陆点为中心，范围为60x60km。每个NAC图像在ISIS3中以50cm像素的分辨率进行处理，颜色平衡，并合成为单个输出。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_A17_60x60km.eq\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_A17_60x60km.eq\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_A17_60x60km.eq\\MetaData.html"
+}

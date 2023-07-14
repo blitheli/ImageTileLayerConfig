@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, South Pole-Aitken Basin Interior, 15m Color Roughness Hazard",
+    "LayerID": "Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_60S200E_150cmp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_60S200E_150cmp\\LRO_NAC_ClrRoughnessHaz_15m_60S200E_150cmp-120.png",
+    "BBOX": [
+        -160.6816672,
+        -60.6430685,
+        -159.4890184,
+        -59.3178763
+    ],
+    "Abstract": "这是一张专题彩色粗糙度危险图，来源于南极-艾特肯盆地内部场地的局部粗糙度图LRO_NAC_roughness_15m_60S200E_150cmp.tif。粗糙度危险分类颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中粗糙度等级相当于15米的车辆直径。",
+    "Projection": "PROJCS['Equirectangular Moon',\n\tGEOGCS['GCS_Moon',\n\t\tDATUM['D_Moon',SPHEROID['Moon_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',0],\n\tPARAMETER['standard_parallel_1',-60],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_60S200E_150cmp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_60S200E_150cmp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_60S200E_150cmp\\MetaData.html"
+}

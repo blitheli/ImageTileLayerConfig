@@ -1,0 +1,9 @@
+GRAIL LGRS, Crustal Thickness Model 2
+Layer ID:Moon_eqc_Model2_thick.eq
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/Model2_thick.eq
+Abstract :High-resolution gravity data obtained from the dual Gravity Recovery and Interior Laboratory (GRAIL) spacecraft show that the bulk density of the Moonâs highlands crust is 2550 kilograms per cubic meter, substantially lower than generally assumed. When combined with remote sensing and sample data, this density implies an average crustal porosity of 12% to depths of at least a few kilometers. Lateral variations in crustal porosity correlate with the largest impact basins, whereas lateral variations in crustal density correlate with crustal composition. The low-bulk crustal density allows construction of a global crustal thickness model that satisfies the Apollo seismic constraints, and with an average crustal thickness between 34 and 43 kilometers, the bulk refractory element composition of the Moon is not required to be enriched with respect to that of Earth.
+从双重重力回收和内部实验室（GRAIL）航天器获得的高分辨率重力数据显示，月球高地地壳的体积密度为每立方米2550公斤，远低于一般假设。当与遥感和样本数据相结合时，这种密度意味着至少几公里深处的平均地壳孔隙度为12%。地壳孔隙度的横向变化与最大的撞击盆地相关，而地壳密度的横向变化则与地壳成分相关。低的整体地壳密度允许构建满足阿波罗地震约束的全球地壳厚度模型，并且由于平均地壳厚度在34至43公里之间，月球的整体耐火元素成分不需要相对于地球的成分进行富集。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

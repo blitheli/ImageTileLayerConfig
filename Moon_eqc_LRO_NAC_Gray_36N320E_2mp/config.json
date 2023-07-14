@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, Gruithuisen Domes, Grayscale",
+    "LayerID": "Moon_eqc_LRO_NAC_Gray_36N320E_2mp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Gray_36N320E_2mp\\LRO_NAC_Gray_36N320E_2mp-120.png",
+    "BBOX": [
+        113.0607413,
+        35.6676209,
+        113.6203827,
+        36.7431694
+    ],
+    "Abstract": "这是数字高程模型（DEM）的灰度图像版本，从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）几何立体图像中提取。该图像是根据匹配的Gruithusen Domes DEM数据生成的，通过将海拔值从-2447到-87的范围缩放为0到255之间的整数值。-2447和-87下方和上方的高程分别映射为0和255。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Gray_36N320E_2mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Gray_36N320E_2mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Gray_36N320E_2mp\\MetaData.html"
+}

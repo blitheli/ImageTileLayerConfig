@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Kaguya MI Clinopyroxene Weight Percent",
+    "LayerID": "Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_ClinopyroxenePercent_50N50S",
+    "Icon": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_ClinopyroxenePercent_50N50S\\Lunar_Kaguya_MIMap_MineralDeconv_ClinopyroxenePercent_50N50S-120.png",
+    "BBOX": [
+        -180.0,
+        -50.0,
+        180.0,
+        50.0
+    ],
+    "Abstract": "待定",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_ClinopyroxenePercent_50N50S\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_ClinopyroxenePercent_50N50S\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_ClinopyroxenePercent_50N50S\\MetaData.html"
+}

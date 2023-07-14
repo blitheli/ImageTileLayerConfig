@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Kaguya LGM2011 Freeair Gravity, Colorized",
+    "LayerID": "Moon_eqc_Kaguya_LGM2011_FreeairGravity_Colorized_Global_mgal3m_20ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_Kaguya_LGM2011_FreeairGravity_Colorized_Global_mgal3m_20ppd\\Kaguya_LGM2011_FreeairGravity_Colorized_Global_mgal3m_20ppd-120.png",
+    "BBOX": [
+        -180.0,
+        -89.975,
+        179.975,
+        90.0
+    ],
+    "Abstract": "这是LGM2011自由空气重力异常的8位彩色版本，它是牛顿和SGM100i（SELENE重力场模型）的总和，反映了月球质量分布中偏离均匀密度球体的部分。自由空气重力异常的变化范围约为0.0156ms^-2，平均信号强度约为0.0015ms^-2。LGM2011产品基于日本（Selenological and Engineering Explorer，或Kaguya）SELENE任务，该任务提供重力场的低频和中频分量，低至约78公里的空间尺度。在约78公里至约1.5公里的空间范围内，LGM2011首次使用（月球轨道飞行器激光测高仪）LOLA激光测高获得的高频地形信息来近似许多中小型撞击坑的重力场特征。对于基于地形的重力近似，我们在SELENE和LOLA的关键假设下使用牛顿正演模型",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Kaguya_LGM2011_FreeairGravity_Colorized_Global_mgal3m_20ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Kaguya_LGM2011_FreeairGravity_Colorized_Global_mgal3m_20ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Kaguya_LGM2011_FreeairGravity_Colorized_Global_mgal3m_20ppd\\MetaData.html"
+}

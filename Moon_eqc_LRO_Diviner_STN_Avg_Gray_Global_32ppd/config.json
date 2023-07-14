@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO DLRE Surface Temp Normal Avg, Gray",
+    "LayerID": "Moon_eqc_LRO_Diviner_STN_Avg_Gray_Global_32ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_Diviner_STN_Avg_Gray_Global_32ppd\\LRO_Diviner_STN_Avg_Gray_Global_32ppd-120.png",
+    "BBOX": [
+        -180.0,
+        -60.0,
+        180.0,
+        60.0
+    ],
+    "Abstract": "每个样本代表无岩石风化层表面的偏差",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_Diviner_STN_Avg_Gray_Global_32ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_Diviner_STN_Avg_Gray_Global_32ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_Diviner_STN_Avg_Gray_Global_32ppd\\MetaData.html"
+}

@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Apollo 15 Metric Cam Image Mosaic",
+    "LayerID": "Moon_eqc_Apollo15_MetricCam_Mosaic_Global_4096ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Mosaic_Global_4096ppd\\Apollo15_MetricCam_Mosaic_Global_4096ppd-120.png",
+    "BBOX": [
+        -68.0001221,
+        -29.9998779,
+        179.9998779,
+        34.0001221
+    ],
+    "Abstract": "阿波罗15号图像马赛克以7.4m/像素（4096ppd）分辨率存储为8位带符号整数。无效像素标记为0值。值255未使用。镶嵌过程包括上采样后处理步骤。马赛克是使用艾姆斯立体管道生成的：这是一种由美国国家航空航天局艾姆斯智能机器人集团（IRG）生产的用于立体图像自动处理的软件工具。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Mosaic_Global_4096ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Mosaic_Global_4096ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Mosaic_Global_4096ppd\\MetaData.html"
+}

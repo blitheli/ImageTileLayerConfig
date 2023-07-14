@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO Narrow Angle Camera, Mosaic Apollo 17",
+    "LayerID": "Moon_eqc_NAC_DTM_APOLLO17_MOSAIC_120CM",
+    "Icon": "{MoonImage}\\Moon_eqc_NAC_DTM_APOLLO17_MOSAIC_120CM\\NAC_DTM_APOLLO17_MOSAIC_120CM-120.png",
+    "BBOX": [
+        29.9059014,
+        19.3905439,
+        31.6579562,
+        21.3035034
+    ],
+    "Abstract": "这是阿波罗17号着陆场的5米/数字地形模型（DTM）正射校正的窄角相机（NAC）图像的马赛克。来自月球勘测轨道飞行器（LRO）上的月球勘测轨道器相机（LROC）的NAC立体图像对。）。对图像进行ISIS 3.4.4和SER增强以及BAE系统公司的SOCET SET v5.5（c）处理，以创建DTM，然后对输入图像进行正射校正。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_NAC_DTM_APOLLO17_MOSAIC_120CM\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_NAC_DTM_APOLLO17_MOSAIC_120CM\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_NAC_DTM_APOLLO17_MOSAIC_120CM\\MetaData.html"
+}

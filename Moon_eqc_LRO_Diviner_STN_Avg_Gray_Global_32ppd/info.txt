@@ -1,0 +1,21 @@
+LRO DLRE Surface Temp Normal Avg, Gray
+Layer ID:Moon_eqc_LRO_Diviner_STN_Avg_Gray_Global_32ppd
+bbox:[-180.0, -60.0, 180.0, 60.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_Diviner_STN_Avg_Gray_Global_32ppd
+Abstract :Each sample represents the deviation of rock-free regolith surface
+        temperature derived from the global average for each local time as
+        estimated using the technique described in Bandfield et al. (2011).  Data from diviner spectral channels 6, 7, and 8 were binned at 32
+        pixels per degree in ten separate one hour increments of local time
+        from 1930 to 0530. For each local time, the longitudinally averaged
+        regolith temperatures were calculated and filtered using a 401 sample
+        boxcar filter to remove local latitudinal variations.  The
+        longitudinal average regolith temperature for each local time was
+        subtracted from the regolith temperatures to produce a deviation from
+        the longitudinal average, allowing for values between separate local
+        time observations to be comparable and removing the latitudinal
+        temperature gradient. For each spatial bin, all retrieved values for
+        the ten local times were averaged to produce a single map.
+每个样本代表无岩石风化层表面的偏差
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

@@ -1,0 +1,18 @@
+LRO LROC DEM, Lichtenberg Crater, Grayscale
+Layer ID:Moon_eqc_LRO_NAC_Gray_32N292E_2mp
+bbox:[-68.2808357, 31.0043632, -66.8543272, 32.3600785]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Gray_32N292E_2mp
+Abstract :This is a grayscale image version of the Digital Elevation Model (DEM) extracted from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) geometric stereo images from the Lunar Reconnaissance Orbiter mission. This image was generated from the matching Cx Lichtenberg Crater DEM data by scaling the elevation values from the range of -4100 and -1250 to integer values between 0 and 255. Elevation below and above the -4100 and -1250 are mapped to 0 and 255, respectively.
+这是数字高程模型（DEM）的灰度图像版本，从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）几何立体图像中提取。该图像是根据匹配的Cx Lichtenberg陨石坑DEM数据生成的，通过将海拔值从-410到-1250的范围缩放为0到255之间的整数值。低于和高于-410和-1250的高程分别映射为0和255。
+Projection:
+PROJCS["Equirectangular Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",180],
+	PARAMETER["standard_parallel_1",32],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

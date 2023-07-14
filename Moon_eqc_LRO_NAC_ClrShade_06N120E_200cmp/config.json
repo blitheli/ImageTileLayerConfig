@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, King Crater, ColorHillshade",
+    "LayerID": "Moon_eqc_LRO_NAC_ClrShade_06N120E_200cmp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_06N120E_200cmp\\LRO_NAC_ClrShade_06N120E_200cmp-120.png",
+    "BBOX": [
+        119.5578735,
+        5.9841583,
+        120.1012514,
+        7.10901
+    ],
+    "Abstract": "这是从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）立体图像中提取的数字高程模型（DEM）的彩色阴影浮雕。原始数据产品是以约0.5m/p分辨率采集的立体图像的DEM，使用软拷贝摄影测量系统，其输出DEM分辨率为1.5至2米/像素。然而，在某些情况下，LROC DEM也以较低的分辨率生成。DEM被水平地和垂直地登记到LRO&apos；月球轨道飞行器激光高度表（LOLA）数据。",
+    "Projection": "PROJCS['Equirectangular Moon',\n\tGEOGCS['GCS_Moon',\n\t\tDATUM['D_Moon',SPHEROID['Moon_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',0],\n\tPARAMETER['standard_parallel_1',6],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_06N120E_200cmp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_06N120E_200cmp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_06N120E_200cmp\\MetaData.html"
+}

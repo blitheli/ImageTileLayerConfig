@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC Image Mosaic 28cm, Apollo 14",
+    "LayerID": "Moon_eqc_apollo14_28cm_mosaic_byte_geo_1_2_highContrast",
+    "Icon": "{MoonImage}\\Moon_eqc_apollo14_28cm_mosaic_byte_geo_1_2_highContrast\\apollo14_28cm_mosaic_byte_geo_1_2_highContrast-120.png",
+    "BBOX": [
+        -17.4900768,
+        -4.1920753,
+        -17.3907593,
+        -3.225367
+    ],
+    "Abstract": "待定",
+    "Projection": "GEOGCS['Moon 2000',\n\tDATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\tPRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_apollo14_28cm_mosaic_byte_geo_1_2_highContrast\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_apollo14_28cm_mosaic_byte_geo_1_2_highContrast\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_apollo14_28cm_mosaic_byte_geo_1_2_highContrast\\MetaData.html"
+}

@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO Narrow Angle Camera, Mosaic Philolaus",
+    "LayerID": "Moon_eqc_Philolaus_skylight",
+    "Icon": "{MoonImage}\\Moon_eqc_Philolaus_skylight\\Philolaus_skylight-120.png",
+    "BBOX": [
+        -34.624345,
+        70.4944132,
+        -29.2611755,
+        73.4295039
+    ],
+    "Abstract": "这是使用月球勘测轨道飞行器任务中的月球勘测轨道器相机（LROC）窄角相机（NAC）图像生成的可见图像马赛克。这些图像是使用数字高程模型（DEM）进行正射校正的，该模型是根据LROC NAC立体图像创建的（如果可用），或LRO的月球轨道飞行器激光高度表（LOLA）全球DEM。马赛克是以与收集单个LROC NAC图像相同的分辨率生成的，该分辨率约为0.5米/像素。马赛克被水平配准到LOLA全球DEM中。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Philolaus_skylight\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Philolaus_skylight\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Philolaus_skylight\\MetaData.html"
+}

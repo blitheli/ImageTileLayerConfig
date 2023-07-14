@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Kaguya MI Colorized FeO Weight Percent",
+    "LayerID": "Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_FeOWeightPercent_50N50S_colorize",
+    "Icon": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_FeOWeightPercent_50N50S_colorize\\Lunar_Kaguya_MIMap_MineralDeconv_FeOWeightPercent_50N50S_colorize-120.png",
+    "BBOX": [
+        -180.0,
+        -50.0,
+        180.0,
+        50.0
+    ],
+    "Abstract": "这幅镶嵌图代表了月球表面铁（Fe）的丰度，表示为氧化铁的重量百分比（FeO wt%）。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_FeOWeightPercent_50N50S_colorize\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_FeOWeightPercent_50N50S_colorize\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_FeOWeightPercent_50N50S_colorize\\MetaData.html"
+}

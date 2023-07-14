@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Apollo 15 Pan Cam DEM, Aristarchus Plateau 2, Confidence",
+    "LayerID": "Moon_eqc_Apollo15_PanCam_Conf_28N307E_3mp",
+    "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Conf_28N307E_3mp\\Apollo15_PanCam_Conf_28N307E_3mp-120.png",
+    "BBOX": [
+        -53.1015073,
+        26.7635801,
+        -51.5924499,
+        29.0334672
+    ],
+    "Abstract": "该光栅数据集表示阿里斯塔克斯高原1区数字高程模型（DEM）的每个像素的置信值或优值（FOM）。阿波罗15号原始巴拿马图像的分辨率为1.5米/像素，这允许使用软拷贝摄影测量系统输出5米/像素的DEM分辨率。它注册到ULCN 2005控制网络。DEM被水平地和垂直地登记到LRO&apos；月球轨道飞行器激光高度表（LOLA）数据。高程值以米为单位，指的是1737400m的半径。",
+    "Projection": "PROJCS['Equirectangular Moon',\n\tGEOGCS['GCS_Moon',\n\t\tDATUM['D_Moon',SPHEROID['Moon_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',0],\n\tPARAMETER['standard_parallel_1',28],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Conf_28N307E_3mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Conf_28N307E_3mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Conf_28N307E_3mp\\MetaData.html"
+}

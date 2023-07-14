@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Kaguya MI Colorized Orthopyroxene Weight Percent",
+    "LayerID": "Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_OrthopyroxenePercent_50N50S_colorize",
+    "Icon": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_OrthopyroxenePercent_50N50S_colorize\\Lunar_Kaguya_MIMap_MineralDeconv_OrthopyroxenePercent_50N50S_colorize-120.png",
+    "BBOX": [
+        -180.0,
+        -50.0,
+        180.0,
+        50.0
+    ],
+    "Abstract": "这幅镶嵌图代表了月球表面直辉石矿物的丰度，以重量百分比（wt%）表示。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_OrthopyroxenePercent_50N50S_colorize\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_OrthopyroxenePercent_50N50S_colorize\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_OrthopyroxenePercent_50N50S_colorize\\MetaData.html"
+}

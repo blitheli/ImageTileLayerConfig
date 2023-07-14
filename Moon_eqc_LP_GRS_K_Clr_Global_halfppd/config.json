@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LP GRS K Abundance",
+    "LayerID": "Moon_eqc_LP_GRS_K_Clr_Global_halfppd",
+    "Icon": "{MoonImage}\\Moon_eqc_LP_GRS_K_Clr_Global_halfppd\\LP_GRS_K_Clr_Global_halfppd-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "这些数据产品包含从LP伽马射线光谱仪[Feldman et al.，1999]在LP任务的高海拔和低海拔部分获得的观测结果中得出的K元素丰度值。数据以ppm为单位。Prettyman等人【2002】对这些数据产品的减少进行了描述。地图仓大小为60公里乘60公里。该月球探测器（LP）伽马射线特殊产品和相关文件由LP光谱仪团队编制，作为NASA月球数据分析计划的一部分。这些光谱仪数据产品整合了1998年1月16日至1999年7月31日期间收集的数据。这些产品的数据文件描述由以下人员提供：William C.Feldman、Tom H.Prettyman、Richard D.Belian、Richard C.Elphic、Olivier Gasnault、David J.Lawrence、Stefanie L.Lawson和Kurt R.Moore，均来自新墨西哥州洛斯阿拉莫斯洛斯阿拉莫斯国家实验室；亚利桑那州塔斯康月球研究所的Alan B.Binde；奥瑟尔的西尔维斯特·莫里斯",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LP_GRS_K_Clr_Global_halfppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LP_GRS_K_Clr_Global_halfppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LP_GRS_K_Clr_Global_halfppd\\MetaData.html"
+}

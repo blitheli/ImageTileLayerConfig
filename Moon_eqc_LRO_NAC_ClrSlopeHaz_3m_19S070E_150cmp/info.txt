@@ -1,0 +1,9 @@
+LRO LROC DEM, Balmer Basin, 3m Color Slope Hazard
+Layer ID:Moon_eqc_LRO_NAC_ClrSlopeHaz_3m_19S070E_150cmp
+bbox:[69.5021195, -19.3338089, 70.2347657, -17.6288402]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_ClrSlopeHaz_3m_19S070E_150cmp
+Abstract :This is a thematic color slope hazard map derived from the local slope map LRO_NAC_Slope_3m_19S070E_150cmp.tif of Balmer Basin. Slope classification color ranges are arbitrary but representative of recent lander and rover designs, where the slope scale is equivalent to the vehicle diameter of 3m.
+这是一张专题彩色斜坡危险图，来源于Balmer盆地的局部斜坡图LRO_NAC_slope_3m_19S070E_150cmp.tif。坡度分类颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中坡度等级相当于3米的车辆直径。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

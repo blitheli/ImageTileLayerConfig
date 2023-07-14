@@ -1,0 +1,11 @@
+LRO LROC WAC Image Mosaic
+Layer ID:Moon_eqc_LRO_WAC_Mosaic_Global_303ppd
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_WAC_Mosaic_Global_303ppd
+Abstract :This is a preliminary global mosaic of the Lunar Reconnaissance Orbiter Camera (LROC) Wide Angle Camera (WAC) images taken in monochrome mode. The global WAC mosaic provides a global morphology basemap with incidence angles between 60 deg and 80 deg and a uniform resolution of 100 m/pixel.
+这是月球勘测轨道飞行器相机（LROC）广角相机（WAC）在单色模式下拍摄的初步全球马赛克图像。全局WAC马赛克提供了入射角在60度和80度之间的全局形态基础图，并且具有100米/像素的均匀分辨率。
+Projection:
+GEOGCS["GCS_Moon_2000",
+	DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

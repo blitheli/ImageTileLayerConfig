@@ -1,0 +1,18 @@
+Apollo 15 Pan Cam DEM, Tsiolkovskiy Crater, Grayscale
+Layer ID:Moon_eqc_Apollo15_PanCam_Gray_19S129E_5mp
+bbox:[120.5248201, -21.0529248, 122.7630741, -18.2873921]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/Apollo15_PanCam_Gray_19S129E_5mp
+Abstract :This is a grayscale image version of the Digital Elevation Model (DEM) extracted from the Apollo 15 Panometric Camera images. This image was generated from the matching PanCam Tsiolkovskiy Crater DEM data by scaling the elevation values from the range of -2197 to 1743 to integer values between 0 and 255. Elevation below and above the -2197 and 1743 are mapped to 0 and 255, respectively.
+这是从阿波罗15号全景相机图像中提取的数字高程模型（DEM）的灰度图像版本。该图像由匹配的PanCam Tsiolkovskiy陨石坑DEM数据生成，通过将海拔值从-2197到1743的范围缩放为0到255之间的整数值。-2197和1743以下和以上的高程分别映射为0和255。
+Projection:
+PROJCS["Equirectangular MOON",
+	GEOGCS["GCS_MOON",
+		DATUM["D_MOON",SPHEROID["MOON_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",-2],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

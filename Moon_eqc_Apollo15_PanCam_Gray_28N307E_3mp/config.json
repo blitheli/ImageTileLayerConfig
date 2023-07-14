@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Apollo 15 Pan Cam DEM, Aristarchus Plateau 2, Grayscale",
+    "LayerID": "Moon_eqc_Apollo15_PanCam_Gray_28N307E_3mp",
+    "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Gray_28N307E_3mp\\Apollo15_PanCam_Gray_28N307E_3mp-120.png",
+    "BBOX": [
+        -46.914427,
+        26.7635745,
+        -45.5811867,
+        29.0334672
+    ],
+    "Abstract": "这是从阿波罗15号全景相机图像中提取的数字高程模型（DEM）的灰度图像版本。该图像是根据匹配的PanCam Aristarchus Plateau 2 DEM数据生成的，通过将海拔值从-2329到-259的范围缩放为0到255之间的整数值。-2329和-259以下和以上的高程分别映射为0和255。",
+    "Projection": "PROJCS['Equirectangular MOON',\n\tGEOGCS['GCS_MOON',\n\t\tDATUM['D_MOON',SPHEROID['MOON_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',0],\n\tPARAMETER['standard_parallel_1',-2],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Gray_28N307E_3mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Gray_28N307E_3mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Gray_28N307E_3mp\\MetaData.html"
+}

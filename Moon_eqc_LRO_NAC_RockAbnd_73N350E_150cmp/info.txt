@@ -1,0 +1,11 @@
+LRO LROC Rock Abundance, Anaxagoras Crater
+Layer ID:Moon_eqc_LRO_NAC_RockAbnd_73N350E_150cmp
+bbox:[-9.8636698, 72.6249539, -8.552341, 74.2066979]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_RockAbnd_73N350E_150cmp
+Abstract :This is a rock abundance mosaic of the Anaxagoras Crater site generated from data files containing the percentage of each hectare (100m x 100m) that is occupied by rocks in the Narrow Angle Camera (NAC) Images covering this site. The data files are created from rock lists computed from images acquired by the Lunar Reconnaissance Orbiter (LRO) Camera (LROC) NAC. Rocks of 2.5m diameter or larger can be fully resolved from the images. The smallest rocks detected are approximately 1.0m in diameter. Clumped rocks may be reported as a single large rock when their shadows are merged. In addition to this mosaic, the spatial distribution of rocks is given in three different maps for each NAC image: a rock abundance data map, a rock abundance color (thematic) map, and a rock abundance hazard color (thematic) map. These are available for download as part of the product LRO LROC Hazards, Anaxagoras Crater, All. See also the rock density data products for each site.
+这是根据数据文件生成的Anaxagoras陨石坑遗址的岩石丰度镶嵌图，该数据文件包含覆盖该遗址的窄角相机（NAC）图像中岩石所占每公顷（100米x 100米）的百分比。数据文件是根据月球勘测轨道飞行器（LRO）相机（LROC）NAC获取的图像计算的岩石列表创建的。从图像中可以完全分辨出直径2.5米或更大的岩石。探测到的最小岩石直径约为1.0m。当它们的阴影被合并时，杂乱的岩石可能被报告为单个大岩石。除此镶嵌图外，每个NAC图像的岩石空间分布在三个不同的地图中给出：岩石丰度数据图、岩石丰度颜色（专题）图和岩石丰度危害颜色（主题）图。这些可作为产品LRO LROC Hazards，Anaxagoras Crater，All的一部分下载。另请参阅每个场地的岩石密度数据产品。
+Projection:
+GEOGCS["GCS_Moon_2000",
+	DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

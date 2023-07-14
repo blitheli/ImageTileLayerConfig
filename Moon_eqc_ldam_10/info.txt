@@ -1,0 +1,9 @@
+LRO Laser Altimeter, Albedo Global
+Layer ID:Moon_eqc_ldam_10
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/ldam_10
+Abstract :The Lunar Orbiter Laser Altimeter (LOLA) experiment on Lunar Reconnaissance Orbiter (LRO) is a laser altimeter that also measures the strength of the return pulse from the lunar surface. These data have been used to estimate the reflectance (albedo) of the lunar surface, including regions lacking direct solar illumination. A new calibration of these data was used to generate a 2016 albedo map that features lower uncertainties overall and more consistent results in the polar regions than the previous 2014 version. (Improved calibration of reflectance data from the LRO Lunar Orbiter Laser Altimeter (LOLA) and implications for space weathering; M. Lemelin, P.G. Lucey, G.A. Neumann, E.M. Mazarico, M.K. Barker, A. Kakazu, D. Trang, D.E. Smith, M.T. Zuber; Icarus, Volume 273, 15 July 2016, Pages 315-328)
+月球勘测轨道飞行器（LRO）上的月球轨道飞行器激光高度表（LOLA）实验是一种激光高度表，它还可以测量月球表面返回脉冲的强度。这些数据已被用于估计月球表面的反射率（反照率），包括缺乏太阳直接照射的区域。对这些数据进行了新的校准，生成了2016年的反照率图，与之前的2014年版本相比，该图的总体不确定性更低，极地的结果更一致。（改进了LRO月球轨道飞行器激光高度表反射率数据的校准以及对空间风化的影响；M.Lemelin、P.G.Lucey、G.A.Neumann、E.M.Mazarico、M.K.Barker、A.Kakazu、D.Trang、D.E.Smith、M.T.Zuber；伊卡洛斯，第273卷，2016年7月15日，第315-328页）
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

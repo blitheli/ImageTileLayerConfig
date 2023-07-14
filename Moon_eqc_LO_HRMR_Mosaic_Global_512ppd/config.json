@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LO HR/MR Cam Image Mosaic",
+    "LayerID": "Moon_eqc_LO_HRMR_Mosaic_Global_512ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_LO_HRMR_Mosaic_Global_512ppd\\LO_HRMR_Mosaic_Global_512ppd-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "1966年，美国发射了五次月球轨道飞行器任务",
+    "Projection": "GEOGCS[,\n\tDATUM['unknown', SPHEROID['unnamed',1737400,0]], \n\tPRIMEM['Greenwich',0], UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LO_HRMR_Mosaic_Global_512ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LO_HRMR_Mosaic_Global_512ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LO_HRMR_Mosaic_Global_512ppd\\MetaData.html"
+}

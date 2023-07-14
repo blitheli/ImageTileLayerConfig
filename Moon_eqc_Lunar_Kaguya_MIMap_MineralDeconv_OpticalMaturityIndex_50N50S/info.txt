@@ -1,0 +1,17 @@
+Kaguya MI Optical Maturity
+Layer ID:Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_OpticalMaturityIndex_50N50S
+bbox:[-180.0, -50.0, 180.0, 50.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/Lunar_Kaguya_MIMap_MineralDeconv_OpticalMaturityIndex_50N50S
+Abstract :This mosaic represents the optical maturity (OMAT) of the surface of the Moon. OMAT is a unitless quantity that acts as a relative measure of the degree to which lunar soil has been physically modified by exposure to space (Lucey, P. G., D. T. Blewett, G. J. Taylor, and B. R. Hawke (2000), Imaging of lunar surface maturity, J. Geophys. Res., 105(E8), 20377â20386, doi:10.1029/1999JE001110). Smaller OMAT values indicate greater optical maturity. OMAT maps were produced based on the algorithm of Lucey et al. However, the OMAT algorithm has been derived using reflectance data from Clementine at 750 and 950 nm, and cannot be directly used with Multiband Imager data. Therefore, we first computed the regression coefficients that should be applied to the Multiband Imager data at 750 (r750) and 950 (r950) nm in order to match the reflectance of Clementine at these bands (r750corr, r950corr):
+r750corr = (r750*1.51) + 0.020
+r950corr = (r950*1.38) + 0.022
+
+The mosaic was created from topographically-corrected MI reflectance data acquired by the JAXA SELENE/Kaguya mission (Ohtake, M., C.M. Pieters, P. Isaacson, S. Besse, Y. Yokota, T. Matsunaga, J. Boardman, S. Yamamoto, J. Haruyama, M. Staid, U. Mall, R.O. Green [2013], One Moon, Many Measurements 3: Spectral reflectance, Icarus, Volume 226, Issue 1, 364â374) from the Kaguya Archive MI MAP processing level version 2 (MI MAP_02) products. The MI collects images of the lunar surface at 5 wavelengths in the ultraviolet-visible (UVVIS; 415, 750, 900, 950, 1001 nm) region of the electromagnetic spectrum and at 4 wavelengths in the near-infrared region (NIR; 1000, 1050, 1100, 1250 nm). These multispectral images have been used to derive 9 new near-global maps of common lunar minerals, FeO, and optical maturity (OMAT) using Hapkeâs radiative transfer equations (Lemelin, M., Lucey, P.G., L.R. Gaddis, T. Hare, and M. Ohtake, 2019, Global map products from the Kaguya Multiband Imager at 512 ppd: Minerals, FeO and OMAT, Planetary and Space Science 165 (2019) 230â243). These products only cover the latitudinal range +/-50 degrees due to the difficulty of applying adequate corrections for topographic shading at higher latitudes.
+
+The mosaic presented here has been resampled to 512 ppd (59 meters/pixel) from its original resolution of 2048 ppd (15 meters/pixel).
+
+For usage rights, please refer to the JAXA Conditions for material usage page ( <http://jda.jaxa.jp/en/service.php> ) and please credit JAXA and the SELENE/Kaguya data. (Copyright)JAXA/SELENE
+这幅镶嵌图代表了月球表面的光学成熟度。OMAT是一个无单位量，作为月球土壤因暴露在太空中而发生物理变化的程度的相对度量（Lucey，P.G.，D.T.Blewett，G.J.Taylor和B.R.Hawke（2000），月球表面成熟度成像，J.Geophys。Res.，105（E8），20377â20386，doi:10.1029/1999JE001110）。较小的OMAT值表示更大的光学成熟度。OMAT地图是基于Lucey等人的算法生成的。然而，OMAT算法是使用Clementine在750和950 nm处的反射率数据得出的，不能直接与多波段成像仪数据一起使用。因此，我们首先计算了应应用于750（r750）和950（r950）nm多波段成像仪数据的回归系数，以匹配Clementine在这些波段的反射率（r750corr，r950corr）：
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

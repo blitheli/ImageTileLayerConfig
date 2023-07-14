@@ -1,0 +1,17 @@
+Kaguya MI Grayscale Weighted Criteria Value
+Layer ID:Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_WeightedCriteriaValue_50N50S_grayscale
+bbox:[-180.0, -50.0, 180.0, 50.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/Lunar_Kaguya_MIMap_MineralDeconv_WeightedCriteriaValue_50N50S_grayscale
+Abstract :This mosaic represents the weighted criteria values associated with a collection of near-global lunar mineral maps produced by Lemelin et al using data from the Kaguya Multiband Imager (MI). The weighted criteria value provides a measure of the amount of agreement between the reflectance spectrum of a given pixel and the closest matching spectrum from a library of 92,414 synthetic spectral mixtures. To determine the winning composition between multiple spectral library entries, each MI spectrum was compared to the library spectra that have within +/- 2 wt.% FeO of that pixel and the weighted criteria for each corresponding spectral library entry was calculated as follows: (1-correlation) + (absolute difference of continuum removed reflectance).
+
+The winning composition was assigned to the lowest weighted criteria value. Thus smaller weighted criteria values correspond to closer matches between the observed spectrum and the library spectrum.
+
+The mosaic was created from the topographically corrected MI reflectance data acquired of the Moon by the JAXA SELENE/Kaguya mission (Ohtake, M., C.M. Pieters, P. Isaacson, S. Besse, Y. Yokota, T. Matsunaga, J. Boardman, S. Yamamoto, J. Haruyama, M. Staid, U. Mall, R.O. Green [2013], One Moon, Many Measurements 3: Spectral reflectance, Icarus, Volume 226, Issue 1, 364â374) from the Kaguya Archive MI MAP processing level version 2 (MI MAP_02). The original MI product of 1x1 degree mosaics at 2048 ppd (15 m/p) data was resampled during processing to 512 ppd (59 m/p). The MI ultraviolet-visible (UVVIS) data (5 spectral bands, at 415, 750, 900, 950, 1001 nm) were used to derive 9 new near-global maps of common lunar minerals, FeO, and optical maturity (OMAT) using Hapkeâs radiative transfer equations (Lemelin, M., Lucey, P.G., L.R. Gaddis, T. Hare, and M. Ohtake, 2019, Global map products from the Kaguya Multiband Imager at 512 ppd: Minerals, FeO and OMAT, Planetary and Space Science 165 (2019) 230â243). This product only covers the latitudinal range +/-50 degrees due to the difficulty of applying adequate corrections for topographic shading at higher latitudes.
+
+The mosaic presented here has been resampled to 512 ppd (59 meters/pixel) from its original resolution of 2048 ppd (15 meters/pixel).
+
+For usage rights, please refer to the JAXA Conditions for material usage page ( <http://jda.jaxa.jp/en/service.php> ) and please credit JAXA and the SELENE/Kaguya data. (Copyright)JAXA/SELENE
+该镶嵌图代表了与Lemelin等人使用Kaguya多波段成像仪（MI）的数据制作的一组近全球月球矿物图相关的加权标准值。加权标准值提供了给定像素的反射光谱与来自92414个合成光谱混合物库的最接近匹配光谱之间的一致程度的度量。为了确定多个光谱库条目之间的获胜成分，将每个MI光谱与该像素的FeO在+/-2 wt.%范围内的库光谱进行比较，并计算每个相应光谱库条目的加权标准如下：（1-相关性）+（连续去除反射率的绝对差）。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

@@ -1,0 +1,18 @@
+LRO LROC DEM, Apollo 11
+Layer ID:Moon_eqc_NAC_DTM_APOLLO11
+bbox:[23.3722758, 0.3146059, 23.5115089, 1.2365388]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/NAC_DTM_APOLLO11
+Abstract :TBD
+待定
+Projection:
+PROJCS["Equirectangular Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",180],
+	PARAMETER["standard_parallel_1",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

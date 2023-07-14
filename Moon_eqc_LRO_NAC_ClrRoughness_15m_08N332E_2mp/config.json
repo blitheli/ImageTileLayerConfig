@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, Hortensius Domes, 15m Color Roughness",
+    "LayerID": "Moon_eqc_LRO_NAC_ClrRoughness_15m_08N332E_2mp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughness_15m_08N332E_2mp\\LRO_NAC_ClrRoughness_15m_08N332E_2mp-120.png",
+    "BBOX": [
+        -28.0744706,
+        7.061733,
+        -27.4759863,
+        8.091718
+    ],
+    "Abstract": "这是从Hortensius Domes的局部粗糙度图LRO_NAC_roughness_15m_08N332E_2mp.tif导出的主题颜色粗糙度图。粗糙度分类颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中粗糙度等级相当于15米的车辆直径。",
+    "Projection": "PROJCS['Equirectangular Moon',\n\tGEOGCS['GCS_Moon',\n\t\tDATUM['D_Moon',SPHEROID['Moon_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',180],\n\tPARAMETER['standard_parallel_1',7],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughness_15m_08N332E_2mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughness_15m_08N332E_2mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughness_15m_08N332E_2mp\\MetaData.html"
+}

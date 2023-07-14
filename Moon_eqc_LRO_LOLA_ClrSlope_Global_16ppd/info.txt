@@ -1,0 +1,9 @@
+LOLA Slope 16ppd, Colorized
+Layer ID:Moon_eqc_LRO_LOLA_ClrSlope_Global_16ppd
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_LOLA_ClrSlope_Global_16ppd
+Abstract :This is a colorized map of the original surface slope of the Moon at a resolution of 16 m/pix by 16 m/pix, based on altimetry data acquired by the LOLA instrument. The LOLA Laser 1 and 2 data through mission phase LRO_SM_17 are the source for this data set.  The bi-directional slope was calculated from a plane fit to three successive laser shots requiring n=5 to 15 profile returns. Depending on orbital velocity, probability of detection, and spacecraft altitude, the slope baseline may vary from 30 to 120 meters.
+这是一张基于LOLA仪器获取的测高数据的月球原始表面斜率彩色地图，分辨率为16米/像素乘16米/象素。通过任务阶段LRO_SM_17的LOLA激光器1和2数据是该数据集的来源。双向斜率是从平面拟合到需要n＝5到15个轮廓返回的三个连续激光发射来计算的。根据轨道速度、探测概率和航天器高度的不同，斜率基线可能在30米至120米之间变化。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

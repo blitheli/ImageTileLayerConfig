@@ -1,0 +1,11 @@
+LRO Mini-RF First Stokes Parameter
+Layer ID:Moon_eqc_LRO_MiniRF_S1_Gray_Global_128ppd
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_MiniRF_S1_Gray_Global_128ppd
+Abstract :This is an 8bit grayscale represenation of the original CPR product stretched from 0 to 0.5. This mosaic is first Stokes parameter, defined as S1 = |ELH|^2 + |ELV|^2, and represents the total power or total intensity of the received field. This Level 3 product is called a Derived Data Record (DDR) generated from multiple Level 2 CDRs. All Level 2 CDR image products are each accompanied by four Stokes parameters files. Mini-RF transmits a right circular polarized signal, and receives horizontal and vertical polarized signals, and the phase between the polarizations. The received power on the horizontal polarization (ERH), the received power in the vertical polarization (ERV) and the real and imaginary portions of the cross product between the two polarization signals.  The stokes parameter values are double precision real numbers and are dimensionless.
+这是从0拉伸到0.5的原始CPR产品的8位灰度表示。该镶嵌是第一个斯托克斯参数，定义为S1=|ELH|^2+|ELV|^2，表示接收场的总功率或总强度。此3级产品称为衍生数据记录（DDR），由多个2级CDR生成。所有2级CDR图像产品均附有四个Stokes参数文件。Mini RF发射右圆极化信号，并接收水平和垂直极化信号以及极化之间的相位。水平极化（ERH）上的接收功率、垂直极化（ERV）中的接收功率以及两个极化信号之间的叉积的实部和虚部。斯托克斯参数值是双精度实数，并且是无量纲的。
+Projection:
+GEOGCS["GCS_Moon_2000",
+	DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

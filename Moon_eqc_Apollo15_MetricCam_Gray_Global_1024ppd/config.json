@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Apollo 15 Metric Cam DEM, Grayscale",
+    "LayerID": "Moon_eqc_Apollo15_MetricCam_Gray_Global_1024ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Gray_Global_1024ppd\\Apollo15_MetricCam_Gray_Global_1024ppd-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "阿波罗15号DEM灰度图像是根据阿波罗15号的DEM数据生成的，通过将海拔值从-8000米到+8000米的范围缩放为0到255之间的整数值。8000和8000以下和以上的高程值分别映射为0和255",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Gray_Global_1024ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Gray_Global_1024ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Gray_Global_1024ppd\\MetaData.html"
+}

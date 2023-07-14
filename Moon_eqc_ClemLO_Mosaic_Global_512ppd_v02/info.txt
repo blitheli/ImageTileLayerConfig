@@ -1,0 +1,23 @@
+LO HR/MR Cam and Clementine UVVIS Hybrid Image Mosaic
+Layer ID:Moon_eqc_ClemLO_Mosaic_Global_512ppd_v02
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/ClemLO_Mosaic_Global_512ppd_v02
+Abstract :The is a blend of the Clementine UVVIS mosaic and the Lunar
+                            Oribiter mosaic. The Clementine 750 nm Version 2 mosaic is a greyscale
+                            data set representing the albedo(brightness of the lunar surface) as
+                            measured at the 750 nm wavelength by the UVVIS camera. This lunar base
+                            map is a radiometrically and geometrically controlled, photometrically
+                            modeled global image mosaic compiled using more than 43,000 images from
+                            the 750 nanometer filter observations of the UVVIS. The Five Lunar
+                            Orbiter missions were launched by the U.S. in 1966 and 1967 to study the
+                            Moon. Lunar Orbiter images were photographic products acquired on the
+                            spacecraft during those five missions (LO-I through -V; Hansen, 1970;
+                            Bowker and Hughes, 1971). The first three missions mapped potential
+                            Apollo lunar landing sites. Lunar Orbiter IV photographed most of the
+                            near and far sides of the Moon medium- and high-resolutions. Lunar
+                            Orbiter V completed the photography of the far side and collected
+                            additional images of 36 sites of scientific interest.
+是Clementine UVVIS马赛克和Lunar的混合
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

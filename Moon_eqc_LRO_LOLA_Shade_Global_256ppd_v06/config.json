@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LOLA DEM, Hillshade",
+    "LayerID": "Moon_eqc_LRO_LOLA_Shade_Global_256ppd_v06",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLA_Shade_Global_256ppd_v06\\LRO_LOLA_Shade_Global_256ppd_v06-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "这是原始LOLA数字高程模型（DEM）的阴影浮雕。DEM是月球形状图（半径），分辨率为每度256像素，基于LOLA仪器通过Spetember 2011获取的测高数据。使用通用映射工具程序“”对地面轨迹进行插值；表面“；以及“；grdblend”；。该地图采用二进制表的形式，每0.0039065度纬度有一行，像素注册。地图值指的是1737400米的半径。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_LOLA_Shade_Global_256ppd_v06\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_LOLA_Shade_Global_256ppd_v06\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_LOLA_Shade_Global_256ppd_v06\\MetaData.html"
+}

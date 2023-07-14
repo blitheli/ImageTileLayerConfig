@@ -1,0 +1,9 @@
+LOLA Roughness 16ppd, Colorized
+Layer ID:Moon_eqc_LRO_LOLA_ClrRoughness_Global_16ppd
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_LOLA_ClrRoughness_Global_16ppd
+Abstract :This is a colorized version of the original surface roughness map for the Moon at a resolution of 16 pix/deg by 16 pix/deg, based on altimetry data acquired by the LOLA instrument. The LOLA Laser 1 and 2 data through mission phase LRO_SM_17 are the source for this data set. The residual standard deviation of altitudes from three successive laser shots with n-3 degrees of freedom after fitting a plane to n=5 to 15 profile returns, is averaged in each pixel. Depending on orbital velocity, probability of detection, and spacecraft altitude, the slope baseline may vary from 30 to 120 meters.
+这是月球原始表面粗糙度图的彩色版本，分辨率为16 pix/deg乘以16 pix/deg，基于LOLA仪器获取的测高数据。通过任务阶段LRO_SM_17的LOLA激光器1和2数据是该数据集的来源。在将平面拟合为n=5到15个轮廓返回之后，对具有n-3自由度的三次连续激光发射的高度的残余标准偏差在每个像素中进行平均。根据轨道速度、探测概率和航天器高度的不同，斜率基线可能在30米至120米之间变化。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

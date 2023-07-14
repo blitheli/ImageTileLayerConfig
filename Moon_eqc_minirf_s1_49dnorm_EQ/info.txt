@@ -1,0 +1,13 @@
+LRO Mini-RF CPR 15mpp, Malapert
+Layer ID:Moon_eqc_minirf_s1_49dnorm_EQ
+bbox:[-19.7573267, -86.9169931, 14.171033, -84.8952599]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/minirf_s1_49dnorm_EQ
+Abstract :This is a Mini-RF Circularly Polarized Ratio (CPR) dataset with the 49 degrees equivalent incidence angle trend removed. Data units are in Decibels (db) where bright pixels (greater than 0 db) represent relatively high backscatter and dark pixels (less than 0 db) represent low backscatter.
+
+Mini-RF is a Synthetic Aperture Radar designed in a hybrid dual-polarimetric architecture, transmitting a circularly polarized signal to the lunar surface and receives the horizontal and vertical linear polarizations. The received radar signal from Mini-RF is represented using the four Stokes parameters, which can be combined to derive metrics for lunar surface properties. The monostatic Mini-RF data in the PDS was processed onto a spherical Moon, and the applied Vexcel SAR processor resulted in offsets to the correct selenolocation (see Harris et al., this meeting). As a result, until now, local incidence angles were not known for the monostatic data. We have corrected the position of level-1 monostatic S-band data &amp; re-orthorectified it on to a SLDEM/LOLA shape model. The local incidence angle of each pixel can then be determined. The observed trend in CPR for the monostatic data agrees reasonably well with expectations from Hagfors modeling, at least for i&tilde;35&deg; and &tilde;70&deg;, with a dielectric permittivity of &tilde;4.3. Removal of this CPR trend emphasizes deviations from typical scattering properties. Data Credit: https://www.hou.usra.edu/meetings/lpsc2023/pdf/1564.pdf
+这是一个去除了49度等效入射角趋势的迷你射频圆极化率（CPR）数据集。数据单位为分贝（db），其中亮像素（大于0db）表示相对较高的反向散射，而暗像素（小于0db）代表较低的反向散射。
+Projection:
+GEOGCS["GCS_Moon_2000",
+	DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

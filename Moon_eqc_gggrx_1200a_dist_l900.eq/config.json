@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "GRAIL LGRS, Gravity Disturbances L900",
+    "LayerID": "Moon_eqc_gggrx_1200a_dist_l900.eq",
+    "Icon": "{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l900.eq\\gggrx_1200a_dist_l900.eq-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "该数据产品是月球重力场的重力扰动图（单位：mGal），分辨率为16 pix/deg乘以16 pix/deg。它是基于美国国家航空航天局GSFC制作的名为GRGM1200A的月球GRAIL重力场。GRGM1200A是一个1200次球谐模型，它包含了GRAIL跟踪数据的整个任务。扰动在空间域中被扩展到程度和数量级900。描述该模型的一些细节是：球面谐波系数是完全归一化的（大地测量4pi归一化）。对不确定性进行校准（形式上的不确定性乘以1.635的因子）。参考半径=1738.0公里。引力参数为GM=4902.80011526323公里**3/s**2。使用的行星星历表为de430，定义了月体固定坐标系。将Kaula型幂律约束应用于>600度（3.6e-4/n^2）的球面谐波系数",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l900.eq\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l900.eq\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l900.eq\\MetaData.html"
+}

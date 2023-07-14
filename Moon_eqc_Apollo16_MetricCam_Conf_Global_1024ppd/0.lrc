@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_eqc_Apollo16_MetricCam_Conf_Global_1024ppd</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>https://trek.nasa.gov/tiles/Moon/EQ/Apollo16_MetricCam_Conf_Global_1024ppd/1.0.0/WMTSCapabilities.xml</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>-179.9995117</West>
+        <East>179.9995117</East>
+        <South>-21.9995117</South>
+        <North>18.0004883</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>8</LevelEnd>
+    </Range>
+</DataDefine>

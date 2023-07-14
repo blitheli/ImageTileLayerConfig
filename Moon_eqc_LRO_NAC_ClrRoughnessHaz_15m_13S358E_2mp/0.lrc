@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_13S358E_2mp</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_ClrRoughnessHaz_15m_13S358E_2mp/1.0.0/WMTSCapabilities.xml</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>-2.5415659</West>
+        <East>-1.9527127</East>
+        <South>-26.120285</South>
+        <North>-25.0865602</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>13</LevelEnd>
+    </Range>
+</DataDefine>

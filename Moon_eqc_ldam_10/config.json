@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO Laser Altimeter, Albedo Global",
+    "LayerID": "Moon_eqc_ldam_10",
+    "Icon": "{MoonImage}\\Moon_eqc_ldam_10\\ldam_10-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "月球勘测轨道飞行器（LRO）上的月球轨道飞行器激光高度表（LOLA）实验是一种激光高度表，它还可以测量月球表面返回脉冲的强度。这些数据已被用于估计月球表面的反射率（反照率），包括缺乏太阳直接照射的区域。对这些数据进行了新的校准，生成了2016年的反照率图，与之前的2014年版本相比，该图的总体不确定性更低，极地的结果更一致。（改进了LRO月球轨道飞行器激光高度表反射率数据的校准以及对空间风化的影响；M.Lemelin、P.G.Lucey、G.A.Neumann、E.M.Mazarico、M.K.Barker、A.Kakazu、D.Trang、D.E.Smith、M.T.Zuber；伊卡洛斯，第273卷，2016年7月15日，第315-328页）",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_ldam_10\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_ldam_10\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_ldam_10\\MetaData.html"
+}

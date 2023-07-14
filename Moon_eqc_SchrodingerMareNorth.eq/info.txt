@@ -1,0 +1,9 @@
+LROC NAC Uncontrolled Mosaic of Region Inside Schrodinger Crater, 50cm/px
+Layer ID:Moon_eqc_SchrodingerMareNorth.eq
+bbox:[132.7718919, -74.2213313, 137.1069797, -71.9685645]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/SchrodingerMareNorth.eq
+Abstract :This is a 50cm/px uncontrolled visible image mosaic generated using Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) images from the Lunar Reconnaissance Orbiter mission. Each NAC image was registered horizontally to the LRO's Lunar Orbiter Laser Altimeter (LOLA) global DEM, and then mosaicked together and color balanced.
+这是一个50厘米/像素的非受控可见图像马赛克，使用月球勘测轨道飞行器任务中的月球勘测轨道器相机（LROC）窄角相机（NAC）图像生成。每个NAC图像都被水平配准到LRO的月球轨道飞行器激光高度表（LOLA）全球DEM中，然后拼接在一起并进行颜色平衡。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

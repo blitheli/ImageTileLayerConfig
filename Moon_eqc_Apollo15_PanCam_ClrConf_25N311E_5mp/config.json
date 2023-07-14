@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Apollo 15 Pan Cam DEM, Aristarchus Plateau 1, Colorized Confidence",
+    "LayerID": "Moon_eqc_Apollo15_PanCam_ClrConf_25N311E_5mp",
+    "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrConf_25N311E_5mp\\Apollo15_PanCam_ClrConf_25N311E_5mp-120.png",
+    "BBOX": [
+        -45.1354725,
+        23.4262465,
+        -43.5616853,
+        26.0942471
+    ],
+    "Abstract": "这是一张与数字高程模型（DEM）相关的彩色置信图，该模型是从Aristarchus Plateau 1站点的阿波罗15号全景相机图像中提取的。DEM由月球轨道飞行器激光高度表（LOLA）数据集控制。DEM值指的是1737400米的半径。在置信度数据中，这些值是从精度值导出的。对于彩色置信度，使用了从10到14的值范围，从差置信度（10）到非常好置信度（14）。该范围被映射到从黄色到绿色不等的颜色映射。手动插值（15）映射为蓝色。所有其他值都映射到完全透明的像素。",
+    "Projection": "PROJCS['Equirectangular MOON',\n\tGEOGCS['GCS_MOON',\n\t\tDATUM['D_MOON',SPHEROID['MOON_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',0],\n\tPARAMETER['standard_parallel_1',-2],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrConf_25N311E_5mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrConf_25N311E_5mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrConf_25N311E_5mp\\MetaData.html"
+}

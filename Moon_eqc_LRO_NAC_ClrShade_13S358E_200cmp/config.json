@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, Alphonsus, ColorHillshade",
+    "LayerID": "Moon_eqc_LRO_NAC_ClrShade_13S358E_200cmp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_13S358E_200cmp\\LRO_NAC_ClrShade_13S358E_200cmp-120.png",
+    "BBOX": [
+        -2.6084195,
+        -13.1203075,
+        -2.0040504,
+        -12.0865602
+    ],
+    "Abstract": "这是从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）立体图像中提取的数字高程模型（DEM）的彩色阴影浮雕。原始数据产品是以约0.5m/p分辨率采集的立体图像的DEM，使用软拷贝摄影测量系统，其输出DEM分辨率为1.5至2米/像素。然而，在某些情况下，LROC DEM也以较低的分辨率生成。DEM被水平地和垂直地登记到LRO&apos；月球轨道飞行器激光高度表（LOLA）数据。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_13S358E_200cmp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_13S358E_200cmp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_13S358E_200cmp\\MetaData.html"
+}

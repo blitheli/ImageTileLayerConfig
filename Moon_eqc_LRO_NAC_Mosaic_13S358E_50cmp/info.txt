@@ -1,0 +1,18 @@
+LRO LROC Image Mosaic, Alphonsus
+Layer ID:Moon_eqc_LRO_NAC_Mosaic_13S358E_50cmp
+bbox:[-2.6084195, -13.1202777, -2.0048713, -12.0865602]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Mosaic_13S358E_50cmp
+Abstract :This is a orthophoto mosaic of the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) stereo images images used to create a digital elevation model (DEM) of the same area. Resolution of the original LRO NAC images and output mosaic was approximately 0.5m/pixel. Once the DEM for the area was created, the individual images are then orthorectifed and mosaicked either using SOCET SET or Integrated Software for Imagers and Spectrometers (ISIS). The DEM was registered horizontally and vertically to LRO&apos;s Lunar Orbiter Laser Altimeter (LOLA) data.
+这是月球勘测轨道飞行器相机（LROC）窄角相机（NAC）立体图像的正射影像镶嵌图，用于创建同一区域的数字高程模型（DEM）。原始LRO NAC图像和输出马赛克的分辨率约为0.5米/像素。一旦创建了该地区的DEM，则使用SOCET SET或成像仪和光谱仪集成软件（ISIS）对单个图像进行正射和马赛克。DEM被水平地和垂直地登记到LRO&apos；月球轨道飞行器激光高度表（LOLA）数据。
+Projection:
+PROJCS["Equirectangular Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",-13],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

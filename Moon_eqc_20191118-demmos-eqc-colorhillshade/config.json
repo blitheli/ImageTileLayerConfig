@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO NAC ColorHillshade, Lacus Mortis",
+    "LayerID": "Moon_eqc_20191118-demmos-eqc-colorhillshade",
+    "Icon": "{MoonImage}\\Moon_eqc_20191118-demmos-eqc-colorhillshade\\20191118-demmos-eqc-colorhillshade-120.png",
+    "BBOX": [
+        24.5768438,
+        43.4411588,
+        26.0529992,
+        45.9874958
+    ],
+    "Abstract": "这是一个由LROC NAC图像生成的立体对组合而成的高程马赛克的彩色山坡可视化，用于Lacus Mortis西南地区，包括Rimae Bürg和Lacus Mortis矿坑。每个立体对分别与LOLA激光测高法对准。",
+    "Projection": "PROJCS['unnamed',\n\tGEOGCS['unknown',\n\t\tDATUM['unknown',SPHEROID['unnamed',1737400,0]],\n\t\tPRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',45],\n\tPARAMETER['central_meridian',25],\n\tPARAMETER['standard_parallel_1',8],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_20191118-demmos-eqc-colorhillshade\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_20191118-demmos-eqc-colorhillshade\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_20191118-demmos-eqc-colorhillshade\\MetaData.html"
+}

@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LOLA DEM, Count",
+    "LayerID": "Moon_eqc_LRO_LOLA_Count_Global_128ppd_v04",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLA_Count_Global_128ppd_v04\\LRO_LOLA_Count_Global_128ppd_v04-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "此放炮计数数据文件适用于LRO LOLA DEM版本4。该光栅数据集表示原始128ppd LOLA数字高程模型（DEM）中每个像素的LOLA镜头计数。与每个网格化DEM一起；计数”；创建的图像报告，在选定的分辨率下，有多少LOLA镜头与该像素相交。如果每个像素有多个快照，则每个像素使用快照的平均值。在没有LOLA镜头的情况下，使用来自周围邻居的样条插值来近似像素。",
+    "Projection": "TBD\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_LOLA_Count_Global_128ppd_v04\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_LOLA_Count_Global_128ppd_v04\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_LOLA_Count_Global_128ppd_v04\\MetaData.html"
+}

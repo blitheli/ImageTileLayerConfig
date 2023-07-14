@@ -1,0 +1,18 @@
+LRO NAC ColorHillshade, Lacus Mortis
+Layer ID:Moon_eqc_20191118-demmos-eqc-colorhillshade
+bbox:[24.5768438, 43.4411588, 26.0529992, 45.9874958]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/20191118-demmos-eqc-colorhillshade
+Abstract :This is a color hillshade visualization of an elevation mosaic produced by combining stereo pairs generated from LROC NAC images, for the southwestern area of Lacus Mortis, including Rimae Bürg and the Lacus Mortis Pit. Each stereo pair was individually aligned to LOLA laser altimetry.
+这是一个由LROC NAC图像生成的立体对组合而成的高程马赛克的彩色山坡可视化，用于Lacus Mortis西南地区，包括Rimae Bürg和Lacus Mortis矿坑。每个立体对分别与LOLA激光测高法对准。
+Projection:
+PROJCS["unnamed",
+	GEOGCS["unknown",
+		DATUM["unknown",SPHEROID["unnamed",1737400,0]],
+		PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",45],
+	PARAMETER["central_meridian",25],
+	PARAMETER["standard_parallel_1",8],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

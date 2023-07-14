@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_eqc_LRO_LOLA_ClrHillshade_128ppd_SiteQ</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>https://trek.nasa.gov/tiles/Moon/EQ/LRO_LOLA_ClrHillshade_128ppd_SiteQ/1.0.0/WMTSCapabilities.xml</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>135.955685</West>
+        <East>142.6951459</East>
+        <South>-75.8523728</South>
+        <North>-74.1754177</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>6</LevelEnd>
+    </Range>
+</DataDefine>

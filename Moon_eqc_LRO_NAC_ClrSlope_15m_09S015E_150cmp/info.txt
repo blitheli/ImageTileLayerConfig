@@ -1,0 +1,9 @@
+LRO LROC DEM, Apollo 16, 15m Color Slope
+Layer ID:Moon_eqc_LRO_NAC_ClrSlope_15m_09S015E_150cmp
+bbox:[15.140349, -9.646928, 15.6961668, -8.6195703]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_ClrSlope_15m_09S015E_150cmp
+Abstract :This is a thematic color slope map derived from the local slope map LRO_NAC_Slope_15m_09S105E_150cmp.tif of Apollo 16. Slope classification color ranges are arbitrary but representative of recent lander and rover designs, where the slope scale is equivalent to the vehicle diameter of 15m.
+这是一张专题彩色斜率图，源自阿波罗16号的局部斜率图LRO_NAC_slope_15m_09S105E_150cmp.tif。坡度分类颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中坡度比例相当于15米的车辆直径。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

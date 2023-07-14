@@ -1,0 +1,9 @@
+LRO DLRE Surface Temp Normal Avg, Color
+Layer ID:Moon_eqc_LRO_Diviner_STN_Avg_Clr_Global_32ppd
+bbox:[-180.0, -60.0, 180.0, 60.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_Diviner_STN_Avg_Clr_Global_32ppd
+Abstract :Each sample represents the deviation of rock-free regolith surface temperature derived from the global average for each local time as estimated using the technique described in Bandfield et al. (2011).  Data from diviner spectral channels 6, 7, and 8 were binned at 32 pixels per degree in ten separate one hour increments of local time from 1930 to 0530. For each local time, the longitudinally averaged regolith temperatures were calculated and filtered using a 401 sample boxcar filter to remove local latitudinal variations.  The longitudinal average regolith temperature for each local time was subtracted from the regolith temperatures to produce a deviation from the longitudinal average, allowing for values between separate local time observations to be comparable and removing the latitudinal temperature gradient. For each spatial bin, all retrieved values for the ten local times were averaged to produce a single map.
+每个样本代表了根据Bandfield等人（2011）中描述的技术估计的每个当地时间的全球平均值得出的无岩石风化层表面温度的偏差。来自占卜者光谱通道6、7和8的数据以每度32个像素的速度装仓，以1930年至0530年当地时间的10个单独的一小时增量进行。对于每个当地时间，计算纵向平均风化层温度，并使用401样本盒式过滤器进行过滤，以去除当地的纬度变化。从风化层温度中减去每个当地时间的纵向平均风化层温度，以产生与纵向平均值的偏差，从而使单独的当地时间观测之间的值具有可比性，并消除了纬度温度梯度。对于每个空间仓，对十个本地时间的所有检索值进行平均，以生成单个地图。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

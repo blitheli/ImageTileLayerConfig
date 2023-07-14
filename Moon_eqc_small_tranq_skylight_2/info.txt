@@ -1,0 +1,9 @@
+LRO Narrow Angle Camera, Mosaic Small Tranquilltatis 2
+Layer ID:Moon_eqc_small_tranq_skylight_2
+bbox:[20.7135697, -0.3482134, 20.8913303, 0.5960126]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/small_tranq_skylight_2
+Abstract :The discovery of three lunar pits using imagery from imagery obtained using the Kaguya Terrain Camera led researchers to wonder how common such features might be. A very successful campaign was mounted to search Lunar Reconnaissance Orbiter Narrow Angle Camera (NAC) images to see if the higher resolution of NAC might reveal more lunar pits smaller than were detectable with the Kaguya Terrain Camera (R. V. Wagner and M. S. Robinson, 2015, UPDATE: THE SEARCH FOR LUNAR PITS, 2nd International Planetary Caves Conference). Researchers speculate that these lunar pits could be skylights resulting from roof collapse in lava tubes. Whether this is actually the case, and if so, the accessibility and extent of the lava tubes have yet to be determined. However, such lava tubes are of great interest as potential locations for lunar bases, offering protection from extreme swings in temperature, galactic and solar radiation, and meteoroid impacts. This data layer was obtained using the Narrow Angle Camera aboard the Lunar Reconnaissance Orbiter and is a is a mosaic of 2 NAC strips centered on a small pit in Mare Tranquillitatis.
+使用卡古亚地形相机获得的图像发现了三个月球坑，这让研究人员想知道这些特征可能有多普遍。一项非常成功的活动是搜索月球勘测轨道飞行器窄角相机（NAC）的图像，看看NAC的更高分辨率是否会显示出比卡古亚地形相机探测到的更小的月球坑（R.V.Wagner和M.S.Robinson，2015，更新：月球坑搜索，第二届国际行星洞穴会议）。研究人员推测，这些月坑可能是熔岩管中屋顶坍塌造成的天窗。事实是否如此，如果是这样，熔岩管的可达性和范围还有待确定。然而，这种熔岩管作为月球基地的潜在位置，提供了保护，免受温度、银河系和太阳辐射以及流星体撞击的极端波动。该数据层是使用窄角度C获得的
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

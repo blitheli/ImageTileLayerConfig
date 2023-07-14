@@ -1,0 +1,9 @@
+LRO LROC Image Mosaic, Mare Tranquillitatis
+Layer ID:Moon_eqc_LRO_NAC_Mosaic_07N022E_50cmp
+bbox:[21.4096105, 6.251668, 22.7392329, 7.5713764]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Mosaic_07N022E_50cmp
+Abstract :This is a visible image mosaic generated using Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) images from the Lunar Reconnaissance Orbiter mission. The images were orthorectified using a digital elevation model (DEM) created from LROC NAC stereo images, when available, or LRO&apos;s Lunar Orbiter Laser Altimeter (LOLA) global DEM. The mosaic is generated at the same resolution at which the individual LROC NAC images were gathered, which is approximately 0.5 meters/pixel. The mosaic was registered horizontally to the LOLA global DEM.
+这是使用月球勘测轨道飞行器任务中的月球勘测轨道器相机（LROC）窄角相机（NAC）图像生成的可见图像马赛克。使用从LROC NAC立体图像创建的数字高程模型（DEM）（如果可用）或LRO&apos对图像进行正射校正；月球轨道飞行器激光高度表（LOLA）全球DEM。马赛克是以与收集单个LROC NAC图像相同的分辨率生成的，该分辨率约为0.5米/像素。马赛克被水平配准到LOLA全球DEM中。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

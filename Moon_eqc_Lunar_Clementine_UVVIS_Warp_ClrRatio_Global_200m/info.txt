@@ -1,0 +1,20 @@
+Clementine UVVIS Warped Color Ratio
+Layer ID:Moon_eqc_Lunar_Clementine_UVVIS_Warp_ClrRatio_Global_200m
+bbox:[-180.0, -89.6707443, 179.9969689, 89.6715215]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/Lunar_Clementine_UVVIS_Warp_ClrRatio_Global_200m
+Abstract :<b>Product Information:</b>
+
+This base represents the Clementine Ultraviolet/Visible (UVVIS) warped color-ratio mineral map.  This was generated from the UVVIS mosaics using three spectral filters (415
+<b>产品信息：</b>
+Projection:
+PROJCS["SimpleCylindrical Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",0],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO Mini-RF Color CPR 15mpp, Malapert",
+    "LayerID": "Moon_eqc_minirf_s1_Clr49dnorm_EQ",
+    "Icon": "{MoonImage}\\Moon_eqc_minirf_s1_Clr49dnorm_EQ\\minirf_s1_Clr49dnorm_EQ-120.png",
+    "BBOX": [
+        -19.7573267,
+        -86.9169854,
+        14.1795533,
+        -84.8952599
+    ],
+    "Abstract": "这是一个去除了49度等效入射角趋势的迷你射频圆极化率（CPR）数据集。数据单位为分贝（db），其中亮像素（大于0db）表示相对较高的反向散射，而暗像素（小于0db）代表较低的反向散射。",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_minirf_s1_Clr49dnorm_EQ\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_minirf_s1_Clr49dnorm_EQ\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_minirf_s1_Clr49dnorm_EQ\\MetaData.html"
+}

@@ -1,0 +1,9 @@
+LRO LROC DEM, Ina D-Caldera, Confidence
+Layer ID:Moon_eqc_LRO_NAC_Conf_19N005E_2mp
+bbox:[5.2290773, 18.1294632, 5.5045732, 19.0862814]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Conf_19N005E_2mp
+Abstract :This raster dataset represents a confidence value or figure of merit (FOM) for each pixel for the digital elevation model (DEM) as extracted from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) stereo images. The original data product is a DEM from stereo images acquired at approximately 0.5 m/p resolution, and the DEM is set at 2m/p, downsampled to minimize noise. This DEM confidence map covers the Ina D-caldera site.
+该光栅数据集表示从月球勘测轨道飞行器相机（LROC）窄角相机（NAC）立体图像中提取的数字高程模型（DEM）的每个像素的置信值或优值（FOM）。原始数据产品是来自以大约0.5 m/p分辨率采集的立体图像的DEM，并且DEM被设置为2 m/p，下采样以最小化噪声。该DEM置信度图涵盖了伊纳D破火山口遗址。
+Projection:
+TBD
+

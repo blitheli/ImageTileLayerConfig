@@ -1,0 +1,9 @@
+LRO LROC Crater Density Hazard, Hertzsprung
+Layer ID:Moon_eqc_LRO_NAC_CratDenHaz_00N234E_150cmp
+bbox:[-125.9587232, -0.4642718, -125.7820465, 0.51245]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_CratDenHaz_00N234E_150cmp
+Abstract :This is a crater density hazard mosaic of the Hertzsprung site generated from data files containing the number of detected craters (all sizes are included) per hectare (100m x 100m) in the Narrow Angle Camera (NAC) Images covering this site.  The data files are created from crater lists computed from images acquired by the Lunar Reconnaissance Orbiter (LRO) Camera (LROC) NAC. Craters are modeled as ellipses. Craters of 2.5m on the major axis or larger can be fully resolved from the images. The smallest craters detected are approximately 2.0m on the major axis. Overlapping craters and craters inside craters are reported individually. The spatial distribution of craters is given in three different maps for each NAC image: a crater density data map, a crater density color (thematic) map, and a crater density hazard color (thematic) map. These are available for download as part of the product LRO LROC Hazards, Hertzsprung, All. See also the crater abundance data products for each site.
+这是赫兹普朗陨石坑密度危险镶嵌图，由数据文件生成，数据文件包含覆盖该陨石坑的窄角相机（NAC）图像中每公顷（100米x 100米）检测到的陨石坑数量（包括所有尺寸）。数据文件是根据月球勘测轨道飞行器（LRO）NAC相机（LROC）获取的图像计算出的陨石坑列表创建的。陨石坑被建模为椭圆。长轴上2.5米或更大的陨石坑可以从图像中完全分辨出来。检测到的最小弹坑在主轴上约2.0米。重叠的陨石坑和陨石坑内部的陨石坑被单独报道。每个NAC图像的三张不同的地图中给出了陨石坑的空间分布：一张陨石坑密度数据图、一份陨石坑密度彩色（专题）图和一张陨石洞密度危害彩色（专题的）图。这些可作为产品LRO LROC Hazards，Hertzsprung，All的一部分下载。另请参阅每个地点的火山口丰度数据产品。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

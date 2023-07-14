@@ -1,0 +1,18 @@
+Apollo 15 Pan Cam DEM, Aristarchus Plateau 1, Grayscale
+Layer ID:Moon_eqc_Apollo15_PanCam_Gray_25N311E_5mp
+bbox:[-45.1354725, 23.4262465, -43.5616853, 26.0942471]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/Apollo15_PanCam_Gray_25N311E_5mp
+Abstract :This is a grayscale image version of the Digital Elevation Model (DEM) extracted from the Apollo 15 Panometric Camera images. This image was generated from the matching PanCam Aristarchus Plateau 1 DEM data by scaling the elevation values from the range of -1797 to 1567 to integer values between 0 and 255. Elevation below and above the -1797 and 1567 are mapped to 0 and 255, respectively.
+这是从阿波罗15号全景相机图像中提取的数字高程模型（DEM）的灰度图像版本。该图像是根据匹配的PanCam Aristarchus Plateau 1 DEM数据生成的，通过将海拔值从-1797到1567的范围缩放为0到255之间的整数值。-1797和1567以下和以上的高程分别映射为0和255。
+Projection:
+PROJCS["Equirectangular MOON",
+	GEOGCS["GCS_MOON",
+		DATUM["D_MOON",SPHEROID["MOON_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",-2],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

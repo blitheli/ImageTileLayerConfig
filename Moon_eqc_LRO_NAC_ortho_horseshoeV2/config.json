@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO NAC Mosaic, Horseshoe in Mare Crisium",
+    "LayerID": "Moon_eqc_LRO_NAC_ortho_horseshoeV2",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ortho_horseshoeV2\\LRO_NAC_ortho_horseshoeV2-120.png",
+    "BBOX": [
+        61.3920203,
+        16.6078286,
+        62.2274717,
+        20.0912737
+    ],
+    "Abstract": "这是一幅由LROC NAC图像组合而成的正射图像镶嵌图，用于Mare Crisium的马蹄遗址。图像被投影到LOLA DEM上。",
+    "Projection": "GEOGCS['unknown',\n\tDATUM['unknown',SPHEROID['unknown',1737400,0]],\n\tPRIMEM['Reference meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_ortho_horseshoeV2\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_ortho_horseshoeV2\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_ortho_horseshoeV2\\MetaData.html"
+}

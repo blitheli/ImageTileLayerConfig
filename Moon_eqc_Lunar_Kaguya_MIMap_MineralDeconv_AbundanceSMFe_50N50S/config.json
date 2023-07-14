@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Kaguya MI SMFe Abundance",
+    "LayerID": "Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_AbundanceSMFe_50N50S",
+    "Icon": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_AbundanceSMFe_50N50S\\Lunar_Kaguya_MIMap_MineralDeconv_AbundanceSMFe_50N50S-120.png",
+    "BBOX": [
+        -180.0,
+        -50.0,
+        180.0,
+        50.0
+    ],
+    "Abstract": "这幅马赛克代表了卡古亚多波段成像仪（MI）衍生的亚微米金属铁（SMFe）；例如，（Taylor，L.A.，C.Pieters，A.Patchen，D.S.Taylor，R.V.Morris，L.P.Keller和D.S.McKay（2010），月球高地土壤的矿物学和化学特征：对无气体上土壤空间风化的见解，地球物理杂志。Res.，115，E02002，doi:10.1029/2009JE003427）。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_AbundanceSMFe_50N50S\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_AbundanceSMFe_50N50S\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_AbundanceSMFe_50N50S\\MetaData.html"
+}

@@ -1,0 +1,18 @@
+LO HR/MR Cam Image Mosaic
+Layer ID:Moon_eqc_LO_HRMR_Mosaic_Global_512ppd
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LO_HRMR_Mosaic_Global_512ppd
+Abstract :Five Lunar Orbiter missions were launched by the U.S. in 1966 and
+                            1967 to study the Moon. Lunar Orbiter images were photographic products
+                            acquired on the spacecraft during those five missions (LO-I through -V;
+                            Hansen, 1970; Bowker and Hughes, 1971). The first three missions mapped
+                            potential Apollo lunar landing sites. Lunar Orbiter IV photographed most
+                            of the near and far sides of the Moon medium- and high- resolutions.
+                            Lunar Orbiter V completed the photography of the far side and collected
+                            additional images of 36 sites of scientific interest.
+1966年，美国发射了五次月球轨道飞行器任务
+Projection:
+GEOGCS[,
+	DATUM["unknown", SPHEROID["unnamed",1737400,0]], 
+	PRIMEM["Greenwich",0], UNIT["degree",0.0174532925199433]]
+

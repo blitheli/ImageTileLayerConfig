@@ -1,0 +1,20 @@
+LRO NAC and CE-2 CCD Ortho Mosaic, Aristarchus Crater
+Layer ID:Moon_eqc_UCL-Aristarchus-ORI-JPL-AOI-10m
+bbox:[-48.034946, 23.0593252, -46.5789723, 24.4453858]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/UCL-Aristarchus-ORI-JPL-AOI-10m
+Abstract :The NASA ARTEMIS Program is a human exploration mission carried out by NASA, US commercial spaceflight companies, ESA, JAXA, and CSA. The program is the next step in establishing a sustainable human presence on the moon amongst other goals. Aristarchus, a young crater with transient features on the Moon, was selected as a site for the Apollo 18 mission and is one of the landing site candidates of the ARTEMIS mission. In order to provide a VR dataset for astronaut training for the mission, the best possible 3D image dataset is needed. Using LROC-NAC stereo-pairs, this data has been constructed using stereo photogrammetry at the very high resolution of 0.5m/px for the orthorectified images (ORI) and a 1m/px Digital Terrain Model (DTM). The LROC-NAC instrument (Robinson et al., 2010) captures repeat pass single panchromatic grey-scale images at 0.5-2m/pixel over a swath-width of 2.5-10km with a limited number with suitable stereo angles.
+
+For the NAC images included in the final ORI mosaic, each stereo-pair had one ORI selected and had similar solar angles (elevation and azimuth) to minimize the impact of shadows and to fill the gaps from the area where corresponding ORIs from DTMs are not available. Each image was then bundle-adjusted and co-aligned/co-registered using ASP. Individual ORIs intensity values are adjusted to roughly similar values with GDAL functions gdal_translate and gdal_calc. The images are orthorectified using the DTM mosaic and then mosaicked together with ASP function image_mosaic and GDAL function gdalwarp. The final ORI mosaic has been cropped to JPLâs defined area of interest (AOI). This was done using GDAL function gdalwarp and the respective AOI shapefile.
+美国国家航空航天局ARTEMIS计划是由美国国家航空宇航局、美国商业航天公司、欧空局、日本宇宙航空研究开发机构和加拿大航天局执行的一项人类探索任务。该计划是在月球上建立可持续人类存在以及其他目标的下一步。Aristarchus是月球上一个具有瞬态特征的年轻陨石坑，被选为阿波罗18号任务的着陆点，也是ARTEMIS任务的候选着陆点之一。为了为任务中的宇航员训练提供VR数据集，需要尽可能好的3D图像数据集。使用LROC-NAC立体对，使用正射校正图像（ORI）和1m/px数字地形模型（DTM）的0.5m/px非常高分辨率的立体摄影测量构建了这些数据。LROC-NAC仪器（Robinson等人，2010）以0.5-2m/像素的重复通过单全色灰度图像在2.5-10km的条带宽度上以有限的数量和合适的立体角捕获。
+Projection:
+PROJCS["unnamed",
+	GEOGCS["unknown",
+		DATUM["unknown",SPHEROID["unnamed",1737400,0]],
+		PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",0],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

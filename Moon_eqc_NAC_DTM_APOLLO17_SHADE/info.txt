@@ -1,0 +1,9 @@
+LRO Narrow Angle Camera, HillShade Apollo 17
+Layer ID:Moon_eqc_NAC_DTM_APOLLO17_SHADE
+bbox:[29.9059224, 19.3905316, 31.65811, 21.3035496]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/NAC_DTM_APOLLO17_SHADE
+Abstract :This is a  shaded-relief derived from a 5m Digital Terrain Model (DTM) of the Apollo 17 landing site created with Narrow Angle Camera (NAC) stereo image pairs from the Lunar Reconnaissance Orbiter Camera (LROC) aboard the Lunar Reconnaissance Orbiter (LRO). The shaded relief image was generated with the sun azimuth of 315 degrees (northwest) and sun altitude of 45 degrees. Image is a TIFF image, 8 bits/sample, 1 samples/pixel in single image plane configuration.
+这是阿波罗17号着陆场5米数字地形模型（DTM）的阴影浮雕，该模型由月球勘测轨道飞行器（LRO）上的月球勘测轨道器相机（LROC）的窄角相机（NAC）立体图像对创建。生成的阴影浮雕图像的太阳方位角为315度（西北），太阳高度为45度。图像是TIFF图像，在单个图像平面配置中为8位/样本，1个样本/像素。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

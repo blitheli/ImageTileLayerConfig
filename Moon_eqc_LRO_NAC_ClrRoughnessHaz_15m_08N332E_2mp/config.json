@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, Hortensius Domes, 15m Color Roughness Hazard",
+    "LayerID": "Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_08N332E_2mp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_08N332E_2mp\\LRO_NAC_ClrRoughnessHaz_15m_08N332E_2mp-120.png",
+    "BBOX": [
+        -28.0744706,
+        7.061733,
+        -27.4759863,
+        8.091718
+    ],
+    "Abstract": "这是一张专题彩色粗糙度危险图，来源于Hortensius Domes的局部粗糙度图LRO_NAC_roughness_15m_08N332E_2mp.tif。粗糙度危险分类颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中粗糙度等级相当于15bm的车辆直径。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_08N332E_2mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_08N332E_2mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrRoughnessHaz_15m_08N332E_2mp\\MetaData.html"
+}

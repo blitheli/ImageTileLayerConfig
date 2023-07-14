@@ -1,0 +1,11 @@
+LP GRS Ti Abundance 2ppd, Global
+Layer ID:Moon_eqc_LP_GRS_TitaniumAbundance_2ppd
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LP_GRS_TitaniumAbundance_2ppd
+Abstract :This data product contains  elemental abundances values for Ti derived from LP gamma ray spectrometer [Feldman et al., 1999] observations acquired during the high- and low-altitude portions of the LP mission. This data is given in units of elemental weight percent. A description of the reduction of these data products is given by Prettyman et al. [2002]. The map bin size is 60 km by 60 km.
+该数据产品包含来自LP伽马射线光谱仪[Feldman et al.，1999]在LP任务的高海拔和低海拔部分获得的观测结果的Ti元素丰度值。这些数据是以元素重量百分比为单位给出的。Prettyman等人【2002】对这些数据产品的减少进行了描述。地图箱大小为60公里乘60公里。
+Projection:
+GEOGCS["GCS_Moon_2000",
+	DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Apollo 15 Pan Cam DEM, Tsiolkovskiy Crater, Colorized Confidence",
+    "LayerID": "Moon_eqc_Apollo15_PanCam_ClrConf_19S129E_5mp",
+    "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrConf_19S129E_5mp\\Apollo15_PanCam_ClrConf_19S129E_5mp-120.png",
+    "BBOX": [
+        120.5248201,
+        -21.0529248,
+        122.7630741,
+        -18.2873921
+    ],
+    "Abstract": "这是一张彩色置信图，与从阿波罗15号齐奥尔科夫斯基陨石坑全景相机图像中提取的数字高程模型（DEM）相关。DEM由月球轨道飞行器激光高度表（LOLA）数据集控制。DEM值指的是1737400米的半径。在置信度数据中，这些值是从精度值导出的。对于彩色置信度，使用了从10到14的值范围，从差置信度（10）到非常好置信度（14）。该范围被映射到从黄色到绿色不等的颜色映射。手动插值（15）映射为蓝色。所有其他值都映射到完全透明的像素。",
+    "Projection": "PROJCS['Equirectangular MOON',\n\tGEOGCS['GCS_MOON',\n\t\tDATUM['D_MOON',SPHEROID['MOON_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',0],\n\tPARAMETER['standard_parallel_1',-2],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrConf_19S129E_5mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrConf_19S129E_5mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_ClrConf_19S129E_5mp\\MetaData.html"
+}

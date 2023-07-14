@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC Image, Large Tranquillitatis",
+    "LayerID": "Moon_eqc_Large_Tranquilltatis_mosaic",
+    "Icon": "{MoonImage}\\Moon_eqc_Large_Tranquilltatis_mosaic\\Large_Tranquilltatis_mosaic-120.png",
+    "BBOX": [
+        33.1674847,
+        8.1166229,
+        33.3085116,
+        9.069362
+    ],
+    "Abstract": "这是使用月球勘测轨道飞行器任务中的月球勘测轨道器相机（LROC）窄角相机（NAC）图像生成的可见图像马赛克。这些图像是使用数字高程模型（DEM）进行正射校正的，该模型是根据LROC NAC立体图像创建的（如果可用），或LRO的月球轨道飞行器激光高度表（LOLA）全球DEM。马赛克是以与收集单个LROC NAC图像相同的分辨率生成的，该分辨率约为0.5米/像素。马赛克被水平配准到LOLA全球DEM中。",
+    "Projection": "PROJCS['Equirectangular MOON',\n\tGEOGCS['GCS_MOON',\n\t\tDATUM['D_MOON',SPHEROID['MOON_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',33.24],\n\tPARAMETER['standard_parallel_1',8.59],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Large_Tranquilltatis_mosaic\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Large_Tranquilltatis_mosaic\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Large_Tranquilltatis_mosaic\\MetaData.html"
+}

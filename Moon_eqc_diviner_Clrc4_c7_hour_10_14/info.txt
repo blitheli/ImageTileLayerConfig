@@ -1,0 +1,13 @@
+LRO DLRE Color Bolometric Brightness Temperature c4 and c7, 0.5 ppd
+Layer ID:Moon_eqc_diviner_Clrc4_c7_hour_10_14
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/diviner_Clrc4_c7_hour_10_14
+Abstract :The Diviner Lunar Radiometer Experiment onboard the Lunar Reconnaissance Orbiter (LRO) has been acquiring solar reflectance and mid-infrared radiance measurements nearly continuously since July of 2009. Approximately a quarter trillion calibrated radiance measurements of the Moon, acquired over the first 5.5 years of the mission, have been compiled into our Level 4 - Global Cumulative Products (GCP). This data represents a compilation of all Diviner nadir observations from 5-July-2009 to 1-April-2015. They are produced by binning Diviner RDR (Level 1b) radiance measurements for each IR channel (channels 3-9) in 0.5 degree bins in longitude and latitude, and 0.25 hours of local time to determine the average brightness temperatures on a global cylindrical grid. Additionally, the average radiance values for all the channels were used to determine the bolometric brightness temperatures for each bin.
+
+This is a colorized map representation of Diviner Channels 4 and 7 daytime anisothermality. The zonal mean of Diviner channel 4 and channel 7 brightness temperature differences averaged over local time hours 10 - 14 corresponding to incidence angles &lt;30 degrees at the equator at 0.5 ppd. This highlights emissivity variations between the two spectral passbands. For more information, please refer to: Williams, J. P., Paige, D. A., Greenhagen, B. T., &amp; Sefton-Nash, E. (2017). The global surface temperatures of the moon as measured by the Diviner Lunar Radiometer Experiment. Icarus, 283, 300-325.
+自2009年7月以来，月球勘测轨道飞行器（LRO）上的Diviner月球辐射计实验几乎一直在连续获取太阳反射率和中红外辐射测量值。在任务的前5.5年中获得的大约四分之一万亿次校准的月球辐射测量值已被汇编成我们的4级全球累积产品（GCP）。该数据汇集了2009年7月5日至2015年4月1日的所有Diviner最低点观测结果。它们是通过将每个红外通道（通道3-9）的Diviner RDR（1b级）辐射测量值装在经度和纬度0.5度的箱中，并在当地时间0.25小时内确定全球圆柱形网格上的平均亮度温度而产生的。此外，使用所有通道的平均辐射值来确定每个仓的辐射热亮度温度。
+Projection:
+GEOGCS["GCS_Moon",
+	DATUM["D_Moon",SPHEROID["Moon_2000",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

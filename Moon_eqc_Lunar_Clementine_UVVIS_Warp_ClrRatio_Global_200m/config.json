@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Clementine UVVIS Warped Color Ratio",
+    "LayerID": "Moon_eqc_Lunar_Clementine_UVVIS_Warp_ClrRatio_Global_200m",
+    "Icon": "{MoonImage}\\Moon_eqc_Lunar_Clementine_UVVIS_Warp_ClrRatio_Global_200m\\Lunar_Clementine_UVVIS_Warp_ClrRatio_Global_200m-120.png",
+    "BBOX": [
+        -180.0,
+        -89.6707443,
+        179.9969689,
+        89.6715215
+    ],
+    "Abstract": "<b>产品信息：</b>",
+    "Projection": "PROJCS['SimpleCylindrical Moon',\n\tGEOGCS['GCS_Moon',\n\t\tDATUM['D_Moon',SPHEROID['Moon',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',0],\n\tPARAMETER['standard_parallel_1',0],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Lunar_Clementine_UVVIS_Warp_ClrRatio_Global_200m\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Lunar_Clementine_UVVIS_Warp_ClrRatio_Global_200m\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Lunar_Clementine_UVVIS_Warp_ClrRatio_Global_200m\\MetaData.html"
+}

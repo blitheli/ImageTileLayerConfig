@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO DLRE Bolometric Brightness Temperature c6 and c8, 0.5 ppd",
+    "LayerID": "Moon_eqc_diviner_c6_c8_hour_20_04",
+    "Icon": "{MoonImage}\\Moon_eqc_diviner_c6_c8_hour_20_04\\diviner_c6_c8_hour_20_04-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "自2009年7月以来，月球勘测轨道飞行器（LRO）上的Diviner月球辐射计实验几乎一直在连续获取太阳反射率和中红外辐射测量值。在任务的前5.5年中获得的大约四分之一万亿次校准的月球辐射测量值已被汇编成我们的4级全球累积产品（GCP）。该数据汇集了2009年7月5日至2015年4月1日的所有Diviner最低点观测结果。它们是通过将每个红外通道（通道3-9）的Diviner RDR（1b级）辐射测量值装在经度和纬度0.5度的箱中，并在当地时间0.25小时内确定全球圆柱形网格上的平均亮度温度而产生的。此外，使用所有通道的平均辐射值来确定每个仓的辐射热亮度温度。",
+    "Projection": "GEOGCS['GCS_Moon',\n\tDATUM['D_Moon',SPHEROID['Moon_2000',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_diviner_c6_c8_hour_20_04\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_diviner_c6_c8_hour_20_04\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_diviner_c6_c8_hour_20_04\\MetaData.html"
+}

@@ -1,0 +1,9 @@
+LRO LROC DEM, Murchison Crater, Grayscale
+Layer ID:Moon_eqc_LRO_NAC_Gray_05N000E_150cmp
+bbox:[-0.5920086, 4.1054948, -0.1645886, 5.3703911]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Gray_05N000E_150cmp
+Abstract :This is a grayscale image version of the Digital Elevation Model (DEM) extracted from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) geometric stereo images from the Lunar Reconnaissance Orbiter mission. This image was generated from the matching Murchison Crater DEM data by scaling the elevation values from the range of -1160 and 439 to integer values between 0 and 255. Elevation below and above the -1160 and 439 are mapped to 0 and 255, respectively.
+这是数字高程模型（DEM）的灰度图像版本，从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）几何立体图像中提取。该图像是根据匹配的Murchison陨石坑DEM数据生成的，通过将海拔值从-1160到439的范围缩放为0到255之间的整数值。-1160和439以下和以上的高程分别映射为0和255。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

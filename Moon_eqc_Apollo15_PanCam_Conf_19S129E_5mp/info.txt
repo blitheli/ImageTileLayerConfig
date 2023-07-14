@@ -1,0 +1,18 @@
+Apollo 15 Pan Cam DEM, Tsiolkovskiy Crater, Confidence
+Layer ID:Moon_eqc_Apollo15_PanCam_Conf_19S129E_5mp
+bbox:[127.3918913, -21.0529025, 129.7577254, -18.2873921]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/Apollo15_PanCam_Conf_19S129E_5mp
+Abstract :This raster dataset represents a confidence value or figure of merit (FOM) for each pixel for the digital elevation model (DEM)for the Tsiolkovskiy Crater. Resolution of the original Apollo 15 Panametric images was 1.5m/pixel which allows an output DEM resolution of 5m/pixel using a softcopy photogrammetry system. It is register to ULCN 2005 control network. The DEM was registered horizontally and vertically to LRO's Lunar Orbiter Laser Altimeter (LOLA) data. Elevation values are in meters and referred to a radius of 1737400m.
+该光栅数据集代表了Tsiolkovskiy陨石坑数字高程模型（DEM）的每个像素的置信值或品质因数（FOM）。阿波罗15号原始巴拿马图像的分辨率为1.5米/像素，这允许使用软拷贝摄影测量系统输出5米/像素的DEM分辨率。它注册到ULCN 2005控制网络。DEM是根据LRO的月球轨道飞行器激光高度表（LOLA）数据水平和垂直配准的。高程值以米为单位，指的是1737400m的半径。
+Projection:
+PROJCS["Equirectangular Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",-19],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

@@ -1,0 +1,11 @@
+LRO LOLA DEM, ColorHillshade
+Layer ID:Moon_eqc_LRO_LOLA_ClrShade_Global_128ppd_v04
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_LOLA_ClrShade_Global_128ppd_v04
+Abstract :This is version 4 of the LRO LOLA DEM ColorHillshade. This is a colorized shaded-relief of the original LOLA Digital Elevation Model (DEM) version 4. The DEM is a shape map (radius) of the Moon at a resolution of 128 pixels per degree, based on altimetry data acquired through September 2011 by the LOLA instrument. The ground tracks were interpolated using the Generic Mapping Tools programs &quot;surface&quot; and &quot;grdblend&quot;. The map is in the form of a binary table with one row for each 0.007813 degree of latitude, pixel registered. Map values are referred to a radius of 1737400 m.
+这是LRO LOLA DEM ColorHillshade的第4版。这是原始LOLA数字高程模型（DEM）版本4的彩色阴影浮雕。DEM是月球形状图（半径），分辨率为128像素/度，基于LOLA仪器截至2011年9月获得的测高数据。使用通用映射工具程序“”对地面轨迹进行插值；表面“；以及“；grdblend”；。该地图采用二进制表的形式，每0.007813度纬度有一行，像素注册。地图值指的是1737400米的半径。
+Projection:
+GEOGCS["GCS_Moon_2000",
+	DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

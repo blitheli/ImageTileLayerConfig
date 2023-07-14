@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Clementine UVVIS Image Mosaic",
+    "LayerID": "Moon_eqc_Clem_UVVIS_Mosaic_Global_256ppd_v02",
+    "Icon": "{MoonImage}\\Moon_eqc_Clem_UVVIS_Mosaic_Global_256ppd_v02\\Clem_UVVIS_Mosaic_Global_256ppd_v02-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "Clementine 750nm版本2马赛克是灰度数据集",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Clem_UVVIS_Mosaic_Global_256ppd_v02\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Clem_UVVIS_Mosaic_Global_256ppd_v02\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Clem_UVVIS_Mosaic_Global_256ppd_v02\\MetaData.html"
+}

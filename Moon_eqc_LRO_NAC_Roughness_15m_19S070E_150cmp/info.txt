@@ -1,0 +1,18 @@
+LRO LROC DEM, Balmer Basin, 15m Roughness
+Layer ID:Moon_eqc_LRO_NAC_Roughness_15m_19S070E_150cmp
+bbox:[69.5021195, -19.3338089, 70.2347657, -17.6288402]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Roughness_15m_19S070E_150cmp
+Abstract :This is a local roughness map derived from the Digital Elevation Model (DEM) LRO_NAC_Roughness_15m_19S070E_150cmp.tif of Balmer Basin, with a post spacing of 1.5 and a roughness baseline (scale) of 15m. Pixel values are in meters and the theoretical roughness uncertainty equivalent to that of the source DEM. See also the corresponding local roughness and roughness hazard color (thematic) maps.
+这是根据Balmer盆地的数字高程模型（DEM）LRO_NAC_roughness_15m_19S070E_150cmp.tif得出的局部粗糙度图，立柱间距为1.5，粗糙度基线（比例尺）为15m。像素值以米为单位，理论粗糙度不确定性等于源DEM的不确定性。另请参见相应的局部粗糙度和粗糙度危害颜色（专题）图。
+Projection:
+PROJCS["Equirectangular Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",-19],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

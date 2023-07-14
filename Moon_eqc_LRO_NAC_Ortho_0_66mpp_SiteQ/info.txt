@@ -1,0 +1,25 @@
+LRO NAC Orthoimage 0.66mpp, Endurance-A Site Q
+Layer ID:Moon_eqc_LRO_NAC_Ortho_0_66mpp_SiteQ
+bbox:[139.1957089, -75.0539326, 139.4515405, -74.9878962]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Ortho_0_66mpp_SiteQ
+Abstract :This is an orthorectified LRO NAC image generated using AMES Stereo Pipeline and ISIS4. This data uses the NACs M110670656 and M110691019 as stereo image input. Output ortho image is sampled at 0.66mpp. Downloaded data is in a site centered orthographic projection. Data was created by: Heather Lethcoe at the Jet Propulsion Laboratory.
+这是使用AMES立体管道和ISIS4生成的经正射校正的LRO NAC图像。该数据使用NAC M110670656和M110691019作为立体图像输入。输出的正射图像以0.66mpp采样。下载的数据位于以站点为中心的正射投影中。数据由喷气推进实验室的Heather Lethcoe创建。
+Projection:
+PROJCS["ESRI PE String = PROJCS["Site_Q_ortho",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Orthographic"],
+	PARAMETER["False_Easting",0.0],
+	PARAMETER["False_Northing",0.0],
+	PARAMETER["Longitude_Of_Center",139.32360162],
+	PARAMETER["Latitude_Of_Center",-75.02092306],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Orthographic"],
+	PARAMETER["latitude_of_origin",-75.02092306],
+	PARAMETER["central_meridian",139.32360162],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

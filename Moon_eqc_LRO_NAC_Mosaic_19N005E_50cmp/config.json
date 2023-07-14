@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC Image Mosaic, Ina D-Caldera",
+    "LayerID": "Moon_eqc_LRO_NAC_Mosaic_19N005E_50cmp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_19N005E_50cmp\\LRO_NAC_Mosaic_19N005E_50cmp-120.png",
+    "BBOX": [
+        5.2291122,
+        18.1294969,
+        5.5045417,
+        19.0862649
+    ],
+    "Abstract": "这是月球勘测轨道飞行器相机（LROC）窄角相机（NAC）立体图像的正射影像镶嵌图，用于创建同一区域的数字高程模型（DEM）。LROC NAC原始图像和输出马赛克的分辨率约为0.5米/像素。DEM是根据LRO月球轨道飞行器激光高度表（LOLA）数据水平和垂直配准的。DEM值以米为单位，指的是1737400米的半径。这幅马赛克图像覆盖了伊纳-卡尔德拉遗址。",
+    "Projection": "PROJCS['Equirectangular Moon',\n\tGEOGCS['GCS_Moon',\n\t\tDATUM['D_Moon',SPHEROID['Moon_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',180],\n\tPARAMETER['standard_parallel_1',19],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_19N005E_50cmp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_19N005E_50cmp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_19N005E_50cmp\\MetaData.html"
+}

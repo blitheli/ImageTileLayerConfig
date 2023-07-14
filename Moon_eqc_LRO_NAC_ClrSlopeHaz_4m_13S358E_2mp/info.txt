@@ -1,0 +1,9 @@
+LRO LROC DEM, Alphonsus Crater, 4m Color Slope Hazard
+Layer ID:Moon_eqc_LRO_NAC_ClrSlopeHaz_4m_13S358E_2mp
+bbox:[-2.5415659, -26.120285, -1.9527127, -25.0865602]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_ClrSlopeHaz_4m_13S358E_2mp
+Abstract :This is a thematic color slope hazard map derived from the local slope map LRO_NAC_Slope_4m_13S358E_200cmp.tif of Alphonsus Crater. Slope hazard classification color ranges are arbitrary but representative of recent lander and rover designs, where the slope scale is equivalent to the vehicle diameter of 4m.
+这是一张专题彩色斜坡危险图，来源于Alphonsus火山口的当地斜坡图LRO_NAC_slope_4m_13S358E_200cmp.tif。斜坡危险分类的颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中斜坡比例相当于4米的车辆直径。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LOLA and Kaguya TC Color Hillshade 512ppd, Global",
+    "LayerID": "Moon_eqc_LRO_LOLAKaguya_ClrHillshade_60N60S_512ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLAKaguya_ClrHillshade_60N60S_512ppd\\LRO_LOLAKaguya_ClrHillshade_60N60S_512ppd-120.png",
+    "BBOX": [
+        -180.0,
+        -60.0,
+        180.0,
+        60.0
+    ],
+    "Abstract": "这是由LOLA和Kaguya合并的DEM产品生成的月球表面的彩色阴影浮雕表示。LOLA和Kaguya团队创建了一个改进的月球数字高程模型（DEM），覆盖&plusmn；60°；，在每度512像素的水平分辨率（赤道处的&sim；59m）和典型的垂直精度&sim；3至4米。该DEM由&sim；4.5&倍；来自月球勘测轨道器上的月球轨道器激光高度计（LOLA）的109个地球测量精确地形高度，我们与SELENE地形相机（TC）共同注册了43200个立体衍生DEM（每个1度）（总共1010个像素）。共同注册后，约90&percnt；的TC DEM示出了具有&lt；5米，而&sim；50&percnt；在共同注册之前。我们使用共同注册的TC数据来估计和校正LOLA alt的轨道和指向地理定位误差",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_LOLAKaguya_ClrHillshade_60N60S_512ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_LOLAKaguya_ClrHillshade_60N60S_512ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_LOLAKaguya_ClrHillshade_60N60S_512ppd\\MetaData.html"
+}

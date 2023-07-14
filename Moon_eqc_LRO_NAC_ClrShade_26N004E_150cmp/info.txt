@@ -1,0 +1,9 @@
+LRO LROC DEM, Apollo 15, ColorHillshade
+Layer ID:Moon_eqc_LRO_NAC_ClrShade_26N004E_150cmp
+bbox:[3.0271666, 25.4546362, 3.8496142, 26.7641022]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_ClrShade_26N004E_150cmp
+Abstract :This is a colorized shaded-relief of the digital elevation model (DEM) extracted from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) stereo images from the Lunar Reconnaissance Orbiter mission. The original data product is a DEM from stereo images acquired at approximately 0.5 meters/pixel resolution, which allows an output DEM resolution of 1.5 to 2.0 meters/pixel using a softcopy photogrammetry system. However, in some cases, LROC DEMs were also generated at lower resolutions. The DEM was registered horizontally and vertically to LRO&apos;s Lunar Orbiter Laser Altimeter (LOLA) data.
+这是从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）立体图像中提取的数字高程模型（DEM）的彩色阴影浮雕。原始数据产品是来自以大约0.5米/像素分辨率采集的立体图像的DEM，这允许使用软拷贝摄影测量系统输出1.5至2.0米/像素的DEM分辨率。然而，在某些情况下，LROC DEM也以较低的分辨率生成。DEM被水平地和垂直地登记到LRO&apos；月球轨道飞行器激光高度表（LOLA）数据。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

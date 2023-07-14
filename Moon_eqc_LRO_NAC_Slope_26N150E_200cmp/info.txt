@@ -1,0 +1,18 @@
+LRO LROC DEM, Mare Moscoviense, Colorized Slope
+Layer ID:Moon_eqc_LRO_NAC_Slope_26N150E_200cmp
+bbox:[150.1461771, 25.6232254, 150.6846895, 26.8169245]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Slope_26N150E_200cmp
+Abstract :This is a slope-colorized shaded-relief of the digital elevation model (DEM) extracted from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) stereo images from the Lunar Reconnaissance Orbiter mission. The original data product is a DEM from stereo images acquired at approximately 0.5m/p resolution, which allows an output DEM resolution of 1.5 to 2 meters/pixel using a softcopy photogrammetry system. However, in some cases, LROC DEMs were also generated at lower resolutions. The DEM was registered horizontally and vertically to LRO&apos;s Lunar Orbiter Laser Altimeter (LOLA) data.
+这是从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）立体图像中提取的数字高程模型（DEM）的斜坡彩色阴影浮雕。原始数据产品是以约0.5m/p分辨率采集的立体图像的DEM，使用软拷贝摄影测量系统，其输出DEM分辨率为1.5至2米/像素。然而，在某些情况下，LROC DEM也以较低的分辨率生成。DEM被水平地和垂直地登记到LRO&apos；月球轨道飞行器激光高度表（LOLA）数据。
+Projection:
+PROJCS["Equirectangular Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",26],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

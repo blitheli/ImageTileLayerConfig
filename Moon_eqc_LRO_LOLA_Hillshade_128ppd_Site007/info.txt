@@ -1,0 +1,25 @@
+LRO LOLA Hillshade 128ppd, Endurance-A Site 007
+Layer ID:Moon_eqc_LRO_LOLA_Hillshade_128ppd_Site007
+bbox:[-180.0, -90.0, 180.0, -86.7526763]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_LOLA_Hillshade_128ppd_Site007
+Abstract :This is a shaded-relief of the original LOLA Digital Elevation Model (DEM) version 4 cropped to a 50x50 km region for the Endurance-A Site 007. The DEM is a shape map (radius) of the Moon at a resolution of 128 pixels per degree, based on altimetry data acquired through September 2011 by the LOLA instrument. The ground tracks were interpolated using the Generic Mapping Tools programs surface and grdblend. The map is in the form of a binary table with one row for each 0.007813 degree of latitude, pixel registered. Map values are referred to a radius of 1737400 m.
+这是原始LOLA数字高程模型（DEM）版本4的阴影浮雕，裁剪为Endurance-a站点007的50x50 km区域。DEM是月球形状图（半径），分辨率为128像素/度，基于LOLA仪器截至2011年9月获得的测高数据。地面轨迹是使用Generic Mapping Tools程序surface和grdblend进行插值的。该地图采用二进制表的形式，每0.007813度纬度有一行，像素注册。地图值指的是1737400米的半径。
+Projection:
+PROJCS["ESRI PE String = PROJCS["Site_007_ortho",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Orthographic"],
+	PARAMETER["False_Easting",0.0],
+	PARAMETER["False_Northing",0.0],
+	PARAMETER["Longitude_Of_Center",139.95421373],
+	PARAMETER["Latitude_Of_Center",-88.69755897],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Orthographic"],
+	PARAMETER["latitude_of_origin",-88.69755897],
+	PARAMETER["central_meridian",139.95421373],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

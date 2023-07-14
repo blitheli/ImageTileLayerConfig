@@ -3,6 +3,7 @@
 #   运行前注意填写星球及图层类型
 #   当前仅支持相同星球和图层类型的info信息，支持多个信息同时读取并生成
 #   2023-07-13  苏秀中
+#   2023-07-14  liyunfei，更新百度翻译api id
 
 import os
 import json
@@ -12,6 +13,7 @@ import re
 import random
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
+import time
 
 
 #运行前注意填写行星和图层类型
@@ -37,8 +39,8 @@ def translate_text(text):
     if not text:
         return ''  # 如果文本为空，返回空字符串
 
-    app_id = '20230712001741495'
-    app_key = 'PcIH4qVu1rRnQWXSJeoV'
+    app_id = '20230714001744028'
+    app_key = 'ZQQZHfKusrB4vAZJR9R0'
     text_to_translate = text
 
     # API终点
@@ -306,6 +308,8 @@ def write_tile(tile_idx):
 
 for info in info_s:
     
+    print("------------------------------")
+    #time.sleep(0.4)  #
      #开始读取info并生成文件
 
     title, layer_id, bbox, icon, preview, wmts_capabilities, metadata, projection, folder_path, pic_name = extract_info(info)

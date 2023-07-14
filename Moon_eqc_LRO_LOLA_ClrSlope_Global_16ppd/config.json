@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LOLA Slope 16ppd, Colorized",
+    "LayerID": "Moon_eqc_LRO_LOLA_ClrSlope_Global_16ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrSlope_Global_16ppd\\LRO_LOLA_ClrSlope_Global_16ppd-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "这是一张基于LOLA仪器获取的测高数据的月球原始表面斜率彩色地图，分辨率为16米/像素乘16米/象素。通过任务阶段LRO_SM_17的LOLA激光器1和2数据是该数据集的来源。双向斜率是从平面拟合到需要n＝5到15个轮廓返回的三个连续激光发射来计算的。根据轨道速度、探测概率和航天器高度的不同，斜率基线可能在30米至120米之间变化。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrSlope_Global_16ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrSlope_Global_16ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrSlope_Global_16ppd\\MetaData.html"
+}

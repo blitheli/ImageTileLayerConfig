@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LROC NAC Uncontrolled Mosaic of Region Inside Schrodinger Crater, 50cm/px",
+    "LayerID": "Moon_eqc_SchrodingerMareNorth.eq",
+    "Icon": "{MoonImage}\\Moon_eqc_SchrodingerMareNorth.eq\\SchrodingerMareNorth.eq-120.png",
+    "BBOX": [
+        132.7718919,
+        -74.2213313,
+        137.1069797,
+        -71.9685645
+    ],
+    "Abstract": "这是一个50厘米/像素的非受控可见图像马赛克，使用月球勘测轨道飞行器任务中的月球勘测轨道器相机（LROC）窄角相机（NAC）图像生成。每个NAC图像都被水平配准到LRO的月球轨道飞行器激光高度表（LOLA）全球DEM中，然后拼接在一起并进行颜色平衡。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_SchrodingerMareNorth.eq\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_SchrodingerMareNorth.eq\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_SchrodingerMareNorth.eq\\MetaData.html"
+}

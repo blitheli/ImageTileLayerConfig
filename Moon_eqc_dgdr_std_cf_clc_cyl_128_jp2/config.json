@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO DLRE STD CF 128ppd, Global",
+    "LayerID": "Moon_eqc_dgdr_std_cf_clc_cyl_128_jp2",
+    "Icon": "{MoonImage}\\Moon_eqc_dgdr_std_cf_clc_cyl_128_jp2\\dgdr_std_cf_clc_cyl_128_jp2-120.png",
+    "BBOX": [
+        -180.0,
+        -60.0,
+        180.0,
+        60.0
+    ],
+    "Abstract": "每个样品代表标准（STD）克里斯蒂安森特征（CF）位置的估计值，这是硅酸盐在8微米附近的中红外发射率最大值。CF与提供组成信息的硅酸盐聚合作用相关。CF的波长位置在很大程度上取决于矿物的聚合度，框架硅酸盐矿物如长石在比聚合度较低的辉石和橄榄石更短的波长下表现出CF。因此，常见的月球矿物显示出广泛分离的CF位置。土壤的CF位置接近组成矿物的加权平均值，这使得能够确定主要的月球岩性。",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_dgdr_std_cf_clc_cyl_128_jp2\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_dgdr_std_cf_clc_cyl_128_jp2\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_dgdr_std_cf_clc_cyl_128_jp2\\MetaData.html"
+}

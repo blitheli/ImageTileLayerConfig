@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, Bullialdus Crater, 15m Color Slope",
+    "LayerID": "Moon_eqc_LRO_NAC_ClrSlope_15m_20S337E_400cmp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_15m_20S337E_400cmp\\LRO_NAC_ClrSlope_15m_20S337E_400cmp-120.png",
+    "BBOX": [
+        -22.7926867,
+        -21.0658297,
+        -22.2073208,
+        -20.484135
+    ],
+    "Abstract": "这是一张专题彩色斜坡图，来源于Bullialdus陨石坑的局部斜坡图LRO_NAC_slope_15m_20S337E_400cmp.tif。坡度分类颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中坡度比例相当于15米的车辆直径。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_15m_20S337E_400cmp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_15m_20S337E_400cmp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_15m_20S337E_400cmp\\MetaData.html"
+}

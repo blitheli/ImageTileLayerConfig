@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO Mini-RF First Stokes Parameter",
+    "LayerID": "Moon_eqc_LRO_MiniRF_S1_Gray_Global_128ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_MiniRF_S1_Gray_Global_128ppd\\LRO_MiniRF_S1_Gray_Global_128ppd-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "这是从0拉伸到0.5的原始CPR产品的8位灰度表示。该镶嵌是第一个斯托克斯参数，定义为S1=|ELH|^2+|ELV|^2，表示接收场的总功率或总强度。此3级产品称为衍生数据记录（DDR），由多个2级CDR生成。所有2级CDR图像产品均附有四个Stokes参数文件。Mini RF发射右圆极化信号，并接收水平和垂直极化信号以及极化之间的相位。水平极化（ERH）上的接收功率、垂直极化（ERV）中的接收功率以及两个极化信号之间的叉积的实部和虚部。斯托克斯参数值是双精度实数，并且是无量纲的。",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_MiniRF_S1_Gray_Global_128ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_MiniRF_S1_Gray_Global_128ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_MiniRF_S1_Gray_Global_128ppd\\MetaData.html"
+}

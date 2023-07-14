@@ -1,0 +1,9 @@
+LRO LROC DEM, Montes Pyrenaeus, 3m Roughness
+Layer ID:Moon_eqc_LRO_NAC_Roughness_3m_16S041E_150cmp
+bbox:[40.4705789, -16.5957932, 41.2194618, -15.2778055]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Roughness_3m_16S041E_150cmp
+Abstract :This is a local roughness map derived from the Digital Elevation Model (DEM) LRO_NAC_DEM_16S041E_150cmp.tif of Montes Pyrenaeus, with a post spacing of 1.5 and a roughness baseline (scale) of 3m. Pixel values are in meters and the theoretical roughness uncertainty equivalent to that of the source DEM. See also the corresponding local roughness and roughness hazard color (thematic) maps.
+这是一张源自Montes Pyrenaeus数字高程模型（DEM）LRO_NAC_DEM_16S041E_150cmp.tif的局部粗糙度图，立柱间距为1.5，粗糙度基线（比例尺）为3m。像素值以米为单位，理论粗糙度不确定性等于源DEM的不确定性。另请参见相应的局部粗糙度和粗糙度危害颜色（专题）图。
+Projection:
+TBD
+

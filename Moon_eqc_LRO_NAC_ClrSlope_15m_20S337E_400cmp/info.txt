@@ -1,0 +1,9 @@
+LRO LROC DEM, Bullialdus Crater, 15m Color Slope
+Layer ID:Moon_eqc_LRO_NAC_ClrSlope_15m_20S337E_400cmp
+bbox:[-22.7926867, -21.0658297, -22.2073208, -20.484135]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_ClrSlope_15m_20S337E_400cmp
+Abstract :This is a thematic color slope map derived from the local slope map LRO_NAC_Slope_15m_20S337E_400cmp.tif of Bullialdus Crater. Slope classification color ranges are arbitrary but representative of recent lander and rover designs, where the slope scale is equivalent to the vehicle diameter of 15m.
+这是一张专题彩色斜坡图，来源于Bullialdus陨石坑的局部斜坡图LRO_NAC_slope_15m_20S337E_400cmp.tif。坡度分类颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中坡度比例相当于15米的车辆直径。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

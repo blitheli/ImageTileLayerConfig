@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Apollo 15 Metric Cam DEM, Precision",
+    "LayerID": "Moon_eqc_Apollo15_MetricCam_Prec_Global_1024ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Prec_Global_1024ppd\\Apollo15_MetricCam_Prec_Global_1024ppd-120.png",
+    "BBOX": [
+        -67.9995117,
+        -33.9995117,
+        179.9995117,
+        34.0004883
+    ],
+    "Abstract": "阿波罗15号数字高程模型精度是使用所有可用的阿波罗15号DEM文件的标准偏差生成的。DEM精度单位存储为16位带符号整数，分辨率为14.8m/像素。DEM单位以米为单位。这些DEM精度文件是使用艾姆斯立体管道生成的：这是美国国家航空航天局艾姆斯智能机器人小组（IRG）生产的一种用于立体图像自动处理的软件工具。",
+    "Projection": "TBD\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Prec_Global_1024ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Prec_Global_1024ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Prec_Global_1024ppd\\MetaData.html"
+}

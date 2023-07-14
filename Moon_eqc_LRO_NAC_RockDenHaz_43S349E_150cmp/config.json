@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC Rock Density Hazard, Tycho Crater",
+    "LayerID": "Moon_eqc_LRO_NAC_RockDenHaz_43S349E_150cmp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_RockDenHaz_43S349E_150cmp\\LRO_NAC_RockDenHaz_43S349E_150cmp-120.png",
+    "BBOX": [
+        -11.6402113,
+        -43.4973198,
+        -11.0296416,
+        -42.3529378
+    ],
+    "Abstract": "这是第谷陨石坑遗址的岩石密度危险镶嵌图，数据文件包含覆盖该遗址的窄角相机（NAC）图像中每公顷（100米x 100米）探测到的岩石数量（包括所有尺寸）。数据文件是根据月球勘测轨道飞行器（LRO）相机（LROC）NAC获取的图像计算的岩石列表创建的。从图像中可以完全分辨出直径2.5米或更大的岩石。探测到的最小岩石直径约为1.0m。当它们的阴影被合并时，杂乱的岩石可能被报告为单个大岩石。除此镶嵌图外，每个NAC图像的岩石空间分布在三个不同的地图中给出：岩石密度数据图、岩石密度彩色（专题）图和岩石密度危害彩色（主题）图。这些可作为产品LRO LROC Hazards，Tycho Crater，All的一部分下载。另请参阅每个场地的岩石丰度数据产品。",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_RockDenHaz_43S349E_150cmp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_RockDenHaz_43S349E_150cmp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_RockDenHaz_43S349E_150cmp\\MetaData.html"
+}

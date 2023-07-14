@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LOLA Permanently Shadowed Regions Southpole 240m",
+    "LayerID": "Moon_eqc_LRO_LOLA_Illumination_SPole65S_240m_EQ",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLA_Illumination_SPole65S_240m_EQ\\LRO_LOLA_Illumination_SPole65S_240m_EQ-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        -55.1725789
+    ],
+    "Abstract": "该数据产品是月球南极永久阴影区（PSR）的地图。地图分辨率为240m/pix乘以240m/piz，在极地立体图（球面）投影中的极点处也是如此。计算基于LOLA高程图LDEM_75S_240M，如中所述。这些值是二进制的，表示像素是否处于永久阴影（1）中（0，NoDATA）。",
+    "Projection": "GEOGCS['GCS_Moon',\n\tDATUM['Moon',SPHEROID['Moon',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_LOLA_Illumination_SPole65S_240m_EQ\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_LOLA_Illumination_SPole65S_240m_EQ\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_LOLA_Illumination_SPole65S_240m_EQ\\MetaData.html"
+}

@@ -1,0 +1,18 @@
+LRO LROC DEM, South Pole-Aitken Basin Interior, Grayscale
+Layer ID:Moon_eqc_LRO_NAC_Gray_60S200E_150cmp
+bbox:[-80.3898049, -60.6430803, -79.7931242, -59.3178763]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Gray_60S200E_150cmp
+Abstract :This is a grayscale image version of the Digital Elevation Model (DEM) extracted from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) geometric stereo images from the Lunar Reconnaissance Orbiter mission. This image was generated from the matching South Pole-Aitken Basin Interior DEM data by scaling the elevation values from the range of -6169 and -5267 to integer values between 0 and 255. Elevation below and above the -6169 and -5267 are mapped to 0 and 255, respectively.
+这是数字高程模型（DEM）的灰度图像版本，从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）几何立体图像中提取。该图像是根据匹配的南极-艾特肯盆地内部DEM数据生成的，通过将海拔值从6169到-5267的范围缩放为0到255之间的整数值。6169和-567以下和以上的高程分别映射为0和255。
+Projection:
+PROJCS["Equirectangular MOON",
+	GEOGCS["GCS_MOON",
+		DATUM["D_MOON",SPHEROID["MOON_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",-2],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

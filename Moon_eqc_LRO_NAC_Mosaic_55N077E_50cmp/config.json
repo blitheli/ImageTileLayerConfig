@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC Image Mosaic, Humboldtianum Basin",
+    "LayerID": "Moon_eqc_LRO_NAC_Mosaic_55N077E_50cmp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_55N077E_50cmp\\LRO_NAC_Mosaic_55N077E_50cmp-120.png",
+    "BBOX": [
+        76.9027777,
+        53.7777101,
+        77.397115,
+        54.9352389
+    ],
+    "Abstract": "这是月球勘测轨道飞行器相机（LROC）窄角相机（NAC）立体图像的正射影像镶嵌图，用于创建同一区域的数字高程模型（DEM）。原始LRO NAC图像和输出马赛克的分辨率约为0.5米/像素。一旦创建了该地区的DEM，则使用SOCET SET或成像仪和光谱仪集成软件（ISIS）对单个图像进行正射和马赛克。DEM被水平地和垂直地登记到LRO&apos；月球轨道飞行器激光高度表（LOLA）数据。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_55N077E_50cmp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_55N077E_50cmp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_55N077E_50cmp\\MetaData.html"
+}

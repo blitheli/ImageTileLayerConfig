@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LOLA DEM, Coverage",
+    "LayerID": "Moon_eqc_LRO_LOLA_Coverage_Global_128ppd_v04",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLA_Coverage_Global_128ppd_v04\\LRO_LOLA_Coverage_Global_128ppd_v04-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "该光栅数据集是128ppd LOLA数字高程模型（DEM）中每个像素的原始LOLA镜头计数的二进制（真或假）表示。包含零值（False）的像素没有LOLA仪器的覆盖范围。包含值1的像素具有至少一个或多个LOLA镜头的覆盖范围。对于LOLA DEM，这意味着在没有LOLA镜头的情况下，使用来自周围邻居的样条插值来近似像素（因此不那么准确）。",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_LOLA_Coverage_Global_128ppd_v04\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_LOLA_Coverage_Global_128ppd_v04\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_LOLA_Coverage_Global_128ppd_v04\\MetaData.html"
+}

@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC Crater Density, Stratton (Dewar) High Fe Anomaly",
+    "LayerID": "Moon_eqc_LRO_NAC_CratDen_02S167E_150cmp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_CratDen_02S167E_150cmp\\LRO_NAC_CratDen_02S167E_150cmp-120.png",
+    "BBOX": [
+        166.4438208,
+        -2.7467169,
+        166.9040389,
+        -1.3862179
+    ],
+    "Abstract": "这是Stratton（Dewar）高铁异常地点的陨石坑密度镶嵌图，数据文件包含覆盖该地点的窄角相机（NAC）图像中每公顷（100米x 100米）检测到的陨石坑数量（包括所有尺寸）。数据文件是根据月球勘测轨道飞行器（LRO）NAC相机（LROC）获取的图像计算出的陨石坑列表创建的。陨石坑被建模为椭圆。长轴上2.5米或更大的陨石坑可以从图像中完全分辨出来。检测到的最小弹坑在主轴上约2.0米。重叠的陨石坑和陨石坑内部的陨石坑被单独报道。每个NAC图像的三张不同的地图中给出了陨石坑的空间分布：一张陨石坑密度数据图、一份陨石坑密度彩色（专题）图和一张陨石洞密度危害彩色（专题的）图。这些可作为产品LRO LROC Hazards，Stratton（杜瓦）High Fe Anomaly，All的一部分下载。另见阿本丹火山口",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_CratDen_02S167E_150cmp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_CratDen_02S167E_150cmp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_CratDen_02S167E_150cmp\\MetaData.html"
+}

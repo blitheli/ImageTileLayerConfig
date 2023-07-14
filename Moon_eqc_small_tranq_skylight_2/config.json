@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO Narrow Angle Camera, Mosaic Small Tranquilltatis 2",
+    "LayerID": "Moon_eqc_small_tranq_skylight_2",
+    "Icon": "{MoonImage}\\Moon_eqc_small_tranq_skylight_2\\small_tranq_skylight_2-120.png",
+    "BBOX": [
+        20.7135697,
+        -0.3482134,
+        20.8913303,
+        0.5960126
+    ],
+    "Abstract": "使用卡古亚地形相机获得的图像发现了三个月球坑，这让研究人员想知道这些特征可能有多普遍。一项非常成功的活动是搜索月球勘测轨道飞行器窄角相机（NAC）的图像，看看NAC的更高分辨率是否会显示出比卡古亚地形相机探测到的更小的月球坑（R.V.Wagner和M.S.Robinson，2015，更新：月球坑搜索，第二届国际行星洞穴会议）。研究人员推测，这些月坑可能是熔岩管中屋顶坍塌造成的天窗。事实是否如此，如果是这样，熔岩管的可达性和范围还有待确定。然而，这种熔岩管作为月球基地的潜在位置，提供了保护，免受温度、银河系和太阳辐射以及流星体撞击的极端波动。该数据层是使用窄角度C获得的",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_small_tranq_skylight_2\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_small_tranq_skylight_2\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_small_tranq_skylight_2\\MetaData.html"
+}

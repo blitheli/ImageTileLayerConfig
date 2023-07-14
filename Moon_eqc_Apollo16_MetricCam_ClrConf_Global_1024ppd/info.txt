@@ -1,0 +1,11 @@
+Apollo 16 Metric Cam DEM, Colorized Confidence
+Layer ID:Moon_eqc_Apollo16_MetricCam_ClrConf_Global_1024ppd
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/Apollo16_MetricCam_ClrConf_Global_1024ppd
+Abstract :The Apollo 16 DEM colorized confidence image is generated from the Apollo 16 DEM confidence data. In the confidence data, the values are derived from the precision values. For the colorized confidence, the value range from 10 to 14 was used, ranging from poor confidence (10) to very good confidence (14). This range was mapped to a color map varying from yellow to green.  All other confidence values were mapped to fully transparent pixels.
+阿波罗16号DEM彩色置信度图像是根据阿波罗16号的DEM置信度数据生成的。在置信度数据中，这些值是从精度值导出的。对于彩色置信度，使用了从10到14的值范围，从差置信度（10）到非常好置信度（14）。该范围被映射到从黄色到绿色不等的颜色映射。所有其他置信度值都映射到完全透明的像素。
+Projection:
+GEOGCS["GCS_Moon_2000",
+	DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

@@ -1,0 +1,11 @@
+LP GRS K Abundance
+Layer ID:Moon_eqc_LP_GRS_K_Clr_Global_halfppd
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LP_GRS_K_Clr_Global_halfppd
+Abstract :These data products contain elemental abundances values for K derived from LP gamma ray spectrometer [Feldman et al., 1999] observations acquired during the high- and low-altitude portions of the LP mission. The data are given in units of ppm. A description of the reduction of these data products is given by Prettyman et al. [2002]. The map bin size is 60 km by 60 km. This Lunar Prospector (LP) gamma ray special product and associated documentation have been prepared by the LP Spectrometer Team as part of a NASA Lunar Data Analysis Program. These spectrometer data products integrate data collected between January 16, 1998 and July 31, 1999. The data file descriptions for these products were provided by: William C. Feldman, Tom H. Prettyman, Richard D. Belian, Richard C. Elphic, Olivier Gasnault, David J. Lawrence, Stefanie L. Lawson, and Kurt R. Moore all of Los Alamos National Laboratory, Los Alamos, NM; Alan B. Binde of Lunar Research Institute, Tuscon, AZ; Sylvestre Maurice of Observatoire Midi-Pyrenees, Toulouse, France. IMPORTANT: These data are special products that may be of interest to the geoscience community. They do not represent a PDS peer-reviewed data set. Please contact William Feldman or David Lawrence of LANL for more information. Please report any other anomalies in the data or documentation to geosci@wunder.wustl.edu.
+这些数据产品包含从LP伽马射线光谱仪[Feldman et al.，1999]在LP任务的高海拔和低海拔部分获得的观测结果中得出的K元素丰度值。数据以ppm为单位。Prettyman等人【2002】对这些数据产品的减少进行了描述。地图仓大小为60公里乘60公里。该月球探测器（LP）伽马射线特殊产品和相关文件由LP光谱仪团队编制，作为NASA月球数据分析计划的一部分。这些光谱仪数据产品整合了1998年1月16日至1999年7月31日期间收集的数据。这些产品的数据文件描述由以下人员提供：William C.Feldman、Tom H.Prettyman、Richard D.Belian、Richard C.Elphic、Olivier Gasnault、David J.Lawrence、Stefanie L.Lawson和Kurt R.Moore，均来自新墨西哥州洛斯阿拉莫斯洛斯阿拉莫斯国家实验室；亚利桑那州塔斯康月球研究所的Alan B.Binde；奥瑟尔的西尔维斯特·莫里斯
+Projection:
+GEOGCS["GCS_Moon_2000",
+	DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

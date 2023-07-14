@@ -1,0 +1,18 @@
+LRO LROC Mosaic, Fresh Crater East of Lents
+Layer ID:Moon_eqc_LRO_NAC_Mosaic_03N280E_70cm
+bbox:[-100.5615806, 2.6661118, -100.0324363, 4.0432537]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Mosaic_03N280E_70cm
+Abstract :This is a visible image mosaic generated using Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) images from the Lunar Reconnaissance Orbiter mission. The images were orthorectified using a digital elevation model (DEM) created from LROC NAC stereo images, when available, or LRO's Lunar Orbiter Laser Altimeter (LOLA) global DEM. The mosaic is generated at the same resolution at which the individual LROC NAC images were gathered, which is 0.7 meters/pixel.
+这是使用月球勘测轨道飞行器任务中的月球勘测轨道器相机（LROC）窄角相机（NAC）图像生成的可见图像马赛克。这些图像是使用数字高程模型（DEM）进行正射校正的，该模型是根据LROC NAC立体图像创建的（如果可用），或LRO的月球轨道飞行器激光高度表（LOLA）全球DEM。马赛克是以与收集单个LROC NAC图像相同的分辨率生成的，该分辨率为0.7米/像素。
+Projection:
+PROJCS["Equirectangular Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",3],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

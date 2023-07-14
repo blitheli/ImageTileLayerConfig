@@ -1,0 +1,11 @@
+Apollo 16 Metric Cam DEM, Grayscale
+Layer ID:Moon_eqc_Apollo16_MetricCam_Gray_Global_1024ppd
+bbox:[-180.0, -90.0, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/Apollo16_MetricCam_Gray_Global_1024ppd
+Abstract :The Apollo 16 DEM grayscale image is generated from the Apollo 16 DEM data, by scaling elevation values from the range of -8000 to +8000 meters to integer values between 0 and 255.  Elevation values below and above the -8000 and 8000 are mapped to 0 and 255 respectively
+阿波罗16号DEM灰度图像是根据阿波罗16号的DEM数据生成的，通过将海拔值从-8000米到+8000米的范围缩放为0到255之间的整数值。8000和8000以下和以上的高程值分别映射为0和255
+Projection:
+GEOGCS["GCS_Moon_2000",
+	DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LOLA Slope Southpole 120m, Colorized",
+    "LayerID": "Moon_eqc_LRO_LOLA_ClrSlope_SPole75S_120m_EQ",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrSlope_SPole75S_120m_EQ\\LRO_LOLA_ClrSlope_SPole75S_120m_EQ-120.png",
+    "BBOX": [
+        -180.0,
+        -89.9951773,
+        179.9992504,
+        -68.9074986
+    ],
+    "Abstract": "这是一张基于LOLA仪器获取的测高数据的月球原始南极表面斜率的彩色地图，分辨率为16米/像素乘16米/象素。通过任务阶段LRO_SM_17的LOLA激光器1和2数据是该数据集的来源。双向斜率是从平面拟合到需要n＝5到15个轮廓返回的三个连续激光发射来计算的。根据轨道速度、探测概率和航天器高度的不同，斜率基线可能在30米至120米之间变化。",
+    "Projection": "GEOGCS['GCS_Moon',\n\tDATUM['Moon',SPHEROID['Moon',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrSlope_SPole75S_120m_EQ\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrSlope_SPole75S_120m_EQ\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrSlope_SPole75S_120m_EQ\\MetaData.html"
+}

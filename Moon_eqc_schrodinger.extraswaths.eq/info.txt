@@ -1,0 +1,9 @@
+LRO Narrow Angle Camera, Mosaic Schrodinger Extra
+Layer ID:Moon_eqc_schrodinger.extraswaths.eq
+bbox:[132.3933557, -81.0226752, 146.0942538, -74.763851]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/schrodinger.extraswaths.eq
+Abstract :TBD
+待定
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

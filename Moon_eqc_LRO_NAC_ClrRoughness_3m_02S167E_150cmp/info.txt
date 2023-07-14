@@ -1,0 +1,18 @@
+LRO LROC DEM, Stratton (Dewar) High Fe Anomaly, 3m Color Roughness
+Layer ID:Moon_eqc_LRO_NAC_ClrRoughness_3m_02S167E_150cmp
+bbox:[166.5794433, -2.9191836, 166.9709973, -1.7502106]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_ClrRoughness_3m_02S167E_150cmp
+Abstract :This is a thematic color roughness map derived from the local roughness map LRO_NAC_Roughness_3m_02S167E_150cmp.tif of the Stratton (Dewar) site. Roughness classification color ranges are arbitrary but representative of recent lander and rover designs, where the roughness scale is equivalent to the vehicle diameter of 3m.
+这是一张专题彩色粗糙度图，来源于Stratton（Dewar）现场的局部粗糙度图LRO_NAC_roughness_3_02S167E_150cmp.tif。粗糙度分类颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中粗糙度等级相当于3米的车辆直径。
+Projection:
+PROJCS["Equirectangular Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",-2],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

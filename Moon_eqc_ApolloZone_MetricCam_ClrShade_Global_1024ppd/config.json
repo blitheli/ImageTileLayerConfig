@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Apollo Zone Metric Cam DEM, ColorHillshade",
+    "LayerID": "Moon_eqc_ApolloZone_MetricCam_ClrShade_Global_1024ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_ApolloZone_MetricCam_ClrShade_Global_1024ppd\\ApolloZone_MetricCam_ClrShade_Global_1024ppd-120.png",
+    "BBOX": [
+        -180.0,
+        -38.0,
+        180.0,
+        34.0
+    ],
+    "Abstract": "Apollo Zone DEM Color Hillshade是使用Vision Workbench中DEM文件的colormap和Hillshade函数生成的。颜色图（legend.png）的最小值和最大值对应于以米为单位的范围[-849910208]，相对于1737.4km的平均月球半径。DEM颜色山坡值以30m/像素分辨率的8位带符号整数存储。这些DEM彩色山坡文件是使用Vision Workbench库生成的：这是一个由NASA Ames智能机器人集团（IRG）生产的用于立体图像自动处理的软件工具。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_ApolloZone_MetricCam_ClrShade_Global_1024ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_ApolloZone_MetricCam_ClrShade_Global_1024ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_ApolloZone_MetricCam_ClrShade_Global_1024ppd\\MetaData.html"
+}

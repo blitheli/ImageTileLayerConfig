@@ -1,0 +1,12 @@
+Kaguya TC Ortho Mosaic
+Layer ID:Moon_eqc_Kaguya_TCortho_Mosaic_Global_4096ppd
+bbox:[-180.0, -90.0, 179.9997621, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/Kaguya_TCortho_Mosaic_Global_4096ppd
+Abstract :This mosaic represents the &quot;Kaguya&quot; Terrain Camera (TC) &quot;Ortho&quot; mosaic. Please note this mosaic was created using a different control network from other LMMP products (which are controlled to LOLA) and thus may not always register well to those prodcuts. The mosaic is derived from data acquired by the Terrain Camera (TC) instrument aboard the Selenological and Engineering Explorer (SELENE) satellite flown by the Japan Aerospace Exploration Agency (JAXA). The mosaic can be considered a merged best-of version which was produced at 4096 pixels/degree (7.4 meter spatial resolution) and includes images from the low-sun Morning (early or right-to-left low-angle solar illumination) and Evening (late or left-to-right solar illumination) TC mosaics. The &#147;Ortho&#148; version is termed by the Kaguya team as indicating simulated vertical illumination.
+      
+      Reference: Haruyama, J. et al. and the LISM Working Group (2008) Earth Planets Space, 60, 243-255. [2] Kato, M., Y. Takizawa, and S. Sasaki (2007) LPS XXXVIII, Abstract #1402. 
+      Reference: Kato, M., Y. Takizawa, and S. Sasaki, Selene Project Team (2006) LPS XXXVII, Abstract #1233.
+这个马赛克代表了“；卡古亚”；地形摄像机（TC）”；正交“；马赛克请注意，该马赛克是使用与其他LMMP产品（受LOLA控制）不同的控制网络创建的，因此可能并不总是能很好地注册到这些产品中。镶嵌图来源于日本宇宙航空研究开发机构（JAXA）发射的Selenological and Engineering Explorer（SELENE）卫星上的地形相机（TC）仪器获取的数据。马赛克可以被认为是以4096像素/度（7.4米空间分辨率）产生的合并最佳版本，并且包括来自低太阳早晨（早或从右到左的低角度太阳照明）和傍晚（晚或从左到右的太阳照明）TC马赛克的图像。&#147；正交&#148；该版本被Kaguya团队称为模拟垂直照明。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, Mare Ingenii, ColorHillshade Slope",
+    "LayerID": "Moon_eqc_LRO_NAC_Slope_36S164E_2mp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Slope_36S164E_2mp\\LRO_NAC_Slope_36S164E_2mp-120.png",
+    "BBOX": [
+        164.0230593,
+        -36.135881,
+        164.863656,
+        -34.8574938
+    ],
+    "Abstract": "这是从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）几何立体图像中提取的数字高程模型（DEM）的彩色斜坡图。原始数据产品是以大约0.7m/p的分辨率采集的立体图像的DEM，并且DEM被设置为2m/p，下采样以最小化噪声。DEM覆盖了Mare Ingenii遗址。DEM由月球轨道飞行器激光高度表（LOLA）数据集控制。DEM值以米为单位，指的是1737400米的半径。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Slope_36S164E_2mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Slope_36S164E_2mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Slope_36S164E_2mp\\MetaData.html"
+}

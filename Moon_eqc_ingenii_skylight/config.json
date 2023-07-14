@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO Narrow Angle Camera, Mosaic Ingenii",
+    "LayerID": "Moon_eqc_ingenii_skylight",
+    "Icon": "{MoonImage}\\Moon_eqc_ingenii_skylight\\ingenii_skylight-120.png",
+    "BBOX": [
+        165.9072264,
+        -36.6658551,
+        166.1479337,
+        -35.6970073
+    ],
+    "Abstract": "英格尼号是月球背面为数不多的母马之一，也是著名的月球漩涡和神秘明亮反照率特征的所在地。这足以使该地区成为感兴趣的星座地区。然而，随着使用卡古亚地形相机获得的图像中发现了一个月球坑，该地区变得更加有趣。它的直径约为130米，研究人员推测，这个坑可能是熔岩管顶部坍塌形成的天窗。事实是否如此，如果是这样，熔岩管的可达性和范围还有待确定。然而，这种熔岩管作为月球基地的潜在位置，提供了保护，免受温度、银河系和太阳辐射以及流星体撞击的极端波动。该数据层是使用月球勘测轨道飞行器上的窄角相机获得的，是以Ma为中心的2个NAC带的马赛克",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_ingenii_skylight\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_ingenii_skylight\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_ingenii_skylight\\MetaData.html"
+}

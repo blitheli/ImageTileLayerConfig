@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO NAC and CE-2 CCD Ortho Mosaic, Aristarchus Crater",
+    "LayerID": "Moon_eqc_UCL-Aristarchus-ORI-JPL-AOI-10m",
+    "Icon": "{MoonImage}\\Moon_eqc_UCL-Aristarchus-ORI-JPL-AOI-10m\\UCL-Aristarchus-ORI-JPL-AOI-10m-120.png",
+    "BBOX": [
+        -48.034946,
+        23.0593252,
+        -46.5789723,
+        24.4453858
+    ],
+    "Abstract": "美国国家航空航天局ARTEMIS计划是由美国国家航空宇航局、美国商业航天公司、欧空局、日本宇宙航空研究开发机构和加拿大航天局执行的一项人类探索任务。该计划是在月球上建立可持续人类存在以及其他目标的下一步。Aristarchus是月球上一个具有瞬态特征的年轻陨石坑，被选为阿波罗18号任务的着陆点，也是ARTEMIS任务的候选着陆点之一。为了为任务中的宇航员训练提供VR数据集，需要尽可能好的3D图像数据集。使用LROC-NAC立体对，使用正射校正图像（ORI）和1m/px数字地形模型（DTM）的0.5m/px非常高分辨率的立体摄影测量构建了这些数据。LROC-NAC仪器（Robinson等人，2010）以0.5-2m/像素的重复通过单全色灰度图像在2.5-10km的条带宽度上以有限的数量和合适的立体角捕获。",
+    "Projection": "PROJCS['unnamed',\n\tGEOGCS['unknown',\n\t\tDATUM['unknown',SPHEROID['unnamed',1737400,0]],\n\t\tPRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',0],\n\tPARAMETER['standard_parallel_1',0],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_UCL-Aristarchus-ORI-JPL-AOI-10m\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_UCL-Aristarchus-ORI-JPL-AOI-10m\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_UCL-Aristarchus-ORI-JPL-AOI-10m\\MetaData.html"
+}

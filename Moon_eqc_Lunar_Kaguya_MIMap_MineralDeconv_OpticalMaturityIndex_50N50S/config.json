@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Kaguya MI Optical Maturity",
+    "LayerID": "Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_OpticalMaturityIndex_50N50S",
+    "Icon": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_OpticalMaturityIndex_50N50S\\Lunar_Kaguya_MIMap_MineralDeconv_OpticalMaturityIndex_50N50S-120.png",
+    "BBOX": [
+        -180.0,
+        -50.0,
+        180.0,
+        50.0
+    ],
+    "Abstract": "这幅镶嵌图代表了月球表面的光学成熟度。OMAT是一个无单位量，作为月球土壤因暴露在太空中而发生物理变化的程度的相对度量（Lucey，P.G.，D.T.Blewett，G.J.Taylor和B.R.Hawke（2000），月球表面成熟度成像，J.Geophys。Res.，105（E8），20377â20386，doi:10.1029/1999JE001110）。较小的OMAT值表示更大的光学成熟度。OMAT地图是基于Lucey等人的算法生成的。然而，OMAT算法是使用Clementine在750和950 nm处的反射率数据得出的，不能直接与多波段成像仪数据一起使用。因此，我们首先计算了应应用于750（r750）和950（r950）nm多波段成像仪数据的回归系数，以匹配Clementine在这些波段的反射率（r750corr，r950corr）：",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_OpticalMaturityIndex_50N50S\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_OpticalMaturityIndex_50N50S\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_OpticalMaturityIndex_50N50S\\MetaData.html"
+}

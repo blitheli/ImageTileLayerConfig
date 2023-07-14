@@ -1,0 +1,11 @@
+LRO LOLA and Kaguya TC Hillshade 512ppd, Global
+Layer ID:Moon_eqc_LRO_LOLAKaguya_Hillshade_60N60S_512ppd
+bbox:[-180.0, -60.0, 180.0, 60.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_LOLAKaguya_Hillshade_60N60S_512ppd
+Abstract :This is a shaded-relief representation of the Lunar surface generated from the LOLA and Kaguya merged DEM product. The LOLA and Kaguya Teams have created an improved lunar digital elevation model (DEM) covering latitudes within &plusmn;60&deg;, at a horizontal resolution of 512 pixels per degree (&sim;59 m at the equator) and a typical vertical accuracy &sim;3 to 4 m. This DEM is constructed from &sim;4.5&times;109 geodetically-accurate topographic heights from the Lunar Orbiter Laser Altimeter (LOLA) onboard the Lunar Reconnaissance Orbiter, to which we co-registered 43,200 stereo-derived DEMs (each 1&times;1 degree) from the SELENE Terrain Camera (TC) (&sim;1010 pixels total). After co-registration, approximately 90&percnt; of the TC DEMs show root-mean-square vertical residuals with the LOLA data of &lt;5 m compared to &sim;50&percnt; prior to co-registration. We use the co-registered TC data to estimate and correct orbital and pointing geolocation errors from the LOLA altimetric profiles (typically amounting to &lt;10 m horizontally and &lt;1 m vertically). By combining both co-registered datasets, we obtain a near-global DEM with high geodetic accuracy, and without the need for surface interpolation. We evaluate the resulting LOLA + TC merged DEM (designated as &ldquo;SLDEM2015&rdquo;) with particular attention to quantifying seams and crossover errors. Elevation values are in meters and map values are referred to a radius of 1737400 m.
+这是由LOLA和Kaguya合并的DEM产品生成的月球表面的阴影浮雕表示。LOLA和Kaguya团队创建了一个改进的月球数字高程模型（DEM），覆盖&plusmn；60°；，在每度512像素的水平分辨率（赤道处的&sim；59m）和典型的垂直精度&sim；3至4米。该DEM由&sim；4.5&倍；来自月球勘测轨道器上的月球轨道器激光高度计（LOLA）的109个地球测量精确地形高度，我们与SELENE地形相机（TC）共同注册了43200个立体衍生DEM（每个1度）（总共1010个像素）。共同注册后，约90&percnt；的TC DEM示出了具有&lt；5米，而&sim；50&percnt；在共同注册之前。我们使用共同注册的TC数据来估计和校正LOLA测高pr的轨道和指向地理位置误差
+Projection:
+GEOGCS["GCS_Moon_2000",
+	DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, Aristarchus 1, 4m Color Slope",
+    "LayerID": "Moon_eqc_LRO_NAC_ClrSlope_4m_25N311E_2mp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_4m_25N311E_2mp\\LRO_NAC_ClrSlope_4m_25N311E_2mp-120.png",
+    "BBOX": [
+        -49.0411832,
+        24.0892205,
+        -48.4352399,
+        25.2896856
+    ],
+    "Abstract": "这是从阿里斯塔克斯1号的局部坡度图LRO_NAC_slope_4m_25N311E_2mp.tif导出的专题彩色坡度图。坡度分类颜色范围是任意的，但代表了最近的着陆器和火星车设计，其中坡度等级相当于4米的车辆直径。",
+    "Projection": "PROJCS['Equirectangular Moon',\n\tGEOGCS['GCS_Moon',\n\t\tDATUM['D_Moon',SPHEROID['Moon_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',180],\n\tPARAMETER['standard_parallel_1',25],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_4m_25N311E_2mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_4m_25N311E_2mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_4m_25N311E_2mp\\MetaData.html"
+}

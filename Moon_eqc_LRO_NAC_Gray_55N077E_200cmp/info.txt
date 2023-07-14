@@ -1,0 +1,9 @@
+LRO LROC DEM, Humboldtianum Basin, Grayscale
+Layer ID:Moon_eqc_LRO_NAC_Gray_55N077E_200cmp
+bbox:[44.1364914, 53.7777576, 44.420177, 54.9352554]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Gray_55N077E_200cmp
+Abstract :This is a grayscale image version of the Digital Elevation Model (DEM) extracted from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) geometric stereo images from the Lunar Reconnaissance Orbiter mission. This image was generated from the matching Humboldtianum Basin DEM data by scaling the elevation values from the range of -3949 and -1122 to integer values between 0 and 255. Elevation below and above the -3949 and -1122 are mapped to 0 and 255, respectively.
+这是数字高程模型（DEM）的灰度图像版本，从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）几何立体图像中提取。该图像是根据匹配的洪堡盆地DEM数据生成的，通过将海拔值从-3949到-1122的范围缩放为0到255之间的整数值。-3949和-1122下方和上方的高程分别映射为0和255。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

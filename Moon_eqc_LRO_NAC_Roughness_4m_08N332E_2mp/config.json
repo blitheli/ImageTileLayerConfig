@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC DEM, Hortensius Domes, 4m Roughness",
+    "LayerID": "Moon_eqc_LRO_NAC_Roughness_4m_08N332E_2mp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Roughness_4m_08N332E_2mp\\LRO_NAC_Roughness_4m_08N332E_2mp-120.png",
+    "BBOX": [
+        -28.0744706,
+        7.061733,
+        -27.4759863,
+        8.091718
+    ],
+    "Abstract": "这是源自Hortensius Domes数字高程模型（DEM）LRO_NAC_DEM_08N332E_2mp.tif的局部粗糙度图，立柱间距为2m，粗糙度基线（比例尺）为4m。像素值以米为单位，理论粗糙度不确定性等于源DEM的不确定性。另请参见相应的局部粗糙度和粗糙度危害颜色（专题）图。",
+    "Projection": "PROJCS['Equirectangular Moon',\n\tGEOGCS['GCS_Moon',\n\t\tDATUM['D_Moon',SPHEROID['Moon_localRadius',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Equirectangular'],\n\tPARAMETER['latitude_of_origin',0],\n\tPARAMETER['central_meridian',180],\n\tPARAMETER['standard_parallel_1',7],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Roughness_4m_08N332E_2mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Roughness_4m_08N332E_2mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Roughness_4m_08N332E_2mp\\MetaData.html"
+}

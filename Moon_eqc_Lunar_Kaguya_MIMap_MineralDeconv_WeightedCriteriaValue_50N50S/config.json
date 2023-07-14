@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "Kaguya MI Weighted Criteria Value",
+    "LayerID": "Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_WeightedCriteriaValue_50N50S",
+    "Icon": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_WeightedCriteriaValue_50N50S\\Lunar_Kaguya_MIMap_MineralDeconv_WeightedCriteriaValue_50N50S-120.png",
+    "BBOX": [
+        -180.0,
+        -50.0,
+        180.0,
+        50.0
+    ],
+    "Abstract": "该镶嵌图代表了与Lemelin等人使用Kaguya多波段成像仪（MI）的数据制作的一组近全球月球矿物图相关的加权标准值。加权标准值提供了给定像素的反射光谱与来自92414个合成光谱混合物库的最接近匹配光谱之间的一致程度的度量。为了确定多个光谱库条目之间的获胜成分，将每个MI光谱与该像素的FeO在+/-2 wt.%范围内的库光谱进行比较，并计算每个相应光谱库条目的加权标准如下：（1-相关性）+（连续去除反射率的绝对差）。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_WeightedCriteriaValue_50N50S\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_WeightedCriteriaValue_50N50S\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_WeightedCriteriaValue_50N50S\\MetaData.html"
+}

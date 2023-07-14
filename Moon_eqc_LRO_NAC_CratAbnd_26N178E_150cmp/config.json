@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LROC Crater Abundance, Dante Crater",
+    "LayerID": "Moon_eqc_LRO_NAC_CratAbnd_26N178E_150cmp",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_CratAbnd_26N178E_150cmp\\LRO_NAC_CratAbnd_26N178E_150cmp-120.png",
+    "BBOX": [
+        177.5079729,
+        25.4137229,
+        178.0091745,
+        26.719485
+    ],
+    "Abstract": "这是丹特陨石坑遗址的陨石坑丰度镶嵌图，数据文件包含覆盖该遗址的窄角相机（NAC）图像中检测到的陨石坑所占每公顷（100米x 100米）面积的百分比。数据文件是根据月球勘测轨道飞行器（LRO）NAC相机（LROC）获取的图像计算出的陨石坑列表创建的。陨石坑被建模为椭圆。长轴上2.5米或更大的陨石坑可以从图像中完全分辨出来。检测到的最小弹坑在主轴上约2.0米。重叠的陨石坑和陨石坑内部的陨石坑被单独报道。每个NAC图像的三张不同的地图中给出了陨石坑的空间分布：一张陨石坑丰度数据图、一份陨石坑丰度颜色（专题）图和一张陨石洞丰度危害颜色（专题性）图。这些可作为产品LRO LROC Hazards，Dante Crater，All的一部分下载。另请参阅每个位置的弹坑密度数据产品",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_CratAbnd_26N178E_150cmp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_CratAbnd_26N178E_150cmp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_CratAbnd_26N178E_150cmp\\MetaData.html"
+}

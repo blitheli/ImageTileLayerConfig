@@ -1,0 +1,11 @@
+LOLA Permanently Shadowed Regions Northpole 240m
+Layer ID:Moon_eqc_LRO_LOLA_Illumination_NPole65N_240m_EQ
+bbox:[-180.0, 55.169882, 180.0, 90.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_LOLA_Illumination_NPole65N_240m_EQ
+Abstract :This data product is a map of the permanently shadowed regions (PSRs) in the lunar North Pole. The map resolution is 240m/pix by 240m/pix, true at the pole in polar stereographic (spherical) projection. The calculations are based on the LOLA elevation map LDEM_75N_240M and are described in. The values are binary, indicating whether a pixel is in permanent shadow (1) or not (0, NoDATA).
+该数据产品是月球北极永久阴影区域（PSR）的地图。地图分辨率为240m/pix乘以240m/piz，在极地立体图（球面）投影中的极点处也是如此。计算基于LOLA高程图LDEM_75N_240M，如中所述。这些值是二进制的，表示像素是否处于永久阴影（1）中（0，NoDATA）。
+Projection:
+GEOGCS["GCS_Moon",
+	DATUM["Moon",SPHEROID["Moon",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
+

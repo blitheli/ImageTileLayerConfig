@@ -1,0 +1,9 @@
+Apollo Zone Metric Cam, Hillshade
+Layer ID:Moon_eqc_ApolloZone_MetricCam_Shade_Global_1024ppd
+bbox:[-180.0, -38.0, 180.0, 34.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/ApolloZone_MetricCam_Shade_Global_1024ppd
+Abstract :The Apollo Zone DEM hillshade is generated using the hillshade function in Vision Workbench package. The DEM shade values are stored as 8-bit signed integer at 30m/pixel resolution. These DEM hillshade files were generated using the Vision Workbench library: a software tool produced by the NASA Ames Intelligent Robotics Group (IRG) for automated processing of stereo imagery.
+Apollo Zone DEM hillshade是使用Vision Workbench包中的hillshade函数生成的。DEM阴影值以30m/像素分辨率存储为8位带符号整数。这些DEM山坡文件是使用Vision Workbench库生成的：这是一个由美国国家航空航天局艾姆斯智能机器人小组（IRG）生产的用于立体图像自动处理的软件工具。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

@@ -1,0 +1,9 @@
+LOLA and TC Stereo DEM Merge 512ppd, Shade
+Layer ID:Moon_eqc_LRO_LrocKaguya_Shade_60N60S_512ppd
+bbox:[-180.0, -59.9997904, 179.9999887, 60.0]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_LrocKaguya_Shade_60N60S_512ppd
+Abstract :This is a shaded-relief of the original LOLA and Kaguya Terrain Camera Stereo Merged Digital Elevation Model (DEM) released in early 2015. The DEM is a shape map of the Moon at a resolution of 512 pixels per degree (59m/pixels), based on altimetry data acquired by the LOLA instrument and Kaguya Terrain Camera Stereo data. Map values are referred to a radius of 1737400 m. SELENE is a Japanese mission developed and operated by JAXA. Please create NASA&apos;s LOLA Team and JAXA&apos;s SELENE/Kaguya Team.
+这是2015年初发布的原始LOLA和Kaguya地形相机立体合并数字高程模型（DEM）的阴影浮雕。DEM是一张分辨率为512像素/度（59米/像素）的月球形状图，基于LOLA仪器获得的测高数据和Kaguya地形相机立体数据。地图值指的是1737400米的半径。SELENE是日本宇宙航空研究开发机构开发和运营的一个日本任务。请创建NASA&apos；LOLA团队和JAXA&apos；SELENE/Kaguya团队。
+Projection:
+urn:ogc:def:crs:EPSG::104903
+

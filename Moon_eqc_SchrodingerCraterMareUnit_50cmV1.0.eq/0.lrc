@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Moon_eqc_SchrodingerCraterMareUnit_50cmV1.0.eq</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z, y, x</UrlParamOrder>
+    <NetPath>https://trek.nasa.gov/tiles/Moon/EQ/SchrodingerCraterMareUnit_50cmV1.0.eq/1.0.0/WMTSCapabilities.xml</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>127.1131997</West>
+        <East>137.3027779</East>
+        <South>-76.2155518</South>
+        <North>-71.9095503</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>15</LevelEnd>
+    </Range>
+</DataDefine>

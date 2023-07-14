@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "GRAIL LGRS, Crust-mantle Interface Depth Model 3",
+    "LayerID": "Moon_eqc_Model3_cmi.eq",
+    "Icon": "{MoonImage}\\Moon_eqc_Model3_cmi.eq\\Model3_cmi.eq-120.png",
+    "BBOX": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+    ],
+    "Abstract": "从双重重力回收和内部实验室（GRAIL）航天器获得的高分辨率重力数据显示，月球高地地壳的体积密度为每立方米2550公斤，远低于一般假设。当与遥感和样本数据相结合时，这种密度意味着至少几公里深处的平均地壳孔隙度为12%。地壳孔隙度的横向变化与最大的撞击盆地相关，而地壳密度的横向变化则与地壳成分相关。低的整体地壳密度允许构建满足阿波罗地震约束的全球地壳厚度模型，并且由于平均地壳厚度在34至43公里之间，月球的整体耐火元素成分不需要相对于地球的成分进行富集。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Model3_cmi.eq\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Model3_cmi.eq\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Model3_cmi.eq\\MetaData.html"
+}

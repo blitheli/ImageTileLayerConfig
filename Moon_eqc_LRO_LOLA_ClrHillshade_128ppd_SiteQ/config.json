@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO LOLA Color Hillshade 128ppd, Endurance-A Site Q",
+    "LayerID": "Moon_eqc_LRO_LOLA_ClrHillshade_128ppd_SiteQ",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrHillshade_128ppd_SiteQ\\LRO_LOLA_ClrHillshade_128ppd_SiteQ-120.png",
+    "BBOX": [
+        135.955685,
+        -75.8523728,
+        142.6951459,
+        -74.1754177
+    ],
+    "Abstract": "这是原始LOLA数字高程模型（DEM）第4版的彩色阴影浮雕，裁剪到Endurance-a站点Q的50x50公里区域。DEM是基于LOLA仪器截至2011年9月获得的测高数据，分辨率为128像素/度的月球形状图（半径）。地面轨迹是使用Generic Mapping Tools程序surface和grdblend进行插值的。该地图采用二进制表的形式，每0.007813度纬度有一行，像素注册。地图值指的是1737400米的半径。",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrHillshade_128ppd_SiteQ\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrHillshade_128ppd_SiteQ\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrHillshade_128ppd_SiteQ\\MetaData.html"
+}

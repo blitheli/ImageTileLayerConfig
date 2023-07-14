@@ -1,0 +1,9 @@
+LRO LROC DEM, Sulpicius Gallus, 15m Roughness
+Layer ID:Moon_eqc_LRO_NAC_Roughness_15m_20N010E_2mp
+bbox:[10.1997172, 19.5486798, 10.5707322, 20.5179174]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Roughness_15m_20N010E_2mp
+Abstract :This is a local roughness map derived from the Digital Elevation Model (DEM) LRO_NAC_DEM_20N010E_2mp.tif of Sulpicius Gallus, with a post spacing of 2m and a roughness baseline (scale) of 15prm. Pixel values are in meters and the theoretical roughness uncertainty equivalent to that of the source DEM. See also the corresponding local roughness and roughness hazard color (thematic) maps.
+这是根据Sulpicius Gallus的数字高程模型（DEM）LRO_NAC_DEM_20N010E_2mp.tif得出的局部粗糙度图，立柱间距为2m，粗糙度基线（比例尺）为15prm。像素值以米为单位，理论粗糙度不确定性等于源DEM的不确定性。另请参见相应的局部粗糙度和粗糙度危害颜色（专题）图。
+Projection:
+TBD
+

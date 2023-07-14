@@ -1,0 +1,18 @@
+LRO LROC DEM, Fresh Crater East of Lents, Grayscale
+Layer ID:Moon_eqc_LRO_NAC_Gray_03N280E_2m
+bbox:[-100.5615806, 2.6661184, -100.0323901, 4.0432537]
+WMTS Endpoint :https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Gray_03N280E_2m
+Abstract :This is a grayscale image version of the Digital Elevation Model (DEM) extracted from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) geometric stereo images from the Lunar Reconnaissance Orbiter mission. This image was generated from the matching Peary Crater DEM data by scaling the elevation values from the range of 708 and 2253 to integer values between 1 and 255.
+这是数字高程模型（DEM）的灰度图像版本，从月球勘测轨道飞行器任务的月球勘测轨道器相机（LROC）窄角相机（NAC）几何立体图像中提取。该图像是根据匹配的Peary Crater DEM数据生成的，通过将708至2253范围内的高程值缩放为1至255之间的整数值。
+Projection:
+PROJCS["Equirectangular Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon_localRadius",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Equirectangular"],
+	PARAMETER["latitude_of_origin",0],
+	PARAMETER["central_meridian",0],
+	PARAMETER["standard_parallel_1",3],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+

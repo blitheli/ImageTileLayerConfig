@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO NAC Mosaic, Lacus Mortis, Extended Version",
+    "Title": "Lacus Mortis地区正射高分影像(LRO NAC Mosaic, Lacus Mortis, Extended Version)",
     "LayerID": "Moon_eqc_20200415_lacusmortis_orthomos_filled_8bit_lzw",
     "Icon": "{MoonImage}\\Moon_eqc_20200415_lacusmortis_orthomos_filled_8bit_lzw\\20200415_lacusmortis_orthomos_filled_8bit_lzw-120.png",
     "BBOX": [

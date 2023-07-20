@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO NAC ColorHillshade, Lacus Mortis",
+    "Title": "Lacus Mortis彩色山体阴影图(LRO NAC ColorHillshade, Lacus Mortis)",
     "LayerID": "Moon_eqc_20191118-demmos-eqc-colorhillshade",
     "Icon": "{MoonImage}\\Moon_eqc_20191118-demmos-eqc-colorhillshade\\20191118-demmos-eqc-colorhillshade-120.png",
     "BBOX": [

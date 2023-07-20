@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO NAC Image Mosaic, Lacus Mortis",
+    "Title": "Lacus Mortis地区高分影像(LRO NAC Image Mosaic, Lacus Mortis)",
     "LayerID": "Moon_eqc_20191118-imagemos_smoothtrans_32bit_latlon_lzw",
     "Icon": "{MoonImage}\\Moon_eqc_20191118-imagemos_smoothtrans_32bit_latlon_lzw\\20191118-imagemos_smoothtrans_32bit_latlon_lzw-120.png",
     "BBOX": [

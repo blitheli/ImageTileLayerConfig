@@ -1,17 +1,12 @@
 {
-    "ProjectionType": "EQ",
-    "Title": "LRO Narrow Angle Camera, Mosaic Apollo 16",
-    "LayerID": "Moon_eqc_A16_60x60km.eq",
-    "Icon": "{MoonImage}\\Moon_eqc_A16_60x60km.eq\\A16_60x60km.eq-120.png",
-    "BBOX": [
-        14.5106517,
-        -9.9593381,
-        16.4893414,
-        -7.9806485
-    ],
-    "Abstract": "这是一个月球侦察轨道飞行器（LRO）窄角相机（NAC）马赛克，以阿波罗16号着陆点为中心，范围为60x60km。每个NAC图像在ISIS3中以50cm像素的分辨率进行处理，颜色平衡，并合成为单个输出。",
-    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
-    "Preview": "{MoonImage}\\Moon_eqc_A16_60x60km.eq\\index.html",
-    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_A16_60x60km.eq\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_A16_60x60km.eq\\MetaData.html"
+  "ProjectionType": "EQ",
+  "Title": "Apollo 16 着陆区高分影像(LRO Narrow Angle Camera, Mosaic Apollo 16)",
+  "LayerID": "Moon_eqc_A16_60x60km.eq",
+  "Icon": "{MoonImage}\\Moon_eqc_A16_60x60km.eq\\A16_60x60km.eq-120.png",
+  "BBOX": [14.5106517, -9.9593381, 16.4893414, -7.9806485],
+  "Abstract": "这是一个月球侦察轨道飞行器（LRO）窄角相机（NAC）马赛克，以阿波罗16号着陆点为中心，范围为60x60km。每个NAC图像在ISIS3中以50cm像素的分辨率进行处理，颜色平衡，并合成为单个输出。",
+  "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+  "Preview": "{MoonImage}\\Moon_eqc_A16_60x60km.eq\\index.html",
+  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_A16_60x60km.eq\\WMTSCapabilities.xml",
+  "MetaData": "{MoonImage}\\Moon_eqc_A16_60x60km.eq\\MetaData.html"
 }

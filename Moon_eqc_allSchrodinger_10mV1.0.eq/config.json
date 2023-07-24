@@ -1,17 +1,12 @@
 {
-    "ProjectionType": "EQ",
-    "Title": "LROC NAC Uncontrolled Mosaic of Schrodinger Crater, 10m/px",
-    "LayerID": "Moon_eqc_allSchrodinger_10mV1.0.eq",
-    "Icon": "{MoonImage}\\Moon_eqc_allSchrodinger_10mV1.0.eq\\allSchrodinger_10mV1.0.eq-120.png",
-    "BBOX": [
-        109.999776,
-        -82.0000395,
-        160.0004541,
-        -67.9997418
-    ],
-    "Abstract": "这是一个10米/像素的非受控可见图像马赛克，使用月球勘测轨道飞行器任务中的月球勘测轨道器相机（LROC）窄角相机（NAC）图像生成。每个NAC图像都被水平配准到LRO的月球轨道飞行器激光高度表（LOLA）全球DEM中，然后拼接在一起并进行颜色平衡。",
-    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
-    "Preview": "{MoonImage}\\Moon_eqc_allSchrodinger_10mV1.0.eq\\index.html",
-    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_allSchrodinger_10mV1.0.eq\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_allSchrodinger_10mV1.0.eq\\MetaData.html"
+  "ProjectionType": "EQ",
+  "Title": "薛定谔陨石坑高分影像(LROC NAC Uncontrolled Mosaic of Schrodinger Crater, 10m/px)",
+  "LayerID": "Moon_eqc_allSchrodinger_10mV1.0.eq",
+  "Icon": "{MoonImage}\\Moon_eqc_allSchrodinger_10mV1.0.eq\\allSchrodinger_10mV1.0.eq-120.png",
+  "BBOX": [109.999776, -82.0000395, 160.0004541, -67.9997418],
+  "Abstract": "这是一个10米/像素的非受控可见图像马赛克，使用月球勘测轨道飞行器任务中的月球勘测轨道器相机（LROC）窄角相机（NAC）图像生成。每个NAC图像都被水平配准到LRO的月球轨道飞行器激光高度表（LOLA）全球DEM中，然后拼接在一起并进行颜色平衡。",
+  "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+  "Preview": "{MoonImage}\\Moon_eqc_allSchrodinger_10mV1.0.eq\\index.html",
+  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_allSchrodinger_10mV1.0.eq\\WMTSCapabilities.xml",
+  "MetaData": "{MoonImage}\\Moon_eqc_allSchrodinger_10mV1.0.eq\\MetaData.html"
 }

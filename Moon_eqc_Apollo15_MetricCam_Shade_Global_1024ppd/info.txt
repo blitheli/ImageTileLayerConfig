@@ -8,7 +8,7 @@ Abstract :The Apollo 15 DEM hillshade is generated using the hillshade
                             hillshade files were generated using the Vision Workbench library: a
                             software tool produced by the NASA Ames Intelligent Robotics Group
                             (IRG)for automated processing of stereo imagery.
-Apollo 15 DEM山坡是使用山坡生成的
+阿波罗 15 号DEM 山体阴影是使用山体阴影生成的视觉工作台包中的功能。DEM 山体阴影值为存储为 8 位有符号整数，分辨率为 14.8m/像素。这些 DEM山体阴影文件是使用视觉工作台库生成的：一个NASA艾姆斯智能机器人集团制作的软件工具（IRG）用于自动处理立体图像
 Projection:
 urn:ogc:def:crs:EPSG::104903
 

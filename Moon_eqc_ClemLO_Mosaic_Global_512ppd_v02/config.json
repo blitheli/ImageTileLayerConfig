@@ -1,17 +1,12 @@
 {
-    "ProjectionType": "EQ",
-    "Title": "LO HR/MR Cam and Clementine UVVIS Hybrid Image Mosaic",
-    "LayerID": "Moon_eqc_ClemLO_Mosaic_Global_512ppd_v02",
-    "Icon": "{MoonImage}\\Moon_eqc_ClemLO_Mosaic_Global_512ppd_v02\\ClemLO_Mosaic_Global_512ppd_v02-120.png",
-    "BBOX": [
-        -180.0,
-        -90.0,
-        180.0,
-        90.0
-    ],
-    "Abstract": "是Clementine UVVIS马赛克和Lunar的混合",
-    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
-    "Preview": "{MoonImage}\\Moon_eqc_ClemLO_Mosaic_Global_512ppd_v02\\index.html",
-    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_ClemLO_Mosaic_Global_512ppd_v02\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_ClemLO_Mosaic_Global_512ppd_v02\\MetaData.html"
+  "ProjectionType": "EQ",
+  "Title": "月球轨道器和克莱门汀混合影像(LO HR/MR Cam and Clementine UVVIS Hybrid Image Mosaic)",
+  "LayerID": "Moon_eqc_ClemLO_Mosaic_Global_512ppd_v02",
+  "Icon": "{MoonImage}\\Moon_eqc_ClemLO_Mosaic_Global_512ppd_v02\\ClemLO_Mosaic_Global_512ppd_v02-120.png",
+  "BBOX": [-180.0, -90.0, 180.0, 90.0],
+  "Abstract": "是Clementine UVVIS马赛克和Lunar的混合",
+  "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+  "Preview": "{MoonImage}\\Moon_eqc_ClemLO_Mosaic_Global_512ppd_v02\\index.html",
+  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_ClemLO_Mosaic_Global_512ppd_v02\\WMTSCapabilities.xml",
+  "MetaData": "{MoonImage}\\Moon_eqc_ClemLO_Mosaic_Global_512ppd_v02\\MetaData.html"
 }

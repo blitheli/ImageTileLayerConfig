@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Moon Image Layer</title>
+    <title>Moon_eqc_Diviner_avg_RockAbundance</title>
     <script src="../assets/cdn.jsdelivr.net_npm_ol@v7.4.0_dist_ol.js"></script>
     <link rel="stylesheet" href="../assets/cdn.jsdelivr.net_npm_ol@v7.4.0_ol.css" />
     <style>
@@ -23,8 +23,20 @@
   <body>
     <div id="map" class="map"></div>
     <script>
+      /**
+        此数据由Arcgis发布，经由zpc的下载工具下载的。
+
+        原点在中心经纬度0,0处
+
+        原始投影系: 极点立体投影
+        下载后投影系: EPSG:4326
+
+        20230612  liyunfei
+      */
+
       //  瓦片图层
       let src = new ol.source.XYZ({
+        //tileSize: 512,
         maxResolution: 180 / 256,
         wrapX: false, //  关闭水平重复
         projection: 'EPSG:4326',
@@ -43,17 +55,19 @@
           new ol.layer.Tile({
             source: src,
             //  设置BBOX边界，不用请求边界之外的数据
-            extent: [-180,-80,180,80]
+            extent: [-180.0, -80.0, 180.0, 80.0]
           }),
 
-          new ol.layer.Tile({ source: debugSource })
+          new ol.layer.Tile({
+            source: debugSource
+          })
         ],
 
         view: new ol.View({
-          center: [0, 0], //  初始化时中心点
-          zoom: 2,
-          minZoom: 2,
-          maxZoom: 7, //  限制最大缩放级别(z=6)
+          center: [0.0, 0.0], //  初始化时中心点
+          zoom: 3,
+          minZoom: 3, //maxZoom除以2取整
+          maxZoom: 7, 
           projection: 'EPSG:4326'
         })
       });

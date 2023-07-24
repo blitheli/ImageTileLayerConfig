@@ -1,0 +1,17 @@
+{
+    "ProjectionType": "EQ",
+    "Title": "LRO NAC Mosaic 0.5mpp, Von Karman",
+    "LayerID": "Moon_eqc_LRO_NAC_Mosaic_50cmpp_VonKarman_v2",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_50cmpp_VonKarman_v2\\LRO_NAC_Mosaic_50cmpp_VonKarman_v2-120.png",
+    "BBOX": [
+        -12.10517,
+        -43.6431726,
+        -10.3007028,
+        -42.3234729
+    ],
+    "Abstract": "这是月球南极冯卡尔曼环形山区域的正射影像 NAC 马赛克。这幅马赛克图共包括 370 幅正射 NAC 图像： 252 幅采样率为 0.5 m/px，118 幅采样率为 1 m/px。NAC 正射影像由从行星数据系统 (PDS) 下载的 EDR 和随后的 USGS-ISIS 处理构建而成。该镶嵌图已与嫦娥二号 20 m/px DEM 对齐，后者已使用 ENVI（v5.6.2）专利自动对齐功能与 USGS 59 m/px LOLA-SELENE DEM 对齐。\n大面积 1 米镶嵌图，覆盖 260 km×209 km，其组成轨道条带覆盖月球远侧的整个 von Karman 环形山。这些镶嵌图包括基于 0.5-1.5m LROC-NAC 单一场景的 1m 数字地形模型 (DTM) 和 50cm 正交校正图像镶嵌图 (ORI)。此外，嫦娥二号全球镶嵌图中的背景 DTM（14 米）和 ORI（7 米）图像本身也与全球 LOLA+SELENE 数据集（59 米，128 ppd）共同注册。使用单高度估计算法 MADNet 2.0 生成，该算法最初是针对火星训练的，但针对月球使用所有可用的高质量 LROC-NAC 立体图像对进行了重新训练。见 Tao, Y., Muller, J.-P., Conway, S., Xiong, S. (2023). Von Kármán Crater大面积高分辨率三维测绘： 嫦娥四号着陆器和玉兔二号探测器的着陆点。https:/doi.org/10.3390/rs15102643.\n使用 ArcGIS Pro (v2.9.2)拼接的单个南亚区域合作正射影像。采用了色彩平衡算法，以大致校正 NAC 图像接缝处的色彩差异。本数据由以下人员提供，并应注明出处 Yu Tao 和 Jan-Peter Muller，伦敦大学学院穆拉德空间科学实验室成像组。",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_50cmpp_VonKarman_v2\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_50cmpp_VonKarman_v2\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Mosaic_50cmpp_VonKarman_v2\\MetaData.html"
+}

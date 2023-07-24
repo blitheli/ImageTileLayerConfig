@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Moon_eqc_LRO_NAC_Conf_51S171E_2mp</title>
+    <script src="../assets/cdn.jsdelivr.net_npm_ol@v7.4.0_dist_ol.js"></script>
+    <link rel="stylesheet" href="../assets/cdn.jsdelivr.net_npm_ol@v7.4.0_ol.css" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="map" class="map"></div>
+    <script>
+      /**
+        此数据由Arcgis发布，经由zpc的下载工具下载的。
+
+        原点在中心经纬度0,0处
+
+        原始投影系: 极点立体投影
+        下载后投影系: EPSG:4326
+
+        20230612  liyunfei
+      */
+
+      //  瓦片图层
+      let src = new ol.source.XYZ({
+        //tileSize: 512,
+        maxResolution: 180 / 256,
+        wrapX: false, //  关闭水平重复
+        projection: 'EPSG:4326',
+        url: 'http://139.224.107.180:9080/type=1000000663&x={x}&y={y}&z={z}'
+      });
+
+      //  用于调试的瓦片图层
+      let debugSource = new ol.source.TileDebug({
+        projection: 'EPSG:4326',
+        tileGrid: src.getTileGrid()
+      });
+
+      const map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: src,
+            //  设置BBOX边界，不用请求边界之外的数据
+            extent: [170.5025927, -51.6683185, 171.4012766, -50.3714127]
+          }),
+
+          new ol.layer.Tile({
+            source: debugSource
+          })
+        ],
+
+        view: new ol.View({
+          center: [170.95, -51.02], //  初始化时中心点
+          zoom: 6,
+          minZoom: 6, //maxZoom除以2取整
+          maxZoom: 13, 
+          projection: 'EPSG:4326'
+        })
+      });
+    </script>
+  </body>
+</html>

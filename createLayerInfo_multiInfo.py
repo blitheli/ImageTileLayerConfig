@@ -33,6 +33,8 @@ with open(info_path, 'r') as file:
 # 以...为分界符分割内容
 info_s = file_content.split('...')
 
+info_error = []
+
 
 #定义翻译函数
 def translate_text(text):
@@ -249,8 +251,23 @@ def count_tile_matrices(xml_file):
     
     return tile_matrix_count
 
+# Python实现unproject方法
+def unproject(x, y):
+    lon = x * 90.0 / (2727718) #月球直径1,737,400m
+    lat = y * 90.0 / (2727718)
+    return [lon, lat]
+
+# Python实现unprojectToDegreesBounds方法
+def unprojectToDegreesBounds(bounds):
+    mins = unproject(bounds[0], bounds[1])
+    maxs = unproject(bounds[2], bounds[3])
+    #return [toDegrees(mins[0]), toDegrees(mins[1]), toDegrees(maxs[0]), toDegrees(maxs[1])]
+    return [mins[0],mins[1], maxs[0], maxs[1]]
+
+
 # 生成lrc文件，目前仅支持EQ，南北极需要手动修改bbox
 def write_lrc():
+    
     bbox_west = str(bbox[0])
     bbox_east = str(bbox[2])
     bbox_south = str(bbox[1])
@@ -280,7 +297,7 @@ if planet == 'Moon':
     if service == 'EQ':
         tile_idx = 1000000000
     elif service == 'SP':
-        tile_idx = 1000010000
+        tile_idx = 1000010200
     elif service == 'NP':
         tile_idx = 1000020000
 elif planet == 'Mars':
@@ -319,16 +336,28 @@ for info in info_s:
     metadata_url = 'https://trek.nasa.gov/' + planet.lower() + '/TrekWS/rest/cat/metadata/fgdc/html?label=' + pic_name
     folder_path = './' + layer_id
 
+
+
     
     # 使用os.mkdir()函数创建文件夹
     if not os.path.exists(folder_path):
+        #检查wmts文件是否正确
+        wmts_respons = requests.get(wmts_url)
+        if wmts_respons.status_code != 200:
+            print(f"图层{layer_id}wmts文件获取失败. HTTP status code:", wmts_respons.status_code)
+            info_error.append(info)
+            #print(info)
+            continue
+        
         # 使用os.makedirs()函数创建文件夹（如果不存在）
         os.makedirs(folder_path)
+
     else:
         print(f"文件夹{layer_id}已经存在。")
         continue
 
     print(f"开始生成{layer_id}图层文件")
+
 
     # 生成 wmts、icon、metadata、info 文件
     download_wmts(wmts_url)
@@ -355,6 +384,8 @@ for info in info_s:
     generate_config_file(service, title, layer_id, bbox, projection, icon, abstract, preview, wmts_capabilities, metadata, folder_path)
 
     # 生成 lrc 文件
+    if service == 'SP' or service == 'NP':      #如果是南北极图层，修改bbox单位为degree
+        bbox = unprojectToDegreesBounds(bbox)
     write_lrc()
 
     #生成0_TileType文件
@@ -362,5 +393,10 @@ for info in info_s:
 
     print(f"图层{layer_id}文件已生成")    
 
-
+# 打开txt文件以写入模式
+with open('info_error.txt', 'w') as file:
+    # 将列表中的元素逐行写入txt文件
+    for element in info_error:
+        file.write(element + '...')
+print('错误图层信息已写入info_error.txt')
 print('全部内容生成完毕')

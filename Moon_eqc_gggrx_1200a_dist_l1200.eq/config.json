@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "GRAIL LGRS, Gravity Disturbances L1200",
+    "Title": "月球重力场的重力扰动图,1200阶(GRAIL LGRS, Gravity Disturbances L1200)",
     "LayerID": "Moon_eqc_gggrx_1200a_dist_l1200.eq",
     "Icon": "{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l1200.eq\\gggrx_1200a_dist_l1200.eq-120.png",
     "BBOX": [

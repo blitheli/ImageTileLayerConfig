@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "GRAIL LGRS, Gravity Anomalies L50",
+    "Title": "月球重力场重力异常图,50阶(GRAIL LGRS, Gravity Anomalies L50)",
     "LayerID": "Moon_eqc_gggrx_1200a_anom_l50.eq",
     "Icon": "{MoonImage}\\Moon_eqc_gggrx_1200a_anom_l50.eq\\gggrx_1200a_anom_l50.eq-120.png",
     "BBOX": [

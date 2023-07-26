@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "GRAIL LGRS, Gravity Degree Strength L1200",
+    "Title": "月球重力场度数强度图(GRAIL LGRS, Gravity Degree Strength L1200)",
     "LayerID": "Moon_eqc_gggrx_1200a_degstr.eq",
     "Icon": "{MoonImage}\\Moon_eqc_gggrx_1200a_degstr.eq\\gggrx_1200a_degstr.eq-120.png",
     "BBOX": [

@@ -1,7 +1,7 @@
 {
     "ProjectionType": "EQ",
     "Title": "GRAIL LGRS, Geoid Heights L660",
-    "LayerID": "Moon_eqc_gggrx_1200a_geoid_l660.eq",
+    "LayerID": "月球重力场的重力扰动图,660阶(Moon_eqc_gggrx_1200a_geoid_l660.eq)",
     "Icon": "{MoonImage}\\Moon_eqc_gggrx_1200a_geoid_l660.eq\\gggrx_1200a_geoid_l660.eq-120.png",
     "BBOX": [
         -180.0,

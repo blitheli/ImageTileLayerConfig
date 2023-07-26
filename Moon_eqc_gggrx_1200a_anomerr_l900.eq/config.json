@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "GRAIL LGRS, Gravity Anomaly Errors L900",
+    "Title": "月球重力场重力异常误差图,误差900阶(GRAIL LGRS, Gravity Anomaly Errors L900)",
     "LayerID": "Moon_eqc_gggrx_1200a_anomerr_l900.eq",
     "Icon": "{MoonImage}\\Moon_eqc_gggrx_1200a_anomerr_l900.eq\\gggrx_1200a_anomerr_l900.eq-120.png",
     "BBOX": [

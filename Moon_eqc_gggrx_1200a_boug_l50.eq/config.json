@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "GRAIL LGRS, Bouguer Disturbances L50",
+    "Title": "月球重力场布格扰动图,50阶(GRAIL LGRS, Bouguer Disturbances L50)",
     "LayerID": "Moon_eqc_gggrx_1200a_boug_l50.eq",
     "Icon": "{MoonImage}\\Moon_eqc_gggrx_1200a_boug_l50.eq\\gggrx_1200a_boug_l50.eq-120.png",
     "BBOX": [

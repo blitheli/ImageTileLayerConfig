@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "GRAIL LGRS, Grain Density",
+    "Title": "月球引力场密度分布(GRAIL LGRS, Grain Density)",
     "LayerID": "Moon_eqc_grain_density_310.eq",
     "Icon": "{MoonImage}\\Moon_eqc_grain_density_310.eq\\grain_density_310.eq-120.png",
     "BBOX": [

@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "Kaguya TC Ortho Mosaic",
+    "Title": "Kaguya全月影像(Kaguya TC Ortho Mosaic",
     "LayerID": "Moon_eqc_Kaguya_TCortho_Mosaic_Global_4096ppd",
     "Icon": "{MoonImage}\\Moon_eqc_Kaguya_TCortho_Mosaic_Global_4096ppd\\Kaguya_TCortho_Mosaic_Global_4096ppd-120.png",
     "BBOX": [

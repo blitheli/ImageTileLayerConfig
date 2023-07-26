@@ -10,7 +10,11 @@ Abstract :Five Lunar Orbiter missions were launched by the U.S. in 1966 and
                             of the near and far sides of the Moon medium- and high- resolutions.
                             Lunar Orbiter V completed the photography of the far side and collected
                             additional images of 36 sites of scientific interest.
-1966年，美国发射了五次月球轨道飞行器任务
+1966年，美国发射了五次月球轨道飞行器任务1967年研究月球。月球轨道飞行器的图像是摄影产品在这五次飞行任务中（LO-I至-V；汉森，1970年；Bowker和Hughes，1971）。绘制的前三个任务潜在的阿波罗登月地点。月球轨道飞行器四号拍摄最多月球近侧和远侧的中分辨率和高分辨率。
+
+月球轨道飞行器五号完成了对月球背面的拍摄并收集
+
+36个具有科学价值的地点的附加图像。
 Projection:
 GEOGCS[,
 	DATUM["unknown", SPHEROID["unnamed",1737400,0]], 

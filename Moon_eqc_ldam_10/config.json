@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO Laser Altimeter, Albedo Global",
+    "Title": "LRO LOLA月面表面反射率(LRO Laser Altimeter, Albedo Global)",
     "LayerID": "Moon_eqc_ldam_10",
     "Icon": "{MoonImage}\\Moon_eqc_ldam_10\\ldam_10-120.png",
     "BBOX": [

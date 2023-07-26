@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC Image, Large Tranquillitatis",
+    "Title": "LRO静海高分影像(LRO LROC Image, Large Tranquillitatis)",
     "LayerID": "Moon_eqc_Large_Tranquilltatis_mosaic",
     "Icon": "{MoonImage}\\Moon_eqc_Large_Tranquilltatis_mosaic\\Large_Tranquilltatis_mosaic-120.png",
     "BBOX": [

@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "Kaguya LGM2011 Freeair Gravity, Greyscale",
+    "Title": "Kaguya月球重力场异常分布灰度图(Kaguya LGM2011 Freeair Gravity, Greyscale)",
     "LayerID": "Moon_eqc_Kaguya_LGM2011_FreeairGravity_Gray_Global_mgal3m_20ppd",
     "Icon": "{MoonImage}\\Moon_eqc_Kaguya_LGM2011_FreeairGravity_Gray_Global_mgal3m_20ppd\\Kaguya_LGM2011_FreeairGravity_Gray_Global_mgal3m_20ppd-120.png",
     "BBOX": [

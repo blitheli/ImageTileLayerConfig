@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO Narrow Angle Camera, Mosaic Ingenii",
+    "Title": "智海高分影像(LRO Narrow Angle Camera, Mosaic Ingenii)",
     "LayerID": "Moon_eqc_ingenii_skylight",
     "Icon": "{MoonImage}\\Moon_eqc_ingenii_skylight\\ingenii_skylight-120.png",
     "BBOX": [

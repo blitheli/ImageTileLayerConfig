@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO DLRE H-parameter 128ppd",
+    "Title": "月面风化层(LRO DLRE H-parameter 128ppd)",
     "LayerID": "Moon_eqc_hpar_global128ppd_v1c",
     "Icon": "{MoonImage}\\Moon_eqc_hpar_global128ppd_v1c\\hpar_global128ppd_v1c-120.png",
     "BBOX": [

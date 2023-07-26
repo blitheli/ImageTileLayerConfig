@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "GRAIL LGRS, Surface Relief",
+    "Title": "月面重力场数据(GRAIL LGRS, Surface Relief)",
     "LayerID": "Moon_eqc_LOLA_PA_310.eq",
     "Icon": "{MoonImage}\\Moon_eqc_LOLA_PA_310.eq\\LOLA_PA_310.eq-120.png",
     "BBOX": [

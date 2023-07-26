@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "Kaguya LGM2011 Surface Gravity, Greyscale",
+    "Title": "Kaguya月球表面重力加速度分布灰度图(Kaguya LGM2011 Surface Gravity, Greyscale)",
     "LayerID": "Moon_eqc_Kaguya_LGM2011_SurfaceGravity_Gray_Global_mgal3m_20ppd",
     "Icon": "{MoonImage}\\Moon_eqc_Kaguya_LGM2011_SurfaceGravity_Gray_Global_mgal3m_20ppd\\Kaguya_LGM2011_SurfaceGravity_Gray_Global_mgal3m_20ppd-120.png",
     "BBOX": [

@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "Kaguya LGM2011 Freeair Gravity, Colorized",
+    "Title": "Kaguya月球重力场异常分布彩图(Kaguya LGM2011 Freeair Gravity, Colorized)",
     "LayerID": "Moon_eqc_Kaguya_LGM2011_FreeairGravity_Colorized_Global_mgal3m_20ppd",
     "Icon": "{MoonImage}\\Moon_eqc_Kaguya_LGM2011_FreeairGravity_Colorized_Global_mgal3m_20ppd\\Kaguya_LGM2011_FreeairGravity_Colorized_Global_mgal3m_20ppd-120.png",
     "BBOX": [
@@ -9,7 +9,7 @@
         179.975,
         90.0
     ],
-    "Abstract": "这是LGM2011自由空气重力异常的8位彩色版本，它是牛顿和SGM100i（SELENE重力场模型）的总和，反映了月球质量分布中偏离均匀密度球体的部分。自由空气重力异常的变化范围约为0.0156ms^-2，平均信号强度约为0.0015ms^-2。LGM2011产品基于日本（Selenological and Engineering Explorer，或Kaguya）SELENE任务，该任务提供重力场的低频和中频分量，低至约78公里的空间尺度。在约78公里至约1.5公里的空间范围内，LGM2011首次使用（月球轨道飞行器激光测高仪）LOLA激光测高获得的高频地形信息来近似许多中小型撞击坑的重力场特征。对于基于地形的重力近似，我们在SELENE和LOLA的关键假设下使用牛顿正演模型",
+    "Abstract": "这是LGM2011自由空气重力异常的8位彩色版本，它是牛顿和SGM100i（SELENE重力场模型）的总和，反映了月球质量分布中偏离均匀密度球体的部分。自由空气重力异常的变化范围约为0.0156ms^-2，平均信号强度约为0.0015ms^-2。LGM2011产品基于日本（Selenological and Engineering Explorer，或Kaguya）SELENE任务，该任务提供重力场的低频和中频分量，空间尺度为~78km。在~78km至~1.5km的空间尺度下，LGM2011首次使用（月球轨道飞行器激光高度计）LOLA激光高度仪获得的高频地形信息来近似许多中小型撞击坑的重力场特征。对于基于地形的重力近似，我们在SELENE和LOLA数据一致、高频月球地形未补偿以及地形质量密度恒定的关键假设下使用牛顿正演建模。地球物理解释中不应依赖LGM2011的短尺度分量。LGM2011可用作月球重力场模拟和反演研究的先验模型，评估过去和未来的月球重力场任务，改进地形测绘，月球惯性导航，以及预测未来任何着陆点的月球重力加速度和垂直偏转。参考资料：Hirt C，Featherstone WE（2012）一个1.5公里分辨率的月球重力场模型。地球行星科学快报（EPSL），329-330，22-30，DOI:10.1016/j.EPSL.2012.02.012。",
     "Projection": "urn:ogc:def:crs:EPSG::104903\n",
     "Preview": "{MoonImage}\\Moon_eqc_Kaguya_LGM2011_FreeairGravity_Colorized_Global_mgal3m_20ppd\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Kaguya_LGM2011_FreeairGravity_Colorized_Global_mgal3m_20ppd\\WMTSCapabilities.xml",

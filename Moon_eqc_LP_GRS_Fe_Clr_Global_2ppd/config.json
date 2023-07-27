@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LP GRS Fe Abundance",
+    "Title": "LP 伽马射线光谱仪,铁元素风度图(LP GRS Fe Abundance)",
     "LayerID": "Moon_eqc_LP_GRS_Fe_Clr_Global_2ppd",
     "Icon": "{MoonImage}\\Moon_eqc_LP_GRS_Fe_Clr_Global_2ppd\\LP_GRS_Fe_Clr_Global_2ppd-120.png",
     "BBOX": [

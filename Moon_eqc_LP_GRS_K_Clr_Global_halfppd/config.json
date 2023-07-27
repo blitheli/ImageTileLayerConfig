@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LP GRS K Abundance",
+    "Title": "LP 伽马射线光谱仪,钾元素风度图(LP GRS K Abundance)",
     "LayerID": "Moon_eqc_LP_GRS_K_Clr_Global_halfppd",
     "Icon": "{MoonImage}\\Moon_eqc_LP_GRS_K_Clr_Global_halfppd\\LP_GRS_K_Clr_Global_halfppd-120.png",
     "BBOX": [

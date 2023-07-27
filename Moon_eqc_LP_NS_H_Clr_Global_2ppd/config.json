@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LP NS H Abundance",
+    "Title": "LP中子光谱仪,氢丰度图(LP NS H Abundance)",
     "LayerID": "Moon_eqc_LP_NS_H_Clr_Global_2ppd",
     "Icon": "{MoonImage}\\Moon_eqc_LP_NS_H_Clr_Global_2ppd\\LP_NS_H_Clr_Global_2ppd-120.png",
     "BBOX": [

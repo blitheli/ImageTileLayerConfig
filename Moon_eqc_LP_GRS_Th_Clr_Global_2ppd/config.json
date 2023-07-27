@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LP GRS Th Abundance",
+    "Title": "LP 伽马射线光谱仪, 钍元素风度图(LP GRS Th Abundance)",
     "LayerID": "Moon_eqc_LP_GRS_Th_Clr_Global_2ppd",
     "Icon": "{MoonImage}\\Moon_eqc_LP_GRS_Th_Clr_Global_2ppd\\LP_GRS_Th_Clr_Global_2ppd-120.png",
     "BBOX": [

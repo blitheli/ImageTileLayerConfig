@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LP GRS Ti Abundance 2ppd, Global",
+    "Title": "LP 伽马射线光谱仪,钛元素风度灰度图(LP GRS Ti Abundance 2ppd, Global)",
     "LayerID": "Moon_eqc_LP_GRS_TitaniumAbundance_2ppd",
     "Icon": "{MoonImage}\\Moon_eqc_LP_GRS_TitaniumAbundance_2ppd\\LP_GRS_TitaniumAbundance_2ppd-120.png",
     "BBOX": [

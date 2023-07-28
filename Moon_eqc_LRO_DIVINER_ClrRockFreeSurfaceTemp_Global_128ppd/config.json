@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "全月月表温度",
+    "Title": "全月月表温度(LRO DLRE Surface Temperature Mosaic 128ppd, Colorized)",
     "LayerID": "Moon_eqc_LRO_DIVINER_ClrRockFreeSurfaceTemp_Global_128ppd",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_DIVINER_ClrRockFreeSurfaceTemp_Global_128ppd\\LRO_DIVINER_ClrRockFreeSurfaceTemp_Global_128ppd-120.png",
     "BBOX": [

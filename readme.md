@@ -45,3 +45,5 @@
 20230713    优化了图层信息自动生成功能，支持生成lrc、序号文件，并支持多个信息同时生成
 20230724    优化图层信息自动生成功能，对于wmts链接失效的图层可单独保留在新的info_error文件中
 20230724    集中对全部moon_eqc图层进行了编号，保存在tile_idx_eqc.xlsx文件中，并生成了index.html文件
+20230728    Moon_eqc_gggrx_1200a_anom_l1200.eq 的id错误
+            Moon_eqc_gggrx_1200a_geoid_l660.eq

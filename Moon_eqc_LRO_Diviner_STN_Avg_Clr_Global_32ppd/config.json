@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO DLRE Surface Temp Normal Avg, Color",
+    "Title": "全月平均月表温度偏差(LRO DLRE Surface Temp Normal Avg, Color)",
     "LayerID": "Moon_eqc_LRO_Diviner_STN_Avg_Clr_Global_32ppd",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_Diviner_STN_Avg_Clr_Global_32ppd\\LRO_Diviner_STN_Avg_Clr_Global_32ppd-120.png",
     "BBOX": [

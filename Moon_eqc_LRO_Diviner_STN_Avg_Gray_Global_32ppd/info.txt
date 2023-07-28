@@ -15,7 +15,10 @@ Abstract :Each sample represents the deviation of rock-free regolith surface
         time observations to be comparable and removing the latitudinal
         temperature gradient. For each spatial bin, all retrieved values for
         the ten local times were averaged to produce a single map.
-每个样本代表无岩石风化层表面的偏差
+每个样本代表无岩石风化层表面的偏差根据每个本地时间的全局平均值得出的温度使用Bandfield等人（2011）中描述的技术进行估计。来自占卜师光谱通道6、7和8的数据在32处被装箱每度像素，以10个单独的本地时间一小时为增量1930年至0530年。对于每个本地时间使用401样品计算和过滤风化层温度boxcar过滤器，以消除局部纬度变化。这个每个当地时间的纵向平均风化层温度为从风化层温度中减去，得出纵向平均值，允许在单独的局部时间观测具有可比性，并删除纬度温度梯度。对于每个空间bin将十个当地时间取平均值，生成一张地图。
+ 
+笔记
+
 Projection:
 urn:ogc:def:crs:EPSG::104903
 

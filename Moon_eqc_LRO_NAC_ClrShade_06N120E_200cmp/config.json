@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, King Crater, ColorHillshade",
+    "Title": "国王陨石坑地形山体阴影彩图(LRO LROC DEM, King Crater, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_06N120E_200cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_06N120E_200cmp\\LRO_NAC_ClrShade_06N120E_200cmp-120.png",
     "BBOX": [

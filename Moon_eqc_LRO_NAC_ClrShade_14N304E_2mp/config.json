@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Marius Hills, ColorHillshade",
+    "Title": "马吕斯山地形山体阴影彩图(LRO LROC DEM, Marius Hills, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_14N304E_2mp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_14N304E_2mp\\LRO_NAC_ClrShade_14N304E_2mp-120.png",
     "BBOX": [

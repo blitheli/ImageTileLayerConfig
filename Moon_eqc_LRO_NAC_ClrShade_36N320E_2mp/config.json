@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Gruithuisen Domes, ColorHillshade",
+    "Title": "格鲁特伊森圆顶山地形山体阴影彩图(LRO LROC DEM, Gruithuisen Domes, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_36N320E_2mp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_36N320E_2mp\\LRO_NAC_ClrShade_36N320E_2mp-120.png",
     "BBOX": [

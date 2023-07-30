@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Montes Pyrenaeus, ColorHillshade",
+    "Title": "比利牛斯山脉地形山体阴影彩图(LRO LROC DEM, Montes Pyrenaeus, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_16S041E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_16S041E_150cmp\\LRO_NAC_ClrShade_16S041E_150cmp-120.png",
     "BBOX": [

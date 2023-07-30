@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Dante Crater, ColorHillshade",
+    "Title": "但丁陨石坑地形山体阴影彩图(LRO LROC DEM, Dante Crater, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_26N178E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_26N178E_150cmp\\LRO_NAC_ClrShade_26N178E_150cmp-120.png",
     "BBOX": [

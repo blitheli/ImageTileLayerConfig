@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Sulpicius Gallus, ColorHillshade",
+    "Title": "苏尔皮西乌斯·加卢斯陨石坑地形山体阴影彩图(LRO LROC DEM, Sulpicius Gallus, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_20N010E_2mp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_20N010E_2mp\\LRO_NAC_ClrShade_20N010E_2mp-120.png",
     "BBOX": [

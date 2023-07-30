@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Fresh Crater East of Lents, ColorHillshade",
+    "Title": "伦茨以东的新鲜火山口地形山体阴影彩图(LRO LROC DEM, Fresh Crater East of Lents, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_03N280E_2m",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_03N280E_2m\\LRO_NAC_ClrShade_03N280E_2m-120.png",
     "BBOX": [

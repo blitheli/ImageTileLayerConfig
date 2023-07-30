@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Rima Bode, ColorHillshade",
+    "Title": "博得月溪山体阴影彩图(LRO LROC DEM, Rima Bode, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_13N356E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_13N356E_150cmp\\LRO_NAC_ClrShade_13N356E_150cmp-120.png",
     "BBOX": [

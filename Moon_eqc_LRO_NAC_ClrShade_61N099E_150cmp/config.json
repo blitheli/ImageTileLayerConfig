@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Compton Belkovich Th Anomaly, ColorHillshade",
+    "Title": "康普顿-贝尔科维奇钍异常区域地形山体阴影彩图(LRO LROC DEM, Compton Belkovich Th Anomaly, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_61N099E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_61N099E_150cmp\\LRO_NAC_ClrShade_61N099E_150cmp-120.png",
     "BBOX": [

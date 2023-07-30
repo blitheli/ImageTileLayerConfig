@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LOLA and TC Stereo DEM Merge 512ppd, Shade",
+    "Title": "月球地形图(LOLA and TC Stereo DEM Merge 512ppd, Shade)",
     "LayerID": "Moon_eqc_LRO_LrocKaguya_Shade_60N60S_512ppd",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_LrocKaguya_Shade_60N60S_512ppd\\LRO_LrocKaguya_Shade_60N60S_512ppd-120.png",
     "BBOX": [

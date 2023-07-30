@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LOLA DEM, Hillshade",
+    "Title": "全月地形山体阴影图(LRO LOLA DEM, Hillshade)",
     "LayerID": "Moon_eqc_LRO_LOLA_Shade_Global_256ppd_v06",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLA_Shade_Global_256ppd_v06\\LRO_LOLA_Shade_Global_256ppd_v06-120.png",
     "BBOX": [

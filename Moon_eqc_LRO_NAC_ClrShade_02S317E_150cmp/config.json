@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Flamsteed Crater, ColorHillshade",
+    "Title": "佛兰斯蒂德陨石坑地形山体阴影彩图(LRO LROC DEM, Flamsteed Crater, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_02S317E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_02S317E_150cmp\\LRO_NAC_ClrShade_02S317E_150cmp-120.png",
     "BBOX": [

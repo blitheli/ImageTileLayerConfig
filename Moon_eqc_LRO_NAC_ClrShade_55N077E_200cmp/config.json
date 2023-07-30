@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Humboldtianum Basin, ColorHillshade",
+    "Title": "洪堡盆地地形山体阴影彩图(LRO LROC DEM, Humboldtianum Basin, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_55N077E_200cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_55N077E_200cmp\\LRO_NAC_ClrShade_55N077E_200cmp-120.png",
     "BBOX": [

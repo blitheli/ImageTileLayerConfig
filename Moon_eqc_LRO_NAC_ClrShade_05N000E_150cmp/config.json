@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Murchison Crater, ColorHillshade",
+    "Title": "默奇森陨石坑地形山体阴影彩图(LRO LROC DEM, Murchison Crater, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_05N000E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_05N000E_150cmp\\LRO_NAC_ClrShade_05N000E_150cmp-120.png",
     "BBOX": [

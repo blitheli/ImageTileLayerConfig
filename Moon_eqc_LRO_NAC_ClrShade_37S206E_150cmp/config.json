@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Apollo Basin, ColorHillshade",
+    "Title": "阿波罗盆地地形山体阴影彩图(LRO LROC DEM, Apollo Basin, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_37S206E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_37S206E_150cmp\\LRO_NAC_ClrShade_37S206E_150cmp-120.png",
     "BBOX": [

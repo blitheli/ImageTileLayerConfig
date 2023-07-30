@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Mare Smythii, ColorHillshade",
+    "Title": "史密斯海地形山体阴影彩图(LRO LROC DEM, Mare Smythii, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_02N085E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_02N085E_150cmp\\LRO_NAC_ClrShade_02N085E_150cmp-120.png",
     "BBOX": [

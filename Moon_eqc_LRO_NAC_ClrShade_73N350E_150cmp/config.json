@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Anaxagoras Crater, ColorHillshade",
+    "Title": "阿纳克萨戈拉斯火山口地形山体阴影彩图(LRO LROC DEM, Anaxagoras Crater, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_73N350E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_73N350E_150cmp\\LRO_NAC_ClrShade_73N350E_150cmp-120.png",
     "BBOX": [

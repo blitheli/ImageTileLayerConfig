@@ -1,6 +1,6 @@
 {
   "ProjectionType": "EQ",
-  "Title": "月球全月地形图(LRO-LOLA)",
+  "Title": "全月地形彩色山体阴影图(LRO LOLA DEM, ColorHillshade v6)",
   "LayerID": "Moon_eq_LRO_LOLA_ClrShade_Global_256ppd_v06",
   "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrShade_Global_256ppd_v06\\LRO_LOLA_ClrShade_Global_256ppd_v06-120.png",
   "BBOX": [-180, -90, 180, 90],

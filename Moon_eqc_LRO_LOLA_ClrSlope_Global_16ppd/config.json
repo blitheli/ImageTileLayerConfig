@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LOLA Slope 16ppd, Colorized",
+    "Title": "LRO全月坡度彩图(LOLA Slope 16ppd, Colorized)",
     "LayerID": "Moon_eqc_LRO_LOLA_ClrSlope_Global_16ppd",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrSlope_Global_16ppd\\LRO_LOLA_ClrSlope_Global_16ppd-120.png",
     "BBOX": [

@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Aristarchus 1, ColorHillshade",
+    "Title": "阿里斯塔克斯1地形山体阴影彩图(LRO LROC DEM, Aristarchus 1, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_25N311E_2mp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_25N311E_2mp\\LRO_NAC_ClrShade_25N311E_2mp-120.png",
     "BBOX": [

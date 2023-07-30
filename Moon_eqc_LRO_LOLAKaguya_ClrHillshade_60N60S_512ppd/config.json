@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LOLA and Kaguya TC Color Hillshade 512ppd, Global",
+    "Title": "月球地形彩色山体阴影图(LRO LOLA and Kaguya TC Color Hillshade 512ppd, Global)",
     "LayerID": "Moon_eqc_LRO_LOLAKaguya_ClrHillshade_60N60S_512ppd",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLAKaguya_ClrHillshade_60N60S_512ppd\\LRO_LOLAKaguya_ClrHillshade_60N60S_512ppd-120.png",
     "BBOX": [

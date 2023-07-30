@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Lichtenberg Crater, ColorHillshade",
+    "Title": "利希滕贝格陨石坑地形山体阴影彩图(LRO LROC DEM, Lichtenberg Crater, ColorHillshade)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrShade_32N292E_2mp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrShade_32N292E_2mp\\LRO_NAC_ClrShade_32N292E_2mp-120.png",
     "BBOX": [

@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Dante Crater, 15m Color Slope",
+    "Title": "但丁陨石坑地形坡度彩图(LRO LROC DEM, Dante Crater, 15m Color Slope)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrSlope_15m_26N178E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_15m_26N178E_150cmp\\LRO_NAC_ClrSlope_15m_26N178E_150cmp-120.png",
     "BBOX": [

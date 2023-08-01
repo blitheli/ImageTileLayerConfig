@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Tsiolkovskiy Crater, 3m Color Slope",
+    "Title": "齐奥尔科夫斯基陨石坑地形坡度彩图(LRO LROC DEM, Tsiolkovskiy Crater, 3m Color Slope)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrSlope_3m_19S129E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_3m_19S129E_150cmp\\LRO_NAC_ClrSlope_3m_19S129E_150cmp-120.png",
     "BBOX": [

@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Apollo 16, 3m Color Slope",
+    "Title": "Apollo 16着陆区域地形坡度彩图(LRO LROC DEM, Apollo 16, 3m Color Slope)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrSlope_3m_09S015E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_3m_09S015E_150cmp\\LRO_NAC_ClrSlope_3m_09S015E_150cmp-120.png",
     "BBOX": [

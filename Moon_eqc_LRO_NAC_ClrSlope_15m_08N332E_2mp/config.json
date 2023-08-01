@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Hortensius Domes, 15m Color Slope",
+    "Title": "霍滕修斯圆顶山地形坡度彩图(LRO LROC DEM, Hortensius Domes, 15m Color Slope)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrSlope_15m_08N332E_2mp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_15m_08N332E_2mp\\LRO_NAC_ClrSlope_15m_08N332E_2mp-120.png",
     "BBOX": [

@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Aitken Crater, 15m Color Slope",
+    "Title": "艾肯特陨石坑地形坡度彩图(LRO LROC DEM, Aitken Crater, 15m Color Slope)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrSlope_15m_17S173E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_15m_17S173E_150cmp\\LRO_NAC_ClrSlope_15m_17S173E_150cmp-120.png",
     "BBOX": [

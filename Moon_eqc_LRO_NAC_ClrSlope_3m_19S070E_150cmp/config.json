@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Balmer Basin, 3m Color Slope",
+    "Title": "巴尔默盆地地形坡度彩图(LRO LROC DEM, Balmer Basin, 3m Color Slope)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrSlope_3m_19S070E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_3m_19S070E_150cmp\\LRO_NAC_ClrSlope_3m_19S070E_150cmp-120.png",
     "BBOX": [

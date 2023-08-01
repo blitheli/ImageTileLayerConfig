@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Orientale 1, 15m Color Slope",
+    "Title": "东海地形坡度彩图(LRO LROC DEM, Orientale 1, 15m Color Slope)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrSlope_15m_26S265E_200cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_15m_26S265E_200cmp\\LRO_NAC_ClrSlope_15m_26S265E_200cmp-120.png",
     "BBOX": [

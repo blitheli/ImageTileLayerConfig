@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Plato Ejecta, 3m Color Slope",
+    "Title": "柏拉图地形坡度彩图(LRO LROC DEM, Plato Ejecta, 3m Color Slope)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrSlope_3m_53N354E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_3m_53N354E_150cmp\\LRO_NAC_ClrSlope_3m_53N354E_150cmp-120.png",
     "BBOX": [

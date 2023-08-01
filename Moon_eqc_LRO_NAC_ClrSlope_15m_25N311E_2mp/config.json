@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Aristarchus 1, 15m Color Slope",
+    "Title": "阿里斯塔克斯1地形坡度彩图(LRO LROC DEM, Aristarchus 1, 15m Color Slope)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrSlope_15m_25N311E_2mp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_15m_25N311E_2mp\\LRO_NAC_ClrSlope_15m_25N311E_2mp-120.png",
     "BBOX": [

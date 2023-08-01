@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Hertzsprung, 3m Color Slope",
+    "Title": "赫茨普龙环形山地形坡度彩图(LRO LROC DEM, Hertzsprung, 3m Color Slope)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrSlope_3m_00N234E_150cmp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_3m_00N234E_150cmp\\LRO_NAC_ClrSlope_3m_00N234E_150cmp-120.png",
     "BBOX": [

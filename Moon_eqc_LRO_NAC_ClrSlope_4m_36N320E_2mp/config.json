@@ -1,6 +1,6 @@
 {
     "ProjectionType": "EQ",
-    "Title": "LRO LROC DEM, Gruithuisen Domes, 4m Color Slope",
+    "Title": "格鲁特伊森圆顶山地形坡度彩图(LRO LROC DEM, Gruithuisen Domes, 4m Color Slope)",
     "LayerID": "Moon_eqc_LRO_NAC_ClrSlope_4m_36N320E_2mp",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_ClrSlope_4m_36N320E_2mp\\LRO_NAC_ClrSlope_4m_36N320E_2mp-120.png",
     "BBOX": [

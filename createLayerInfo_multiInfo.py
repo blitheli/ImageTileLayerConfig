@@ -19,7 +19,7 @@ import time
 #运行前注意填写行星和图层类型
 
 planet = 'Moon'  #月球为Moon，火星为Mars
-service = 'EQ'  #赤道为EQ，北极为NP，南极为SP
+service = 'SP'  #赤道为EQ，北极为NP，南极为SP
 
 
 # info中包含多个图层时使用
@@ -27,7 +27,7 @@ service = 'EQ'  #赤道为EQ，北极为NP，南极为SP
 info_path = 'info.txt'  # 指定文本文件的路径
 
 # 读取文本文件内容
-with open(info_path, 'r') as file:
+with open(info_path, 'r', encoding = "utf-8") as file:
     file_content = file.read()
 
 # 以...为分界符分割内容
@@ -297,9 +297,9 @@ if planet == 'Moon':
     if service == 'EQ':
         tile_idx = 1000000000
     elif service == 'SP':
-        tile_idx = 1000010200
+        tile_idx = 1000010100
     elif service == 'NP':
-        tile_idx = 1000020000
+        tile_idx = 1000020100
 elif planet == 'Mars':
     if service == 'EQ':
         tile_idx = 1300000000

@@ -1,0 +1,2488 @@
+
+LRO LOLA DEM, N Pole, 75 deg, Count
+Layer ID : LRO_LOLA_Count_NPole75_30mp_v04
+bbox : -457440,-457440,457440,457440
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+TBD
+...
+LRO NAC Mosaic 0.5mpp, Philolaus, N Pole
+Layer ID : Philolaus_skylight_NP
+bbox : -339355.973,-521045.357,-247330.473,-416388.857
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO , DEM Error Hermite-A
+Layer ID : hermite_a_dem_mosaic_1m_v3_errormap
+bbox : -60019.456,-61785.514,-43971.349,-45207.171
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO LROC NAC Image Mosaic, N Pole
+Layer ID : LRO_NAC_Mosaic_NPole85.5_1mp
+bbox : -136526,-136526,136526,136526
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO LROC NAC Image Mosaic, N Pole, Avg Merge
+Layer ID : LRO_NAC_AvgMosaic_NPole855_1mp
+bbox : -136526,-136526,136526,136526
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["PolarStereographic Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",0],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO NAC Mosaic 1mpp, N Pole
+Layer ID : LRO_NAC_Mosaic_1mpp_NP
+bbox : -136773.213,-137001.382,137071.787,136746.618
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["PolarStereographic_MOON",
+	GEOGCS["GCS_MOON",
+		DATUM["D_MOON",SPHEROID["MOON",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_MOON",
+		DATUM["D_MOON",SPHEROID["MOON",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO Narrow Angle Camera, Optimally-lit Mosaic Hermite A
+Layer ID : hermite_a_ortho_mosaic_1m_v3
+bbox : -60024.828,-61791.181,-43964.828,-45201.181
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO LROC DEM v02, Peary, ColorHillshade
+Layer ID : LRO_NAC_ClrShade_89N023E_450cmp_v02
+bbox : -6005.25,-64199.25,32829.75,-1595.25
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["PolarStereographic_Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["Moon",SPHEROID["Moon",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LROC DEM v02, Peary, Colorized Slope
+Layer ID : LRO_NAC_Slope_89N023E_450cmp_v02
+bbox : -6005.25,-64199.25,32829.75,-1595.25
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO LROC DEM v02, Peary, Confidence
+Layer ID : LRO_NAC_ClrConf_89N023E_450cmp_v02
+bbox : -6005.25,-64199.25,32829.75,-1595.25
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["PolarStereographic_Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["Moon",SPHEROID["Moon",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LROC DEM v02, Peary, Grayscale
+Layer ID : LRO_NAC_Gray_89N023E_450cmp_v02
+bbox : -6005.25,-64199.25,32829.75,-1595.25
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["PolarStereographic_Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["Moon",SPHEROID["Moon",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LROC DEM v02, Peary, Hillshade
+Layer ID : LRO_NAC_Shade_89N023E_450cmp_v02
+bbox : -6005.25,-64199.25,32829.75,-1595.25
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO LOLA DEM, N Pole, 87.5 deg, ColorHillshade
+Layer ID : LRO_LOLA_ClrShade_NPole875_5mp_v04
+bbox : -75840,-75840,75840,75840
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["PolarStereographic Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",0],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA DEM, N Pole, 87.5 deg, Count
+Layer ID : LRO_LOLA_Count_NPole875_5mp_v04
+bbox : -75840,-75840,75840,75840
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["Moon2000_npole",
+	GEOGCS["GCS_Moon",
+		DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA DEM, N Pole, 87.5 deg, Coverage
+Layer ID : LRO_LOLA_Coverage_NPole875_5mp_v04
+bbox : -75840,-75840,75840,75840
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO LOLA DEM, N Pole, 87.5 deg, Grayscale
+Layer ID : LRO_LOLA_Gray_NPole875_5mp_v04
+bbox : -75840,-75840,75840,75840
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["Moon2000_npole",
+	GEOGCS["GCS_Moon",
+		DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA DEM, N Pole, 87.5 deg, Hillshade
+Layer ID : LRO_LOLA_Shade_NPole875_5mp_v04
+bbox : -75840,-75840,75840,75840
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["PolarStereographic Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",0],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA DEM, N Pole, 87.5 deg, No Data Mask
+Layer ID : LRO_LOLA_NoDataMask_NPole875_5mp_v04
+bbox : -75840,-75840,75840,75840
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["Moon2000_npole",
+	GEOGCS["GCS_Moon",
+		DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+CE-2 CCD Ortho Mosaic, N Pole
+Layer ID : CE2_OrthoMosaic_7m_NP
+bbox : -931072.592,-931073.755,931081.408,931073.245
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LOLA DEM Northpole 10m, ColorHillshade
+Layer ID : LRO_LOLA_ClrShade_NPolar875_10m
+bbox : -75840,-75840,75840,75840
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LOLA DEM Northpole 10m, Shade
+Layer ID : LRO_LOLA_Shade_NPolar875_10m
+bbox : -75840,-75840,75840,75840
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["Moon2000_npole",
+	GEOGCS["GCS_Moon",
+		DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO Mini-RF First Stokes Parameter
+Layer ID : LRO_MINI-RF_S1_Mosaic_90N000_15m
+bbox : -612715.277,-612715.277,612715.277,612715.277
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO North Polar Mini-RF Circular Polarization Ratio
+Layer ID : LRO_MINI-RF_CPR_90N000_15m
+bbox : -612715.277,-612715.277,612715.277,612715.277
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["POLARSTEREOGRAPHIC MOON",
+	GEOGCS["GCS_MOON",
+		DATUM["D_MOON",SPHEROID["MOON",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO North Polar Mini-RF Circular Polarization Ratio, Colorized
+Layer ID : LRO_MINI-RF_ClrCPR_90N000_15m
+bbox : -612715.277,-612715.277,612715.277,612715.277
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+CE-2 CCD Color Hillshade, N Pole
+Layer ID : CE2_HillshadeColor_20m_NP
+bbox : -931069.854,-931070.146,931070.146,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+CE-2 CCD Color Slope < 10 deg, N Pole
+Layer ID : CE2_RGB_Slope_20m_NP_below_10deg
+bbox : -931069.854,-931070.146,931070.146,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+CE-2 CCD Color Slope < 12 deg, N Pole
+Layer ID : CE2_RGB_Slope_20m_NP_below_12deg
+bbox : -931069.854,-931070.146,931070.146,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+CE-2 CCD Color Slope < 15 deg, N Pole
+Layer ID : CE2_RGB_Slope_20m_NP_below_15deg
+bbox : -931069.854,-931070.146,931070.146,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+CE-2 CCD Color Slope, N Pole
+Layer ID : CE2_SlopeColor_20m_NP
+bbox : -931069.854,-931070.146,931070.146,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+CE-2 CCD Hillshade, N Pole
+Layer ID : CE2_Hillshade_20m_NP
+bbox : -931069.854,-931070.146,931070.146,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+Chang'e 2 CCD Color Slope < 20 deg, N Pole
+Layer ID : CE2_RGB_Slope_20m_NP_below_20deg
+bbox : -931069.854,-931070.146,931070.146,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO NAC PSR Mosaic 20mpp, N Pole
+Layer ID : NAC_POLE_PSR_NORTH_STRETCH
+bbox : -304010,-304025.323,304010,320454.677
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA DEM, N Pole, 75 deg, ColorHillshade
+Layer ID : LRO_LOLA_ClrShade_NPole75_30mp_v04
+bbox : -457440,-457440,457440,457440
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["PolarStereographic Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",0],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA DEM, N Pole, 75 deg, Coverage
+Layer ID : LRO_LOLA_Coverage_NPole75_30mp_v04
+bbox : -457440,-457440,457440,457440
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["Moon2000_npole",
+	GEOGCS["GCS_Moon",
+		DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA DEM, N Pole, 75 deg, Grayscale
+Layer ID : LRO_LOLA_Gray_NPole75_30mp_v04
+bbox : -457440,-457440,457440,457440
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO LOLA DEM, N Pole, 75 deg, Hillshade
+Layer ID : LRO_LOLA_Shade_NPole75_30mp_v04
+bbox : -457440,-457440,457440,457440
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["PolarStereographic Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",0],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA DEM, N Pole, 75 deg, No Data Mask
+Layer ID : LRO_LOLA_NoDataMask_NPole75_30mp_v04
+bbox : -457440,-457440,457440,457440
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["Moon2000_npole",
+	GEOGCS["GCS_Moon",
+		DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LO HR/MR Cam Image Mosaic, N Pole
+Layer ID : LO_HRMR_Mosaic_NPole70_59mp
+bbox : -612744.954,-612685.728,612685.728,612744.954
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO LOLA Average Earth Visibility, 60 mpp, N Pole
+Layer ID : AVGVISIB_85N_060M_201608_EARTH_NP
+bbox : -151740,-151740,151740,151740
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_npole",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA Color Average Earth Visibility, 60 mpp, N Pole
+Layer ID : ClrAVGVISIB_85N_060M_201608_EARTH_NP
+bbox : -151740,-151800,151800,151740
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_npole",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+Chandrayaan-1 Mini-SAR CPR N Pole
+Layer ID : CH1_MiniSAR_CPR_NPole80_75mp
+bbox : -304050,-303975,303975,304050
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["PolarStereographic Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",0],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+Chandrayaan-1 Mini-SAR CPR N Pole, Color
+Layer ID : CH1_MiniSAR_CPR_Color_NPole80_75mp
+bbox : -304050,-303975,303975,304050
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+Chandrayaan-1 Mini-SAR S1 N Pole
+Layer ID : CH1_MiniSAR_S1_NPole80_75mp
+bbox : -304050,-303975,303975,304050
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["PolarStereographic Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",0],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+Chandrayaan-1 Mini-SAR S1 N Pole, Grayscale
+Layer ID : CH1_MiniSAR_S1_Gray_NPole80_75mp
+bbox : -304050,-303975,303975,304050
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO LOLA Color Slope < 10 deg, N Pole
+Layer ID : LOLA_RGB_Slope_below_10deg_NPole45
+bbox : -652000,-664000,652000,652000
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["Moon2000_npole",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA Color Slope < 15 deg, N Pole
+Layer ID : LOLA_RGB_Slope_below_15deg_NPole45
+bbox : -652000,-664000,652000,652000
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["Moon2000_npole",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA Color Slope < 20 deg, N Pole
+Layer ID : LOLA_RGB_Slope_below_20deg_NPole45
+bbox : -652000,-664000,652000,652000
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["Moon2000_npole",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA DEM, N Pole, 45 deg, ColorHillshade
+Layer ID : LRO_LOLA_ClrShade_NPole45_100mp_v04
+bbox : -1095930,-1095930,1095930,1095930
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["PolarStereographic Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",0],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA DEM, N Pole, 45 deg, Count
+Layer ID : LRO_LOLA_Count_NPole45_100mp_v04
+bbox : -1095930,-1095930,1095930,1095930
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["Moon2000_npole",
+	GEOGCS["GCS_Moon",
+		DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA DEM, N Pole, 45 deg, Coverage
+Layer ID : LRO_LOLA_Coverage_NPole45_100mp_v04
+bbox : -1095930,-1095930,1095930,1095930
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO LOLA DEM, N Pole, 45 deg, Grayscale
+Layer ID : LRO_LOLA_Gray_NPole45_100mp_v04
+bbox : -1095930,-1095930,1095930,1095930
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO LOLA DEM, N Pole, 45 deg, Hillshade
+Layer ID : LRO_LOLA_Shade_NPole45_100mp_v04
+bbox : -1095930,-1095930,1095930,1095930
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["PolarStereographic Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",0],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA DEM, N Pole, 45 deg, No Data Mask
+Layer ID : LRO_LOLA_NoDataMask_NPole45_100mp_v04
+bbox : -1095930,-1095930,1095930,1095930
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["Moon2000_npole",
+	GEOGCS["GCS_Moon",
+		DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LROC WAC Image Mosaic, N Pole
+Layer ID : LRO_WAC_Mosaic_NPole60_100mp
+bbox : -931100,-931100,931100,931100
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO WAC Mosaic, N Pole v2
+Layer ID : LRO_WAC_Mosaic_NPole60_100m_v02
+bbox : -1095700,-1095600,1095600,1095700
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO WAC Percentage-Based Illumination 100mpp, N Pole
+Layer ID : WAC_POLE_ILL_PCT_NORTH_100M
+bbox : -60816.245,-61220.537,61283.755,60979.463
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO WAC Time-Weighted Illumination 100mpp, N Pole
+Layer ID : WAC_POLE_ILL_TWI_NORTH_100M
+bbox : -60816.245,-61220.537,61283.755,60979.463
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+Clementine UVVIS Image Mosaic, N Pole
+Layer ID : Clem_UVVIS_Mosaic_NPole60_118mp_v02
+bbox : -931021.618,-931021.618,931021.618,931021.618
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO Mini-RF CPR N Pole, Color
+Layer ID : LRO_MiniRF_CPR_Color_NPole70_118mp
+bbox : -612744.89,-612744.89,612744.89,612744.89
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO Mini-RF S1 N Pole, Grayscale
+Layer ID : LRO_MiniRF_S1_Gray_NPole70_118mp
+bbox : -612744.89,-612744.89,612744.89,612744.89
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO Mini-RF CPR N Pole
+Layer ID : LRO_MiniRF_CPR_NPole70_118mp
+bbox : -612744.89,-612744.89,612744.89,612744.89
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["PolarStereographic Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",0],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO Mini-RF S1 N Pole
+Layer ID : LRO_MiniRF_S1_NPole70_118mp
+bbox : -612744.89,-612744.89,612744.89,612744.89
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["PolarStereographic Moon",
+	GEOGCS["GCS_Moon",
+		DATUM["D_Moon",SPHEROID["Moon",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",0],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LOLA Slope Northpole 120m, Colorized
+Layer ID : LRO_LOLA_ClrSlope_NPole75N_120m
+bbox : -457440,-457440,457440,457440
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO LOLA Average Earth Visibility, 120 mpp, N Pole
+Layer ID : AVGVISIB_75N_120M_201608_EARTH_NP
+bbox : -457440,-457440,457440,457440
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA Color Average Earth Visibility, 120 mpp, N Pole
+Layer ID : ClrAVGVISIB_75N_120M_201608_EARTH_NP
+bbox : -457440,-457440,457440,457440
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Surface Temp Avg N Pole, Color
+Layer ID : LRO_Diviner_Temp_Avg_Clr_NPole80_135mp
+bbox : -304000,-304000,304000,304000
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO DLRE Surface Temp Max N Pole, Color
+Layer ID : LRO_Diviner_Temp_Max_Clr_NPole80_135mp
+bbox : -304000,-304000,304000,304000
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE, Rock Abundance North Polar
+Layer ID : Diviner_avg_RockAbundance_NP
+bbox : -931069.854,-931042.395,931042.395,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["PolarStereographic Moon", 
+	
+	GEOGCS["GCS_Moon", 
+		
+		DATUM["D_Moon", 
+			SPHEROID["Moon",1737400,0]
+		], 
+		
+		PRIMEM["Reference_Meridian",0], 
+		UNIT["degree",0.0174532925199433]
+	], 
+	
+	PROJECTION["Polar_Stereographic"], 
+	
+	PARAMETER["latitude_of_origin",90], 
+	
+	PARAMETER["central_meridian",0], 
+	
+	PARAMETER["scale_factor",1], 
+	
+	PARAMETER["false_easting",0], 
+	
+	PARAMETER["false_northing",0], 
+	UNIT["metre",1, 
+		AUTHORITY["EPSG","9001"]
+	]
+]
+...
+Ice Stability at Depth Paleo NP
+Layer ID : np_ice_depth_new_240m.mat_paleo_27-Oct-2016
+bbox : -300000,-300000,300000,300000
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+Ice Stability at Depth Today NP
+Layer ID : np_ice_depth_new_240m.mat_today_27-Oct-2016
+bbox : -300000,-300000,300000,300000
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LOLA Permanently Shadowed Regions Northpole 240m
+Layer ID : LRO_LOLA_Illumination_NPole65N_240m
+bbox : -770160,-770640,770640,770160
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LOLA Roughness Northpole 240m, Colorized
+Layer ID : LRO_LOLA_ClrRoughness_NPole75N_240m
+bbox : -457440,-457440,457440,457440
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO DLRE Summer Surface Temp Max < 110 K, N Pole
+Layer ID : DIVINER_summer_Max_Temp_NP_below110K_240mp
+bbox : -303734.582,-304895.769,304185.418,305424.231
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Summer Surface Temp Max < 110 K, N Pole, Color
+Layer ID : DIVINER_summer_Max_Temp_NP_below110K_240mp_RGB
+bbox : -303734.582,-304895.769,304185.418,305424.231
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Winter Surface Temp Max < 110 K, N Pole
+Layer ID : DIVINER_winter_Max_Temp_NP_below110K_240mp
+bbox : -303734.582,-304895.769,304185.418,305424.231
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Winter Surface Temp Max < 110 K, N Pole, Color
+Layer ID : DIVINER_winter_Max_Temp_NP_below110K_240mp_RGB
+bbox : -303734.582,-304895.769,304185.418,305424.231
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE, Anisothermality NP
+Layer ID : np_ch7-8_anisotherm_2000
+bbox : -457440,-457440,457440,457440
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO LAMP Albedo N Pole, Color
+Layer ID : LRO_LAMP_Albedo_Clr_NPole80_240mp
+bbox : -300120,-300120,300120,300120
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA Average Earth Visibility, 240 mpp, N Pole
+Layer ID : AVGVISIB_65N_240M_201608_EARTH_NP
+bbox : -931069.854,-931090.146,931090.146,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA Color Average Earth Visibility, 240 mpp, N Pole
+Layer ID : ClrAVGVISIB_65N_240M_201608_EARTH_NP
+bbox : -931069.854,-931090.146,931090.146,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA Color Sky Visibility, 240 mpp, N Pole
+Layer ID : ClrSKYV_65N_240M_NP
+bbox : -931069.854,-931090.146,931090.146,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO LOLA Sky Visibility, 240 mpp, N Pole
+Layer ID : SKYV_65N_240M_NP
+bbox : -931069.854,-931090.146,931090.146,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LP NS Colorized Water Equivalent Hydrogen NP
+Layer ID : np_weh_5km_adapt.map_clr
+bbox : -600000,-600000,600000,600000
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+Kaguya SP Clinopyroxene Abundance NP
+Layer ID : np_cpx_mlemelin_031417
+bbox : -1095930,-1095930,1095930,1095930
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+Kaguya SP Olivine Abundance NP
+Layer ID : np_ol_mlemelin_031417
+bbox : -1095930,-1095930,1095930,1095930
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+Kaguya SP Orthopyroxene Abundance NP
+Layer ID : np_opx_mlemelin_031417
+bbox : -1095930,-1095930,1095930,1095930
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+Kaguya SP Plagioclase Abundance NP
+Layer ID : np_plg_mlemelin_031417
+bbox : -1095930,-1095930,1095930,1095930
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO LOLA and Kaguya SP FeO Abundance NP
+Layer ID : np_feo_mlemelin_031417
+bbox : -1095930,-1095930,1095930,1095930
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Bouguer Disturbances L1200
+Layer ID : gggrx_1200a_boug_l1200.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Bouguer Disturbances L180
+Layer ID : gggrx_1200a_boug_l180.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Bouguer Disturbances L420
+Layer ID : gggrx_1200a_boug_l420.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Bouguer Disturbances L50
+Layer ID : gggrx_1200a_boug_l50.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Bouguer Disturbances L660
+Layer ID : gggrx_1200a_boug_l660.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Bouguer Disturbances L900
+Layer ID : gggrx_1200a_boug_l900.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Geoid Heights L660
+Layer ID : gggrx_1200a_geoid_l660.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Anomalies L1200
+Layer ID : gggrx_1200a_anom_l1200.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Anomalies L180
+Layer ID : gggrx_1200a_anom_l180.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Anomalies L420
+Layer ID : gggrx_1200a_anom_l420.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Anomalies L50
+Layer ID : gggrx_1200a_anom_l50.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Anomalies L660
+Layer ID : gggrx_1200a_anom_l660.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Anomalies L900
+Layer ID : gggrx_1200a_anom_l900.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Anomaly Errors L1200
+Layer ID : gggrx_1200a_anomerr_l1200.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Anomaly Errors L180
+Layer ID : gggrx_1200a_anomerr_l180.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Anomaly Errors L420
+Layer ID : gggrx_1200a_anomerr_l420.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Anomaly Errors L660
+Layer ID : gggrx_1200a_anomerr_l660.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Anomaly Errors L900
+Layer ID : gggrx_1200a_anomerr_l900.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Degree Strength L1200
+Layer ID : gggrx_1200a_degstr.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Disturbances L1200
+Layer ID : gggrx_1200a_dist_l1200.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Disturbances L180
+Layer ID : gggrx_1200a_dist_l180.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Disturbances L420
+Layer ID : gggrx_1200a_dist_l420.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Disturbances L50
+Layer ID : gggrx_1200a_dist_l50.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Disturbances L660
+Layer ID : gggrx_1200a_dist_l660.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Gravity Disturbances L900
+Layer ID : gggrx_1200a_dist_l900.np
+bbox : -931069.854,-931328.803,931328.803,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LRO DLRE Bolometric Brightness Max Temperature Anomalies, 0.5 ppd, N Pole
+Layer ID : diviner_tbol_max_anom_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Bolometric Brightness Max Temperatures, 0.5 ppd, N Pole
+Layer ID : diviner_tbol_max_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Bolometric Brightness Midnight Temperatures, 0.5 ppd, N Pole
+Layer ID : diviner_tbol_hour00_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Bolometric Brightness Min Temperature Anomalies, 0.5 ppd, N Pole
+Layer ID : diviner_tbol_min_anom_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Bolometric Brightness Min Temperatures, 0.5 ppd, N Pole
+Layer ID : diviner_tbol_min_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Bolometric Brightness Noon Temperatures, 0.5 ppd, N Pole
+Layer ID : diviner_tbol_hour12_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Bolometric Brightness Temperature Anomalies Difference, 0.5 ppd, N Pole
+Layer ID : diviner_tbol_max_sub_min_anom_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Bolometric Brightness Temperature Anomalies Ratio, 0.5 ppd, N Pole
+Layer ID : diviner_tbol_max_div_min_anom_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Bolometric Brightness Temperature RGB Composite, 0.5 ppd, N Pole
+Layer ID : diviner_RGB_composite_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Bolometric Brightness Temperature c3 and c7, 0.5 ppd, N Pole
+Layer ID : diviner_c3_c7_hour_10_14_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Bolometric Brightness Temperature c4 and c7, 0.5 ppd, N Pole
+Layer ID : diviner_c4_c7_hour_10_14_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Bolometric Brightness Temperature c6 and c8, 0.5 ppd, N Pole
+Layer ID : diviner_c6_c8_hour_20_04_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Color Bolometric Brightness Max Temperature Anomalies, 0.5 ppd, N Pole
+Layer ID : diviner_Clrtbol_max_anom_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Color Bolometric Brightness Max Temperatures, 0.5 ppd, N Pole
+Layer ID : diviner_Clrtbol_max_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Color Bolometric Brightness Midnight Temperatures, 0.5 ppd, N Pole
+Layer ID : diviner_Clrtbol_hour00_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Color Bolometric Brightness Min Temperature Anomalies, 0.5 ppd, N Pole
+Layer ID : diviner_Clrtbol_min_anom_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Color Bolometric Brightness Min Temperatures, 0.5 ppd, N Pole
+Layer ID : diviner_Clrtbol_min_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Color Bolometric Brightness Noon Temperatures, 0.5 ppd, N Pole
+Layer ID : diviner_Clrtbol_hour12_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Color Bolometric Brightness Temperature Anomalies Difference, 0.5 ppd, N Pole
+Layer ID : diviner_Clrtbol_max_sub_min_anom_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Color Bolometric Brightness Temperature Anomalies Ratio, 0.5 ppd, N Pole
+Layer ID : diviner_Clrtbol_max_div_min_anom_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Color Bolometric Brightness Temperature c3 and c7, 0.5 ppd, N Pole
+Layer ID : diviner_Clrc3_c7_hour_10_14_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Color Bolometric Brightness Temperature c4 and c7, 0.5 ppd, N Pole
+Layer ID : diviner_Clrc4_c7_hour_10_14_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LRO DLRE Color Bolometric Brightness Temperature c6 and c8, 0.5 ppd, N Pole
+Layer ID : diviner_Clrc6_c8_hour_20_04_NP
+bbox : -931069.854,-931808.992,931808.992,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LP GRS Color Ti Abundance 2ppd, Global
+Layer ID : LP_GRS_ClrTitaniumAbundance_2ppd_NP
+bbox : -931069.854,-932448.706,932448.706,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+LP GRS Ti Abundance 2ppd, Global
+Layer ID : LP_GRS_TitaniumAbundance_2ppd_NP
+bbox : -931069.854,-932448.706,932448.706,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+PROJCS["ESRI PE String = PROJCS["Moon2000_np",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400.0,0.0]],
+		PRIMEM["Reference_Meridian",0.0],UNIT["Degree",0.0174532925199433]],
+	PROJECTION["Stereographic_North_Pole"],
+	PARAMETER["false_easting",0.0],
+	PARAMETER["false_northing",0.0],
+	PARAMETER["central_meridian",0.0],
+	PARAMETER["standard_parallel_1",90.0],UNIT["Meter",1.0]]",
+	GEOGCS["GCS_Moon_2000",
+		DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+		PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]],
+	PROJECTION["Polar_Stereographic"],
+	PARAMETER["latitude_of_origin",90],
+	PARAMETER["central_meridian",0],
+	PARAMETER["scale_factor",1],
+	PARAMETER["false_easting",0],
+	PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]
+...
+GRAIL LGRS, Crust-mantle Interface Depth Model 1
+Layer ID : Model1_cmi.np
+bbox : -931069.854,-934818.088,934337.475,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Crust-mantle Interface Depth Model 2
+Layer ID : Model2_cmi.np
+bbox : -931069.854,-934818.088,934337.475,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Crust-mantle Interface Depth Model 3
+Layer ID : Model3_cmi.np
+bbox : -931069.854,-934818.088,934337.475,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Crust-mantle Interface Depth Model 4
+Layer ID : Model4_cmi.np
+bbox : -931069.854,-934818.088,934337.475,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Crustal Thickness Model 1
+Layer ID : Model1_thick.np
+bbox : -931069.854,-934818.088,934337.475,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Crustal Thickness Model 2
+Layer ID : Model2_thick.np
+bbox : -931069.854,-934818.088,934337.475,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Crustal Thickness Model 3
+Layer ID : Model3_thick.np
+bbox : -931069.854,-934818.088,934337.475,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Crustal Thickness Model 4
+Layer ID : Model4_thick.np
+bbox : -931069.854,-934818.088,934337.475,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Grain Density
+Layer ID : grain_density_310.np
+bbox : -931069.854,-934818.088,934337.475,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+GRAIL LGRS, Surface Relief
+Layer ID : LOLA_PA_310.np
+bbox : -931069.854,-934818.088,934337.475,931069.854
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...
+LP NS Water Equivalent Hydrogen NP
+Layer ID : np_weh_5km_adapt.map
+bbox : -600000,-600000,600000,600000
+WMTS Endpoint : 
+Abstract : 
+Projection :
+
+urn:ogc:def:crs:IAU2000::30118
+...

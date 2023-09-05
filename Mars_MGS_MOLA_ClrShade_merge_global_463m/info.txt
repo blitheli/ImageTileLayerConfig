@@ -1,9 +1,0 @@
-﻿MGS MOLA, Global Color Hillshade
-Layer ID : Mars_MGS_MOLA_ClrShade_merge_global_463m
-bbox : -180,-89.9991635,179.9983271,90
-WMTS Endpoint :  https://trek.nasa.gov/tiles/Mars/EQ/Mars_MGS_MOLA_ClrShade_merge_global_463m
-Abstract : This data was acquired using the Mars Orbiter Laser Altimeter instrument aboard NASA's Mars Global Surveyor spacecraft (MGS). MGS was launched on November 7, 1996 and arrived at Mars on September 11, 1997. It maintained a circular polar orbit, completing an orbital revolution every 117.65 minutes at an average altitude of 378 km (235 mi). Until November 2, 2006, MGS characterized and mapped Mars' surface features, properties, topography, composition, and processes, as well as studied Mars' weather and atmospheric structure. The Mars Orbiter Laser Altimeter (MOLA) made precise measurements of the heights and depths of surface features on Mars. MOLA fired infrared laser pulses downward 10 times per second, and measured the time it took for the reflected pulses to return from the surface. Converting this data to a colorized hillshade makes it particularly easy to visualize surface topography. The image used for the base of this map represents more than 600 million measurements gathered between 1999 and 2001. The average accuracy of each point is originally ~100 meters in horizontal position and the total elevation uncertainty is at least Â±3 m.
-这些数据是使用美国宇航局火星全球勘测者航天器（MGS）上的火星轨道器激光高度计仪器获取的。MGS于1996年11月7日发射升空，并于1997年9月11日抵达火星。它保持了一个圆形的极轨道，每117.65分钟完成一次轨道公转，平均高度为378公里（235英里）。直到2006年11月2日，MGS对火星表面特征，性质，地形，组成和过程进行了表征和绘制，并研究了火星的天气和大气结构。火星轨道器激光高度计（MOLA）对火星表面特征的高度和深度进行了精确测量。MOLA每秒向下发射10次红外激光脉冲，并测量反射脉冲从表面返回所需的时间。将此数据转换为彩色山体阴影使得可视化表面地形变得特别容易。用于此地图底部的图像代表了 1999 年至 2001 年间收集的 6 亿多个测量值。每个点的平均精度最初在水平位置为~100米，总高程不确定性至少为±3米。
-Projection :
-
-urn:ogc:def:crs:EPSG::104905

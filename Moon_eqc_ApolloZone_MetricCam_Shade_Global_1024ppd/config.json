@@ -13,5 +13,10 @@
     "Projection": "urn:ogc:def:crs:EPSG::104903\n",
     "Preview": "{MoonImage}\\Moon_eqc_ApolloZone_MetricCam_Shade_Global_1024ppd\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_ApolloZone_MetricCam_Shade_Global_1024ppd\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_ApolloZone_MetricCam_Shade_Global_1024ppd\\MetaData.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_ApolloZone_MetricCam_Shade_Global_1024ppd\\MetaData.html",
+    "WMTS_TypeId": "1000000223",
+    "MinimumLevel": 0,
+    "MaximumLevel": 8,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

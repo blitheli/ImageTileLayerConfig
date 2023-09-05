@@ -1,12 +1,22 @@
 {
-  "ProjectionType": "EQ",
-  "Title": "Apollo 12 着陆区高分影像(LRO Narrow Angle Camera, Mosaic Apollo 12)",
-  "LayerID": "Moon_eqc_A12_60x60km.0_3.eq",
-  "Icon": "{MoonImage}\\Moon_eqc_A12_60x60km.0_3.eq\\A12_60x60km.0_3.eq-120.png",
-  "BBOX": [-24.4093366, -3.9993366, -22.4306634, -2.0206634],
-  "Abstract": "这是一个月球勘测轨道飞行器（LRO）窄角相机（NAC）马赛克，以阿波罗12号着陆点为中心，范围为60x60km。每个NAC图像在ISIS3中以50cm像素的分辨率进行处理，颜色平衡，并合成为单个输出。阿波罗12号是第二次载人登月任务。该任务于1969年11月14日发射，五天后降落在风暴洋，距离勘测者3号宇宙飞船只有几步之遥。",
-  "Projection": "urn:ogc:def:crs:EPSG::104903\n",
-  "Preview": "{MoonImage}\\Moon_eqc_A12_60x60km.0_3.eq\\index.html",
-  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_A12_60x60km.0_3.eq\\WMTSCapabilities.xml",
-  "MetaData": "{MoonImage}\\Moon_eqc_A12_60x60km.0_3.eq\\MetaData.html"
+    "ProjectionType": "EQ",
+    "Title": "Apollo 12 着陆区高分影像(LRO Narrow Angle Camera, Mosaic Apollo 12)",
+    "LayerID": "Moon_eqc_A12_60x60km.0_3.eq",
+    "Icon": "{MoonImage}\\Moon_eqc_A12_60x60km.0_3.eq\\A12_60x60km.0_3.eq-120.png",
+    "BBOX": [
+        -24.4093366,
+        -3.9993366,
+        -22.4306634,
+        -2.0206634
+    ],
+    "Abstract": "这是一个月球勘测轨道飞行器（LRO）窄角相机（NAC）马赛克，以阿波罗12号着陆点为中心，范围为60x60km。每个NAC图像在ISIS3中以50cm像素的分辨率进行处理，颜色平衡，并合成为单个输出。阿波罗12号是第二次载人登月任务。该任务于1969年11月14日发射，五天后降落在风暴洋，距离勘测者3号宇宙飞船只有几步之遥。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_A12_60x60km.0_3.eq\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_A12_60x60km.0_3.eq\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_A12_60x60km.0_3.eq\\MetaData.html",
+    "WMTS_TypeId": "1000000110",
+    "MinimumLevel": 0,
+    "MaximumLevel": 15,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

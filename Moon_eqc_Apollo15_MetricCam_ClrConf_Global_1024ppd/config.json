@@ -1,12 +1,22 @@
 {
-  "ProjectionType": "EQ",
-  "Title": "Apollo 15 DEM着色置信度影像",
-  "LayerID": "Moon_eqc_Apollo15_MetricCam_ClrConf_Global_1024ppd",
-  "Icon": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrConf_Global_1024ppd\\Apollo15_MetricCam_ClrConf_Global_1024ppd-120.png",
-  "BBOX": [-180, -90, 180, 90],
-  "Abstract": "阿波罗 15 号DEM 着色置信度影像是根据阿波罗 15 号DEM 置信度数据生成的。在置信度数据中，值派生自精度值。对于彩色置信度，使用从 10 到 14 的值范围，范围从差置信度 （10） 到非常高的置信度 （14）。此范围映射到从黄色到绿色不等的颜色映射表。所有其他置信度值都映射到完全透明的像素。",
-  "Projection": "GEOGCS['GCS_Moon_2000',\n  DATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n  PRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]",
-  "Preview": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrConf_Global_1024ppd\\index.html",
-  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrConf_Global_1024ppd\\WMTSCapabilities.xml",
-  "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrConf_Global_1024ppd\\metadata.xml"
+    "ProjectionType": "EQ",
+    "Title": "Apollo 15 DEM着色置信度影像",
+    "LayerID": "Moon_eqc_Apollo15_MetricCam_ClrConf_Global_1024ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrConf_Global_1024ppd\\Apollo15_MetricCam_ClrConf_Global_1024ppd-120.png",
+    "BBOX": [
+        -180,
+        -90,
+        180,
+        90
+    ],
+    "Abstract": "阿波罗 15 号DEM 着色置信度影像是根据阿波罗 15 号DEM 置信度数据生成的。在置信度数据中，值派生自精度值。对于彩色置信度，使用从 10 到 14 的值范围，范围从差置信度 （10） 到非常高的置信度 （14）。此范围映射到从黄色到绿色不等的颜色映射表。所有其他置信度值都映射到完全透明的像素。",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n  DATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n  PRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]",
+    "Preview": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrConf_Global_1024ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrConf_Global_1024ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_ClrConf_Global_1024ppd\\metadata.xml",
+    "WMTS_TypeId": "1000000025",
+    "MinimumLevel": 0,
+    "MaximumLevel": 8,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

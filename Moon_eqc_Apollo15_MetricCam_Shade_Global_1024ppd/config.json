@@ -1,12 +1,22 @@
 {
-  "ProjectionType": "EQ",
-  "Title": "Apollo 15 DEM 山体阴影图(Apollo 15 Metric Cam DEM, Hillshade)",
-  "LayerID": "Moon_eqc_Apollo15_MetricCam_Shade_Global_1024ppd",
-  "Icon": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Shade_Global_1024ppd\\Apollo15_MetricCam_Shade_Global_1024ppd-120.png",
-  "BBOX": [-65.9995117, -31.9995117, 179.9995117, 32.0004883],
-  "Abstract": "阿波罗 15 号DEM 山体阴影是使用山体阴影生成的视觉工作台包中的功能。DEM 山体阴影值为存储为8位有符号整数，分辨率为 14.8m/像素。这些 DEM山体阴影文件是使用视觉工作台库生成的：一个NASA艾姆斯智能机器人集团制作的软件工具（IRG）用于自动处理立体图像",
-  "Projection": "urn:ogc:def:crs:EPSG::104903\n",
-  "Preview": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Shade_Global_1024ppd\\index.html",
-  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Shade_Global_1024ppd\\WMTSCapabilities.xml",
-  "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Shade_Global_1024ppd\\MetaData.html"
+    "ProjectionType": "EQ",
+    "Title": "Apollo 15 DEM 山体阴影图(Apollo 15 Metric Cam DEM, Hillshade)",
+    "LayerID": "Moon_eqc_Apollo15_MetricCam_Shade_Global_1024ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Shade_Global_1024ppd\\Apollo15_MetricCam_Shade_Global_1024ppd-120.png",
+    "BBOX": [
+        -65.9995117,
+        -31.9995117,
+        179.9995117,
+        32.0004883
+    ],
+    "Abstract": "阿波罗 15 号DEM 山体阴影是使用山体阴影生成的视觉工作台包中的功能。DEM 山体阴影值为存储为8位有符号整数，分辨率为 14.8m/像素。这些 DEM山体阴影文件是使用视觉工作台库生成的：一个NASA艾姆斯智能机器人集团制作的软件工具（IRG）用于自动处理立体图像",
+    "Projection": "urn:ogc:def:crs:EPSG::104903\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Shade_Global_1024ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Shade_Global_1024ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_MetricCam_Shade_Global_1024ppd\\MetaData.html",
+    "WMTS_TypeId": "1000000120",
+    "MinimumLevel": 0,
+    "MaximumLevel": 8,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

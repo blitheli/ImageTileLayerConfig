@@ -1,12 +1,22 @@
 {
-  "ProjectionType": "EQ",
-  "Title": "阿里斯塔克斯高原区域 1 高分影像(Aristarchus Plateau 1)",
-  "LayerID": "Moon_eq_Apollo15_PanCam_Mosaic_25N311E_150cmp",
-  "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_25N311E_150cmp\\Apollo15_PanCam_Mosaic_25N311E_150cmp-120.png",
-  "BBOX": [-49.7701454, 23.4369668, -48.0361408, 26.0939503],
-  "Abstract": "这是阿里斯塔克斯高原区域 1 的可见影像马赛克。原始阿波罗15号全景图像的分辨率为1.5米/像素。它已注册到ULCN 2005控制网络。然后将马赛克水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。",
-  "Projection": "PROJCS['Equirectangular MOON',\n  GEOGCS['GCS_MOON',\n  DATUM['D_MOON',SPHEROID['MOON_localRadius',1737400,0]],\nPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\nPROJECTION['Equirectangular'],\nPARAMETER['latitude_of_origin',0],\nPARAMETER['central_meridian',0],\nPARAMETER['standard_parallel_1',25],\nPARAMETER['false_easting',0],\nPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]",
-  "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_25N311E_150cmp\\index.html",
-  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_25N311E_150cmp\\WMTSCapabilities.xml",
-  "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_25N311E_150cmp\\metadata.html"
+    "ProjectionType": "EQ",
+    "Title": "阿里斯塔克斯高原区域 1 高分影像(Aristarchus Plateau 1)",
+    "LayerID": "Moon_eq_Apollo15_PanCam_Mosaic_25N311E_150cmp",
+    "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_25N311E_150cmp\\Apollo15_PanCam_Mosaic_25N311E_150cmp-120.png",
+    "BBOX": [
+        -49.7701454,
+        23.4369668,
+        -48.0361408,
+        26.0939503
+    ],
+    "Abstract": "这是阿里斯塔克斯高原区域 1 的可见影像马赛克。原始阿波罗15号全景图像的分辨率为1.5米/像素。它已注册到ULCN 2005控制网络。然后将马赛克水平和垂直注册到LRO的月球轨道器激光高度计（LOLA）数据。",
+    "Projection": "PROJCS['Equirectangular MOON',\n  GEOGCS['GCS_MOON',\n  DATUM['D_MOON',SPHEROID['MOON_localRadius',1737400,0]],\nPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\nPROJECTION['Equirectangular'],\nPARAMETER['latitude_of_origin',0],\nPARAMETER['central_meridian',0],\nPARAMETER['standard_parallel_1',25],\nPARAMETER['false_easting',0],\nPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]",
+    "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_25N311E_150cmp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_25N311E_150cmp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Mosaic_25N311E_150cmp\\metadata.html",
+    "WMTS_TypeId": "1000000072",
+    "MinimumLevel": 0,
+    "MaximumLevel": 13,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

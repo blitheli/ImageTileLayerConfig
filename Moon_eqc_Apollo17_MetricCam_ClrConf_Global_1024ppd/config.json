@@ -13,5 +13,10 @@
     "Projection": "GEOGCS['Geographic Coordinate System',\n\tDATUM['D_MOON',SPHEROID['MOON',1737400,'inf']],\n\tPRIMEM['Reference Meridian',0],UNIT['degree',0.0174532925199433]]\n",
     "Preview": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_ClrConf_Global_1024ppd\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_ClrConf_Global_1024ppd\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_ClrConf_Global_1024ppd\\MetaData.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo17_MetricCam_ClrConf_Global_1024ppd\\MetaData.html",
+    "WMTS_TypeId": "1000000216",
+    "MinimumLevel": 0,
+    "MaximumLevel": 8,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

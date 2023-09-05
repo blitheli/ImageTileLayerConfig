@@ -13,5 +13,10 @@
     "Projection": "PROJCS['Equirectangular MOON',\n  GEOGCS['GCS_MOON',\n  DATUM['D_MOON',SPHEROID['MOON_localRadius',1737400,0]],\nPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\nPROJECTION['Equirectangular'],\nPARAMETER['latitude_of_origin',0],\nPARAMETER['central_meridian',0],\nPARAMETER['standard_parallel_1',25],\nPARAMETER['false_easting',0],\nPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]",
     "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_25N311E_5mp\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_25N311E_5mp\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_25N311E_5mp\\metadata.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Shade_25N311E_5mp\\metadata.html",
+    "WMTS_TypeId": "1000000061",
+    "MinimumLevel": 0,
+    "MaximumLevel": 11,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

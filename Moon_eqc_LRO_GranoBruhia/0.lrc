@@ -1,21 +1,22 @@
-<?xml version="1.0" encoding="GB18030"?><DataDefine>
-<Version>0</Version>
-<Name>LRO_GranoBruhia</Name>
-<GeoGridType>TianDiTuLatLon</GeoGridType>
-<SampleSize>512</SampleSize>
-<FileExt>png</FileExt>
-<DataVersion></DataVersion>
-<DataType>urlformat</DataType>
-<TileRowDir>NorthToSouth</TileRowDir>
-<LocalPath></LocalPath>  
-<UrlParamOrder>Z,Y,X</UrlParamOrder>    
-<NetPath>D:\moon\tiles\images\eqc\LRO_GRANOBRUHIA\%d\%d\%d.png</NetPath> 
-<Range>
-<West>101.8</West>
-<East>103.8</East>
-<South>35.15</South>
-<North>36.76</North>
-<LevelBegin>9</LevelBegin>
-<LevelEnd>16</LevelEnd>
-</Range>
+<?xml version="1.0" encoding="UTF-8"?>
+<DataDefine>
+    <Version>0</Version>
+    <Name>LRO_GranoBruhia</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>512</SampleSize>
+    <FileExt>png</FileExt>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <LocalPath></LocalPath>
+    <UrlParamOrder>Z,Y,X</UrlParamOrder>
+    <NetPath>D:\moon\tiles\images\eqc\LRO_GRANOBRUHIA\%d\%d\%d.png</NetPath>
+    <Range>
+        <West>101.8</West>
+        <East>103.8</East>
+        <South>35.15</South>
+        <North>36.76</North>
+        <LevelBegin>9</LevelBegin>
+        <LevelEnd>16</LevelEnd>
+    </Range>
 </DataDefine>

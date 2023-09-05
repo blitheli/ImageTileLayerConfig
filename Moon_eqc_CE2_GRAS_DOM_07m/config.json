@@ -3,10 +3,20 @@
     "Title": "嫦娥2号全月影像(7m分辨率)",
     "LayerID": "Moon_eqc_CE2_GRAS_DOM_07m",
     "Icon": "{MoonImage}\\Moon_eqc_CE2_GRAS_DOM_07m\\CE2_GRAS_DOM_07m-120.png",
-    "BBOX": [-180, -90, 180, 90],
+    "BBOX": [
+        -180,
+        -90,
+        180,
+        90
+    ],
     "Abstract": "2010年10月1日，嫦娥二号（或CE2）成功发射。这是中国第二次探月任务。其主要目标是在15公里和100公里轨道高度上获取1.5米和7米的空间分辨率图像。CE2立体相机是CE2的主要有效载荷之一，它使用线性推扫式扫描技术捕获沿卫星飞行方向的前后视图的双线图像;立体视角分别为7.98度和-17.2度。相机的CCD探测器使用延时和积分CCD（TDI CCD），允许16、32、48、64和96等五个积分等级，以及0.7、1.0和2.0等三个增益。积分等级的设定由增益设置、太阳光照条件、月面平均反射率等因素决定。CCD立体相机的光谱范围为450 ̃ 52m。图像宽度分别为9.2km和43km，空间分辨率为1.5m和7m，轨道高度分别为15km和100km。CE2立体相机数据用于生成整个月球表面的DEM（数字高程模型）和DOM（数字正射影像地图）产品。它们的地面空间分辨率均为7m。据报道，内部精度小于两个像素（<14m）。CE2全球地图产品的验证是通过与五个LRRR位置和LRO WAC DEM的结果进行比较来完成的。据报道，与LRRR相比，经度平面位移为23.9m ̃94（标准57.2米），纬度为9.7米至53.4米（标准37.6米），高度差为-1.0米〜18.9米（标准10.1米）。2）.与LRO WAC DEM相比，据报道平均高度差为-2.8m，标准为116.0m。参见“来自嫦娥二号立体相机图像数据的新月球全球地形图产品”，2014，Ren等人，EPSC摘要第9卷，EPSC2014-344，欧洲行星科学大会2014。此数据产品下载的大小为 366 GB。",
     "Projection": "GEOGCS['GCS_Moon_2000',\n  DATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400.0,0.0]],\nPRIMEM['Reference_Meridian',0.0],UNIT['Degree',0.0174532925199433],AUTHORITY['ESRI',104903]]",
     "Preview": "{MoonImage}\\Moon_eqc_CE2_GRAS_DOM_07m\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_CE2_GRAS_DOM_07m\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_CE2_GRAS_DOM_07m\\metadata.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_CE2_GRAS_DOM_07m\\metadata.html",
+    "WMTS_TypeId": "1000000002",
+    "MinimumLevel": 0,
+    "MaximumLevel": 11,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

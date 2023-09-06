@@ -13,5 +13,10 @@
     "Projection": "urn:ogc:def:crs:EPSG::104903\n",
     "Preview": "{MoonImage}\\Moon_eqc_Kaguya_TCortho_Mosaic_Global_4096ppd\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Kaguya_TCortho_Mosaic_Global_4096ppd\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_Kaguya_TCortho_Mosaic_Global_4096ppd\\MetaData.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_Kaguya_TCortho_Mosaic_Global_4096ppd\\MetaData.html",
+    "WMTS_TypeId": "1000000284",
+    "MinimumLevel": 0,
+    "MaximumLevel": 10,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

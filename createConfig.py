@@ -5,14 +5,15 @@
 #       > 从WMTSCapabilities.xml文件中获取瓦片的层级(最小默认为0),0级瓦片的行数和列数
 #       > 重新保存config.json文件
 #   增加如下属性：
-#       "WMTS_TypeId": 
-#       "MinimumLevel": 
-#       "MaximumLevel": 
-#       "NumberOfLevelZeroTilesX": 
+#       "WMTS_TypeId":
+#       "MinimumLevel":
+#       "MaximumLevel":
+#       "NumberOfLevelZeroTilesX":
 #       "NumberOfLevelZeroTilesY":
 #
 #   本函数在所有图层文件夹已存在，但是原始config.json文件没有WMTS_TypeId属性时使用！！
-#   blitheli 20210904
+#   20210904 blitheli 
+#   20230906 如果没有WMTSCapabilities.xml文件，输出信息，手动修改
 
 
 import os
@@ -34,17 +35,6 @@ def getXmlData(xml_file):
         tile_matrix_count += 1
 
     return [tile_matrix_count, int(float(mws[0].text)), int(float(mhs[0].text))]
-
-# 获取lrc文件中的最大层级数,返回[瓦片层级数,2,1]
-def getLrc(lrc_file):
-    # 读取文件
-    dom = parse(lrc_file)
-    # 获取文档元素对象
-    elem = dom.documentElement
-    # 获取 student
-    maxLevel = elem.getElementsByTagName('LevelEnd')
-    
-    return [maxLevel, 2, 1]
 
 # 获取当前目录
 current_directory = os.getcwd()
@@ -76,8 +66,8 @@ for folder in folders:
     if os.path.exists(wms_file_path):
         maxLevel, zeroTileX, zeroTileY = getXmlData(wms_file_path)
     else:
-        maxLevel, zeroTileX, zeroTileY = getLrc(os.path.join(folder_path, "0.lrc"))
-
+        print("此文件无WMTSCapabilities.xml，请手动修改: "+folder)
+      
     configData["MinimumLevel"] = 0
     configData["MaximumLevel"] = maxLevel-1
     configData["NumberOfLevelZeroTilesX"] = zeroTileX

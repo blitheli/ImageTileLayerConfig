@@ -13,5 +13,10 @@
     "Projection": "urn:ogc:def:crs:EPSG::104903\n",
     "Preview": "{MoonImage}\\Moon_eqc_ldam_10\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_ldam_10\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_ldam_10\\MetaData.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_ldam_10\\MetaData.html",
+    "WMTS_TypeId": "1000000286",
+    "MinimumLevel": 0,
+    "MaximumLevel": 3,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

@@ -1,12 +1,22 @@
 {
-  "ProjectionType": "EQ",
-  "Title": "LRO彩色全球岩石丰度图(LRO DLRE, Rock Abundance Global)",
-  "LayerID": "Moon_eqc_Diviner_avg_RockAbundance",
-  "Icon": "{MoonImage}\\Moon_eqc_Diviner_avg_RockAbundance\\Diviner_avg_RockAbundance-120.png",
-  "BBOX": [-180.0, -80.0, 180.0, 80.0],
-  "Abstract": "这是一张每度128像素的月球表面彩色全球岩石丰度图。该数据为3级衍生网格数据记录（GDR），仅包含2009年10月3日至2011年10月7日期间收集的数据，该数据对应于LRO任务的测绘轨道阶段。这些数据是在&tilde；50公里的高度，通常比（典型的）椭圆轨道的高度低。所有GDR：每个样本代表使用Bandfield等人（2011）中描述的原始算法估计的岩石碎片覆盖的表面的面积分数，并改进了Bandfield等人描述的计算局部坡度的算法。（2016）。值按SCALING_FACTOR的值进行缩放。从数字数（DN）到平均值的转换由以下公式给出：RA=（DN*SCALING_FACTOR）+OFFSET数据仅限于当地时间或1930年至0530年，太阳入射角大于90度，纬度介于",
-  "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400.0,0.0]],\n\tPRIMEM['Reference_Meridian',0.0],UNIT['Degree',0.0174532925199433],AUTHORITY['ESRI',104903]]\n",
-  "Preview": "{MoonImage}\\Moon_eqc_Diviner_avg_RockAbundance\\index.html",
-  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Diviner_avg_RockAbundance\\WMTSCapabilities.xml",
-  "MetaData": "{MoonImage}\\Moon_eqc_Diviner_avg_RockAbundance\\MetaData.html"
+    "ProjectionType": "EQ",
+    "Title": "LRO彩色全球岩石丰度图(LRO DLRE, Rock Abundance Global)",
+    "LayerID": "Moon_eqc_Diviner_avg_RockAbundance",
+    "Icon": "{MoonImage}\\Moon_eqc_Diviner_avg_RockAbundance\\Diviner_avg_RockAbundance-120.png",
+    "BBOX": [
+        -180.0,
+        -80.0,
+        180.0,
+        80.0
+    ],
+    "Abstract": "这是一张每度128像素的月球表面彩色全球岩石丰度图。该数据为3级衍生网格数据记录（GDR），仅包含2009年10月3日至2011年10月7日期间收集的数据，该数据对应于LRO任务的测绘轨道阶段。这些数据是在&tilde；50公里的高度，通常比（典型的）椭圆轨道的高度低。所有GDR：每个样本代表使用Bandfield等人（2011）中描述的原始算法估计的岩石碎片覆盖的表面的面积分数，并改进了Bandfield等人描述的计算局部坡度的算法。（2016）。值按SCALING_FACTOR的值进行缩放。从数字数（DN）到平均值的转换由以下公式给出：RA=（DN*SCALING_FACTOR）+OFFSET数据仅限于当地时间或1930年至0530年，太阳入射角大于90度，纬度介于",
+    "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400.0,0.0]],\n\tPRIMEM['Reference_Meridian',0.0],UNIT['Degree',0.0174532925199433],AUTHORITY['ESRI',104903]]\n",
+    "Preview": "{MoonImage}\\Moon_eqc_Diviner_avg_RockAbundance\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Diviner_avg_RockAbundance\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_Diviner_avg_RockAbundance\\MetaData.html",
+    "WMTS_TypeId": "1000000123",
+    "MinimumLevel": 0,
+    "MaximumLevel": 6,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

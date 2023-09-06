@@ -13,5 +13,10 @@
     "Projection": "GEOGCS['GCS_Moon_2000',\n\tDATUM['D_Moon_2000',\n        SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],\n    UNIT['degree',0.0174532925199433]]\n",
     "Preview": "{MoonImage}\\Moon_eqc_hpar_global128ppd_v1c\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_hpar_global128ppd_v1c\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_hpar_global128ppd_v1c\\MetaData.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_hpar_global128ppd_v1c\\MetaData.html",
+    "WMTS_TypeId": "1000000278",
+    "MinimumLevel": 0,
+    "MaximumLevel": 6,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

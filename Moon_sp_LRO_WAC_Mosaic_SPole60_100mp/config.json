@@ -1,12 +1,22 @@
 {
-  "ProjectionType": "SP",
-  "Title": "南极影像(60°以上,100m)",
-  "LayerID": "Moon_sp_LRO_WAC_Mosaic_SPole60_100mp",
-  "Icon": "{MoonImage}\\Moon_sp_LRO_WAC_Mosaic_SPole60_100mp\\LRO_WAC_Mosaic_SPole60_100mp-120.png",
-  "BBOX": [-931100, -931100, 931100, 931100],
-  "Abstract": "这是以单色模式拍摄的月球勘测轨道飞行器相机（LROC）广角相机（WAC）图像的初步南极马赛克。全球 WAC 马赛克提供了一个全球形态底图，其入射角介于 60 到 80 度之间，但极地地区除外，因为极地区域太阳在地平线上总是非常低。",
-  "Projection": "urn:ogc:def:crs:IAU2000::30120",
-  "Preview": "{MoonImage}\\Moon_sp_LRO_WAC_Mosaic_SPole60_100mp\\index.html",
-  "WMTS_Capabilities": "{MoonImage}\\Moon_sp_LRO_WAC_Mosaic_SPole60_100mp\\WMTSCapabilities.xml",
-  "MetaData": "{MoonImage}\\Moon_sp_LRO_WAC_Mosaic_SPole60_100mp\\metaData.html"
+    "ProjectionType": "SP",
+    "Title": "南极影像(60°以上,100m)",
+    "LayerID": "Moon_sp_LRO_WAC_Mosaic_SPole60_100mp",
+    "Icon": "{MoonImage}\\Moon_sp_LRO_WAC_Mosaic_SPole60_100mp\\LRO_WAC_Mosaic_SPole60_100mp-120.png",
+    "BBOX": [
+        -931100,
+        -931100,
+        931100,
+        931100
+    ],
+    "Abstract": "这是以单色模式拍摄的月球勘测轨道飞行器相机（LROC）广角相机（WAC）图像的初步南极马赛克。全球 WAC 马赛克提供了一个全球形态底图，其入射角介于 60 到 80 度之间，但极地地区除外，因为极地区域太阳在地平线上总是非常低。",
+    "Projection": "urn:ogc:def:crs:IAU2000::30120",
+    "Preview": "{MoonImage}\\Moon_sp_LRO_WAC_Mosaic_SPole60_100mp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_sp_LRO_WAC_Mosaic_SPole60_100mp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_sp_LRO_WAC_Mosaic_SPole60_100mp\\metaData.html",
+    "WMTS_TypeId": "1000000046",
+    "MinimumLevel": 0,
+    "MaximumLevel": 4,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

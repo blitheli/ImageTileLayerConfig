@@ -13,5 +13,10 @@
     "Projection": "GEOGCS[,\n\tDATUM['unknown', SPHEROID['unnamed',1737400,0]], \n\tPRIMEM['Greenwich',0], UNIT['degree',0.0174532925199433]]\n",
     "Preview": "{MoonImage}\\Moon_eqc_LO_HRMR_Mosaic_Global_512ppd\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LO_HRMR_Mosaic_Global_512ppd\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_LO_HRMR_Mosaic_Global_512ppd\\MetaData.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_LO_HRMR_Mosaic_Global_512ppd\\MetaData.html",
+    "WMTS_TypeId": "1000000288",
+    "MinimumLevel": 0,
+    "MaximumLevel": 7,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

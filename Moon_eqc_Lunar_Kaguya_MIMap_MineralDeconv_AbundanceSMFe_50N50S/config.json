@@ -13,5 +13,10 @@
     "Projection": "urn:ogc:def:crs:EPSG::104903\n",
     "Preview": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_AbundanceSMFe_50N50S\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_AbundanceSMFe_50N50S\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_AbundanceSMFe_50N50S\\MetaData.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_Lunar_Kaguya_MIMap_MineralDeconv_AbundanceSMFe_50N50S\\MetaData.html",
+    "WMTS_TypeId": "1000001072",
+    "MinimumLevel": 0,
+    "MaximumLevel": 1,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

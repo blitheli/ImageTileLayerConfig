@@ -1,13 +1,22 @@
 {
-    "ProjectionType":"EQ",
-    "Title":"Apollo 12着陆点高分影像",
-    "LayerID":"Moon_eqc_LRO_NAC_Apollo12_Mosaic_p",
-    "Icon":"{MoonImage}\\Moon_eqc_LRO_NAC_Apollo12_Mosaic_p\\LRO_NAC_Apollo12_Mosaic_p-120.png",
-    "BBOX":[-23.4442323,-3.4713148,-23.3571898,-2.5018766],
-    "Abstract":"1969年11月19日，美国宇航员查尔斯·“皮特”·康拉德和艾伦·比恩在这里进行了人类第二次登月。康拉德和比恩乘坐无畏号登月舱降落在这里，而理查德·戈登则乘坐洋基快船号指挥舱留在绕月轨道上。阿波罗12号展示了精确着陆的关键能力，无畏号在距离1967年4月20日勘测者3号探测器着陆地点不到200米的地方着陆。康拉德和比恩在月球表面进行了两次疏散。第一次持续了3小时56分钟，向西北方向延伸，以部署ALSEP仪器包，并继续延伸到直径350米的被称为中新月的环形山边缘。第二次EVA持续了3小时49分钟，绕着南面的几个陨石坑进行了1.5公里的环形飞行，包括从勘测者3号取回了一台相机。他们收集了34.35公斤月球样品，准备返回地球。在LRO NAC的着陆场视图中，无畏号的下降阶段是可见的最大人造物体。宇航员脚印的黑暗轨迹从它延伸出来。在西北方向，这些轨迹延伸了大约130米，可以看到ALSEP的组成部分。在无畏号东南约160米处，可以看到“勘测者3号”，其周围有密集的脚印。着陆点位于北纬3.0138度，西经23.4219度，位于原大洋洲的南部，该地区的玄武岩沉积物广泛，比阿波罗11号着陆点的玄武岩沉积物年轻得多。该遗址还提供了第一批富含钾、磷和稀土元素的KREEP样品。从哥白尼火山口延伸出的一条射线中取样喷出物的可能性增加了该遗址的吸引力。",
-    "Projection":"urn:ogc:def:crs:EPSG::104903",
-    "Preview":"{MoonImage}\\Moon_eqc_LRO_NAC_Apollo12_Mosaic_p\\index.html",
-    "WMTS_Capabilities":"{MoonImage}\\Moon_eqc_LRO_NAC_Apollo12_Mosaic_p\\WMTSCapabilities.xml",
-    "MetaData":"{MoonImage}\\Moon_eqc_LRO_NAC_Apollo12_Mosaic_p\\metadata.html"
-
+    "ProjectionType": "EQ",
+    "Title": "Apollo 12着陆点高分影像",
+    "LayerID": "Moon_eqc_LRO_NAC_Apollo12_Mosaic_p",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo12_Mosaic_p\\LRO_NAC_Apollo12_Mosaic_p-120.png",
+    "BBOX": [
+        -23.4442323,
+        -3.4713148,
+        -23.3571898,
+        -2.5018766
+    ],
+    "Abstract": "1969年11月19日，美国宇航员查尔斯·“皮特”·康拉德和艾伦·比恩在这里进行了人类第二次登月。康拉德和比恩乘坐无畏号登月舱降落在这里，而理查德·戈登则乘坐洋基快船号指挥舱留在绕月轨道上。阿波罗12号展示了精确着陆的关键能力，无畏号在距离1967年4月20日勘测者3号探测器着陆地点不到200米的地方着陆。康拉德和比恩在月球表面进行了两次疏散。第一次持续了3小时56分钟，向西北方向延伸，以部署ALSEP仪器包，并继续延伸到直径350米的被称为中新月的环形山边缘。第二次EVA持续了3小时49分钟，绕着南面的几个陨石坑进行了1.5公里的环形飞行，包括从勘测者3号取回了一台相机。他们收集了34.35公斤月球样品，准备返回地球。在LRO NAC的着陆场视图中，无畏号的下降阶段是可见的最大人造物体。宇航员脚印的黑暗轨迹从它延伸出来。在西北方向，这些轨迹延伸了大约130米，可以看到ALSEP的组成部分。在无畏号东南约160米处，可以看到“勘测者3号”，其周围有密集的脚印。着陆点位于北纬3.0138度，西经23.4219度，位于原大洋洲的南部，该地区的玄武岩沉积物广泛，比阿波罗11号着陆点的玄武岩沉积物年轻得多。该遗址还提供了第一批富含钾、磷和稀土元素的KREEP样品。从哥白尼火山口延伸出的一条射线中取样喷出物的可能性增加了该遗址的吸引力。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo12_Mosaic_p\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo12_Mosaic_p\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo12_Mosaic_p\\metadata.html",
+    "WMTS_TypeId": "1000000005",
+    "MinimumLevel": 0,
+    "MaximumLevel": 16,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

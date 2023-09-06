@@ -1,12 +1,22 @@
 {
-  "ProjectionType": "EQ",
-  "Title": "Apollo 16着陆点高分影像",
-  "LayerID": "Moon_eqc_LRO_NAC_Apollo16_Mosaic_p",
-  "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo16_Mosaic_p\\LRO_NAC_Apollo16_Mosaic_p-120.png",
-  "BBOX": [15.3788327, -9.6060973, 15.5545346, -8.6616783],
-  "Abstract": "1972年4月21日，美国宇航员约翰·杨和查尔斯·杜克在这里进行了人类第五次登月。杨和杜克乘坐猎户座登月舱降落在这里，而肯·马丁利则乘坐卡斯珀号指挥舱留在绕月轨道上。Young和Duke进行了3次地面EVA。第一次持续7小时11分2秒，包括在登月舱西南约95米处部署阿波罗月球表面实验包（ALSEP），并使用月球车对着陆点以西约1400米范围内的几个小陨石坑进行地质穿越。第二个表面EVA持续了7小时23分9秒，其特点是一辆11.1公里长的月球车向南行驶到石山的辛科陨石坑地区，沿途停靠了6个站点。穿过母马，沿着亚平宁山脉的底部。第三个表面EVA持续了5小时40分3秒，宇航员向北穿越了11.4公里到达北雷陨石坑。杨和杜克收集了95.71公斤月球样本材料，准备返回地球。在LRO NAC拍摄的着陆场视图中，猎户座的下降阶段是可见的最大的人造物体，位于约30米陨石坑西部边缘的黑暗光环内。着陆场周围可以看到宇航员脚印和火星车轮胎痕迹的深色标记，尤其是延伸到西南部，在那里可以看到ALSEP的组件。由于之前的阿波罗登陆都集中在月球玛丽亚或海洋的低、平坦、玄武岩地形上，阿波罗16号是第一次访问月球高地的载人任务。着陆点位于南8.9734，东经15.5011，位于笛卡尔组和凯利组这两个高地地质单元的边界上。这两个单元都被认为是火山性质的，但由二氧化硅含量高于玛丽亚玄武岩的熔岩组成；笛卡尔组被广泛认为是流纹岩。然而，宇航员们在穿越时很快发现，他们周围的岩石绝大多数是角砾岩。阿波罗16号的最大惊喜是发现高地地形不是硅化熔岩，而是形成盆地的巨大撞击产生的流化喷出物，岩石是地壳物质，主要是斜长岩和辉长岩。",
-  "Projection": "urn:ogc:def:crs:EPSG::104903",
-  "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo16_Mosaic_p\\index.html",
-  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo16_Mosaic_p\\WMTSCapabilities.xml",
-  "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo16_Mosaic_p\\metadata.html"
+    "ProjectionType": "EQ",
+    "Title": "Apollo 16着陆点高分影像",
+    "LayerID": "Moon_eqc_LRO_NAC_Apollo16_Mosaic_p",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo16_Mosaic_p\\LRO_NAC_Apollo16_Mosaic_p-120.png",
+    "BBOX": [
+        15.3788327,
+        -9.6060973,
+        15.5545346,
+        -8.6616783
+    ],
+    "Abstract": "1972年4月21日，美国宇航员约翰·杨和查尔斯·杜克在这里进行了人类第五次登月。杨和杜克乘坐猎户座登月舱降落在这里，而肯·马丁利则乘坐卡斯珀号指挥舱留在绕月轨道上。Young和Duke进行了3次地面EVA。第一次持续7小时11分2秒，包括在登月舱西南约95米处部署阿波罗月球表面实验包（ALSEP），并使用月球车对着陆点以西约1400米范围内的几个小陨石坑进行地质穿越。第二个表面EVA持续了7小时23分9秒，其特点是一辆11.1公里长的月球车向南行驶到石山的辛科陨石坑地区，沿途停靠了6个站点。穿过母马，沿着亚平宁山脉的底部。第三个表面EVA持续了5小时40分3秒，宇航员向北穿越了11.4公里到达北雷陨石坑。杨和杜克收集了95.71公斤月球样本材料，准备返回地球。在LRO NAC拍摄的着陆场视图中，猎户座的下降阶段是可见的最大的人造物体，位于约30米陨石坑西部边缘的黑暗光环内。着陆场周围可以看到宇航员脚印和火星车轮胎痕迹的深色标记，尤其是延伸到西南部，在那里可以看到ALSEP的组件。由于之前的阿波罗登陆都集中在月球玛丽亚或海洋的低、平坦、玄武岩地形上，阿波罗16号是第一次访问月球高地的载人任务。着陆点位于南8.9734，东经15.5011，位于笛卡尔组和凯利组这两个高地地质单元的边界上。这两个单元都被认为是火山性质的，但由二氧化硅含量高于玛丽亚玄武岩的熔岩组成；笛卡尔组被广泛认为是流纹岩。然而，宇航员们在穿越时很快发现，他们周围的岩石绝大多数是角砾岩。阿波罗16号的最大惊喜是发现高地地形不是硅化熔岩，而是形成盆地的巨大撞击产生的流化喷出物，岩石是地壳物质，主要是斜长岩和辉长岩。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo16_Mosaic_p\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo16_Mosaic_p\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo16_Mosaic_p\\metadata.html",
+    "WMTS_TypeId": "1000000016",
+    "MinimumLevel": 0,
+    "MaximumLevel": 14,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

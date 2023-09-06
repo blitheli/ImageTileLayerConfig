@@ -1,10 +1,20 @@
 {
-  "ProjectionType": "SP",
-  "Title": "南极沙克尔顿附近全年平均光照",
-  "LayerID": "Moon_sp_ShakertonLight",
-  "Icon": "{MoonImage}\\Moon_sp_ShakertonLight\\ShakertonLight.png",
-  "BBOX": [-75840, -75840, 75840, 75840],
-  "Abstract": "南极沙克尔顿附近全年平均光照，同济大学分析，给出tif文件，用ArcGIS生成金字塔文件，然后切片",
-  "Projection": "urn:ogc:def:crs:IAU2000::30120",
-  "Preview": "{MoonImage}\\Moon_sp_ShakertonLight\\index.html"
+    "ProjectionType": "SP",
+    "Title": "南极沙克尔顿附近全年平均光照",
+    "LayerID": "Moon_sp_ShakertonLight",
+    "Icon": "{MoonImage}\\Moon_sp_ShakertonLight\\ShakertonLight.png",
+    "BBOX": [
+        -75840,
+        -75840,
+        75840,
+        75840
+    ],
+    "Abstract": "南极沙克尔顿附近全年平均光照，同济大学分析，给出tif文件，用ArcGIS生成金字塔文件，然后切片",
+    "Projection": "urn:ogc:def:crs:IAU2000::30120",
+    "Preview": "{MoonImage}\\Moon_sp_ShakertonLight\\index.html",
+    "WMTS_TypeId": "1000000041",
+    "MinimumLevel": 6,
+    "MaximumLevel": 13,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

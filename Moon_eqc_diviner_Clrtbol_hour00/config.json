@@ -13,5 +13,10 @@
     "Projection": "GEOGCS['GCS_Moon',\n\tDATUM['D_Moon',SPHEROID['Moon_2000',1737400,0]],\n\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]]\n",
     "Preview": "{MoonImage}\\Moon_eqc_diviner_Clrtbol_hour00\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_diviner_Clrtbol_hour00\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_diviner_Clrtbol_hour00\\MetaData.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_diviner_Clrtbol_hour00\\MetaData.html",
+    "WMTS_TypeId": "1000000236",
+    "MinimumLevel": 0,
+    "MaximumLevel": 0,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

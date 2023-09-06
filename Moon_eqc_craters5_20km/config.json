@@ -1,10 +1,20 @@
 {
-  "ProjectionType": "EQ",
-  "Title": "全月撞击坑分布(直径:5-20km)",
-  "LayerID": "Moon_eqc_crater5_20km",
-  "Icon": "{MoonImage}\\Moon_eqc_craters5_20km\\LROC_5TO20KM_CRATERS_SPOLE.png",
-  "BBOX": [-180, -90, 180, 90],
-  "Abstract": "LROC NAC 5-20公里撞击坑分布图。这些数据集是从LROC NAC全月图像生成的。",
-  "Projection": "urn:ogc:def:crs:EPSG::104903",
-  "Preview": "{MoonImage}\\Moon_eqc_craters5_20km\\index.html"
+    "ProjectionType": "EQ",
+    "Title": "全月撞击坑分布(直径:5-20km)",
+    "LayerID": "Moon_eqc_crater5_20km",
+    "Icon": "{MoonImage}\\Moon_eqc_craters5_20km\\LROC_5TO20KM_CRATERS_SPOLE.png",
+    "BBOX": [
+        -180,
+        -90,
+        180,
+        90
+    ],
+    "Abstract": "LROC NAC 5-20公里撞击坑分布图。这些数据集是从LROC NAC全月图像生成的。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903",
+    "Preview": "{MoonImage}\\Moon_eqc_craters5_20km\\index.html",
+    "WMTS_TypeId": "1000000003",
+    "MinimumLevel": 2,
+    "MaximumLevel": 7,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

@@ -1,11 +1,20 @@
 {
-    "ProjectionType":"EQ",
-    "Title":"布鲁诺撞击坑高分影像",
-    "LayerID":"Moon_eqc_LRO_GranoBruhia",
-    "Icon":"{MoonImage}\\Moon_eqc_LRO_GranoBruhia\\GranoBruhia.png",
-    "BBOX":[101.8, 35.15, 103.8, 36.76],
-    "Abstract":"佐丹奴布鲁诺火山口是如何形成的，它有多大？何时形成？第一个问题很容易：它是由于彗星或小行星撞击月球的超高速撞击而形成的。火山口形状不规则，因此其直径范围约为20.9 km至21.6 km（13.0英里至13.4英里）。它的墙壁非常陡峭，地板是锯齿状巨石和冲击熔岩汇集而成的。由于LROC具有收集立体观测的能力，因此我们现在有了从LRO处于其较低轨道（50 cm分辨率）时获得的图像制作的整个陨石坑的高分辨率地形图。图像的像素比例约为1.6至1.8米，因此图像被重新投影到1.8米。",
-    "Projection":"urn:ogc:def:crs:EPSG::104903",
-    "Preview":"{MoonImage}\\Moon_eqc_LRO_GranoBruhia\\index.html"
+    "ProjectionType": "EQ",
+    "Title": "布鲁诺撞击坑高分影像",
+    "LayerID": "Moon_eqc_LRO_GranoBruhia",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_GranoBruhia\\GranoBruhia.png",
+    "BBOX": [
+        101.8,
+        35.15,
+        103.8,
+        36.76
+    ],
+    "Abstract": "佐丹奴布鲁诺火山口是如何形成的，它有多大？何时形成？第一个问题很容易：它是由于彗星或小行星撞击月球的超高速撞击而形成的。火山口形状不规则，因此其直径范围约为20.9 km至21.6 km（13.0英里至13.4英里）。它的墙壁非常陡峭，地板是锯齿状巨石和冲击熔岩汇集而成的。由于LROC具有收集立体观测的能力，因此我们现在有了从LRO处于其较低轨道（50 cm分辨率）时获得的图像制作的整个陨石坑的高分辨率地形图。图像的像素比例约为1.6至1.8米，因此图像被重新投影到1.8米。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_GranoBruhia\\index.html",
+    "WMTS_TypeId": "1000000012",
+    "MinimumLevel": 8,
+    "MaximumLevel": 15,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }
-

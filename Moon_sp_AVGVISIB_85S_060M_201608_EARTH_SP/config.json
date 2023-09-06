@@ -1,12 +1,22 @@
 {
-  "ProjectionType": "SP",
-  "Title": "南极区域平均地球可见性(60m)",
-  "LayerID": "Moon_sp_AVGVISIB_85S_060M_201608_EARTH_SP",
-  "Icon": "{MoonImage}\\Moon_sp_AVGVISIB_85S_060M_201608_EARTH_SP\\AVGVISIB_85S_060M_201608_EARTH_SP-120.png",
-  "BBOX": [-151740, -151740, 151740, 151740],
-  "Abstract": "这个数据代表了月球南极地区的地球能见度，每小时的平均时间跨度为18.6年。由于我们的光源不是一个点，而是一个有限的圆盘，它的位置和大小可以改变，以研究从月球两极而不是太阳输入的地球可见度。这个数据的范围是85S-90S，分辨率为60米/像素。像素值代表地球能见度的百分比，图例说明了颜色与数值的映射关系。当使用这个数据时，请引用： Mazarico, E., et al. (2011), Illumination conditions of the lunar polar regions using LOLA topography, Icarus, Vol. 211, pp. 1066-1081, doi:10.1016/j.icarus.2010.10.030.",
-  "Projection": "urn:ogc:def:crs:IAU2000::30120",
-  "Preview": "{MoonImage}\\Moon_sp_AVGVISIB_85S_060M_201608_EARTH_SP\\index.html",
-  "WMTS_Capabilities": "{MoonImage}\\Moon_sp_AVGVISIB_85S_060M_201608_EARTH_SP\\WMTSCapabilities.xml",
-  "MetaData": "{MoonImage}\\Moon_sp_AVGVISIB_85S_060M_201608_EARTH_SP\\metaData.html"
+    "ProjectionType": "SP",
+    "Title": "南极区域平均地球可见性(60m)",
+    "LayerID": "Moon_sp_AVGVISIB_85S_060M_201608_EARTH_SP",
+    "Icon": "{MoonImage}\\Moon_sp_AVGVISIB_85S_060M_201608_EARTH_SP\\AVGVISIB_85S_060M_201608_EARTH_SP-120.png",
+    "BBOX": [
+        -151740,
+        -151740,
+        151740,
+        151740
+    ],
+    "Abstract": "这个数据代表了月球南极地区的地球能见度，每小时的平均时间跨度为18.6年。由于我们的光源不是一个点，而是一个有限的圆盘，它的位置和大小可以改变，以研究从月球两极而不是太阳输入的地球可见度。这个数据的范围是85S-90S，分辨率为60米/像素。像素值代表地球能见度的百分比，图例说明了颜色与数值的映射关系。当使用这个数据时，请引用： Mazarico, E., et al. (2011), Illumination conditions of the lunar polar regions using LOLA topography, Icarus, Vol. 211, pp. 1066-1081, doi:10.1016/j.icarus.2010.10.030.",
+    "Projection": "urn:ogc:def:crs:IAU2000::30120",
+    "Preview": "{MoonImage}\\Moon_sp_AVGVISIB_85S_060M_201608_EARTH_SP\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_sp_AVGVISIB_85S_060M_201608_EARTH_SP\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_sp_AVGVISIB_85S_060M_201608_EARTH_SP\\metaData.html",
+    "WMTS_TypeId": "1000010003",
+    "MinimumLevel": 0,
+    "MaximumLevel": 6,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

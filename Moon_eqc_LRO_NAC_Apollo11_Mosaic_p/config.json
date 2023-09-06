@@ -3,10 +3,20 @@
     "Title": "Apollo 11着陆点高分影像",
     "LayerID": "Moon_eqc_LRO_NAC_Apollo11_Mosaic_p",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo11_Mosaic_p\\LRO_NAC_Apollo11_Mosaic_p-120.png",
-    "BBOX": [23.4484977, 0.1464484, 23.5396839, 1.1149051],
-    "Abstract":"这是美国宇航员尼尔·阿姆斯特朗和埃德温·奥尔德林于 1969 年 7 月 20 日首次登月的地方。阿姆斯特朗和奥尔德林乘坐登月舱鹰号降落在这里，而迈克尔柯林斯则留在哥伦比亚号指挥舱的月球轨道上。阿姆斯特朗和奥尔德林在月球表面进行了一次EVA，持续了2小时31分40秒，保持在登月舱60米范围内。他们收集了21.55公斤的月球样本材料返回地球。在这个LRO NAC着陆点的视图中，鹰的下降阶段是可见的最大人造物体。宇航员脚印的黑暗轨迹从它延伸出来，主要集中在3个方向上。在西北部，轨道延伸到宇航员设置电视摄像机的位置。在南部，轨道延伸到部署月球测距后向反射器和被动地震实验包的地方。在东部，轨道延伸到小西火山口的边缘。着陆点位于0.67416 N，23.47314 E，位于Mare Tranquilitatis的西南部，该地区的特点是广泛的母马玄武岩沉积。",
-    "Projection":"urn:ogc:def:crs:EPSG::104903",
+    "BBOX": [
+        23.4484977,
+        0.1464484,
+        23.5396839,
+        1.1149051
+    ],
+    "Abstract": "这是美国宇航员尼尔·阿姆斯特朗和埃德温·奥尔德林于 1969 年 7 月 20 日首次登月的地方。阿姆斯特朗和奥尔德林乘坐登月舱鹰号降落在这里，而迈克尔柯林斯则留在哥伦比亚号指挥舱的月球轨道上。阿姆斯特朗和奥尔德林在月球表面进行了一次EVA，持续了2小时31分40秒，保持在登月舱60米范围内。他们收集了21.55公斤的月球样本材料返回地球。在这个LRO NAC着陆点的视图中，鹰的下降阶段是可见的最大人造物体。宇航员脚印的黑暗轨迹从它延伸出来，主要集中在3个方向上。在西北部，轨道延伸到宇航员设置电视摄像机的位置。在南部，轨道延伸到部署月球测距后向反射器和被动地震实验包的地方。在东部，轨道延伸到小西火山口的边缘。着陆点位于0.67416 N，23.47314 E，位于Mare Tranquilitatis的西南部，该地区的特点是广泛的母马玄武岩沉积。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903",
     "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo11_Mosaic_p\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo11_Mosaic_p\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo11_Mosaic_p\\metadata.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo11_Mosaic_p\\metadata.html",
+    "WMTS_TypeId": "1000000037",
+    "MinimumLevel": 0,
+    "MaximumLevel": 15,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

@@ -1,12 +1,22 @@
 {
-  "ProjectionType": "SP",
-  "Title": "南极马拉波特高分影像(Malapert Massif)",
-  "LayerID": "Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp",
-  "Icon": "{MoonImage}\\Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp\\LRO_LOLA_ClrShade_SPolar875_10m-120.png",
-  "BBOX": [-33245, 104242, 15004.5, 147083],
-  "Abstract": "这是用月球勘测轨道器相机（LROC）的窄角相机（NAC）图像生成的可见光图像马赛克，来自月球勘测轨道器任务。这些图像使用从LROC NAC立体图像（如果有的话）或LRO&apos;的月球轨道器激光高度计（LOLA）全球DEM创建的数字高程模型（DEM）进行正交。马赛克是在与收集单个LROC NAC图像相同的分辨率下生成的，即大约0.5米/像素。马赛克被水平地登记到LOLA全球DEM上。",
-  "Projection": "urn:ogc:def:crs:IAU2000::30120",
-  "Preview": "{MoonImage}\\Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp\\index.html",
-  "WMTS_Capabilities": "{MoonImage}\\Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp\\WMTSCapabilities.xml",
-  "MetaData": "{MoonImage}\\Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp\\metaData.html"
+    "ProjectionType": "SP",
+    "Title": "南极马拉波特高分影像(Malapert Massif)",
+    "LayerID": "Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp",
+    "Icon": "{MoonImage}\\Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp\\LRO_LOLA_ClrShade_SPolar875_10m-120.png",
+    "BBOX": [
+        -33245,
+        104242,
+        15004.5,
+        147083
+    ],
+    "Abstract": "这是用月球勘测轨道器相机（LROC）的窄角相机（NAC）图像生成的可见光图像马赛克，来自月球勘测轨道器任务。这些图像使用从LROC NAC立体图像（如果有的话）或LRO&apos;的月球轨道器激光高度计（LOLA）全球DEM创建的数字高程模型（DEM）进行正交。马赛克是在与收集单个LROC NAC图像相同的分辨率下生成的，即大约0.5米/像素。马赛克被水平地登记到LOLA全球DEM上。",
+    "Projection": "urn:ogc:def:crs:IAU2000::30120",
+    "Preview": "{MoonImage}\\Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_sp_LRO_NAC_Mosaic_86S356E_50cmp\\metaData.html",
+    "WMTS_TypeId": "1000010004",
+    "MinimumLevel": 0,
+    "MaximumLevel": 12,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

@@ -13,5 +13,10 @@
     "Projection": "urn:ogc:def:crs:EPSG::104903\n",
     "Preview": "{MoonImage}\\Moon_eqc_small_tranq_skylight_2\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_small_tranq_skylight_2\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_small_tranq_skylight_2\\MetaData.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_small_tranq_skylight_2\\MetaData.html",
+    "WMTS_TypeId": "1000001115",
+    "MinimumLevel": 0,
+    "MaximumLevel": 15,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

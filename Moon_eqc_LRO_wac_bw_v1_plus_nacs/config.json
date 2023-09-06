@@ -1,10 +1,15 @@
 {
-  "ProjectionType": "EQ",
-  "Title": "全月影像图(LRO WAC+NAC)",
-  "LayerID": "Moon_eqc_LRO_wac_bw_v1_plus_nacs",
-  "Icon": "{MoonImage}\\Moon_eqc_LRO_wac_bw_v1_plus_nacs\\LRO_WAC_Mosaic_Global_303ppd-120.png",
-  "BBOX": "-180,-90,180,90",
-  "Abstract": "LRO WAC+NAC影像图",
-  "Projection": "urn:ogc:def:crs:EPSG::104903",
-  "Preview": "{MoonImage}\\Moon_eqc_LRO_wac_bw_v1_plus_nacs\\index.html"
+    "ProjectionType": "EQ",
+    "Title": "全月影像图(LRO WAC+NAC)",
+    "LayerID": "Moon_eqc_LRO_wac_bw_v1_plus_nacs",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_wac_bw_v1_plus_nacs\\LRO_WAC_Mosaic_Global_303ppd-120.png",
+    "BBOX": "-180,-90,180,90",
+    "Abstract": "LRO WAC+NAC影像图",
+    "Projection": "urn:ogc:def:crs:EPSG::104903",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_wac_bw_v1_plus_nacs\\index.html",
+    "WMTS_TypeId": "1000000001",
+    "MinimumLevel": 0,
+    "MaximumLevel": 12,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

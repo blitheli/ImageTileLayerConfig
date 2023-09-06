@@ -1,12 +1,22 @@
 {
-  "ProjectionType": "EQ",
-  "Title": "全月DEM彩色HillShade",
-  "LayerID": "Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd",
-  "Icon": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd\\LRO_WAC-GLD100_ClrShade_79S79N_256ppd-120.png",
-  "BBOX": [-180,-79,180,79],
-  "Abstract": "这是由月球勘测轨道飞行器（LRO）广角相机（WAC）立体图像构建的256像素/度（ppd，~118米/像素）WAC数字高程模型（DEM）的彩色阴影浮雕。该DEM源自DLR 100 m原始地形模型或“GLD100”，覆盖了98.2%的月球表面，并与LRO月球轨道飞行器激光高度表（LOLA）极地网格DEM相结合，用于未覆盖的区域。使用数字摄影测量技术，从69000个WAC立体模型中计算出GLD100。由于两极附近持续存在阴影，因此无法在最高纬度创建完整的WAC立体图。因此，GLD100的覆盖范围为南纬79°至北纬79°。由于立体相关框大于100米，因此无法完全解析100米尺度下的表面细节。然而，每个100米的正方形内平均有26个立体点（全球共有1000亿个点），这有助于提高海拔估计。从形式上讲，分辨率可能接近300米，高程的精度估计约为10至20米（Scholten等人，JGR出版）。LRO月球轨道飞行器激光高度表（LOLA）擅长于表征两极的地形，因为LRO轨道在两极会聚。因此，对于WAC DEM，LOLA极地网格高程数据用于填充79至90和-90至-79纬度。",
-  "Projection": "urn:ogc:def:crs:EPSG::104903",
-  "Preview": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd\\index.html",
-  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd\\WMTSCapabilities.xml",
-  "MetaData": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd\\metadata.html"
+    "ProjectionType": "EQ",
+    "Title": "全月DEM彩色HillShade",
+    "LayerID": "Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd\\LRO_WAC-GLD100_ClrShade_79S79N_256ppd-120.png",
+    "BBOX": [
+        -180,
+        -79,
+        180,
+        79
+    ],
+    "Abstract": "这是由月球勘测轨道飞行器（LRO）广角相机（WAC）立体图像构建的256像素/度（ppd，~118米/像素）WAC数字高程模型（DEM）的彩色阴影浮雕。该DEM源自DLR 100 m原始地形模型或“GLD100”，覆盖了98.2%的月球表面，并与LRO月球轨道飞行器激光高度表（LOLA）极地网格DEM相结合，用于未覆盖的区域。使用数字摄影测量技术，从69000个WAC立体模型中计算出GLD100。由于两极附近持续存在阴影，因此无法在最高纬度创建完整的WAC立体图。因此，GLD100的覆盖范围为南纬79°至北纬79°。由于立体相关框大于100米，因此无法完全解析100米尺度下的表面细节。然而，每个100米的正方形内平均有26个立体点（全球共有1000亿个点），这有助于提高海拔估计。从形式上讲，分辨率可能接近300米，高程的精度估计约为10至20米（Scholten等人，JGR出版）。LRO月球轨道飞行器激光高度表（LOLA）擅长于表征两极的地形，因为LRO轨道在两极会聚。因此，对于WAC DEM，LOLA极地网格高程数据用于填充79至90和-90至-79纬度。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_ClrShade_79S79N_256ppd\\metadata.html",
+    "WMTS_TypeId": "1000000023",
+    "MinimumLevel": 0,
+    "MaximumLevel": 6,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

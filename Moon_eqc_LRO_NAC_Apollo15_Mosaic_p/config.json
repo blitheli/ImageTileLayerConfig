@@ -1,12 +1,22 @@
 {
-  "ProjectionType": "EQ",
-  "Title": "Apollo 15着陆点高分影像",
-  "LayerID": "Moon_eqc_LRO_NAC_Apollo15_Mosaic_p",
-  "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo15_Mosaic_p\\LRO_NAC_Apollo15_Mosaic_p-120.png",
-  "BBOX": [3.581094,25.7965264,3.689933,26.7635835],
-  "Abstract": "1971年7月30日，美国宇航员大卫·斯科特和詹姆斯·欧文在这里进行了人类第四次登月。斯科特和欧文乘坐猎鹰号登月舱降落在这里，而阿尔弗雷德·沃登则乘坐奋进号指挥舱留在绕月轨道上。这是阿波罗J号的第一次任务。这些特点是更加重视在月球上进行科学研究，并在月球表面停留更长时间。J任务还包括一辆月球车，让宇航员能够穿越月球表面，覆盖更大的区域，并带回更多的样本材料。斯科特首先进行了33分钟的站立EVA，通过登月舱的上部舱口对当地地形进行了测量和成像。斯科特和欧文随后进行了3次地面EVA。第一次持续了6小时32分42秒，部署了月球车，并驾驶它进行了10.3公里的地质穿越。他们向西南行驶到哈德利-里勒的边缘，然后沿着小溪的边缘继续向南行驶。在第一个表面EVA的末端，他们在登月舱西北偏北约110米处部署了阿波罗月球表面实验包（ALSEP）。第二个表面EVA持续7小时12分14秒，其特点是一辆12.5公里长的月球车向东南穿越母马，沿着亚平宁山脉的底部行进。第三个表面EVA持续了4小时49分50秒，宇航员们沿着细沟边缘向西穿越5.1公里到达哈德利-里勒西北方向，向东穿越母马返回登月舱。斯科特和欧文收集了77公斤月球样本材料，准备返回地球。在LRO NAC对着陆场的视图中，猎鹰号的下降阶段是可见的最大的人造物体。着陆场周围可以看到宇航员脚印和火星车轮胎痕迹的深色标记，尤其是延伸到西北偏北，在那里可以看到ALSEP的组件。着陆点位于北纬26.13239度，东经3.63330度，旨在提供通往Mare Imbrium玄武岩的通道，哈德利-赖勒深槽中由流动的熔岩雕刻而成的地层，以及亚平宁山脉前部的山脉物质。",
-  "Projection": "urn:ogc:def:crs:EPSG::104903",
-  "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo15_Mosaic_p\\index.html",
-  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo15_Mosaic_p\\WMTSCapabilities.xml",
-  "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo15_Mosaic_p\\metadata.html"
+    "ProjectionType": "EQ",
+    "Title": "Apollo 15着陆点高分影像",
+    "LayerID": "Moon_eqc_LRO_NAC_Apollo15_Mosaic_p",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo15_Mosaic_p\\LRO_NAC_Apollo15_Mosaic_p-120.png",
+    "BBOX": [
+        3.581094,
+        25.7965264,
+        3.689933,
+        26.7635835
+    ],
+    "Abstract": "1971年7月30日，美国宇航员大卫·斯科特和詹姆斯·欧文在这里进行了人类第四次登月。斯科特和欧文乘坐猎鹰号登月舱降落在这里，而阿尔弗雷德·沃登则乘坐奋进号指挥舱留在绕月轨道上。这是阿波罗J号的第一次任务。这些特点是更加重视在月球上进行科学研究，并在月球表面停留更长时间。J任务还包括一辆月球车，让宇航员能够穿越月球表面，覆盖更大的区域，并带回更多的样本材料。斯科特首先进行了33分钟的站立EVA，通过登月舱的上部舱口对当地地形进行了测量和成像。斯科特和欧文随后进行了3次地面EVA。第一次持续了6小时32分42秒，部署了月球车，并驾驶它进行了10.3公里的地质穿越。他们向西南行驶到哈德利-里勒的边缘，然后沿着小溪的边缘继续向南行驶。在第一个表面EVA的末端，他们在登月舱西北偏北约110米处部署了阿波罗月球表面实验包（ALSEP）。第二个表面EVA持续7小时12分14秒，其特点是一辆12.5公里长的月球车向东南穿越母马，沿着亚平宁山脉的底部行进。第三个表面EVA持续了4小时49分50秒，宇航员们沿着细沟边缘向西穿越5.1公里到达哈德利-里勒西北方向，向东穿越母马返回登月舱。斯科特和欧文收集了77公斤月球样本材料，准备返回地球。在LRO NAC对着陆场的视图中，猎鹰号的下降阶段是可见的最大的人造物体。着陆场周围可以看到宇航员脚印和火星车轮胎痕迹的深色标记，尤其是延伸到西北偏北，在那里可以看到ALSEP的组件。着陆点位于北纬26.13239度，东经3.63330度，旨在提供通往Mare Imbrium玄武岩的通道，哈德利-赖勒深槽中由流动的熔岩雕刻而成的地层，以及亚平宁山脉前部的山脉物质。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo15_Mosaic_p\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo15_Mosaic_p\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo15_Mosaic_p\\metadata.html",
+    "WMTS_TypeId": "1000000015",
+    "MinimumLevel": 0,
+    "MaximumLevel": 16,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

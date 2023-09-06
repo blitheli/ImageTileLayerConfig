@@ -13,5 +13,10 @@
     "Projection": "urn:ogc:def:crs:EPSG::104903\n",
     "Preview": "{MoonImage}\\Moon_eqc_SchrodingerCraterMareUnit_50cmV1.0.eq\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_SchrodingerCraterMareUnit_50cmV1.0.eq\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_SchrodingerCraterMareUnit_50cmV1.0.eq\\MetaData.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_SchrodingerCraterMareUnit_50cmV1.0.eq\\MetaData.html",
+    "WMTS_TypeId": "1000001111",
+    "MinimumLevel": 0,
+    "MaximumLevel": 14,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

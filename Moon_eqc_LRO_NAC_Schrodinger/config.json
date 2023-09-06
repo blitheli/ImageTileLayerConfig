@@ -13,5 +13,10 @@
     "Projection": "urn:ogc:def:crs:EPSG::104903\n",
     "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Schrodinger\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Schrodinger\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Schrodinger\\MetaData.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Schrodinger\\MetaData.html",
+    "WMTS_TypeId": "1000000986",
+    "MinimumLevel": 0,
+    "MaximumLevel": 13,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

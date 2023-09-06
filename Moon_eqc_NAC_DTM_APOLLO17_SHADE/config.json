@@ -13,5 +13,10 @@
     "Projection": "urn:ogc:def:crs:EPSG::104903\n",
     "Preview": "{MoonImage}\\Moon_eqc_NAC_DTM_APOLLO17_SHADE\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_NAC_DTM_APOLLO17_SHADE\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_NAC_DTM_APOLLO17_SHADE\\MetaData.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_NAC_DTM_APOLLO17_SHADE\\MetaData.html",
+    "WMTS_TypeId": "1000001103",
+    "MinimumLevel": 0,
+    "MaximumLevel": 12,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

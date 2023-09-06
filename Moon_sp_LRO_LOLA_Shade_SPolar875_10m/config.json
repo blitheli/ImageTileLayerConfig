@@ -1,12 +1,22 @@
 {
-  "ProjectionType": "SP",
-  "Title": "南极山体阴影图(LOLA数据,87.5°以上,10m)",
-  "LayerID": "Moon_sp_LRO_LOLA_Shade_SPolar875_10m",
-  "Icon": "{MoonImage}\\Moon_sp_LRO_LOLA_Shade_SPolar875_10m\\LRO_LOLA_Shade_SPolar875_10m-120.png",
-  "BBOX": [-75840, -75840, 75840, 75840],
-  "Abstract": "这是原始极地 LOLA 数字高程模型 （DEM） 的晕渲地貌。DEM 是月球的形状图（半径），分辨率为每像素 10 米，基于 LOLA 仪器通过 Spetember 2011 获取的测高数据。使用通用制图工具程序“表面”对地面轨迹进行插值和“混合”。地图值的半径为 1737400 m。",
-  "Projection": "urn:ogc:def:crs:IAU2000::30120",
-  "Preview": "{MoonImage}\\Moon_sp_LRO_LOLA_Shade_SPolar875_10m\\index.html",
-  "WMTS_Capabilities": "{MoonImage}\\Moon_sp_LRO_LOLA_Shade_SPolar875_10m\\WMTSCapabilities.xml",
-  "MetaData": "{MoonImage}\\Moon_sp_LRO_LOLA_Shade_SPolar875_10m\\metaData.html"
+    "ProjectionType": "SP",
+    "Title": "南极山体阴影图(LOLA数据,87.5°以上,10m)",
+    "LayerID": "Moon_sp_LRO_LOLA_Shade_SPolar875_10m",
+    "Icon": "{MoonImage}\\Moon_sp_LRO_LOLA_Shade_SPolar875_10m\\LRO_LOLA_Shade_SPolar875_10m-120.png",
+    "BBOX": [
+        -75840,
+        -75840,
+        75840,
+        75840
+    ],
+    "Abstract": "这是原始极地 LOLA 数字高程模型 （DEM） 的晕渲地貌。DEM 是月球的形状图（半径），分辨率为每像素 10 米，基于 LOLA 仪器通过 Spetember 2011 获取的测高数据。使用通用制图工具程序“表面”对地面轨迹进行插值和“混合”。地图值的半径为 1737400 m。",
+    "Projection": "urn:ogc:def:crs:IAU2000::30120",
+    "Preview": "{MoonImage}\\Moon_sp_LRO_LOLA_Shade_SPolar875_10m\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_sp_LRO_LOLA_Shade_SPolar875_10m\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_sp_LRO_LOLA_Shade_SPolar875_10m\\metaData.html",
+    "WMTS_TypeId": "1000000043",
+    "MinimumLevel": 0,
+    "MaximumLevel": 8,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

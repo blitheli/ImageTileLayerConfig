@@ -1,11 +1,20 @@
 {
-    "ProjectionType" :"EQ",
+    "ProjectionType": "EQ",
     "Title": "嫦娥4号着陆区高分影像",
     "LayerID": "Moon_eqc_LRO_ChangE4",
     "Icon": "{MoonImage}\\Moon_eqc_LRO_ChangE4\\OIP-C.jpg",
-    "BBOX": [177.33, -45.78, 177.81, -45],
+    "BBOX": [
+        177.33,
+        -45.78,
+        177.81,
+        -45
+    ],
     "Abstract": "嫦娥4号着陆区高分影像。LRO每月至少一次（在白天）经过月球上的任何给定位置，从而可以看到Yutu-2漫游车的西移。2月底，Yutu-2距其基地base娥4号着陆器69米；LROC图像显示，Yutu-2在2月期间向西前进46米。",
     "Projection": "urn:ogc:def:crs:EPSG::104903",
-    "Preview": "{MoonImage}\\Moon_eqc_LRO_ChangE4\\index.html"    
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_ChangE4\\index.html",
+    "WMTS_TypeId": "1000000048",
+    "MinimumLevel": 5,
+    "MaximumLevel": 14,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }
-

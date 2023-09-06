@@ -1,10 +1,20 @@
 {
-  "ProjectionType": "EQ",
-  "Title": "中丰富海高分影像",
-  "LayerID": "Moon_eqc_LRO_zffh_NAC",
-  "Icon": "{MoonImage}\\Moon_eqc_LRO_zffh_NAC\\LRO_ZFFH.png",
-  "BBOX": [48.59, -1.14, 48.88, -0.66],
-  "Abstract": "月球熔洞因其天然的地下空间、防宇宙射线辐射、相对温度稳定等原因，成为潜在的月面居住场所。",
-  "Projection": "urn:ogc:def:crs:EPSG::104903",
-  "Preview": "{MoonImage}\\Moon_eqc_LRO_zffh_NAC\\index.html"
+    "ProjectionType": "EQ",
+    "Title": "中丰富海高分影像",
+    "LayerID": "Moon_eqc_LRO_zffh_NAC",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_zffh_NAC\\LRO_ZFFH.png",
+    "BBOX": [
+        48.59,
+        -1.14,
+        48.88,
+        -0.66
+    ],
+    "Abstract": "月球熔洞因其天然的地下空间、防宇宙射线辐射、相对温度稳定等原因，成为潜在的月面居住场所。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_zffh_NAC\\index.html",
+    "WMTS_TypeId": "1000000049",
+    "MinimumLevel": 12,
+    "MaximumLevel": 16,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

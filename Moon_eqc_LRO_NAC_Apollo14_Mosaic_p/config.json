@@ -1,12 +1,22 @@
 {
-  "ProjectionType": "EQ",
-  "Title": "Apollo 14着陆点高分影像",
-  "LayerID": "Moon_eqc_LRO_NAC_Apollo14_Mosaic_p",
-  "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo14_Mosaic_p\\LRO_NAC_Apollo14_Mosaic_p-120.png",
-  "BBOX": [-17.4900752, -4.1920876, -17.3907622, -3.2253601],
-  "Abstract": "1971年2月5日，美国宇航员艾伦·谢泼德和埃德加·米切尔在这里进行了人类第三次登月。谢泼德和米切尔乘坐“心宿二”号登月舱降落在这里，斯图尔特·鲁萨则乘坐“基蒂霍克”号指挥舱留在绕月轨道上。Shephard和Mitchell在月球表面进行了2次EVAs。第一次持续4小时47分50秒，向西延伸以部署ALSEP仪器包，包括收集应急样本，总距离约550米。第二次EVA持续4小时34分41秒，旨在访问直径370米、位于东北约1.2公里处的锥形陨石坑。为了帮助运送EVA上的设备和取回的样本，宇航员们配备了一辆手动推车，即模块化设备运输车（MET）。在第二次EVA飞行中，崎岖不平的地形使导航变得困难，宇航员无法识别锥形陨石坑的边缘，尽管后来的图像显示他们到达了陨石坑边缘以南约20米的地方。Shepard和Mitchell收集了42.80公斤月球样本材料，准备返回地球。在LRO NAC的着陆场视图中，心宿二的下降阶段是可见的最大的人造物体。宇航员的脚印从第一个EVA延伸到西方，在那里可以看到ALSEP的组成部分。延伸到心宿二着陆点的东北部，宇航员的足迹和MET轮子的轨迹可以追溯到锥形陨石坑。着陆点位于3.64589 S，17.47194 W，主要是为了对Imbrium盆地撞击的物质进行采样，其喷出物覆盖了该地区的大部分地区，即Fra Mauro地层。",
-  "Projection": "urn:ogc:def:crs:EPSG::104903",
-  "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo14_Mosaic_p\\index.html",
-  "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo14_Mosaic_p\\WMTSCapabilities.xml",
-  "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo14_Mosaic_p\\metadata.html"
+    "ProjectionType": "EQ",
+    "Title": "Apollo 14着陆点高分影像",
+    "LayerID": "Moon_eqc_LRO_NAC_Apollo14_Mosaic_p",
+    "Icon": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo14_Mosaic_p\\LRO_NAC_Apollo14_Mosaic_p-120.png",
+    "BBOX": [
+        -17.4900752,
+        -4.1920876,
+        -17.3907622,
+        -3.2253601
+    ],
+    "Abstract": "1971年2月5日，美国宇航员艾伦·谢泼德和埃德加·米切尔在这里进行了人类第三次登月。谢泼德和米切尔乘坐“心宿二”号登月舱降落在这里，斯图尔特·鲁萨则乘坐“基蒂霍克”号指挥舱留在绕月轨道上。Shephard和Mitchell在月球表面进行了2次EVAs。第一次持续4小时47分50秒，向西延伸以部署ALSEP仪器包，包括收集应急样本，总距离约550米。第二次EVA持续4小时34分41秒，旨在访问直径370米、位于东北约1.2公里处的锥形陨石坑。为了帮助运送EVA上的设备和取回的样本，宇航员们配备了一辆手动推车，即模块化设备运输车（MET）。在第二次EVA飞行中，崎岖不平的地形使导航变得困难，宇航员无法识别锥形陨石坑的边缘，尽管后来的图像显示他们到达了陨石坑边缘以南约20米的地方。Shepard和Mitchell收集了42.80公斤月球样本材料，准备返回地球。在LRO NAC的着陆场视图中，心宿二的下降阶段是可见的最大的人造物体。宇航员的脚印从第一个EVA延伸到西方，在那里可以看到ALSEP的组成部分。延伸到心宿二着陆点的东北部，宇航员的足迹和MET轮子的轨迹可以追溯到锥形陨石坑。着陆点位于3.64589 S，17.47194 W，主要是为了对Imbrium盆地撞击的物质进行采样，其喷出物覆盖了该地区的大部分地区，即Fra Mauro地层。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903",
+    "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo14_Mosaic_p\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo14_Mosaic_p\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Apollo14_Mosaic_p\\metadata.html",
+    "WMTS_TypeId": "1000000014",
+    "MinimumLevel": 0,
+    "MaximumLevel": 15,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

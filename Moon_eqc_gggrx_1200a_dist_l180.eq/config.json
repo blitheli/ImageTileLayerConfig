@@ -1,12 +1,22 @@
 {
-    "ProjectionType":"EQ",
-    "Title":"月球重力场的重力扰动图,180阶(LGRS, Gravity Disturbances L180)",
-    "LayerID":"Moon_eqc_gggrx_1200a_dist_l180.eq",
-    "Icon":"{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l180.eq\\gggrx_1200a_dist_l180.eq-120.png",
-    "BBOX":[-180,-90,180,90],
-    "Abstract":"该数据产品是月球重力场重力扰动（以mGal为单位）的地图，分辨率为16像素/度×16像素/度。它基于NASA GSFC生产的名为GRGM1200A的月球圣杯重力场。GRGM1200A是一个1200阶球谐模型，它包含了GRAIL跟踪数据的全部任务。扰动在空间域中扩大到度数和180阶。描述此模型的一些细节是： 球谐系数已完全归一化（大地测量学 4pi 归一化）。校准不确定度（形式不确定性乘以系数 1.635）。参考半径 = 1738.0 km 引力参数为 GM = 4902.80011526323 km**3/s**2 使用的行星星历表是de430，定义了月球体固定坐标系。Kaula 型幂律约束应用于度数为 >600 （3.6e-4/n^2） 的球谐系数。KBRR数据的权重为： 0.03微米/秒在主要任务中 0.05微米/秒在扩展任务中 DSN数据的权重为： 主要任务和扩展任务均为0.12毫米/秒 标称潮汐数为 k2 = 0.024133 +/- 0.000016 GRGM1200A重力场目前的最佳参考是LEMOINEETAL2014， 发表在《地球物理研究快报》上，DOI 编号为 10.1002/2014GL060027 。有关GRAIL任务，数据和方法的更多详细信息，请参阅LEMOINEETAL2013。每个点给出月球重力扰动（以毫加尔为单位），在半长轴 = 1738.0 km、GM = 4902.80011526323 km**3/s**2 和零旋转速率的参考球上。与其他月球重力场一样，该地图以月球主轴框架表示，该框架与月球平均地球框架略有不同。为了与月球地形进行比较，建议用户使用同样存档在月球主轴框架中的LOLA PDS产品，例如LRO-L-LOLA-4-GDR-V1.0数据集中的LDEM_64_PA产品，可以在PDS地球科学节点或LOLA PDS数据节点访问。另请注意，重力（1738 公里）和地形（1737.4 公里）的参考半径不同。",
-    "Projection":"urn:ogc:def:crs:EPSG::104903",
-    "Preview":"{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l180.eq\\index.html",
-    "WMTS_Capabilities":"{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l180.eq\\WMTSCapabilities.xml",
-    "MetaData":"{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l180.eq\\metadata.html"
+    "ProjectionType": "EQ",
+    "Title": "月球重力场的重力扰动图,180阶(LGRS, Gravity Disturbances L180)",
+    "LayerID": "Moon_eqc_gggrx_1200a_dist_l180.eq",
+    "Icon": "{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l180.eq\\gggrx_1200a_dist_l180.eq-120.png",
+    "BBOX": [
+        -180,
+        -90,
+        180,
+        90
+    ],
+    "Abstract": "该数据产品是月球重力场重力扰动（以mGal为单位）的地图，分辨率为16像素/度×16像素/度。它基于NASA GSFC生产的名为GRGM1200A的月球圣杯重力场。GRGM1200A是一个1200阶球谐模型，它包含了GRAIL跟踪数据的全部任务。扰动在空间域中扩大到度数和180阶。描述此模型的一些细节是： 球谐系数已完全归一化（大地测量学 4pi 归一化）。校准不确定度（形式不确定性乘以系数 1.635）。参考半径 = 1738.0 km 引力参数为 GM = 4902.80011526323 km**3/s**2 使用的行星星历表是de430，定义了月球体固定坐标系。Kaula 型幂律约束应用于度数为 >600 （3.6e-4/n^2） 的球谐系数。KBRR数据的权重为： 0.03微米/秒在主要任务中 0.05微米/秒在扩展任务中 DSN数据的权重为： 主要任务和扩展任务均为0.12毫米/秒 标称潮汐数为 k2 = 0.024133 +/- 0.000016 GRGM1200A重力场目前的最佳参考是LEMOINEETAL2014， 发表在《地球物理研究快报》上，DOI 编号为 10.1002/2014GL060027 。有关GRAIL任务，数据和方法的更多详细信息，请参阅LEMOINEETAL2013。每个点给出月球重力扰动（以毫加尔为单位），在半长轴 = 1738.0 km、GM = 4902.80011526323 km**3/s**2 和零旋转速率的参考球上。与其他月球重力场一样，该地图以月球主轴框架表示，该框架与月球平均地球框架略有不同。为了与月球地形进行比较，建议用户使用同样存档在月球主轴框架中的LOLA PDS产品，例如LRO-L-LOLA-4-GDR-V1.0数据集中的LDEM_64_PA产品，可以在PDS地球科学节点或LOLA PDS数据节点访问。另请注意，重力（1738 公里）和地形（1737.4 公里）的参考半径不同。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903",
+    "Preview": "{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l180.eq\\index.html",
+    "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l180.eq\\WMTSCapabilities.xml",
+    "MetaData": "{MoonImage}\\Moon_eqc_gggrx_1200a_dist_l180.eq\\metadata.html",
+    "WMTS_TypeId": "1000000009",
+    "MinimumLevel": 0,
+    "MaximumLevel": 3,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

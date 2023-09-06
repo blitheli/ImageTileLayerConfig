@@ -13,5 +13,10 @@
     "Projection": "TBD\n",
     "Preview": "{MoonImage}\\Moon_eqc_LRO_NAC_Conf_20S337E_400cmp\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_NAC_Conf_20S337E_400cmp\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Conf_20S337E_400cmp\\MetaData.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_NAC_Conf_20S337E_400cmp\\MetaData.html",
+    "WMTS_TypeId": "1000000650",
+    "MinimumLevel": 0,
+    "MaximumLevel": 11,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

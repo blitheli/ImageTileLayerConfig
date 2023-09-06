@@ -13,5 +13,10 @@
     "Projection": "PROJCS['ESRI PE String = COMPD_CS[unknown,PROJCS[Site_007_ortho,\n\tGEOGCS[GCS_Moon_2000,\n\t\tDATUM[D_Moon_2000,SPHEROID[Moon_2000_IAU_IAG,1737400.0,0.0]],\n\t\tPRIMEM[Reference_Meridian,0.0],UNIT[Degree,0.0174532925199433]],\n\tPROJECTION[Orthographic],\n\tPARAMETER[False_Easting,0.0],\n\tPARAMETER[False_Northing,0.0],\n\tPARAMETER[Longitude_Of_Center,139.95421373],\n\tPARAMETER[Latitude_Of_Center,-88.69755897],UNIT[Meter,1.0]],VERTCS[EGM96_Geoid,V\n\t\tDATUM[EGM96_Geoid,AUTHORITY[EPSG,5171]],\n\tPARAMETER[Vertical_Shift,',\n\tGEOGCS['GCS_Moon_2000',\n\t\tDATUM['D_Moon_2000',SPHEROID['Moon_2000_IAU_IAG',1737400,0]],\n\t\tPRIMEM['Reference_Meridian',0],UNIT['degree',0.0174532925199433]],\n\tPROJECTION['Orthographic'],\n\tPARAMETER['latitude_of_origin',-88.69755897],\n\tPARAMETER['central_meridian',139.95421373],\n\tPARAMETER['false_easting',0],\n\tPARAMETER['false_northing',0],UNIT['metre',1,AUTHORITY['EPSG','9001']]]\n",
     "Preview": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrHillshade_128ppd_Site007\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrHillshade_128ppd_Site007\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrHillshade_128ppd_Site007\\MetaData.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrHillshade_128ppd_Site007\\MetaData.html",
+    "WMTS_TypeId": "1000000302",
+    "MinimumLevel": 0,
+    "MaximumLevel": 3,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

@@ -1,10 +1,20 @@
 {
-  "ProjectionType": "EQ",
-  "Title": "月球统一地质图",
-  "LayerID": "Moon_eqc_Unified_Geologic_Map_of_The_Moon_ArcMap10_3",
-  "Icon": "{MoonImage}\\Moon_eqc_Unified_Geologic_Map_of_The_Moon_ArcMap10_3\\Unified_Geologic_Map_of_The_Moon.jpg",
-  "BBOX": [-180,-90,180,90],
-  "Abstract": "美国地质调查局的科学家与美国国家航空航天局（NASA）、月球与行星研究所展开合作，首次绘制出了一份完整的月球表面地质图，并进行统一分类月球统一地质图.这份新的月球地图被命名为“月球统一地质图”，为人类后续的探月任务提供了一份有关月球表面地质情况的最终蓝图，对国际科学界、教育工作者和广大公众而言都具有极为重要的价值。这份新数字地图以1∶5000000的比例显示了月球的地质情况.为绘制出这份新的数字地图，科学家使用了6张阿波罗计划时代的区域地图中的信息，以及近期的卫星探月任务提供的最新信息。科学家还重新绘制了现有的月球历史地图，使其与现代数据集保持一致。除了合并新旧数据，美国地质调查局的研究人员还对月球地层，即岩石层进行了统一描述，解决了以往地图中岩石名称、描述和年龄在某些情况下不统一的问题。",
-  "Projection": "urn:ogc:def:crs:EPSG::104903",
-  "Preview": "{MoonImage}\\Moon_eqc_Unified_Geologic_Map_of_The_Moon_ArcMap10_3\\index.html"
+    "ProjectionType": "EQ",
+    "Title": "月球统一地质图",
+    "LayerID": "Moon_eqc_Unified_Geologic_Map_of_The_Moon_ArcMap10_3",
+    "Icon": "{MoonImage}\\Moon_eqc_Unified_Geologic_Map_of_The_Moon_ArcMap10_3\\Unified_Geologic_Map_of_The_Moon.jpg",
+    "BBOX": [
+        -180,
+        -90,
+        180,
+        90
+    ],
+    "Abstract": "美国地质调查局的科学家与美国国家航空航天局（NASA）、月球与行星研究所展开合作，首次绘制出了一份完整的月球表面地质图，并进行统一分类月球统一地质图.这份新的月球地图被命名为“月球统一地质图”，为人类后续的探月任务提供了一份有关月球表面地质情况的最终蓝图，对国际科学界、教育工作者和广大公众而言都具有极为重要的价值。这份新数字地图以1∶5000000的比例显示了月球的地质情况.为绘制出这份新的数字地图，科学家使用了6张阿波罗计划时代的区域地图中的信息，以及近期的卫星探月任务提供的最新信息。科学家还重新绘制了现有的月球历史地图，使其与现代数据集保持一致。除了合并新旧数据，美国地质调查局的研究人员还对月球地层，即岩石层进行了统一描述，解决了以往地图中岩石名称、描述和年龄在某些情况下不统一的问题。",
+    "Projection": "urn:ogc:def:crs:EPSG::104903",
+    "Preview": "{MoonImage}\\Moon_eqc_Unified_Geologic_Map_of_The_Moon_ArcMap10_3\\index.html",
+    "WMTS_TypeId": "1000000010",
+    "MinimumLevel": 0,
+    "MaximumLevel": 6,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }

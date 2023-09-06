@@ -13,5 +13,10 @@
     "Projection": "urn:ogc:def:crs:EPSG::104903\n",
     "Preview": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_Shade_79S79N_256ppd\\index.html",
     "WMTS_Capabilities": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_Shade_79S79N_256ppd\\WMTSCapabilities.xml",
-    "MetaData": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_Shade_79S79N_256ppd\\MetaData.html"
+    "MetaData": "{MoonImage}\\Moon_eqc_LRO_WAC-GLD100_Shade_79S79N_256ppd\\MetaData.html",
+    "WMTS_TypeId": "1000001069",
+    "MinimumLevel": 0,
+    "MaximumLevel": 6,
+    "NumberOfLevelZeroTilesX": 2,
+    "NumberOfLevelZeroTilesY": 1
 }
